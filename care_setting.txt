@@ -1,0 +1,2 @@
+1	Outpatient	Out-patient care setting	OUTPATIENT	1	2013-12-27 00:00:00	0	\N	\N	\N	\N	\N	6f0c9a92-6f24-11e3-af88-005056821db0
+2	Inpatient	In-patient care setting	INPATIENT	1	2013-12-27 00:00:00	0	\N	\N	\N	\N	\N	c365e560-c3ec-11e3-9c1a-0800200c9a66

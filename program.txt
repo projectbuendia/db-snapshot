@@ -1,0 +1,3 @@
+1	884	\N	1	2008-08-15 00:00:00	1	2009-03-21 00:00:00	0	HIV Program	HIV program	182234ba-6437-11e4-badf-42010af0dc15
+3	123	\N	1	2008-08-15 00:00:00	1	2009-03-21 00:00:00	1	Malaria program	Malaria program	182236d9-6437-11e4-badf-42010af0dc15
+4	162706	\N	4	2014-11-19 12:27:10	4	2014-11-20 17:11:47	0	Ebola status program	Ebola status program	849c86fa-6f3d-11e4-b2f4-040ccecfdba4

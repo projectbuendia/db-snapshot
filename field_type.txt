@@ -1,0 +1,5 @@
+1	Concept		0	1	2005-02-22 00:00:00	8d5e7d7c-c2cc-11de-8d13-0010c6dffd0f
+2	Database element		0	1	2005-02-22 00:00:00	8d5e8196-c2cc-11de-8d13-0010c6dffd0f
+3	Set of Concepts		1	1	2005-02-22 00:00:00	8d5e836c-c2cc-11de-8d13-0010c6dffd0f
+4	Miscellaneous Set		1	1	2005-02-22 00:00:00	8d5e852e-c2cc-11de-8d13-0010c6dffd0f
+5	Section		1	1	2005-02-22 00:00:00	8d5e86fa-c2cc-11de-8d13-0010c6dffd0f

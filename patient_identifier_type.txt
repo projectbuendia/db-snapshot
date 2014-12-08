@@ -1,0 +1,2 @@
+1	OpenMRS Identification Number	Unique number used in OpenMRS		1	1	2005-09-22 00:00:00	0	\N	org.openmrs.patient.impl.LuhnIdentifierValidator	\N	0	\N	\N	\N	8d793bee-c2cc-11de-8d13-0010c6dffd0f
+3	MSF	A patient identifier local in MSF format	\N	0	1	2014-11-18 11:44:37	0	KH.1234	\N	\N	0	\N	\N	\N	513f1b20-61f5-49a4-b7c0-92af80f8e354

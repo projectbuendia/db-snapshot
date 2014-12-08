@@ -1,0 +1,128 @@
+1	SELF PAY	Patient pays for their own evaluation and related treatment.  Used as an answer for "pay category".	1	5269		\N		0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c9711d-6437-11e4-badf-42010af0dc15
+2	PATIENT	Patient section of form	5	\N				0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c973c4-6437-11e4-badf-42010af0dc15
+3	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	1	2006-07-18 00:00:00	4	2014-11-19 14:29:34	0	\N	\N	\N	17c974b5-6437-11e4-badf-42010af0dc15
+4	MEDICAL RECORD OBSERVATIONS	General description for clinical observations entered into the system.	1	1238		\N		0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c9757d-6437-11e4-badf-42010af0dc15
+5	OBS	Obs section of form	1	1238				0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c9764b-6437-11e4-badf-42010af0dc15
+6	PATIENT.BIRTHDATE	Date of birth	2	\N	patient	birthdate	$!{date.format($patient.getBirthdate())}	0	1	2006-07-18 00:00:00	4	2014-11-19 15:02:05	0	\N	\N	\N	17c97711-6437-11e4-badf-42010af0dc15
+7	PATIENT.BIRTHDATE_ESTIMATED		2	\N	patient	birthdate_estimated	$!{patient.getBirthDateEstimated()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c977e3-6437-11e4-badf-42010af0dc15
+8	PATIENT.FAMILY_NAME	Family name	2	\N	patient_name	family_name	$!{patient.getFamilyName()}	0	1	2006-07-18 00:00:00	4	2014-11-19 15:01:18	0	\N	\N	\N	17c978c9-6437-11e4-badf-42010af0dc15
+9	PATIENT.GIVEN_NAME	Given name	2	\N	patient_name	given_name	$!{patient.getGivenName()}	0	1	2006-07-18 00:00:00	4	2014-11-19 15:01:38	0	\N	\N	\N	17c9799f-6437-11e4-badf-42010af0dc15
+10	PATIENT.MIDDLE_NAME		2	\N	patient_name	middle_name	$!{patient.getMiddleName()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97a63-6437-11e4-badf-42010af0dc15
+11	PATIENT.MEDICAL_RECORD_NUMBER		2	\N	patient_identifier	identifier	$!{patient.getPatientIdentifier(1).getIdentifier()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97b79-6437-11e4-badf-42010af0dc15
+12	PATIENT.PATIENT_ID		2	\N	patient	patient_id	$!{patient.getPatientId()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97c3a-6437-11e4-badf-42010af0dc15
+13	PATIENT.SEX	Gender	2	\N	patient	gender	$!{patient.getGender()}	0	1	2006-07-18 00:00:00	4	2014-11-19 15:02:58	0	\N	\N	\N	17c97cf6-6437-11e4-badf-42010af0dc15
+14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
+15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
+16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
+17	ENCOUNTER.ENCOUNTER_DATETIME	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	4	2014-11-19 15:04:11	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	ENCOUNTER.LOCATION_ID	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	4	2014-11-19 15:04:34	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	ENCOUNTER.PROVIDER_ID	Clinician	2	\N	encounter	provider_id	\N	0	1	2006-07-18 00:00:00	4	2014-11-19 15:05:39	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089		\N		0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
+21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
+22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
+23	PROBLEM RESOLVED	Diagnosis or problem noted on a patient encounter as being resolved.	1	6097				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c98479-6437-11e4-badf-42010af0dc15
+24	Identity details	Identity details	5	\N				0	1	2014-11-18 10:04:53	1	2014-11-18 10:05:32	0	\N	\N	\N	239dddbf-ac02-4095-8c25-4d598e287bb3
+25	First name		2	\N	patient_name	given_name	$!{patient.getGivenName()}	0	1	2014-11-18 10:05:21	1	2014-11-18 10:12:30	0	\N	\N	\N	c1b59273-282a-4641-b1b7-49152448dd53
+26	Family name		2	\N	patient_name	family_name	$!{patient.getFamilyName()}	0	1	2014-11-18 10:05:43	1	2014-11-18 10:12:26	0	\N	\N	\N	8d0802d2-64b9-4895-b2a3-f59fa1ba22c2
+27	All other names		2	\N	patient_name	middle_name	$!{patient.getMiddleName()}	0	1	2014-11-18 10:05:58	1	2014-11-18 10:12:22	0	\N	\N	\N	b2d87e8c-03af-48f4-a205-4cd18d67f3d2
+28	PATIENT.MIDDLE_NAME	All other names	2	\N	patient_name	middle_name	$!{patient.getMiddleName()}	0	1	2014-11-18 10:06:00	\N	\N	0	\N	\N	\N	a54df340-1c1b-4f4a-a5cd-c7c0519e480f
+29	RESPONDENT GENDER	Male or female	1	1533				0	1	2014-11-18 10:07:53	\N	\N	0	\N	\N	\N	92616222-b73e-40d2-a1cc-a9bc2ef0fd2f
+30	Sex		2	\N	patient	gender	$!{patient.getGender()}	0	1	2014-11-18 10:08:52	1	2014-11-18 10:12:39	0	\N	\N	\N	4e726d75-c1c4-42b0-baf3-16a28d39e401
+31	ENCOUNTER	Encounter section of form	5	\N				0	1	2014-11-18 10:18:11	\N	\N	0	\N	\N	\N	4204dfc3-988d-4d2e-8f8c-f157ec599f71
+32	Age		5	\N				0	1	2014-11-18 10:18:34	\N	\N	0	\N	\N	\N	46eb5528-79ca-4c7d-ba12-d7f53dbcb1ff
+33	PATIENT AGE	Generic answer to a question.  For example, a patient stops a medication because of his or her age.	1	989				0	1	2014-11-18 10:18:49	\N	\N	0	\N	\N	\N	5f47d188-76e0-4ba2-948b-f7e753fa93fe
+34	PATIENT.BIRTHDATE		2	\N	patient	birthdate	$!{date.format($patient.getBirthdate())}	0	1	2014-11-18 10:19:18	\N	\N	0	\N	\N	\N	821eb879-f137-4143-adad-8de8300aa5da
+35	PATIENT.BIRTHDATE_ESTIMATED		2	\N	patient	birthdate_estimated	$!{patient.getBirthDateEstimated()}	0	1	2014-11-18 10:19:24	\N	\N	0	\N	\N	\N	728362e9-8afb-43a1-8b98-8bde186f9856
+36	Origin		5	\N				0	1	2014-11-18 10:20:51	\N	\N	0	\N	\N	\N	ac496c9d-31fa-4f6f-b43b-b30c0b47ab40
+37	District	A geographical division	1	162689				0	1	2014-11-18 10:21:13	\N	\N	0	\N	\N	\N	70fad49a-0ede-4315-9766-c8701ef26031
+38	Chiefdom	A geographic division	1	162690				0	1	2014-11-18 10:21:23	\N	\N	0	\N	\N	\N	769b3d1b-496a-4f62-ba78-8ffe19a66a19
+39	VILLAGE	Village is the name of the location of residence	1	1354				0	1	2014-11-18 10:21:34	\N	\N	0	\N	\N	\N	c4e9fd70-4b40-4393-a5c3-6ae82faf8ebb
+40	Mobile		5	\N				0	1	2014-11-18 10:22:38	\N	\N	0	\N	\N	\N	45bf338f-f16f-4a36-b552-98190b5899d8
+41	CELL PHONE	Answer to question about type of phone. A cell phone or mobile phone. The actual number is stored in a separate field.	1	1650				0	1	2014-11-18 10:22:54	\N	\N	0	\N	\N	\N	0221a114-ec3b-4385-9f7b-369e53f15f94
+42	CHW (Community Health Worker)		1	1555				0	1	2014-11-18 10:25:14	\N	\N	0	\N	\N	\N	0e5d2d64-2f6f-42d2-ac93-e0f1d5046685
+43	Occupation		5	\N				0	1	2014-11-18 10:25:41	\N	\N	0	\N	\N	\N	b8ecfa46-dbfc-4e8c-a296-65bfd90a2816
+44	HEALTH FACILITY		1	1537				0	1	2014-11-18 10:26:21	\N	\N	0	\N	\N	\N	a23556a4-d5d4-4100-b4a5-6e4a643db99b
+45	OCCUPATION	Main activity of the patient	1	1542				0	1	2014-11-18 10:26:46	\N	\N	0	\N	\N	\N	6a4ed76c-5029-4220-8ec0-5e3553cffbc8
+46	Pulse	Patient pulse rate, as measured with a peripheral oximeter.	1	5087				0	1	2014-11-18 11:15:56	\N	\N	0	\N	\N	\N	5866e6a0-5a79-4254-ba5b-2736564699b5
+47	Pulse	Patient pulse rate, as measured with a peripheral oximeter.	1	5087				0	1	2014-11-18 11:16:58	\N	\N	0	\N	\N	\N	b36f6fb9-66dc-4bb2-bfbf-dc2eb017980e
+48	Pregnancy Status	Question on encounter form: "Is the patient pregnant?"	1	5272				0	1	2014-11-18 11:51:57	1	2014-11-18 14:51:25	0	\N	\N	\N	585888a3-37aa-4684-bac2-d9441b7f733d
+49	Fever	An abnormal elevation of body temperature, usually as a result of a pathologic process.	1	140238				0	1	2014-11-18 11:57:15	\N	\N	0	\N	\N	\N	78ab5fc5-c0ac-42b5-8458-fdd946afdecf
+50	Temperature (C)	Patient's temperature in degrees centigrade.	1	5088				0	1	2014-11-18 11:57:58	\N	\N	0	\N	\N	\N	81068f05-9b95-4d8b-9f5e-0cadf1f66b62
+51	Respiratory rate	Measured respiratory rate in breaths per minute	1	5242				0	1	2014-11-18 12:01:06	\N	\N	0	\N	\N	\N	bd0cacf5-ab08-4c07-88d9-fa1a494cb235
+52	DIASTOLIC BLOOD PRESSURE	A patient's diastolic blood pressure measurement (taken with a manual cuff in either a sitting or standing position)	1	5086				0	1	2014-11-18 12:01:31	\N	\N	0	\N	\N	\N	459f337b-36f7-43a0-ab62-e3e2de7752bb
+53	SYSTOLIC BLOOD PRESSURE	A patient's systolic blood pressure measurement (taken with a manual cuff in either a sitting or standing position)	1	5085				0	1	2014-11-18 12:01:37	\N	\N	0	\N	\N	\N	48f130fd-14ba-4792-b831-e01cb8fae86b
+54	Blood oxygen saturation	Oxygen saturation, as measured from a peripheral oximeter.	1	5092				0	1	2014-11-18 12:02:26	\N	\N	0	\N	\N	\N	972209ae-5cf2-4a71-bbe2-e0acac5e381b
+55	Glasgow coma score (GCS)		1	160347				0	1	2014-11-18 12:04:05	\N	\N	0	\N	\N	\N	1acc472c-f79f-4a97-a4c5-52a920949079
+56	Diarrhea	Passage of excessively liquid or excessively frequent stools.	1	142412				0	1	2014-11-18 12:05:50	\N	\N	0	\N	\N	\N	5589ed41-4ce8-44a4-a26b-496161dd6bd6
+57	VOMITING	The forcible expulsion of the contents of the stomach through the mouth.	1	122983				0	1	2014-11-18 12:07:15	\N	\N	0	\N	\N	\N	d3308c7b-58e6-43b7-86ae-a94c62b22d95
+58	NAUSEA	A feeling of sickness in the stomach characterized by an urge to vomit.	1	5978				0	1	2014-11-18 12:08:56	\N	\N	0	\N	\N	\N	968d9158-baf3-4c41-bee5-7a30feb49238
+59	Bleeding Gums	The flowing of blood from the marginal gingival area, particularly the sulcus, seen in such conditions as GINGIVITIS, marginal PERIODONTITIS, injury, and ASCORBIC  ACID DEFICIENCY.	1	147230				0	1	2014-11-18 12:10:13	\N	\N	0	\N	\N	\N	aae6f94a-5e06-4121-a30d-f5c875467bdd
+60	Hemoptysis	Bronchial hemorrhage manifested with spitting of blood.	1	138905				0	1	2014-11-18 12:12:20	\N	\N	0	\N	\N	\N	6d8c8170-0f80-47bd-8081-0ffff937b8f0
+61	HAEMORRHAGE NASAL	Bleeding from the nose.	1	133499				0	1	2014-11-18 12:12:33	\N	\N	0	\N	\N	\N	480269ba-40c5-4edd-a71d-fe0f0e780773
+62	Hematuria	The presence of blood or blood cells in the urine.	1	840				0	1	2014-11-18 12:16:29	\N	\N	0	\N	\N	\N	17b95679-5d6a-4512-a302-f738165c9e18
+63	HEMATOCHEZIA	Bleeding in the gastrointestinal tract.	1	117671				0	1	2014-11-18 12:16:46	\N	\N	0	\N	\N	\N	ce3dffda-5cd6-4a5b-82c7-5c12d99ea232
+64	ABNORMAL VAGINAL BLEEDING		1	150802				0	1	2014-11-18 12:16:59	\N	\N	0	\N	\N	\N	d5fb3bcc-ba60-40fa-9207-7d622820b676
+65	Urine output, qualitative		1	162647				0	1	2014-11-18 12:17:52	\N	\N	0	\N	\N	\N	6e47205d-e023-4de0-838c-27a6db09599e
+66	LOCATION	A section on a form for handling location information	5	\N				0	1	2014-11-18 12:31:06	1	2014-11-18 13:18:03	0	\N	\N	\N	4dd1fc8c-ccc4-4825-a9ac-5edcb6e8bff9
+67	LOCATION.ASSIGNED_ZONE	\N	2	\N	person_attribute	assigned_zone	${patient.attributeMap.assigned_zone}	0	1	2014-11-18 13:27:08	1	2014-11-18 13:31:40	0	\N	\N	\N	19026484-b280-4c3f-b827-69e5d50f6586
+68	LOCATION.ASSIGNED_TENT	\N	2	\N	person_attribute	assigned_tent	${patient.attributeMap.assigned_tent}	0	1	2014-11-18 13:27:30	1	2014-11-18 13:32:06	0	\N	\N	\N	6441c23b-ed6f-429f-a8d7-e7a236fdebc5
+69	LOCATION.ASSIGNED_BED	\N	2	\N	person_attribute	assigned_bed	${patient.attributeMap.assigned_bed}	0	1	2014-11-18 13:27:49	1	2014-11-18 13:31:54	0	\N	\N	\N	643cfa0a-9ab1-490c-a71b-af27fa8ccb3c
+70	Mobility	A category for how well the patient can walk	1	162693				0	1	2014-11-18 14:00:20	1	2014-11-18 14:54:59	0	\N	\N	\N	c34c4a4d-90fd-482f-acdc-6a6e804dad26
+71	Level of consciousness		1	162643				0	1	2014-11-18 14:16:27	\N	\N	0	\N	\N	\N	c66269a9-d9a0-45c0-96da-9a59695d4a6b
+72	Responsiveness	A measure of mental acuity in response to conversation	1	162698				0	1	2014-11-18 14:24:01	\N	\N	0	\N	\N	\N	11a8c590-81e6-4ea3-8f0e-a39be38697c9
+73	MSF Patient ID		2	\N	patient_identifier	identifier	$!{patient.getPatientIdentifier(1).getIdentifier()}	0	1	2014-11-18 15:07:14	\N	\N	0	\N	\N	\N	32d60a45-ae85-45a1-bfa7-5ba5becd9c4a
+74	ENCOUNTER	Encounter	5	\N				0	4	2014-11-18 23:17:42	4	2014-12-06 14:54:55	0	\N	\N	\N	d717845b-4831-4447-a8ec-cf038d244543
+75	OBS	Obs section of form	1	1238				0	4	2014-11-18 23:17:52	\N	\N	0	\N	\N	\N	e49127a4-4eb1-48a4-80b5-c76d9e6f19a7
+76	Food / Drink	What the patient is able to eat or drink	1	162702				0	4	2014-11-18 23:40:25	\N	\N	0	\N	\N	\N	74a3b7a6-c10d-4ed1-b82b-2d81b90b30dd
+77	Occult Blood in Stools	Black, tarry feces containing digested blood.	1	132494				0	4	2014-11-18 23:51:38	\N	\N	0	\N	\N	\N	df912180-c052-4d22-8a32-344aba41bf5b
+78	Dehydration finding		1	1497				0	4	2014-11-18 23:54:47	\N	\N	0	\N	\N	\N	7caf37c4-74a6-48d0-b2d4-978ae980f1ea
+79	Pulse type	Not describing the speed of the patients pulse, but other characteristics.	1	162705				0	4	2014-11-19 00:06:21	\N	\N	0	\N	\N	\N	bd2fa165-8141-4425-b1f4-de5d95140f91
+80	Vitals	Vital signs	5	\N				0	4	2014-11-19 08:20:25	4	2014-11-19 08:30:09	0	\N	\N	\N	88a97196-e82c-4cd5-82c1-e4999bfef05d
+81	General health	General health status of the patient	5	\N				0	4	2014-11-19 08:20:41	4	2014-11-19 08:29:54	0	\N	\N	\N	b04ca32e-67d5-4143-965f-9f8151573169
+82	Symptoms	Symptoms the patient reports	5	\N				0	4	2014-11-19 08:20:54	4	2014-11-19 08:30:24	0	\N	\N	\N	18b26e73-8575-4146-ba0d-8290c8766b70
+83	PATIENT	Patient details	5	\N				0	4	2014-11-19 14:29:57	\N	\N	0	\N	\N	\N	455d3234-2cf6-4cc9-a35c-0f15dd75cb49
+84	General Health	General Health	5	\N				0	4	2014-11-19 14:31:20	\N	\N	0	\N	\N	\N	25170c75-dde4-4f6e-b7a1-2a17d3f073f8
+85	General health [invisible]	General health status of the patient	5	\N				0	4	2014-11-20 18:30:55	1	2014-12-03 14:52:01	0	\N	\N	\N	11247901-6508-48ee-81ba-15da06fe90be
+86	Vitals	Vital signs	5	\N				0	4	2014-11-20 18:32:05	4	2014-12-05 11:59:59	0	\N	\N	\N	d0276592-d139-497f-84be-5859cc7bb517
+87	Symptoms C[binary][invisible]	Symptoms the patient reports (third set)	5	\N				0	4	2014-11-20 18:33:11	1	2014-12-03 12:27:59	0	\N	\N	\N	e6975656-6078-402d-80d3-c2919d080954
+88	General health	General health status of the patient	1	162718				0	4	2014-11-25 13:52:43	\N	\N	0	\N	\N	\N	ad0da4f4-eb03-4261-95a1-901ac6f6ff4b
+89	Vitals	Vital signs	1	162719				0	4	2014-11-25 13:53:15	\N	\N	0	\N	\N	\N	a73ea634-7543-45be-8916-727b6801028b
+90	Symptoms	Symptoms the patient reports	1	162720				0	4	2014-11-25 13:53:35	\N	\N	0	\N	\N	\N	a632b788-0664-4251-88c5-ac00a6f5ea85
+91	WEAKNESS	The condition or quality of being weak.	1	5226				0	1	2014-12-02 14:14:07	\N	\N	0	\N	\N	\N	6900c3c7-84bf-4e40-9d1e-2c2a3a3a9b4c
+92	Chest pain		1	120749				0	1	2014-12-02 14:30:16	\N	\N	0	\N	\N	\N	ab86efc9-3700-49b1-bf46-97bac595c79b
+93	Abdominal pain	Pain in the abdomen, unspecified cause.	1	151				0	1	2014-12-02 14:31:15	\N	\N	0	\N	\N	\N	b3722113-d035-4481-82cf-f222f7d272e0
+94	Pain	An unpleasant sensation induced by noxious stimuli and generally received by specialized nerve endings.	5	114403				0	1	2014-12-02 14:33:27	1	2014-12-02 14:38:01	0	\N	\N	\N	a9c41975-1c4d-4d7b-9bbe-1eba193ae7ff
+95	Cough		1	143264				0	1	2014-12-02 14:35:40	\N	\N	0	\N	\N	\N	d1670072-8286-463c-b6bf-d2abf881b736
+96	Obsolete		5	\N				0	1	2014-12-02 14:40:11	\N	\N	0	\N	\N	\N	bbde02c4-589f-40a4-83c9-0964c49c43eb
+97	Shortness of breath		1	141600				0	1	2014-12-02 14:56:03	\N	\N	0	\N	\N	\N	ebda5ec2-ea55-4a91-8bb5-4624579fbf83
+98	Hiccups	A spasm of the diaphragm that causes a sudden inhalation followed by rapid closure of the glottis which produces a sound.	1	138662				0	1	2014-12-02 15:00:14	\N	\N	0	\N	\N	\N	6bdd1c08-a176-4f9e-87a1-b0fa23c6e964
+99	Pain detail[binary]	Pain (Detail)	5	\N				0	4	2014-12-02 19:25:22	1	2014-12-03 14:20:56	0	\N	\N	\N	a9623fed-8c93-452a-956d-96d3f46d2a56
+100	Cough		1	143264				0	4	2014-12-02 20:55:37	\N	\N	0	\N	\N	\N	a2d53920-af37-4978-b21a-86dc2852d2ca
+101	Hiccoughs	A spasm of the diaphragm that causes a sudden inhalation followed by rapid closure of the glottis which produces a sound.	1	138662				0	4	2014-12-02 21:05:35	\N	\N	0	\N	\N	\N	f0ef5899-a0f2-4981-8d35-e6a8cae5e673
+102	Headache	Pain in the cranial region that may occur as an isolated and benign symptom or as a manifestation of a wide variety of conditions including SUBARACHNOID HEMORRHAGE; CRANIOCEREBRAL TRAUMA; CENTRAL NERVOUS SYSTEM INFECTIONS; INTRACRANIAL HYPERTENSION; and other disorders. In general, recurrent headaches that are not associated with a primary disease process are referred to as HEADACHE DISORDERS (e.g., MIGRAINE).	1	139084				0	4	2014-12-02 21:07:12	\N	\N	0	\N	\N	\N	53cc8114-8cc1-46f1-878a-3cf36a348b0a
+103	Headache	Pain in the cranial region that may occur as an isolated and benign symptom or as a manifestation of a wide variety of conditions including SUBARACHNOID HEMORRHAGE; CRANIOCEREBRAL TRAUMA; CENTRAL NERVOUS SYSTEM INFECTIONS; INTRACRANIAL HYPERTENSION; and other disorders. In general, recurrent headaches that are not associated with a primary disease process are referred to as HEADACHE DISORDERS (e.g., MIGRAINE).	1	139084				0	4	2014-12-02 21:07:24	\N	\N	0	\N	\N	\N	b13a4e90-c0d1-45f4-80ef-f526a79eb4db
+104	Below fold	Below fold	3	\N				0	4	2014-12-02 21:12:25	\N	\N	0	\N	\N	\N	03d95b22-3682-42e9-a5e3-f402d3606bb7
+105	BACK PAIN		1	148035				0	4	2014-12-02 21:14:25	\N	\N	0	\N	\N	\N	d7a364f3-bb4f-4438-9e6d-4822556c0300
+106	Myalgia	Muscular pain or tenderness, especially when diffuse and nonspecific.	1	121				0	4	2014-12-02 21:16:32	\N	\N	0	\N	\N	\N	7a5d1a75-6433-4a73-8b2c-26a101af4b67
+107	Bleeding from Mouth	Bleeding from the blood vessels of the mouth, which may occur as a result of injuries to the mouth, accidents in oral surgery, or diseases of the gums.	1	147234				0	4	2014-12-02 21:19:46	\N	\N	0	\N	\N	\N	d08f1fde-7e0e-4019-8d4a-5326b2ce96d4
+108	Bleeding Detail [binary]	Bleeding (Detail)	5	\N				0	4	2014-12-02 21:20:20	1	2014-12-03 14:21:42	0	\N	\N	\N	4e23eff5-c5c2-4ee1-83e0-24c665503771
+109	Haematemesis	Vomiting of blood.	1	139006				0	4	2014-12-02 21:30:03	\N	\N	0	\N	\N	\N	17c440ef-71da-4c03-a23a-bae5d8a1a683
+110	Responsiveness	A measure of mental acuity in response to conversation	1	162698				0	4	2014-12-02 22:36:20	\N	\N	0	\N	\N	\N	7eeaa390-a857-4354-8456-94a5a55cf7f4
+111	Symptoms B[invisible]	Symptoms the patient reports (second set)	5	\N				0	4	2014-12-03 09:40:36	1	2014-12-03 12:28:10	0	\N	\N	\N	fbfbe7bc-c422-4354-a49b-0218d93a5a7e
+112	Insert intravenous (IV) line		1	162623				0	4	2014-12-03 10:27:54	\N	\N	0	\N	\N	\N	2a5df87e-3bd1-4e6e-b051-b0bac3c34159
+113	Intravenous administration		1	160242				0	4	2014-12-03 10:28:39	\N	\N	0	\N	\N	\N	55e3d7e7-9e46-4ea6-9b0a-098f1fafece5
+114	Ebola virus RNA by polymerase chain reaction	Ebola virus PCR in any sample	1	162599				0	4	2014-12-03 10:29:27	\N	\N	0	\N	\N	\N	ae030f2e-9207-466b-9f07-1fc6f7a88ec2
+115	Obsolete	obsolete section	5	\N				0	4	2014-12-03 10:54:35	\N	\N	0	\N	\N	\N	7346bb95-cd03-4aad-b5bd-931631c88e01
+116	Symptoms A[binary][invisible]	Symptoms the patient reports (first set)	5	\N				0	1	2014-12-03 11:57:28	1	2014-12-03 12:28:20	0	\N	\N	\N	e52e6827-7b3a-4925-b2f0-9b7f3ffaf758
+117	Pain assessment[invisible]	The pain assessment field	5	\N				0	1	2014-12-03 14:13:35	\N	\N	0	\N	\N	\N	14fc7877-b95f-44c1-9639-a32b4a8631a1
+118	Pain Assessment	A general assessment of the patient's pain level	1	162721				0	1	2014-12-03 14:20:27	\N	\N	0	\N	\N	\N	c08f08d3-d423-43ea-858f-86ff324a3454
+119	Bleeding Overall [binary]	Bleeding	5	\N				0	1	2014-12-03 14:22:35	\N	\N	0	\N	\N	\N	aa395417-5343-4c70-b951-19b72998ac2f
+120	Bleeding	Bleeding or escape of blood from a vessel.	1	147241				0	1	2014-12-03 14:31:06	\N	\N	0	\N	\N	\N	d316668f-7111-4d9e-a2cc-cfbc22d95479
+121	General Condition	Patient's general condition	1	162724				0	1	2014-12-03 15:08:38	\N	\N	0	\N	\N	\N	0ab02868-60b3-440d-9b35-fbe577f6048f
+122	Special Group [binary]	Special Group	5	\N				0	1	2014-12-03 15:16:16	\N	\N	0	\N	\N	\N	5bd3fdc6-f550-404e-8ce2-8f49d88b2eea
+123	IV line present	The patient as an IV line (e.g. cannula) fitted.	1	162725				0	1	2014-12-03 15:59:51	\N	\N	0	\N	\N	\N	5474b00c-54e8-4306-a4e7-47a167a9e984
+124	Method of fluid management		1	162653				0	1	2014-12-03 16:39:28	\N	\N	0	\N	\N	\N	c6a57e4c-282c-4c9d-9478-e22730f6bccf
+125	Dyspnea	Difficult or labored breathing.	1	122496				0	1	2014-12-03 17:19:03	\N	\N	0	\N	\N	\N	89d77f9f-535b-43bd-a25a-dae956f5f13a
+126	Method of fluid management		1	162653				0	4	2014-12-04 18:55:00	\N	\N	0	\N	\N	\N	3981edcd-fff0-4382-869f-fb3c3189b599
+127	IV line present	The patient as an IV line (e.g. cannula) fitted.	1	162725				0	4	2014-12-04 18:55:18	\N	\N	0	\N	\N	\N	f3912f53-6bca-49c8-8d98-b6bfc4a6601e
+128	General Condition	Patient's general condition	1	162724				0	4	2014-12-04 18:56:05	\N	\N	0	\N	\N	\N	195b2dd3-4970-4ac7-92ef-88be29b56a0e

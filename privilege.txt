@@ -1,0 +1,163 @@
+Add Allergies	Add allergies	14b361d3-6fd5-4ff9-ba0a-dc47fc1bd356
+Add Cohorts	Able to add a cohort to the system	18208971-6437-11e4-badf-42010af0dc15
+Add Concept Proposals	Able to add concept proposals to the system	18208ad6-6437-11e4-badf-42010af0dc15
+Add Encounters	Able to add patient encounters	18208b9a-6437-11e4-badf-42010af0dc15
+Add HL7 Inbound Archive	Able to add an HL7 archive item	79aa81a3-5294-4136-8f2a-a7f48e15c6ed
+Add HL7 Inbound Exception	Able to add an HL7 error item	c645f3b9-9784-4a16-bff6-09cc38d99352
+Add HL7 Inbound Queue	Able to add an HL7 Queue item	7a25dc34-f48a-4385-8419-90a9c69547db
+Add HL7 Source	Able to add an HL7 Source	f3054b6e-55ab-486e-8bdd-e941e06838f8
+Add Observations	Able to add patient observations	18208c53-6437-11e4-badf-42010af0dc15
+Add Orders	Able to add orders	18208d03-6437-11e4-badf-42010af0dc15
+Add Patient Identifiers	Able to add patient identifiers	18208dac-6437-11e4-badf-42010af0dc15
+Add Patient Programs	Able to add patients to programs	18208e6a-6437-11e4-badf-42010af0dc15
+Add Patients	Able to add patients	18208f21-6437-11e4-badf-42010af0dc15
+Add People	Able to add person objects	18208fd1-6437-11e4-badf-42010af0dc15
+Add Problems	Add problems	b6fa153a-c5f1-4b3b-8616-ff816c1f5650
+Add Relationships	Able to add relationships	1820905c-6437-11e4-badf-42010af0dc15
+Add Report Objects	Able to add report objects	182090df-6437-11e4-badf-42010af0dc15
+Add Reports	Able to add reports	18209164-6437-11e4-badf-42010af0dc15
+Add Users	Able to add users to OpenMRS	182091e1-6437-11e4-badf-42010af0dc15
+Add Visits	Able to add visits	4dc1b9aa-f6b7-4db7-8716-347d1eb1cf2b
+Assign System Developer Role	Able to assign System Developer role	f11e2d62-ae9c-43cc-86a5-a1bb7dac6ac6
+Configure Visits	Able to choose encounter visit handler and enable/disable encounter visits	8d330391-9df8-4d73-85dd-edd26fa14e76
+Delete Cohorts	Able to add a cohort to the system	18209260-6437-11e4-badf-42010af0dc15
+Delete Concept Proposals	Able to delete concept proposals from the system	182092df-6437-11e4-badf-42010af0dc15
+Delete Encounters	Able to delete patient encounters	18209364-6437-11e4-badf-42010af0dc15
+Delete HL7 Inbound Archive	Able to delete/retire an HL7 archive item	76fcb61c-0f93-4ef7-83bd-a3169da7aa07
+Delete HL7 Inbound Exception	Able to delete an HL7 archive item	758d92d3-a109-48a8-82f1-526dc88f9a47
+Delete HL7 Inbound Queue	Able to delete an HL7 Queue item	6d46b82a-a395-4513-ad7d-51a95daec7ec
+Delete Observations	Able to delete patient observations	182093e9-6437-11e4-badf-42010af0dc15
+Delete Orders	Able to delete orders	1820946e-6437-11e4-badf-42010af0dc15
+Delete Patient Identifiers	Able to delete patient identifiers	18209503-6437-11e4-badf-42010af0dc15
+Delete Patient Programs	Able to delete patients from programs	182095a4-6437-11e4-badf-42010af0dc15
+Delete Patients	Able to delete patients	18209644-6437-11e4-badf-42010af0dc15
+Delete People	Able to delete objects	182096de-6437-11e4-badf-42010af0dc15
+Delete Relationships	Able to delete relationships	18209779-6437-11e4-badf-42010af0dc15
+Delete Report Objects	Able to delete report objects	1820980e-6437-11e4-badf-42010af0dc15
+Delete Reports	Able to delete reports	182098ad-6437-11e4-badf-42010af0dc15
+Delete Users	Able to delete users in OpenMRS	18209945-6437-11e4-badf-42010af0dc15
+Delete Visits	Able to delete visits	608615c7-11e2-4231-ae9f-04a34b5ef0aa
+Edit Allergies	Able to edit allergies	4ff115e1-9f96-4d5b-9089-8902b6e1c3a5
+Edit Cohorts	Able to add a cohort to the system	182099cb-6437-11e4-badf-42010af0dc15
+Edit Concept Proposals	Able to edit concept proposals in the system	18209a4a-6437-11e4-badf-42010af0dc15
+Edit Encounters	Able to edit patient encounters	18209acd-6437-11e4-badf-42010af0dc15
+Edit Observations	Able to edit patient observations	18209b4f-6437-11e4-badf-42010af0dc15
+Edit Orders	Able to edit orders	18209c2d-6437-11e4-badf-42010af0dc15
+Edit Patient Identifiers	Able to edit patient identifiers	18209cb4-6437-11e4-badf-42010af0dc15
+Edit Patient Programs	Able to edit patients in programs	18209d34-6437-11e4-badf-42010af0dc15
+Edit Patients	Able to edit patients	18209db9-6437-11e4-badf-42010af0dc15
+Edit People	Able to edit person objects	18209e37-6437-11e4-badf-42010af0dc15
+Edit Problems	Able to edit problems	28e3a158-31b9-4354-81bc-73a0a6759ce6
+Edit Relationships	Able to edit relationships	18209eb2-6437-11e4-badf-42010af0dc15
+Edit Report Objects	Able to edit report objects	18209f34-6437-11e4-badf-42010af0dc15
+Edit Reports	Able to edit reports	18209fb0-6437-11e4-badf-42010af0dc15
+Edit User Passwords	Able to change the passwords of users in OpenMRS	1820a02f-6437-11e4-badf-42010af0dc15
+Edit Users	Able to edit users in OpenMRS	1820a0b3-6437-11e4-badf-42010af0dc15
+Edit Visits	Able to edit visits	f8de8108-5e81-46eb-b003-bf129ca1d45d
+Form Entry	Allows user to access Form Entry pages/functions	1820a12e-6437-11e4-badf-42010af0dc15
+Get Care Settings	Able to get Care Settings	7080a782-19a0-4da4-a0eb-2b5c76e40ee8
+Get Order Frequencies	Able to get Order Frequencies	76f3e02c-4efe-4247-9088-ee5845f25fcc
+Manage Address Templates	Able to add/edit/delete address templates	044fe3b5-f809-4fd1-bc15-979bebdb90ca
+Manage Alerts	Able to add/edit/delete user alerts	1820a1a6-6437-11e4-badf-42010af0dc15
+Manage Concept Classes	Able to add/edit/retire concept classes	1820a221-6437-11e4-badf-42010af0dc15
+Manage Concept Datatypes	Able to add/edit/retire concept datatypes	1820a2a4-6437-11e4-badf-42010af0dc15
+Manage Concept Map Types	Able to add/edit/retire concept map types	503b16ff-4eb9-47bf-b478-dc741dc111fa
+Manage Concept Name tags	Able to add/edit/delete concept name tags	c8f7dbbc-1eae-461a-a1d5-0906eeb6c1c1
+Manage Concept Reference Terms	Able to add/edit/retire reference terms	57ad4449-1b4a-4426-9a89-0fd9d7ce8ea1
+Manage Concept Sources	Able to add/edit/delete concept sources	1820a325-6437-11e4-badf-42010af0dc15
+Manage Concept Stop Words	Able to view/add/remove the concept stop words	a3ea40c4-07aa-413d-b01c-338f4f2e9898
+Manage Concepts	Able to add/edit/delete concept entries	1820a3ab-6437-11e4-badf-42010af0dc15
+Manage Encounter Roles	Able to add/edit/retire encounter roles	c1f72f40-1f1b-4401-b954-3ba02c615e84
+Manage Encounter Types	Able to add/edit/delete encounter types	1820a435-6437-11e4-badf-42010af0dc15
+Manage Field Types	Able to add/edit/retire field types	1820a4bc-6437-11e4-badf-42010af0dc15
+Manage FormEntry XSN	Allows user to upload and edit the xsns stored on the server	1820a53f-6437-11e4-badf-42010af0dc15
+Manage Forms	Able to add/edit/delete forms	1820a5c3-6437-11e4-badf-42010af0dc15
+Manage Global Properties	Able to add/edit global properties	1820a647-6437-11e4-badf-42010af0dc15
+Manage HL7 Messages	Able to add/edit/delete HL7 messages	b4060281-1580-43d1-9b68-7cd285180ce0
+Manage Identifier Types	Able to add/edit/delete patient identifier types	1820a6cd-6437-11e4-badf-42010af0dc15
+Manage Implementation Id	Able to view/add/edit the implementation id for the system	664cbcf6-e974-45da-a294-9eae01e3725e
+Manage Location Attribute Types	Able to add/edit/retire location attribute types	b43b7b59-2eb2-474e-a2a3-43b4f38f00c3
+Manage Location Tags	Able to add/edit/delete location tags	3c69eda9-1c9d-4307-a669-7528797fa4e0
+Manage Locations	Able to add/edit/delete locations	1820a74d-6437-11e4-badf-42010af0dc15
+Manage Modules	Able to add/remove modules to the system	1820a7cd-6437-11e4-badf-42010af0dc15
+Manage Order Frequencies	Able to add/edit/retire Order Frequencies	abb20632-2e92-4878-92a5-aad6da969c01
+Manage Order Types	Able to add/edit/retire order types	1820a850-6437-11e4-badf-42010af0dc15
+Manage Person Attribute Types	Able to add/edit/delete person attribute types	1820a8d3-6437-11e4-badf-42010af0dc15
+Manage Privileges	Able to add/edit/delete privileges	1820a95a-6437-11e4-badf-42010af0dc15
+Manage Programs	Able to add/view/delete patient programs	1820a9dc-6437-11e4-badf-42010af0dc15
+Manage Providers	Able to edit Provider	aec2d78c-f38c-472c-897b-2f32ff550cdb
+Manage Relationship Types	Able to add/edit/retire relationship types	1820aa5e-6437-11e4-badf-42010af0dc15
+Manage Relationships	Able to add/edit/delete relationships	1820aae3-6437-11e4-badf-42010af0dc15
+Manage RESTWS	Allows to configure RESTWS module	824aaa13-34c9-4bc0-b7cb-319dba56ea78
+Manage Roles	Able to add/edit/delete user roles	1820ab70-6437-11e4-badf-42010af0dc15
+Manage Scheduler	Able to add/edit/remove scheduled tasks	1820abf0-6437-11e4-badf-42010af0dc15
+Manage Visit Attribute Types	Able to add/edit/retire visit attribute types	afd9fb8c-5b30-4e26-8f5b-5a73e8182717
+Manage Visit Types	Able to add/edit/delete visit types	921cfe05-8380-4afa-a417-e89b56a705e3
+Metadata Mapping	Allows the user to prepare concepts for publishing/subscribing	68a1aa80-4327-4f51-bcdf-dc8b943d4aea
+Patient Dashboard - View Demographics Section	Able to view the 'Demographics' tab on the patient dashboard	1820ac72-6437-11e4-badf-42010af0dc15
+Patient Dashboard - View Encounters Section	Able to view the 'Encounters' tab on the patient dashboard	1820acf8-6437-11e4-badf-42010af0dc15
+Patient Dashboard - View Forms Section	Allows user to view the Forms tab on the patient dashboard	1820ad86-6437-11e4-badf-42010af0dc15
+Patient Dashboard - View Graphs Section	Able to view the 'Graphs' tab on the patient dashboard	1820ae15-6437-11e4-badf-42010af0dc15
+Patient Dashboard - View Overview Section	Able to view the 'Overview' tab on the patient dashboard	1820aeaa-6437-11e4-badf-42010af0dc15
+Patient Dashboard - View Patient Summary	Able to view the 'Summary' tab on the patient dashboard	1820af41-6437-11e4-badf-42010af0dc15
+Patient Dashboard - View Regimen Section	Able to view the 'Regimen' tab on the patient dashboard	1820b02e-6437-11e4-badf-42010af0dc15
+Patient Dashboard - View Visits Section	Able to view the 'Visits' tab on the patient dashboard	2cf1e334-dd32-4735-882b-79fce110b1d8
+Purge Field Types	Able to purge field types	1820b0d1-6437-11e4-badf-42010af0dc15
+Remove Allergies	Remove allergies	7de98889-497a-4be4-aa7d-a4d37a75f75d
+Remove Problems	Remove problems	84dcee61-0291-4417-8851-ee54d8d2e20f
+Share Metadata	Allows user to export and import metadata	aacbee00-318c-4baf-b16c-34ba9b4960de
+Update HL7 Inbound Archive	Able to update an HL7 archive item	e692c124-a78a-4a58-ae8a-b3cc61d46a1b
+Update HL7 Inbound Exception	Able to update an HL7 archive item	c6737e57-d9dc-4396-932c-6b173eb49a62
+Update HL7 Inbound Queue	Able to update an HL7 Queue item	fbb43297-eb16-44d5-8e56-50b20f6d72d9
+Update HL7 Source	Able to update an HL7 Source	3d270cf7-8a19-4cac-a418-259038b61cd1
+Upload XSN	Allows user to upload/overwrite the XSNs defined for forms	1820b15e-6437-11e4-badf-42010af0dc15
+View Administration Functions	Able to view the 'Administration' link in the navigation bar	1820b1dc-6437-11e4-badf-42010af0dc15
+View Allergies	Able to view allergies in OpenMRS	1820b261-6437-11e4-badf-42010af0dc15
+View Concept Classes	Able to view concept classes	1820b4b5-6437-11e4-badf-42010af0dc15
+View Concept Datatypes	Able to view concept datatypes	1820b553-6437-11e4-badf-42010af0dc15
+View Concept Map Types	Able to view concept map types	fdc04b12-0f5c-4a34-a755-c463e6f7e934
+View Concept Proposals	Able to view concept proposals to the system	1820b5e2-6437-11e4-badf-42010af0dc15
+View Concept Reference Terms	Able to view concept reference terms	c5082ef1-c171-4cf5-8973-3888870e0ea0
+View Concept Sources	Able to view concept sources	1820b66b-6437-11e4-badf-42010af0dc15
+View Concepts	Able to view concept entries	1820b6eb-6437-11e4-badf-42010af0dc15
+View Data Entry Statistics	Able to view data entry statistics from the admin screen	1820b76d-6437-11e4-badf-42010af0dc15
+View Database Changes	Able to view database changes from the admin screen	2c233ab4-e8ca-4042-b4a0-f8afa93a6a4e
+View Encounter Roles	Able to view encounter roles	929a12a9-1958-44e5-b3f7-392b6d6f998b
+View Encounter Types	Able to view encounter types	1820b7f7-6437-11e4-badf-42010af0dc15
+View Encounters	Able to view patient encounters	1820b879-6437-11e4-badf-42010af0dc15
+View Field Types	Able to view field types	1820b8fd-6437-11e4-badf-42010af0dc15
+View Forms	Able to view forms	1820b97c-6437-11e4-badf-42010af0dc15
+View Global Properties	Able to view global properties on the administration screen	1820bab2-6437-11e4-badf-42010af0dc15
+View HL7 Inbound Archive	Able to view an HL7 archive item	35eaf698-cd79-4f6b-88eb-5246fdd07c77
+View HL7 Inbound Exception	Able to view an HL7 archive item	69c24dfe-19b4-4f35-b20c-d19687ac56a2
+View HL7 Inbound Queue	Able to view an HL7 Queue item	e274ee73-80b5-48dd-9e9a-f3ed3045234d
+View HL7 Source	Able to view an HL7 Source	69d7e641-76e7-4ad4-af63-021e17cb69d4
+View Identifier Types	Able to view patient identifier types	1820bb9e-6437-11e4-badf-42010af0dc15
+View Location Attribute Types	Able to view location attribute types	d19726c9-cd61-4439-9cef-1a11f11b1467
+View Locations	Able to view locations	1820bc24-6437-11e4-badf-42010af0dc15
+View Navigation Menu	Ability to see the navigation menu	1820bcac-6437-11e4-badf-42010af0dc15
+View Observations	Able to view patient observations	1820bd37-6437-11e4-badf-42010af0dc15
+View Order Types	Able to view order types	1820bdbb-6437-11e4-badf-42010af0dc15
+View Orders	Able to view orders	1820be40-6437-11e4-badf-42010af0dc15
+View Patient Cohorts	Able to view patient cohorts	1820bebd-6437-11e4-badf-42010af0dc15
+View Patient Identifiers	Able to view patient identifiers	1820bf46-6437-11e4-badf-42010af0dc15
+View Patient Programs	Able to see which programs that patients are in	1820bfce-6437-11e4-badf-42010af0dc15
+View Patients	Able to view patients	1820c059-6437-11e4-badf-42010af0dc15
+View People	Able to view person objects	1820c0f0-6437-11e4-badf-42010af0dc15
+View Person Attribute Types	Able to view person attribute types	1820c174-6437-11e4-badf-42010af0dc15
+View Privileges	Able to view user privileges	1820c1fa-6437-11e4-badf-42010af0dc15
+View Problems	Able to view problems in OpenMRS	1820cb05-6437-11e4-badf-42010af0dc15
+View Programs	Able to view patient programs	1820cbee-6437-11e4-badf-42010af0dc15
+View Providers	Able to view Provider	ccd5c868-6201-4799-b475-a55f9c871a82
+View Relationship Types	Able to view relationship types	1820ccab-6437-11e4-badf-42010af0dc15
+View Relationships	Able to view relationships	1820cd45-6437-11e4-badf-42010af0dc15
+View Report Objects	Able to view report objects	1820cdcc-6437-11e4-badf-42010af0dc15
+View Reports	Able to view reports	1820ce50-6437-11e4-badf-42010af0dc15
+View RESTWS	Gives access to RESTWS in administration	46cd8130-0d87-499d-9463-17ac0205124c
+View Roles	Able to view user roles	1820ced3-6437-11e4-badf-42010af0dc15
+View Unpublished Forms	Able to view and fill out unpublished forms	1820cf57-6437-11e4-badf-42010af0dc15
+View Users	Able to view users in OpenMRS	1820cfe0-6437-11e4-badf-42010af0dc15
+View Visit Attribute Types	Able to view visit attribute types	e8ff7c17-5dd4-4bdb-a653-189074f990e7
+View Visit Types	Able to view visit types	e9687f21-650d-4b52-8edf-2ade05f3d7dd
+View Visits	Able to view visits	9d3dd21c-66ab-4799-a849-9b9f7a8dfe09
+View XForms Menu	View XForms Menu in admin panel	56ac1eb9-9e58-4660-986f-82b425ff115f

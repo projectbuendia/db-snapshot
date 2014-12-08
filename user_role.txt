@@ -1,0 +1,8 @@
+1	Provider
+1	System Developer
+4	Authenticated
+4	Clinician
+4	Data Assistant
+4	Data Manager
+4	Provider
+4	System Developer
