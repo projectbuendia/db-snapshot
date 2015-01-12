@@ -126,3 +126,7 @@
 126	Method of fluid management		1	162653				0	4	2014-12-04 18:55:00	\N	\N	0	\N	\N	\N	3981edcd-fff0-4382-869f-fb3c3189b599
 127	IV line present	The patient as an IV line (e.g. cannula) fitted.	1	162725				0	4	2014-12-04 18:55:18	\N	\N	0	\N	\N	\N	f3912f53-6bca-49c8-8d98-b6bfc4a6601e
 128	General Condition	Patient's general condition	1	162724				0	4	2014-12-04 18:56:05	\N	\N	0	\N	\N	\N	195b2dd3-4970-4ac7-92ef-88be29b56a0e
+129	Text of encounter note	Free text note field intended to capture unstructured description of the patient encounter	1	162169				0	4	2014-12-15 15:12:11	\N	\N	0	\N	\N	\N	39693ee0-2b43-4218-8ae2-53f2df61ea4a
+130	Notes[invisible]		5	\N				0	4	2014-12-15 15:32:32	\N	\N	0	\N	\N	\N	c949db6b-0f51-42f4-a1ea-c50b8e728f3a
+131	Symptoms A[binary]	Signs and Symptoms	5	\N				0	4	2014-12-15 17:24:46	4	2014-12-15 20:22:35	0	\N	\N	\N	a0a1dd08-306f-414c-9f89-a9ec3803cb29
+132	Symptoms C[binary]	Respiratory Symptoms	5	\N				0	4	2014-12-15 17:25:34	\N	\N	0	\N	\N	\N	b8d0222d-66ed-42b7-873a-4943a3f6c027

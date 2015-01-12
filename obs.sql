@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.40, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: openmrs
+-- Host: localhost    Database: openmrs_clean
 -- ------------------------------------------------------
 -- Server version	5.5.40-0+wheezy1
 
@@ -76,7 +76,7 @@ CREATE TABLE `obs` (
   CONSTRAINT `person_obs` FOREIGN KEY (`person_id`) REFERENCES `person` (`person_id`) ON UPDATE CASCADE,
   CONSTRAINT `previous_version` FOREIGN KEY (`previous_version`) REFERENCES `obs` (`obs_id`),
   CONSTRAINT `user_who_voided_obs` FOREIGN KEY (`voided_by`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1904 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=17048 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

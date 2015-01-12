@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.40, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: openmrs
+-- Host: localhost    Database: openmrs_clean
 -- ------------------------------------------------------
 -- Server version	5.5.40-0+wheezy1
 

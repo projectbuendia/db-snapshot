@@ -94,7 +94,7 @@ layout.address.format	<org.openmrs.layout.web.address.AddressTemplate>\
     </lineByLineFormat>\
      </org.openmrs.layout.web.address.AddressTemplate>	XML description of address formats	17d04d46-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
 layout.name.format	short	Format in which to display the person names.  Valid values are short, long	17d04dcd-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-locale.allowed.list	en,en_GB_client	Comma delimited list of locales allowed for use on system	17d04e51-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
+locale.allowed.list	en, en_GB_client	Comma delimited list of locales allowed for use on system	17d04e51-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
 location.field.style	default	Type of widget to use for location fields	321a2cf1-b051-4da2-a63a-37097a9c22ee	\N	\N	\N	\N
 log.layout	%p - %C{1}.%M(%L) |%d{ISO8601}| %m%n	A log layout pattern which is used by the OpenMRS file appender.	f46d518f-ccd7-4f88-91d5-72beb94a1869	\N	\N	\N	\N
 log.level	info	log level used by the logger 'org.openmrs'. This value will override the log4j.xml value. Valid values are trace, debug, info, warn, error or fatal	17d04ed1-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
