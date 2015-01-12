@@ -14,38 +14,38 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `serialized_object`
+-- Table structure for table `reporting_report_design`
 --
 
-DROP TABLE IF EXISTS `serialized_object`;
+DROP TABLE IF EXISTS `reporting_report_design`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `serialized_object` (
-  `serialized_object_id` int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE `reporting_report_design` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uuid` char(38) NOT NULL,
   `name` varchar(255) NOT NULL,
-  `description` varchar(5000) DEFAULT NULL,
-  `type` varchar(255) NOT NULL,
-  `subtype` varchar(255) NOT NULL,
-  `serialization_class` varchar(255) NOT NULL,
-  `serialized_data` mediumtext NOT NULL,
+  `description` varchar(1000) DEFAULT NULL,
+  `renderer_type` varchar(255) NOT NULL,
+  `properties` text,
+  `creator` int(11) NOT NULL DEFAULT '0',
   `date_created` datetime NOT NULL,
-  `creator` int(11) NOT NULL,
-  `date_changed` datetime DEFAULT NULL,
   `changed_by` int(11) DEFAULT NULL,
+  `date_changed` datetime DEFAULT NULL,
   `retired` tinyint(1) NOT NULL DEFAULT '0',
-  `date_retired` datetime DEFAULT NULL,
   `retired_by` int(11) DEFAULT NULL,
-  `retire_reason` varchar(1000) DEFAULT NULL,
-  `uuid` char(38) DEFAULT NULL,
-  PRIMARY KEY (`serialized_object_id`),
-  UNIQUE KEY `serialized_object_uuid_index` (`uuid`),
-  KEY `serialized_object_creator` (`creator`),
-  KEY `serialized_object_changed_by` (`changed_by`),
-  KEY `serialized_object_retired_by` (`retired_by`),
-  CONSTRAINT `serialized_object_changed_by` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`),
-  CONSTRAINT `serialized_object_creator` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
-  CONSTRAINT `serialized_object_retired_by` FOREIGN KEY (`retired_by`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+  `date_retired` datetime DEFAULT NULL,
+  `retire_reason` varchar(255) DEFAULT NULL,
+  `report_definition_uuid` char(38) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uuid` (`uuid`),
+  KEY `creator for reporting_report_design` (`creator`),
+  KEY `changed_by for reporting_report_design` (`changed_by`),
+  KEY `retired_by for reporting_report_design` (`retired_by`),
+  KEY `report_definition_uuid for reporting_report_design` (`report_definition_uuid`),
+  CONSTRAINT `changed_by for reporting_report_design` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`),
+  CONSTRAINT `creator for reporting_report_design` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
+  CONSTRAINT `retired_by for reporting_report_design` FOREIGN KEY (`retired_by`) REFERENCES `users` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,2 +1,3 @@
 1	There was an error starting the module: Metadata Sharing	1	1	\N	1	2014-11-18 15:57:28	4	2014-11-18 15:59:25	36b67a8b-531f-43b6-8e90-d1a38bef37ce
 2	There was an error starting the module: Project Buendia Module	1	1	\N	1	2014-12-04 13:50:51	4	2014-12-04 14:32:54	e92b0bb6-3ad1-46bd-8615-af8ef737a86b
+3	There was an error starting the module: Reporting	1	1	\N	1	2015-01-12 13:00:49	4	2015-01-12 13:05:29	22c79d0d-b674-47cd-923f-8055a950733d

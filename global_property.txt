@@ -1,4 +1,6 @@
 application.name	OpenMRS	The name of this application, as presented to the user, for example on the login and welcome pages.	41ae95ff-5c56-41dd-b225-a154e3656ad4	\N	\N	\N	\N
+calculation.mandatory	false	true/false whether or not the calculation module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	34e34053-ee41-4f8b-ab30-a57481fe7755	\N	\N	\N	\N
+calculation.started	true	DO NOT MODIFY. true/false whether or not the calculation module has been started.  This is used to make sure modules that were running  prior to a restart are started again	4d396901-e87f-420b-a74e-8d612fcaee5b	\N	\N	\N	\N
 ciel.conceptsVersion	20141103	Date or version of CIEL concept dictionary present in the database	f7703d13-8650-400c-811b-baf37d3bae91	\N	\N	\N	\N
 concept.caseSensitiveNamesInConceptNameTable	true	Indicates whether names in the concept_name table are case sensitive or not. Setting this to false for MySQL with a case insensitive collation improves search performance.	d416fc3a-8276-444f-828f-36618461abcc	\N	\N	\N	\N
 concept.causeOfDeath	5002	Concept id of the concept defining the CAUSE OF DEATH concept	17d03e79-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
@@ -55,6 +57,8 @@ graph.color.normal	rgb(255,126,0)	Color of the 'normal' section of numeric graph
 gzip.enabled	false	Set to 'true' to turn on OpenMRS's gzip filter, and have the webapp compress data before sending it to any client that supports it. Generally use this if you are running Tomcat standalone. If you are running Tomcat behind Apache, then you'd want to use Apache to do gzip compression.	17d04cbe-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
 hl7_archive.dir	hl7_archives	The default name or absolute path for the folder where to write the hl7_in_archives.	5dc181b6-15de-40b4-883c-adf9362cbb70	\N	\N	\N	\N
 hl7_processor.ignore_missing_patient_non_local	false	If true, hl7 messages for patients that are not found and are non-local will silently be dropped/ignored	b37605fe-4a19-428a-9522-3d9139aebbbe	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
+htmlwidgets.mandatory	false	true/false whether or not the htmlwidgets module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	4071912e-87e8-41dd-aed7-18102fa46c22	\N	\N	\N	\N
+htmlwidgets.started	true	DO NOT MODIFY. true/false whether or not the htmlwidgets module has been started.  This is used to make sure modules that were running  prior to a restart are started again	61efead1-3fc9-41ed-80f0-1972f1262813	\N	\N	\N	\N
 implementation_id	<implementationId id="1" implementationId="104.155.15.141">\
    <passphrase id="2"><![CDATA[Buendia GCE Server]]></passphrase>\
    <description id="3"><![CDATA[Buendia GCE Server]]></description>\
@@ -150,7 +154,21 @@ projectbuendia.chartUuids	ea43f213-66fb-4af6-8a49-70fd6b9ce5d4,975afbce-d4e3-406
 projectbuendia.openmrs.mandatory	false	true/false whether or not the projectbuendia.openmrs module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	b8c47333-955c-4301-a7d9-8bdb52ec4c24	\N	\N	\N	\N
 projectbuendia.openmrs.started	true	DO NOT MODIFY. true/false whether or not the projectbuendia.openmrs module has been started.  This is used to make sure modules that were running  prior to a restart are started again	6c0b2880-b71e-4c2b-9cf8-15686aa3349d	\N	\N	\N	\N
 provider.unknownProviderUuid	\N	Specifies the uuid of the Unknown Provider account	5d925273-b965-4e8f-9c3d-eb8a4936f846	\N	\N	\N	\N
+report.deleteReportsAgeInHours	72	Reports that are not explicitly saved are deleted automatically when they are this many hours old. (Values less than or equal to zero means do not delete automatically)	2013b670-a86d-4687-aca5-999cbc5d29f6	\N	\N	\N	\N
 report.xmlMacros	\N	Macros that will be applied to Report Schema XMLs when they are interpreted. This should be java.util.properties format.	17d05c33-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
+reporting.dataEvaluationBatchSize	-1	This determines whether to run evaluators for Data in batches and what the size of those batches should be.\
+A value of less than or equal to 0 indicates that no batching is desired.	debf729d-00c6-4ade-b8b4-471214bd25de	\N	\N	\N	\N
+reporting.defaultDateFormat	dd/MMM/yyyy	Default date format to use when formatting report data	921710fb-14cd-436b-8345-dbad5614005e	\N	\N	\N	\N
+reporting.defaultLocale	en	Default locale to use when formatting report data	98342ff4-96a5-44dd-8e9e-8a512751b12b	\N	\N	\N	\N
+reporting.evaluationLoggerEnabled	false	If false, will disable the built in use of the evaluation logger to log evaluation information for performance diagnostics	d3d2319e-78cf-478f-a8d7-2b526abca474	\N	\N	\N	\N
+reporting.includeDataExportsAsDataSetDefinitions	false	If reportingcompatibility is installed, this indicates whether data exports should be exposed as Dataset Definitions	dbce8c75-598d-40ed-8948-f96191a657dc	\N	\N	\N	\N
+reporting.mandatory	false	true/false whether or not the reporting module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	755435f9-bded-4887-8477-6cc737d5db6f	\N	\N	\N	\N
+reporting.maxCachedReports	10	The maximum number of reports whose underlying data and output should be kept in the cache at any one time	7b7aaa41-9446-4c73-884a-c7c434120933	\N	\N	\N	\N
+reporting.maxReportsToRun	1	The maximum number of reports that should be processed at any one time	332a510c-828d-4a31-958a-78443308cc47	\N	\N	\N	\N
+reporting.preferredIdentifierTypes	\N	Pipe-separated list of patient identifier type names, which should be displayed on default patient datasets	ade99583-10e5-4e12-bb15-423688013bc4	\N	\N	\N	\N
+reporting.runReportCohortFilterMode	showIfNull	Supports the values hide,showIfNull,show which determine whether the cohort selector should be available in the run report page	5de24cf1-5564-4260-844c-5a5ce1b76712	\N	\N	\N	\N
+reporting.started	true	DO NOT MODIFY. true/false whether or not the reporting module has been started.  This is used to make sure modules that were running  prior to a restart are started again	2e48510b-8887-4514-885f-5af5c6476302	\N	\N	\N	\N
+reporting.testPatientsCohortDefinition	\N	Points to a cohort definition representing all test/fake patients that you want to exclude from all queries and reports. You may set this to the UUID of a saved cohort definition, or to "library:keyInADefinitionLibrary"	e521a7b5-c6d6-4dae-a8c0-69353a07e592	\N	\N	\N	\N
 reportProblem.url	http://errors.openmrs.org/scrap	The openmrs url where to submit bug reports	94b05aad-26dd-412a-adf0-38f47cd51e91	\N	\N	\N	\N
 scheduler.password	test	Password for the OpenMRS user that will perform the scheduler activities	6cb182aa-2188-4bba-93d0-d0df89c3f179	\N	\N	\N	\N
 scheduler.username	admin	Username for the OpenMRS user that will perform the scheduler activities	ecc9e12b-9ddf-418f-9adc-f29a5d2be9de	\N	\N	\N	\N
@@ -164,6 +182,8 @@ security.passwordMinimumLength	8	Configure the minimum length required of all pa
 security.passwordRequiresDigit	true	Configure whether passwords must contain at least one digit	726c1156-2203-4bd2-9297-2ad0fed8a255	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
 security.passwordRequiresNonDigit	true	Configure whether passwords must contain at least one non-digit	d036ccf0-bb53-4990-a550-c164fb94c48b	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
 security.passwordRequiresUpperAndLowerCase	true	Configure whether passwords must contain both upper and lower case characters	f1a85680-e6ae-45ad-aab4-b19a6bf0c355	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
+serialization.xstream.mandatory	false	true/false whether or not the serialization.xstream module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	7195152e-caec-4e9d-8bf5-faa65cd9667a	\N	\N	\N	\N
+serialization.xstream.started	true	DO NOT MODIFY. true/false whether or not the serialization.xstream module has been started.  This is used to make sure modules that were running  prior to a restart are started again	9aec3f3c-5291-4dff-a326-6747c39c6995	\N	\N	\N	\N
 user.headerAttributeTypes	\N	A comma delimited list of PersonAttributeType names that will be shown on the user dashboard. (not used in v1.5)	cc1d158b-3c9a-48fd-8c74-d38559127da0	\N	\N	\N	\N
 user.listingAttributeTypes	\N	A comma delimited list of PersonAttributeType names that should be displayed for users in _lists_	17d05db3-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
 user.requireEmailAsUsername	false	Indicates whether a username must be a valid e-mail or not.	7b5bf740-feef-4ebc-b599-eca58a7287ec	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N

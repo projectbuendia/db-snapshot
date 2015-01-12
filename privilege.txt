@@ -59,6 +59,7 @@ Get Care Settings	Able to get Care Settings	7080a782-19a0-4da4-a0eb-2b5c76e40ee8
 Get Order Frequencies	Able to get Order Frequencies	76f3e02c-4efe-4247-9088-ee5845f25fcc
 Manage Address Templates	Able to add/edit/delete address templates	044fe3b5-f809-4fd1-bc15-979bebdb90ca
 Manage Alerts	Able to add/edit/delete user alerts	1820a1a6-6437-11e4-badf-42010af0dc15
+Manage Cohort Definitions	Add/Edit/Remove Cohort Definitions	d584d708-31e5-46ad-86eb-415b3c862bfb
 Manage Concept Classes	Able to add/edit/retire concept classes	1820a221-6437-11e4-badf-42010af0dc15
 Manage Concept Datatypes	Able to add/edit/retire concept datatypes	1820a2a4-6437-11e4-badf-42010af0dc15
 Manage Concept Map Types	Able to add/edit/retire concept map types	503b16ff-4eb9-47bf-b478-dc741dc111fa
@@ -67,6 +68,8 @@ Manage Concept Reference Terms	Able to add/edit/retire reference terms	57ad4449-
 Manage Concept Sources	Able to add/edit/delete concept sources	1820a325-6437-11e4-badf-42010af0dc15
 Manage Concept Stop Words	Able to view/add/remove the concept stop words	a3ea40c4-07aa-413d-b01c-338f4f2e9898
 Manage Concepts	Able to add/edit/delete concept entries	1820a3ab-6437-11e4-badf-42010af0dc15
+Manage Data Set Definitions	Add/Edit/Remove Data Set Definitions	d2b74528-e823-44e6-b8a0-a720302b3fa2
+Manage Dimension Definitions	Add/Edit/Remove Dimension Definitions	7d8d94e8-d2d0-43e4-bb25-9cbe4714a448
 Manage Encounter Roles	Able to add/edit/retire encounter roles	c1f72f40-1f1b-4401-b954-3ba02c615e84
 Manage Encounter Types	Able to add/edit/delete encounter types	1820a435-6437-11e4-badf-42010af0dc15
 Manage Field Types	Able to add/edit/retire field types	1820a4bc-6437-11e4-badf-42010af0dc15
@@ -76,6 +79,7 @@ Manage Global Properties	Able to add/edit global properties	1820a647-6437-11e4-b
 Manage HL7 Messages	Able to add/edit/delete HL7 messages	b4060281-1580-43d1-9b68-7cd285180ce0
 Manage Identifier Types	Able to add/edit/delete patient identifier types	1820a6cd-6437-11e4-badf-42010af0dc15
 Manage Implementation Id	Able to view/add/edit the implementation id for the system	664cbcf6-e974-45da-a294-9eae01e3725e
+Manage Indicator Definitions	Add/Edit/Remove Indicator Definitions	b83aef76-033a-43f1-a87a-8522711a4e9e
 Manage Location Attribute Types	Able to add/edit/retire location attribute types	b43b7b59-2eb2-474e-a2a3-43b4f38f00c3
 Manage Location Tags	Able to add/edit/delete location tags	3c69eda9-1c9d-4307-a669-7528797fa4e0
 Manage Locations	Able to add/edit/delete locations	1820a74d-6437-11e4-badf-42010af0dc15
@@ -88,9 +92,14 @@ Manage Programs	Able to add/view/delete patient programs	1820a9dc-6437-11e4-badf
 Manage Providers	Able to edit Provider	aec2d78c-f38c-472c-897b-2f32ff550cdb
 Manage Relationship Types	Able to add/edit/retire relationship types	1820aa5e-6437-11e4-badf-42010af0dc15
 Manage Relationships	Able to add/edit/delete relationships	1820aae3-6437-11e4-badf-42010af0dc15
+Manage Report Definitions	Add/Edit/Remove Report Definitions	c90af62a-38bf-4bae-ab3e-a50f6f202aef
+Manage Report Designs	Add/Edit/Remove Report Designs	2725001b-3ad7-47d1-b00f-13047c3a1867
+Manage Reports	Base privilege for add/edit/delete reporting definitions. This gives access to the administrative menus, but you need to grant additional privileges to manage each specific type of reporting definition	e6baddc1-f2e5-4a54-9985-112dba8fa5f1
 Manage RESTWS	Allows to configure RESTWS module	824aaa13-34c9-4bc0-b7cb-319dba56ea78
 Manage Roles	Able to add/edit/delete user roles	1820ab70-6437-11e4-badf-42010af0dc15
+Manage Scheduled Report Tasks	Manage Task Scheduling in Reporting Module	a97ad268-275f-415a-8f54-a7820dde4e94
 Manage Scheduler	Able to add/edit/remove scheduled tasks	1820abf0-6437-11e4-badf-42010af0dc15
+Manage Token Registrations	Allows to create/update/delete token registrations	b35a6c4c-26ff-443a-9f6b-64f244b42c3f
 Manage Visit Attribute Types	Able to add/edit/retire visit attribute types	afd9fb8c-5b30-4e26-8f5b-5a73e8182717
 Manage Visit Types	Able to add/edit/delete visit types	921cfe05-8380-4afa-a417-e89b56a705e3
 Metadata Mapping	Allows the user to prepare concepts for publishing/subscribing	68a1aa80-4327-4f51-bcdf-dc8b943d4aea
@@ -105,6 +114,7 @@ Patient Dashboard - View Visits Section	Able to view the 'Visits' tab on the pat
 Purge Field Types	Able to purge field types	1820b0d1-6437-11e4-badf-42010af0dc15
 Remove Allergies	Remove allergies	7de98889-497a-4be4-aa7d-a4d37a75f75d
 Remove Problems	Remove problems	84dcee61-0291-4417-8851-ee54d8d2e20f
+Run Reports	Schedule the running of a report	41c42b16-454b-418d-81e9-68fc31eb7403
 Share Metadata	Allows user to export and import metadata	aacbee00-318c-4baf-b16c-34ba9b4960de
 Update HL7 Inbound Archive	Able to update an HL7 archive item	e692c124-a78a-4a58-ae8a-b3cc61d46a1b
 Update HL7 Inbound Exception	Able to update an HL7 archive item	c6737e57-d9dc-4396-932c-6b173eb49a62
@@ -113,6 +123,7 @@ Update HL7 Source	Able to update an HL7 Source	3d270cf7-8a19-4cac-a418-259038b61
 Upload XSN	Allows user to upload/overwrite the XSNs defined for forms	1820b15e-6437-11e4-badf-42010af0dc15
 View Administration Functions	Able to view the 'Administration' link in the navigation bar	1820b1dc-6437-11e4-badf-42010af0dc15
 View Allergies	Able to view allergies in OpenMRS	1820b261-6437-11e4-badf-42010af0dc15
+View Calculations	Allows to view Calculations	caa722c5-bb7e-4013-9bab-90119ec28fdc
 View Concept Classes	Able to view concept classes	1820b4b5-6437-11e4-badf-42010af0dc15
 View Concept Datatypes	Able to view concept datatypes	1820b553-6437-11e4-badf-42010af0dc15
 View Concept Map Types	Able to view concept map types	fdc04b12-0f5c-4a34-a755-c463e6f7e934
@@ -155,6 +166,7 @@ View Report Objects	Able to view report objects	1820cdcc-6437-11e4-badf-42010af0
 View Reports	Able to view reports	1820ce50-6437-11e4-badf-42010af0dc15
 View RESTWS	Gives access to RESTWS in administration	46cd8130-0d87-499d-9463-17ac0205124c
 View Roles	Able to view user roles	1820ced3-6437-11e4-badf-42010af0dc15
+View Token Registrations	Allows to view token registrations	8a5e04a6-7123-4127-b69e-9599dcc9f0b0
 View Unpublished Forms	Able to view and fill out unpublished forms	1820cf57-6437-11e4-badf-42010af0dc15
 View Users	Able to view users in OpenMRS	1820cfe0-6437-11e4-badf-42010af0dc15
 View Visit Attribute Types	Able to view visit attribute types	e8ff7c17-5dd4-4bdb-a653-189074f990e7

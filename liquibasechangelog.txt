@@ -912,6 +912,7 @@
 20111222-1659	djazayeri	liquibase-update-to-latest.xml	2014-11-04 15:28:54	10512	EXECUTED	3:990b494647720b680efeefbab2c502de	Create Table, Create Index	Create clob_datatype_storage table	\N	2.0.5
 201118012301	lkellett	liquibase-update-to-latest.xml	2014-11-04 15:28:47	10414	MARK_RAN	3:0d96c10c52335339b1003e6dd933ccc2	Add Column	Adding the discontinued_reason_non_coded column to orders.	\N	2.0.5
 201202020847	abbas	liquibase-update-to-latest.xml	2014-11-04 15:28:54	10511	EXECUTED	3:35bf2f2481ee34975e57f08d933583be	Modify data type, Add Not-Null Constraint	Change merged_data column type to CLOB in person_merge_log table	\N	2.0.5
+20120316-1300	mseaton	liquibase.xml	2015-01-12 13:02:45	10623	EXECUTED	3:0cbaf0a89ef629563c90deccbd82429f	Create Table	Adding calculation_registration table	\N	2.0.5
 20120330-0954	jkeiper	liquibase-update-to-latest.xml	2014-11-04 15:28:54	10516	EXECUTED	3:9c6084b4407395205fa39b34630d3522	Modify data type	Increase size of drug name column to 255 characters	\N	2.0.5
 20120503-djmod	dkayiwa and djazayeri	liquibase-update-to-latest.xml	2014-11-04 15:28:55	10519	EXECUTED	3:d31ac18d3a40e45c0ebb399c5d116951	Create Table, Add Foreign Key Constraint (x2)	Create test_order table	\N	2.0.5
 20120613-0930	wyclif	liquibase-update-to-latest.xml	2014-11-04 15:28:54	10517	EXECUTED	3:fe6387773a70b574b106b37686a8e8d3	Drop Not-Null Constraint	Dropping not null constraint from provider.identifier column	\N	2.0.5
@@ -1021,6 +1022,28 @@ insert-demo-providers	dkayiwa	liquibase-demo-data.xml	2014-11-04 15:27:11	10086	
 insert-demo-visit-types	dkayiwa	liquibase-demo-data.xml	2014-11-04 15:27:11	10084	EXECUTED	3:db820e7e96a50931b303507ba0c0b764	Insert Row (x2)		\N	2.0.5
 metadatamapping-2011-10-04-a	bwolfe	liquibase.xml	2014-11-18 15:57:52	10621	EXECUTED	3:35034abcb1ed993cde7f33847ce0ce4c	Update Data	Move MDS property addLocalMappings to metadatamapping	\N	2.0.5
 metadatamapping-2011-10-04-b	bwolfe	liquibase.xml	2014-11-18 15:57:52	10622	EXECUTED	3:991431e585885ebeeaef03c760b5f6f8	Update Data	Move MDS property localConceptSourceUuid to metadatamapping	\N	2.0.5
+reporting_id_set_cleanup	mseaton	liquibase.xml	2015-01-12 13:03:10	10640	MARK_RAN	3:01cd3b88ed5e29b64b55d614d419cd2b	Drop Table	Removing reporting_idset table that is no longer used	\N	2.0.5
+reporting_migration_1	mseaton	liquibase.xml	2015-01-12 13:03:10	10638	EXECUTED	3:f6ea0df533cc324ea0d6275d72980c78	Custom SQL (x2)	Remove OpenMRS scheduled tasks produced by the reporting module	\N	2.0.5
+reporting_migration_2	mseaton	liquibase.xml	2015-01-12 13:03:10	10639	EXECUTED	3:4fb91f1875cf874314393aa47c71ca83	Custom SQL	Rename the default web renderer	\N	2.0.5
+reporting_report_design_1	mseaton	liquibase.xml	2015-01-12 13:03:03	10624	EXECUTED	3:482e8981e0dce9476eaf481167719579	Create Table, Add Foreign Key Constraint (x4)	Create table to persist report design specifications	\N	2.0.5
+reporting_report_design_2	mseaton	liquibase.xml	2015-01-12 13:03:04	10625	EXECUTED	3:027dbe5aeecbd08ecb7b5986a25307de	Add Column, Custom SQL		\N	2.0.5
+reporting_report_design_3	mseaton	liquibase.xml	2015-01-12 13:03:04	10626	EXECUTED	3:8cac36c2cf24b842b8add2a5cfbb0df1	Custom SQL		\N	2.0.5
+reporting_report_design_4	mseaton	liquibase.xml	2015-01-12 13:03:04	10627	EXECUTED	3:bddba97d81d6daa7fd6fbb478897fd84	Drop Foreign Key Constraint		\N	2.0.5
+reporting_report_design_5	mseaton	liquibase.xml	2015-01-12 13:03:10	10628	EXECUTED	3:e7dbeb93443f14c60ed2e7cd6aa1e94f	Create Index		\N	2.0.5
+reporting_report_design_6	mseaton	liquibase.xml	2015-01-12 13:03:10	10629	EXECUTED	3:e37eef4a9c8063b4abdb8481dd8fe5f8	Drop Column	Step 4 in changing reporting_report_design to reference report definition\
+\	\	\	by uuid rather than id, in order to not tie it directly to the serialized object table\
+\	\	\	Drop report_definition_id column	\N	2.0.5
+reporting_report_design_resource_1	mseaton	liquibase.xml	2015-01-12 13:03:10	10630	EXECUTED	3:9b1f111c165c213fa2cecc37d87ed843	Create Table, Add Foreign Key Constraint (x4)	Create table to persist report design resources	\N	2.0.5
+reporting_report_processor_1	mseaton	liquibase.xml	2015-01-12 13:03:10	10634	EXECUTED	3:bc9b147af791381ff5a98a7786f7d638	Create Table, Add Foreign Key Constraint (x3)	Create tables to persist report processors	\N	2.0.5
+reporting_report_processor_2	mseaton	liquibase.xml	2015-01-12 13:03:10	10635	MARK_RAN	3:9060cd2b9fc7c9a24155302d97123fc8	Drop Table	Drop the reporting_report_request_processor table (creation of this table was done\
+\	\	\	in the old sqldiff and not ported over to liquibase, as it is not needed.  this\
+\	\	\	changeset serves only to clean it up and delete it if is still exists	\N	2.0.5
+reporting_report_processor_3	mseaton	liquibase.xml	2015-01-12 13:03:10	10636	EXECUTED	3:2a2278e80933adb538d8c308eb812337	Add Column, Add Foreign Key Constraint	Update reporting_report_processor table to have report_design_id column	\N	2.0.5
+reporting_report_processor_4	mseaton	liquibase.xml	2015-01-12 13:03:10	10637	EXECUTED	3:3073b9e397f194eb5f16906f36e9c474	Add Column, Custom SQL	Update reporting_report_processor table to have processor_mode column\
+\	\	\	and set the value to automatic for all processors that were previously created	\N	2.0.5
+reporting_report_request_1	mseaton	liquibase.xml	2015-01-12 13:03:10	10631	EXECUTED	3:4d336ce27e1366ee39ea2b0c069e4491	Create Table, Add Foreign Key Constraint	Create tables to persist a report request and save reports	\N	2.0.5
+reporting_report_request_2	mseaton	liquibase.xml	2015-01-12 13:03:10	10632	EXECUTED	3:90834d1a3dc8b3c1f4109579c9a5b954	Add Column	Add a schedule property to ReportRequest	\N	2.0.5
+reporting_report_request_3	mseaton	liquibase.xml	2015-01-12 13:03:10	10633	EXECUTED	3:8e88f53150534221e9c32cd0e2c94706	Add Column	Add processAutomatically boolean to ReportRequest	\N	2.0.5
 xforms-20141107-09:00-XFRM-186	jonskeet	liquibase.xml	2014-11-17 12:22:48	10614	MARK_RAN	3:d3d983ea27d9c0b928148174086e6118	Create Table	Creating new xforms table with proper name and extra columns.	\N	2.0.5
 xforms-20141107-09:01-XFRM-186	jonskeet	liquibase.xml	2014-11-17 12:22:48	10615	MARK_RAN	3:b69bfe481d789b62802ddd9543687cec	Create Table, Create Index (x2)	Adding table for storing repeat attribute values.	\N	2.0.5
 xforms-20141107-09:02-XFRM-186	jonskeet	liquibase.xml	2014-11-17 12:22:48	10616	MARK_RAN	3:9ee531d3bb079804fd12c4bc4b7c87f8	Create Table	Adding table for storing patient medical history.	\N	2.0.5

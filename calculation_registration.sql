@@ -14,31 +14,23 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `notification_alert`
+-- Table structure for table `calculation_registration`
 --
 
-DROP TABLE IF EXISTS `notification_alert`;
+DROP TABLE IF EXISTS `calculation_registration`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `notification_alert` (
-  `alert_id` int(11) NOT NULL AUTO_INCREMENT,
-  `text` varchar(512) NOT NULL,
-  `satisfied_by_any` tinyint(1) NOT NULL DEFAULT '0',
-  `alert_read` tinyint(1) NOT NULL DEFAULT '0',
-  `date_to_expire` datetime DEFAULT NULL,
-  `creator` int(11) NOT NULL,
-  `date_created` datetime NOT NULL,
-  `changed_by` int(11) DEFAULT NULL,
-  `date_changed` datetime DEFAULT NULL,
-  `uuid` char(38) DEFAULT NULL,
-  PRIMARY KEY (`alert_id`),
-  UNIQUE KEY `notification_alert_uuid_index` (`uuid`),
-  KEY `alert_date_to_expire_idx` (`date_to_expire`),
-  KEY `user_who_changed_alert` (`changed_by`),
-  KEY `alert_creator` (`creator`),
-  CONSTRAINT `alert_creator` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
-  CONSTRAINT `user_who_changed_alert` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+CREATE TABLE `calculation_registration` (
+  `calculation_registration_id` int(11) NOT NULL AUTO_INCREMENT,
+  `token` varchar(255) NOT NULL,
+  `provider_class_name` varchar(512) NOT NULL,
+  `calculation_name` varchar(512) NOT NULL,
+  `configuration` text,
+  `uuid` char(38) NOT NULL,
+  PRIMARY KEY (`calculation_registration_id`),
+  UNIQUE KEY `uuid` (`uuid`),
+  UNIQUE KEY `token` (`token`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

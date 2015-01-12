@@ -14,18 +14,22 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `provider`
+-- Table structure for table `reporting_report_design_resource`
 --
 
-DROP TABLE IF EXISTS `provider`;
+DROP TABLE IF EXISTS `reporting_report_design_resource`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `provider` (
-  `provider_id` int(11) NOT NULL AUTO_INCREMENT,
-  `person_id` int(11) DEFAULT NULL,
-  `name` varchar(255) DEFAULT NULL,
-  `identifier` varchar(255) DEFAULT NULL,
-  `creator` int(11) NOT NULL,
+CREATE TABLE `reporting_report_design_resource` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uuid` char(38) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `description` varchar(1000) DEFAULT NULL,
+  `report_design_id` int(11) NOT NULL DEFAULT '0',
+  `content_type` varchar(50) DEFAULT NULL,
+  `extension` varchar(20) DEFAULT NULL,
+  `contents` longblob,
+  `creator` int(11) NOT NULL DEFAULT '0',
   `date_created` datetime NOT NULL,
   `changed_by` int(11) DEFAULT NULL,
   `date_changed` datetime DEFAULT NULL,
@@ -33,18 +37,17 @@ CREATE TABLE `provider` (
   `retired_by` int(11) DEFAULT NULL,
   `date_retired` datetime DEFAULT NULL,
   `retire_reason` varchar(255) DEFAULT NULL,
-  `uuid` char(38) NOT NULL,
-  PRIMARY KEY (`provider_id`),
+  PRIMARY KEY (`id`),
   UNIQUE KEY `uuid` (`uuid`),
-  KEY `provider_changed_by_fk` (`changed_by`),
-  KEY `provider_person_id_fk` (`person_id`),
-  KEY `provider_retired_by_fk` (`retired_by`),
-  KEY `provider_creator_fk` (`creator`),
-  CONSTRAINT `provider_changed_by_fk` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`),
-  CONSTRAINT `provider_creator_fk` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
-  CONSTRAINT `provider_person_id_fk` FOREIGN KEY (`person_id`) REFERENCES `person` (`person_id`),
-  CONSTRAINT `provider_retired_by_fk` FOREIGN KEY (`retired_by`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=125 DEFAULT CHARSET=utf8;
+  KEY `report_design_id for reporting_report_design_resource` (`report_design_id`),
+  KEY `creator for reporting_report_design_resource` (`creator`),
+  KEY `changed_by for reporting_report_design_resource` (`changed_by`),
+  KEY `retired_by for reporting_report_design_resource` (`retired_by`),
+  CONSTRAINT `retired_by for reporting_report_design_resource` FOREIGN KEY (`retired_by`) REFERENCES `users` (`user_id`),
+  CONSTRAINT `changed_by for reporting_report_design_resource` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`),
+  CONSTRAINT `creator for reporting_report_design_resource` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
+  CONSTRAINT `report_design_id for reporting_report_design_resource` FOREIGN KEY (`report_design_id`) REFERENCES `reporting_report_design` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
