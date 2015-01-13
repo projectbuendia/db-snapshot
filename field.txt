@@ -130,3 +130,9 @@
 130	Notes[invisible]		5	\N				0	4	2014-12-15 15:32:32	\N	\N	0	\N	\N	\N	c949db6b-0f51-42f4-a1ea-c50b8e728f3a
 131	Symptoms A[binary]	Signs and Symptoms	5	\N				0	4	2014-12-15 17:24:46	4	2014-12-15 20:22:35	0	\N	\N	\N	a0a1dd08-306f-414c-9f89-a9ec3803cb29
 132	Symptoms C[binary]	Respiratory Symptoms	5	\N				0	4	2014-12-15 17:25:34	\N	\N	0	\N	\N	\N	b8d0222d-66ed-42b7-873a-4943a3f6c027
+133	Special Group [binary]	Special Group	5	\N				0	4	2015-01-13 12:36:02	\N	\N	0	\N	\N	\N	e2ca9d4e-2173-41bb-bec7-9ccd695c614d
+134	L gene CT value	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	1	162729				0	4	2015-01-13 12:36:24	\N	\N	0	\N	\N	\N	d8911815-10d3-4ba1-9158-bda73c1d616a
+135	Test results	Test results	5	\N				0	4	2015-01-13 12:36:38	\N	\N	0	\N	\N	\N	364c96e0-b4f2-4c64-848c-562264d6a3e6
+136	Ebola Np gene PCR CT value	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	1	162730				0	4	2015-01-13 12:36:45	\N	\N	0	\N	\N	\N	108a2205-3ccd-485d-813a-13e205ecad05
+137	Ebola Np gene PCR CT value	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	1	162730				0	4	2015-01-13 12:41:07	\N	\N	0	\N	\N	\N	4b3819a2-9db7-4367-8879-160d506c6db6
+138	L gene CT value	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	1	162729				0	4	2015-01-13 12:41:16	\N	\N	0	\N	\N	\N	9647ae5e-e96b-4bab-ba0a-6207ff8b10b0
