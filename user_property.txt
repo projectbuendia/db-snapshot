@@ -1,6 +1,5 @@
 1	defaultLocation	
-1	lockoutTimestamp	1421785082991
-1	loginAttempts	7
+1	loginAttempts	3
 1	notification	
 1	notificationAddress	
 1	showRetired	false
