@@ -15140,3 +15140,6 @@ REF: http://en.wikipedia.org/wiki/Favipiravir	en	1	2014-10-27 18:25:12	1	2014-10
 17400	162728	An observation that a patient is believed to be dead by someone who is not qualified to certify/confirm the patient is dead	en	4	2015-01-13 10:25:18	\N	\N	7157cfa8-01f3-4b67-8f65-aa50825bf64a
 17401	162729	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	en	4	2015-01-13 12:32:50	\N	\N	82a38840-94ee-4350-8444-ac415ccd3f85
 17402	162730	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	en	4	2015-01-13 12:34:08	\N	\N	23b8f7e8-017e-4281-a80f-b6f2eea36c00
+17403	162731	The count of the number of times where the patient vomited in the last 24 hours.	en	4	2015-01-22 11:18:57	\N	\N	136c9fce-fdef-46ae-a5be-8213801fa1c1
+17404	162732	The count of the number of times the patient has had diarrhea in the past 24 hours.	en	4	2015-01-22 11:22:38	\N	\N	f5f45b88-ae3c-4d14-8694-00cec742eddf
+17405	162733	This is not hyphema or subconjunctival haemorrhage, it is actually bleeding out of the eyes. This is a rare symptom that occurs occasionally in Haemorrhagic fevers like Ebola.	en	4	2015-01-22 15:05:35	\N	\N	4a4bf467-eb17-49c6-9f92-03fd3b43a792
