@@ -69,7 +69,6 @@
 69	LOCATION.ASSIGNED_BED	\N	2	\N	person_attribute	assigned_bed	${patient.attributeMap.assigned_bed}	0	1	2014-11-18 13:27:49	1	2014-11-18 13:31:54	0	\N	\N	\N	643cfa0a-9ab1-490c-a71b-af27fa8ccb3c
 70	Mobility	A category for how well the patient can walk	1	162693				0	1	2014-11-18 14:00:20	1	2014-11-18 14:54:59	0	\N	\N	\N	c34c4a4d-90fd-482f-acdc-6a6e804dad26
 71	Level of consciousness		1	162643				0	1	2014-11-18 14:16:27	\N	\N	0	\N	\N	\N	c66269a9-d9a0-45c0-96da-9a59695d4a6b
-72	Responsiveness	A measure of mental acuity in response to conversation	1	162698				0	1	2014-11-18 14:24:01	\N	\N	0	\N	\N	\N	11a8c590-81e6-4ea3-8f0e-a39be38697c9
 73	MSF Patient ID		2	\N	patient_identifier	identifier	$!{patient.getPatientIdentifier(1).getIdentifier()}	0	1	2014-11-18 15:07:14	\N	\N	0	\N	\N	\N	32d60a45-ae85-45a1-bfa7-5ba5becd9c4a
 74	ENCOUNTER	Encounter	5	\N				0	4	2014-11-18 23:17:42	4	2014-12-06 14:54:55	0	\N	\N	\N	d717845b-4831-4447-a8ec-cf038d244543
 75	OBS	Obs section of form	1	1238				0	4	2014-11-18 23:17:52	\N	\N	0	\N	\N	\N	e49127a4-4eb1-48a4-80b5-c76d9e6f19a7
@@ -107,7 +106,6 @@
 107	Bleeding from Mouth	Bleeding from the blood vessels of the mouth, which may occur as a result of injuries to the mouth, accidents in oral surgery, or diseases of the gums.	1	147234				0	4	2014-12-02 21:19:46	\N	\N	0	\N	\N	\N	d08f1fde-7e0e-4019-8d4a-5326b2ce96d4
 108	Bleeding Detail [binary]	Bleeding (Detail)	5	\N				0	4	2014-12-02 21:20:20	1	2014-12-03 14:21:42	0	\N	\N	\N	4e23eff5-c5c2-4ee1-83e0-24c665503771
 109	Haematemesis	Vomiting of blood.	1	139006				0	4	2014-12-02 21:30:03	\N	\N	0	\N	\N	\N	17c440ef-71da-4c03-a23a-bae5d8a1a683
-110	Responsiveness	A measure of mental acuity in response to conversation	1	162698				0	4	2014-12-02 22:36:20	\N	\N	0	\N	\N	\N	7eeaa390-a857-4354-8456-94a5a55cf7f4
 111	Symptoms B[invisible]	Symptoms the patient reports (second set)	5	\N				0	4	2014-12-03 09:40:36	1	2014-12-03 12:28:10	0	\N	\N	\N	fbfbe7bc-c422-4354-a49b-0218d93a5a7e
 112	Insert intravenous (IV) line		1	162623				0	4	2014-12-03 10:27:54	\N	\N	0	\N	\N	\N	2a5df87e-3bd1-4e6e-b051-b0bac3c34159
 113	Intravenous administration		1	160242				0	4	2014-12-03 10:28:39	\N	\N	0	\N	\N	\N	55e3d7e7-9e46-4ea6-9b0a-098f1fafece5

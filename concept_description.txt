@@ -15113,7 +15113,6 @@ REF: http://en.wikipedia.org/wiki/Favipiravir	en	1	2014-10-27 18:25:12	1	2014-10
 17373	162689	A geographical division	en	1	2014-11-04 01:04:39	1	2014-11-04 01:04:49	17373FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17374	162690	A geographic division	en	1	2014-11-04 01:06:20	1	2014-11-04 01:06:30	17374FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17375	162693	A category for how the patient can walk	en	1	2014-11-18 13:55:28	\N	\N	3705cc42-bccc-4243-88b3-cfb76d48d4a6
-17376	162698	A measure of mental acuity in response to conversation	en	1	2014-11-18 14:19:23	\N	\N	68dea616-a558-4de0-8fc2-0970fee996db
 17377	162700	The patient is only able to drink, not even take on liquid food.	en	4	2014-11-18 23:37:38	\N	\N	0897b218-5d7b-4549-bf6a-4c6601b4d1f3
 17378	162701	The patient cannot eat or drink anything	en	4	2014-11-18 23:39:24	\N	\N	f6e9c80f-2ea4-4a9c-bf5a-708f32f09039
 17379	162702	What the patient is able to eat or drink	en	4	2014-11-18 23:39:36	\N	\N	8d82f3b6-f786-47cd-b15b-8a6c95db5485
