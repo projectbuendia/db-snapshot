@@ -114,7 +114,7 @@
 116	Symptoms A[binary][invisible]	Symptoms the patient reports (first set)	5	\N				0	1	2014-12-03 11:57:28	1	2014-12-03 12:28:20	0	\N	\N	\N	e52e6827-7b3a-4925-b2f0-9b7f3ffaf758
 117	Pain assessment[invisible]	The pain assessment field	5	\N				0	1	2014-12-03 14:13:35	\N	\N	0	\N	\N	\N	14fc7877-b95f-44c1-9639-a32b4a8631a1
 118	Pain Assessment	A general assessment of the patient's pain level	1	162721				0	1	2014-12-03 14:20:27	\N	\N	0	\N	\N	\N	c08f08d3-d423-43ea-858f-86ff324a3454
-119	Bleeding Overall [binary]	Bleeding	5	\N				0	1	2014-12-03 14:22:35	\N	\N	0	\N	\N	\N	aa395417-5343-4c70-b951-19b72998ac2f
+119	Bleeding Overall	Bleeding	5	\N				0	1	2014-12-03 14:22:35	4	2015-01-23 16:51:11	0	\N	\N	\N	aa395417-5343-4c70-b951-19b72998ac2f
 120	Bleeding	Bleeding or escape of blood from a vessel.	1	147241				0	1	2014-12-03 14:31:06	\N	\N	0	\N	\N	\N	d316668f-7111-4d9e-a2cc-cfbc22d95479
 121	General Condition	Patient's general condition	1	162724				0	1	2014-12-03 15:08:38	\N	\N	0	\N	\N	\N	0ab02868-60b3-440d-9b35-fbe577f6048f
 122	Additional details [binary]	Additional Details	5	\N				0	1	2014-12-03 15:16:16	4	2015-01-22 15:51:32	0	\N	\N	\N	5bd3fdc6-f550-404e-8ce2-8f49d88b2eea

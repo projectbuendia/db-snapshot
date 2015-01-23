@@ -1,4 +1,4 @@
 5	New Patient	0.5	1	0	\N	\N	The initial patient form for the Buendia demo.	1	1	2014-11-18 11:11:22	4	2015-01-22 11:45:37	0	\N	\N	\N	c47d4d3d-f9a3-4f97-9623-d7acee81d401
-6	Clinical Observation	0.3.1	\N	0	\N	\N	\N	2	1	2014-11-18 11:11:47	4	2015-01-22 16:09:00	0	\N	\N	\N	736b90ee-fda6-4438-a6ed-71acd36381f3
-7	Chart display order	0.3.4	\N	0	\N	\N	\N	2	4	2014-11-25 13:48:18	4	2015-01-23 15:45:29	0	\N	\N	\N	ea43f213-66fb-4af6-8a49-70fd6b9ce5d4
-8	Chart top section	0.3.2	\N	0	\N	\N	\N	2	4	2014-12-02 22:30:57	4	2015-01-23 15:45:22	0	\N	\N	\N	975afbce-d4e3-4060-a25f-afcd0e5564ef
+6	Clinical Observation	0.3.2	\N	0	\N	\N	\N	2	1	2014-11-18 11:11:47	4	2015-01-23 17:23:34	0	\N	\N	\N	736b90ee-fda6-4438-a6ed-71acd36381f3
+7	Chart display order	0.3.6	\N	0	\N	\N	\N	2	4	2014-11-25 13:48:18	4	2015-01-23 19:07:35	0	\N	\N	\N	ea43f213-66fb-4af6-8a49-70fd6b9ce5d4
+8	Chart top section	0.3.3	\N	0	\N	\N	\N	2	4	2014-12-02 22:30:57	4	2015-01-23 17:23:40	0	\N	\N	\N	975afbce-d4e3-4060-a25f-afcd0e5564ef

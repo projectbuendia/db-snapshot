@@ -31,7 +31,7 @@ CREATE TABLE `hl7_in_archive` (
   PRIMARY KEY (`hl7_in_archive_id`),
   UNIQUE KEY `hl7_in_archive_uuid_index` (`uuid`),
   KEY `hl7_in_archive_message_state_idx` (`message_state`)
-) ENGINE=InnoDB AUTO_INCREMENT=483 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=500 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

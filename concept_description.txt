@@ -15135,10 +15135,11 @@ REF: http://en.wikipedia.org/wiki/Favipiravir	en	1	2014-10-27 18:25:12	1	2014-10
 17396	162725	The patient as an IV line (e.g. cannula) fitted.	en_GB_client	1	2014-12-03 15:58:32	\N	\N	773661b0-f982-40a5-a3cd-12876a288ca3
 17397	162725	The patient as an IV line (e.g. cannula) fitted.	en	1	2014-12-03 15:58:32	\N	\N	c44b9078-fbde-44ce-86d4-164858332e9c
 17398	162726	The patient is well-hydrated	en	1	2014-12-03 16:34:49	\N	\N	a4de8ddc-a50d-4d5e-81ae-e602aec3d995
-17399	162727	Patient requires fluid relief for dehydration.	en	1	2014-12-03 16:37:04	\N	\N	71a7baa5-c7d5-496d-831e-e59c08489778
 17400	162728	An observation that a patient is believed to be dead by someone who is not qualified to certify/confirm the patient is dead	en	4	2015-01-13 10:25:18	\N	\N	7157cfa8-01f3-4b67-8f65-aa50825bf64a
 17401	162729	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	en	4	2015-01-13 12:32:50	\N	\N	82a38840-94ee-4350-8444-ac415ccd3f85
 17402	162730	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	en	4	2015-01-13 12:34:08	\N	\N	23b8f7e8-017e-4281-a80f-b6f2eea36c00
 17403	162731	The count of the number of times where the patient vomited in the last 24 hours.	en	4	2015-01-22 11:18:57	\N	\N	136c9fce-fdef-46ae-a5be-8213801fa1c1
 17404	162732	The count of the number of times the patient has had diarrhea in the past 24 hours.	en	4	2015-01-22 11:22:38	\N	\N	f5f45b88-ae3c-4d14-8694-00cec742eddf
 17405	162733	This is not hyphema or subconjunctival haemorrhage, it is actually bleeding out of the eyes. This is a rare symptom that occurs occasionally in Haemorrhagic fevers like Ebola.	en	4	2015-01-22 15:05:35	\N	\N	4a4bf467-eb17-49c6-9f92-03fd3b43a792
+17406	162734	Answer for a question about how the patient is eating. Indicates they have no problems, and have nothing changing their eating habits (through loss of appetite or pain).	en	4	2015-01-23 16:56:39	\N	\N	6bba5f1e-3967-4158-be94-f0514f93ff3f
+17407	162735	Answer to a question about the patient's eating habits. Indicates the patient is not eating enough. Does not distinguish between loss of appetite, or pain or other physical problem preventing eating. However, some solid food is being consumed, just not enough.	en	4	2015-01-23 16:59:04	\N	\N	8b9dcf96-8c48-4625-8c9e-372da458ec17
