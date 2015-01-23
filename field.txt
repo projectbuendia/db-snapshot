@@ -145,3 +145,6 @@
 147	Melaena	Black, tarry feces containing digested blood.	1	134394				0	4	2015-01-22 14:15:04	\N	\N	0	\N	\N	\N	cf0fbee1-085d-42aa-82ea-bc2c830e54e4
 148	Bleeding from eyes	This is not hyphema or subconjunctival haemorrhage, it is actually bleeding out of the eyes. This is a rare symptom that occurs occasionally in Haemorrhagic fevers like Ebola.	1	162733				0	4	2015-01-22 15:06:19	\N	\N	0	\N	\N	\N	dea65760-0589-4690-8b6a-d8e429c52e3a
 149	Weakness section [invisible]	Weakness	5	\N				0	4	2015-01-22 15:45:35	4	2015-01-22 15:46:20	0	\N	\N	\N	0fe4067d-09e6-474e-90b3-16fc2c91ba1b
+150	General Condition	General condition of the patient	1	162724				0	4	2015-01-23 01:03:19	\N	\N	0	\N	\N	\N	391c5084-8d2b-4f30-8719-e59c7654de1a
+151	Level of consciousness	Best Conscious State (AVPU)	1	162643				0	4	2015-01-23 01:45:43	\N	\N	0	\N	\N	\N	d62c4fdc-4a3f-4e4f-8014-a059d772736f
+152	Mobility	A category for how well the patient can walk	1	162693				0	4	2015-01-23 01:46:27	\N	\N	0	\N	\N	\N	3c3eb627-58ae-42a8-9443-fd33b6266e43
