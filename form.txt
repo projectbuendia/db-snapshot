@@ -2,3 +2,4 @@
 6	Clinical Observation	0.3.3	\N	0	\N	\N	\N	2	1	2014-11-18 11:11:47	4	2015-01-24 00:09:58	0	\N	\N	\N	736b90ee-fda6-4438-a6ed-71acd36381f3
 7	Chart display order	0.3.6	\N	0	\N	\N	\N	2	4	2014-11-25 13:48:18	4	2015-01-23 19:07:35	0	\N	\N	\N	ea43f213-66fb-4af6-8a49-70fd6b9ce5d4
 8	Chart top section	0.3.3	\N	0	\N	\N	\N	2	4	2014-12-02 22:30:57	4	2015-01-23 17:23:40	0	\N	\N	\N	975afbce-d4e3-4060-a25f-afcd0e5564ef
+9	Test results	0.2.3	\N	0	\N	\N	\N	2	4	2015-01-13 12:35:08	4	2015-01-24 00:58:13	0	\N	\N	\N	34d727a6-e515-4f27-ae91-703ba2c164ae
