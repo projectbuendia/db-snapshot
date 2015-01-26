@@ -149,3 +149,7 @@
 151	Level of consciousness	Best Conscious State (AVPU)	1	162643				0	4	2015-01-23 01:45:43	\N	\N	0	\N	\N	\N	d62c4fdc-4a3f-4e4f-8014-a059d772736f
 152	Mobility	A category for how well the patient can walk	1	162693				0	4	2015-01-23 01:46:27	\N	\N	0	\N	\N	\N	3c3eb627-58ae-42a8-9443-fd33b6266e43
 153	Negative	Confirmed negative Ebola virus test	1	162684				0	4	2015-01-24 00:50:19	\N	\N	0	\N	\N	\N	a0e64d14-02a3-4755-971d-3c02d0cabf8d
+154	Negative	Negative PCR test result	1	162737				0	4	2015-01-26 18:38:27	\N	\N	0	\N	\N	\N	7881e788-9f6f-4398-966d-0b24c087c627
+155	Check Patient ID and Name	Check Patient ID and Name	5	\N				0	4	2015-01-26 20:13:07	\N	\N	0	\N	\N	\N	9f4cc026-33e8-4cf8-9733-c703b7d8770c
+156	Confirm Lab Test Results	Confirm Lab Test Results	1	162738				0	4	2015-01-26 20:13:39	\N	\N	0	\N	\N	\N	fb2d7ac3-4f8a-4bde-a66b-bbd18a796a66
+157	I have checked the Patient ID and Name and confirm this lab test result.	I have checked the Patient ID and Name and confirm this lab test result.	1	162739				0	4	2015-01-26 21:11:31	\N	\N	0	\N	\N	\N	6bd03579-9ca4-4636-903d-f3746e3e4b59

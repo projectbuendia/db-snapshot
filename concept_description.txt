@@ -15145,3 +15145,5 @@ REF: http://en.wikipedia.org/wiki/Favipiravir	en	1	2014-10-27 18:25:12	1	2014-10
 17407	162735	Answer to a question about the patient's eating habits. Indicates the patient is not eating enough. Does not distinguish between loss of appetite, or pain or other physical problem preventing eating. However, some solid food is being consumed, just not enough.	en	4	2015-01-23 16:59:04	\N	\N	8b9dcf96-8c48-4625-8c9e-372da458ec17
 17408	162736	A patient status where they are so sick they are only receiving palliative care	en	4	2015-01-23 23:49:58	\N	\N	de73507c-df0d-47a5-8005-2a13d4373571
 17409	162723	Vital signs are unstable and not within normal limits. Patient may be unconscious. Indicators are unfavorable.	en	4	2015-01-23 23:57:43	\N	\N	7b575a83-43f4-4997-b052-96336d8f94fb
+17410	162738	Indicates that lab test results have been confirmed	en	4	2015-01-26 20:10:13	\N	\N	2f5f9d05-a7eb-434e-81b8-44435e6dd56b
+17411	162739	Confirms PCR lab test results	en	4	2015-01-26 20:10:35	\N	\N	328dcdee-fd24-4634-b6d2-cf5aa7746c28
