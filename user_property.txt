@@ -1,5 +1,5 @@
 1	defaultLocation	
-1	loginAttempts	4
+1	loginAttempts	2
 1	notification	
 1	notificationAddress	
 1	showRetired	false
