@@ -34,7 +34,7 @@ CREATE TABLE `concept_word` (
   KEY `concept_word_weight_index` (`weight`),
   CONSTRAINT `word_for` FOREIGN KEY (`concept_id`) REFERENCES `concept` (`concept_id`),
   CONSTRAINT `word_for_name` FOREIGN KEY (`concept_name_id`) REFERENCES `concept_name` (`concept_name_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1194705 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1194787 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
