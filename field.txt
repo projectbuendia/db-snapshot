@@ -154,3 +154,4 @@
 156	Confirm Lab Test Results	Confirm Lab Test Results	1	162738				0	4	2015-01-26 20:13:39	\N	\N	0	\N	\N	\N	fb2d7ac3-4f8a-4bde-a66b-bbd18a796a66
 157	I have checked the Patient ID and Name and confirm this lab test result.	I have checked the Patient ID and Name and confirm this lab test result.	1	162739				0	4	2015-01-26 21:11:31	\N	\N	0	\N	\N	\N	6bd03579-9ca4-4636-903d-f3746e3e4b59
 158	SIGN/SYMPTOM START DATE	The date when the sign or symptom started.	1	1730				0	4	2015-01-27 14:24:19	\N	\N	0	\N	\N	\N	f45c74b6-c74c-4f55-9efb-a9248d657732
+159	General condition section [invisible]	General condition section	5	\N				0	4	2015-02-06 13:40:38	4	2015-02-06 13:42:25	0	\N	\N	\N	dc785e33-baa3-4a53-bd11-bd44f4d52a91
