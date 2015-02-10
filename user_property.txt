@@ -4,10 +4,3 @@
 1	notificationAddress	
 1	showRetired	false
 1	showVerbose	false
-4	defaultLocale	en_US
-4	defaultLocation	
-4	loginAttempts	0
-4	notification	
-4	notificationAddress	
-4	showRetired	false
-4	showVerbose	false

@@ -1,23 +1,23 @@
 1	SELF PAY	Patient pays for their own evaluation and related treatment.  Used as an answer for "pay category".	1	5269		\N		0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c9711d-6437-11e4-badf-42010af0dc15
 2	PATIENT	Patient section of form	5	\N				0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c973c4-6437-11e4-badf-42010af0dc15
-3	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	1	2006-07-18 00:00:00	4	2014-11-19 14:29:34	0	\N	\N	\N	17c974b5-6437-11e4-badf-42010af0dc15
+3	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	1	2006-07-18 00:00:00	3	2014-11-19 14:29:34	0	\N	\N	\N	17c974b5-6437-11e4-badf-42010af0dc15
 4	MEDICAL RECORD OBSERVATIONS	General description for clinical observations entered into the system.	1	1238		\N		0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c9757d-6437-11e4-badf-42010af0dc15
 5	OBS	Obs section of form	1	1238				0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c9764b-6437-11e4-badf-42010af0dc15
-6	PATIENT.BIRTHDATE	Date of birth	2	\N	patient	birthdate	$!{date.format($patient.getBirthdate())}	0	1	2006-07-18 00:00:00	4	2014-11-19 15:02:05	0	\N	\N	\N	17c97711-6437-11e4-badf-42010af0dc15
+6	PATIENT.BIRTHDATE	Date of birth	2	\N	patient	birthdate	$!{date.format($patient.getBirthdate())}	0	1	2006-07-18 00:00:00	3	2014-11-19 15:02:05	0	\N	\N	\N	17c97711-6437-11e4-badf-42010af0dc15
 7	PATIENT.BIRTHDATE_ESTIMATED		2	\N	patient	birthdate_estimated	$!{patient.getBirthDateEstimated()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c977e3-6437-11e4-badf-42010af0dc15
-8	PATIENT.FAMILY_NAME	Family name	2	\N	patient_name	family_name	$!{patient.getFamilyName()}	0	1	2006-07-18 00:00:00	4	2014-11-19 15:01:18	0	\N	\N	\N	17c978c9-6437-11e4-badf-42010af0dc15
-9	PATIENT.GIVEN_NAME	Given name	2	\N	patient_name	given_name	$!{patient.getGivenName()}	0	1	2006-07-18 00:00:00	4	2014-11-19 15:01:38	0	\N	\N	\N	17c9799f-6437-11e4-badf-42010af0dc15
+8	PATIENT.FAMILY_NAME	Family name	2	\N	patient_name	family_name	$!{patient.getFamilyName()}	0	1	2006-07-18 00:00:00	3	2014-11-19 15:01:18	0	\N	\N	\N	17c978c9-6437-11e4-badf-42010af0dc15
+9	PATIENT.GIVEN_NAME	Given name	2	\N	patient_name	given_name	$!{patient.getGivenName()}	0	1	2006-07-18 00:00:00	3	2014-11-19 15:01:38	0	\N	\N	\N	17c9799f-6437-11e4-badf-42010af0dc15
 10	PATIENT.MIDDLE_NAME		2	\N	patient_name	middle_name	$!{patient.getMiddleName()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97a63-6437-11e4-badf-42010af0dc15
 11	PATIENT.MEDICAL_RECORD_NUMBER		2	\N	patient_identifier	identifier	$!{patient.getPatientIdentifier(1).getIdentifier()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97b79-6437-11e4-badf-42010af0dc15
 12	PATIENT.PATIENT_ID		2	\N	patient	patient_id	$!{patient.getPatientId()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97c3a-6437-11e4-badf-42010af0dc15
-13	PATIENT.SEX	Gender	2	\N	patient	gender	$!{patient.getGender()}	0	1	2006-07-18 00:00:00	4	2014-11-19 15:02:58	0	\N	\N	\N	17c97cf6-6437-11e4-badf-42010af0dc15
+13	PATIENT.SEX	Gender	2	\N	patient	gender	$!{patient.getGender()}	0	1	2006-07-18 00:00:00	3	2014-11-19 15:02:58	0	\N	\N	\N	17c97cf6-6437-11e4-badf-42010af0dc15
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	ENCOUNTER.ENCOUNTER_DATETIME	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	4	2014-11-19 15:04:11	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	ENCOUNTER.LOCATION_ID	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	4	2014-11-19 15:04:34	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	ENCOUNTER.PROVIDER_ID	Clinician	2	\N	encounter	provider_id	\N	0	1	2006-07-18 00:00:00	4	2014-11-19 15:05:39	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
-20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	4	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
+17	ENCOUNTER.ENCOUNTER_DATETIME	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2014-11-19 15:04:11	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	ENCOUNTER.LOCATION_ID	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2014-11-19 15:04:34	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	ENCOUNTER.PROVIDER_ID	Clinician	2	\N	encounter	provider_id	\N	0	1	2006-07-18 00:00:00	3	2014-11-19 15:05:39	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
 23	PROBLEM RESOLVED	Diagnosis or problem noted on a patient encounter as being resolved.	1	6097				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c98479-6437-11e4-badf-42010af0dc15
@@ -70,23 +70,21 @@
 70	Mobility	A category for how well the patient can walk	1	162693				0	1	2014-11-18 14:00:20	1	2014-11-18 14:54:59	0	\N	\N	\N	c34c4a4d-90fd-482f-acdc-6a6e804dad26
 71	Level of consciousness		1	162643				0	1	2014-11-18 14:16:27	\N	\N	0	\N	\N	\N	c66269a9-d9a0-45c0-96da-9a59695d4a6b
 73	MSF Patient ID		2	\N	patient_identifier	identifier	$!{patient.getPatientIdentifier(1).getIdentifier()}	0	1	2014-11-18 15:07:14	\N	\N	0	\N	\N	\N	32d60a45-ae85-45a1-bfa7-5ba5becd9c4a
-74	ENCOUNTER	Encounter	5	\N				0	4	2014-11-18 23:17:42	4	2014-12-06 14:54:55	0	\N	\N	\N	d717845b-4831-4447-a8ec-cf038d244543
-75	OBS	Obs section of form	1	1238				0	4	2014-11-18 23:17:52	\N	\N	0	\N	\N	\N	e49127a4-4eb1-48a4-80b5-c76d9e6f19a7
-76	Food / Drink	What the patient is able to eat or drink	1	162702				0	4	2014-11-18 23:40:25	\N	\N	0	\N	\N	\N	74a3b7a6-c10d-4ed1-b82b-2d81b90b30dd
-77	Occult Blood in Stools	Black, tarry feces containing digested blood.	1	132494				0	4	2014-11-18 23:51:38	\N	\N	0	\N	\N	\N	df912180-c052-4d22-8a32-344aba41bf5b
-78	Dehydration finding		1	1497				0	4	2014-11-18 23:54:47	\N	\N	0	\N	\N	\N	7caf37c4-74a6-48d0-b2d4-978ae980f1ea
-79	Pulse type	Not describing the speed of the patients pulse, but other characteristics.	1	162705				0	4	2014-11-19 00:06:21	\N	\N	0	\N	\N	\N	bd2fa165-8141-4425-b1f4-de5d95140f91
-80	Vitals	Vital signs	5	\N				0	4	2014-11-19 08:20:25	4	2014-11-19 08:30:09	0	\N	\N	\N	88a97196-e82c-4cd5-82c1-e4999bfef05d
-81	General health	General health status of the patient	5	\N				0	4	2014-11-19 08:20:41	4	2014-11-19 08:29:54	0	\N	\N	\N	b04ca32e-67d5-4143-965f-9f8151573169
-82	Symptoms	Symptoms the patient reports	5	\N				0	4	2014-11-19 08:20:54	4	2014-11-19 08:30:24	0	\N	\N	\N	18b26e73-8575-4146-ba0d-8290c8766b70
-83	PATIENT	Patient details	5	\N				0	4	2014-11-19 14:29:57	\N	\N	0	\N	\N	\N	455d3234-2cf6-4cc9-a35c-0f15dd75cb49
-84	General Health	General Health	5	\N				0	4	2014-11-19 14:31:20	\N	\N	0	\N	\N	\N	25170c75-dde4-4f6e-b7a1-2a17d3f073f8
-85	General health	Overall Assessment	5	\N				0	4	2014-11-20 18:30:55	4	2015-01-22 15:49:52	0	\N	\N	\N	11247901-6508-48ee-81ba-15da06fe90be
-86	Vitals	Vital signs	5	\N				0	4	2014-11-20 18:32:05	4	2014-12-05 11:59:59	0	\N	\N	\N	d0276592-d139-497f-84be-5859cc7bb517
-87	Symptoms C[binary][invisible]	Symptoms the patient reports (third set)	5	\N				0	4	2014-11-20 18:33:11	1	2014-12-03 12:27:59	0	\N	\N	\N	e6975656-6078-402d-80d3-c2919d080954
-88	General health	General health status of the patient	1	162718				0	4	2014-11-25 13:52:43	\N	\N	0	\N	\N	\N	ad0da4f4-eb03-4261-95a1-901ac6f6ff4b
-89	Vitals	Vital signs	1	162719				0	4	2014-11-25 13:53:15	\N	\N	0	\N	\N	\N	a73ea634-7543-45be-8916-727b6801028b
-90	Symptoms	Symptoms the patient reports	1	162720				0	4	2014-11-25 13:53:35	\N	\N	0	\N	\N	\N	a632b788-0664-4251-88c5-ac00a6f5ea85
+74	ENCOUNTER	Encounter	5	\N				0	3	2014-11-18 23:17:42	3	2014-12-06 14:54:55	0	\N	\N	\N	d717845b-4831-4447-a8ec-cf038d244543
+75	OBS	Obs section of form	1	1238				0	3	2014-11-18 23:17:52	\N	\N	0	\N	\N	\N	e49127a4-4eb1-48a4-80b5-c76d9e6f19a7
+76	Food / Drink	What the patient is able to eat or drink	1	162702				0	3	2014-11-18 23:40:25	\N	\N	0	\N	\N	\N	74a3b7a6-c10d-4ed1-b82b-2d81b90b30dd
+77	Occult Blood in Stools	Black, tarry feces containing digested blood.	1	132494				0	3	2014-11-18 23:51:38	\N	\N	0	\N	\N	\N	df912180-c052-4d22-8a32-344aba41bf5b
+78	Dehydration finding		1	1497				0	3	2014-11-18 23:54:47	\N	\N	0	\N	\N	\N	7caf37c4-74a6-48d0-b2d4-978ae980f1ea
+80	Vitals	Vital signs	5	\N				0	3	2014-11-19 08:20:25	3	2014-11-19 08:30:09	0	\N	\N	\N	88a97196-e82c-4cd5-82c1-e4999bfef05d
+81	General health	General health status of the patient	5	\N				0	3	2014-11-19 08:20:41	3	2014-11-19 08:29:54	0	\N	\N	\N	b04ca32e-67d5-4143-965f-9f8151573169
+82	Symptoms	Symptoms the patient reports	5	\N				0	3	2014-11-19 08:20:54	3	2014-11-19 08:30:24	0	\N	\N	\N	18b26e73-8575-4146-ba0d-8290c8766b70
+83	PATIENT	Patient details	5	\N				0	3	2014-11-19 14:29:57	\N	\N	0	\N	\N	\N	455d3234-2cf6-4cc9-a35c-0f15dd75cb49
+84	General Health	General Health	5	\N				0	3	2014-11-19 14:31:20	\N	\N	0	\N	\N	\N	25170c75-dde4-4f6e-b7a1-2a17d3f073f8
+85	General health	Overall Assessment	5	\N				0	3	2014-11-20 18:30:55	3	2015-01-22 15:49:52	0	\N	\N	\N	11247901-6508-48ee-81ba-15da06fe90be
+86	Vitals	Vital signs	5	\N				0	3	2014-11-20 18:32:05	3	2014-12-05 11:59:59	0	\N	\N	\N	d0276592-d139-497f-84be-5859cc7bb517
+87	Symptoms C[binary][invisible]	Symptoms the patient reports (third set)	5	\N				0	3	2014-11-20 18:33:11	1	2014-12-03 12:27:59	0	\N	\N	\N	e6975656-6078-402d-80d3-c2919d080954
+89	Vitals	Vital signs	1	162719				0	3	2014-11-25 13:53:15	\N	\N	0	\N	\N	\N	a73ea634-7543-45be-8916-727b6801028b
+90	Symptoms	Symptoms the patient reports	1	162720				0	3	2014-11-25 13:53:35	\N	\N	0	\N	\N	\N	a632b788-0664-4251-88c5-ac00a6f5ea85
 91	WEAKNESS	The condition or quality of being weak.	1	5226				0	1	2014-12-02 14:14:07	\N	\N	0	\N	\N	\N	6900c3c7-84bf-4e40-9d1e-2c2a3a3a9b4c
 92	Chest pain		1	120749				0	1	2014-12-02 14:30:16	\N	\N	0	\N	\N	\N	ab86efc9-3700-49b1-bf46-97bac595c79b
 93	Abdominal pain	Pain in the abdomen, unspecified cause.	1	151				0	1	2014-12-02 14:31:15	\N	\N	0	\N	\N	\N	b3722113-d035-4481-82cf-f222f7d272e0
@@ -95,64 +93,65 @@
 96	Obsolete		5	\N				0	1	2014-12-02 14:40:11	\N	\N	0	\N	\N	\N	bbde02c4-589f-40a4-83c9-0964c49c43eb
 97	Shortness of breath		1	141600				0	1	2014-12-02 14:56:03	\N	\N	0	\N	\N	\N	ebda5ec2-ea55-4a91-8bb5-4624579fbf83
 98	Hiccups	A spasm of the diaphragm that causes a sudden inhalation followed by rapid closure of the glottis which produces a sound.	1	138662				0	1	2014-12-02 15:00:14	\N	\N	0	\N	\N	\N	6bdd1c08-a176-4f9e-87a1-b0fa23c6e964
-99	Pain detail[binary]	Pain (Detail)	5	\N				0	4	2014-12-02 19:25:22	1	2014-12-03 14:20:56	0	\N	\N	\N	a9623fed-8c93-452a-956d-96d3f46d2a56
-100	Cough		1	143264				0	4	2014-12-02 20:55:37	\N	\N	0	\N	\N	\N	a2d53920-af37-4978-b21a-86dc2852d2ca
-101	Hiccoughs	A spasm of the diaphragm that causes a sudden inhalation followed by rapid closure of the glottis which produces a sound.	1	138662				0	4	2014-12-02 21:05:35	\N	\N	0	\N	\N	\N	f0ef5899-a0f2-4981-8d35-e6a8cae5e673
-102	Headache	Pain in the cranial region that may occur as an isolated and benign symptom or as a manifestation of a wide variety of conditions including SUBARACHNOID HEMORRHAGE; CRANIOCEREBRAL TRAUMA; CENTRAL NERVOUS SYSTEM INFECTIONS; INTRACRANIAL HYPERTENSION; and other disorders. In general, recurrent headaches that are not associated with a primary disease process are referred to as HEADACHE DISORDERS (e.g., MIGRAINE).	1	139084				0	4	2014-12-02 21:07:12	\N	\N	0	\N	\N	\N	53cc8114-8cc1-46f1-878a-3cf36a348b0a
-103	Headache	Pain in the cranial region that may occur as an isolated and benign symptom or as a manifestation of a wide variety of conditions including SUBARACHNOID HEMORRHAGE; CRANIOCEREBRAL TRAUMA; CENTRAL NERVOUS SYSTEM INFECTIONS; INTRACRANIAL HYPERTENSION; and other disorders. In general, recurrent headaches that are not associated with a primary disease process are referred to as HEADACHE DISORDERS (e.g., MIGRAINE).	1	139084				0	4	2014-12-02 21:07:24	\N	\N	0	\N	\N	\N	b13a4e90-c0d1-45f4-80ef-f526a79eb4db
-104	Below fold	Below fold	3	\N				0	4	2014-12-02 21:12:25	\N	\N	0	\N	\N	\N	03d95b22-3682-42e9-a5e3-f402d3606bb7
-105	BACK PAIN		1	148035				0	4	2014-12-02 21:14:25	\N	\N	0	\N	\N	\N	d7a364f3-bb4f-4438-9e6d-4822556c0300
-106	Myalgia	Muscular pain or tenderness, especially when diffuse and nonspecific.	1	121				0	4	2014-12-02 21:16:32	\N	\N	0	\N	\N	\N	7a5d1a75-6433-4a73-8b2c-26a101af4b67
-107	Bleeding from Mouth	Bleeding from the blood vessels of the mouth, which may occur as a result of injuries to the mouth, accidents in oral surgery, or diseases of the gums.	1	147234				0	4	2014-12-02 21:19:46	\N	\N	0	\N	\N	\N	d08f1fde-7e0e-4019-8d4a-5326b2ce96d4
-108	Bleeding Detail [binary]	Bleeding (Detail)	5	\N				0	4	2014-12-02 21:20:20	1	2014-12-03 14:21:42	0	\N	\N	\N	4e23eff5-c5c2-4ee1-83e0-24c665503771
-109	Haematemesis	Vomiting of blood.	1	139006				0	4	2014-12-02 21:30:03	\N	\N	0	\N	\N	\N	17c440ef-71da-4c03-a23a-bae5d8a1a683
-111	Symptoms B[invisible]	Symptoms the patient reports (second set)	5	\N				0	4	2014-12-03 09:40:36	1	2014-12-03 12:28:10	0	\N	\N	\N	fbfbe7bc-c422-4354-a49b-0218d93a5a7e
-112	Insert intravenous (IV) line		1	162623				0	4	2014-12-03 10:27:54	\N	\N	0	\N	\N	\N	2a5df87e-3bd1-4e6e-b051-b0bac3c34159
-113	Intravenous administration		1	160242				0	4	2014-12-03 10:28:39	\N	\N	0	\N	\N	\N	55e3d7e7-9e46-4ea6-9b0a-098f1fafece5
-114	Ebola virus RNA by polymerase chain reaction	Ebola virus PCR in any sample	1	162599				0	4	2014-12-03 10:29:27	\N	\N	0	\N	\N	\N	ae030f2e-9207-466b-9f07-1fc6f7a88ec2
-115	Obsolete	obsolete section	5	\N				0	4	2014-12-03 10:54:35	\N	\N	0	\N	\N	\N	7346bb95-cd03-4aad-b5bd-931631c88e01
+99	Pain detail[binary]	Pain (Detail)	5	\N				0	3	2014-12-02 19:25:22	1	2014-12-03 14:20:56	0	\N	\N	\N	a9623fed-8c93-452a-956d-96d3f46d2a56
+100	Cough		1	143264				0	3	2014-12-02 20:55:37	\N	\N	0	\N	\N	\N	a2d53920-af37-4978-b21a-86dc2852d2ca
+101	Hiccoughs	A spasm of the diaphragm that causes a sudden inhalation followed by rapid closure of the glottis which produces a sound.	1	138662				0	3	2014-12-02 21:05:35	\N	\N	0	\N	\N	\N	f0ef5899-a0f2-4981-8d35-e6a8cae5e673
+102	Headache	Pain in the cranial region that may occur as an isolated and benign symptom or as a manifestation of a wide variety of conditions including SUBARACHNOID HEMORRHAGE; CRANIOCEREBRAL TRAUMA; CENTRAL NERVOUS SYSTEM INFECTIONS; INTRACRANIAL HYPERTENSION; and other disorders. In general, recurrent headaches that are not associated with a primary disease process are referred to as HEADACHE DISORDERS (e.g., MIGRAINE).	1	139084				0	3	2014-12-02 21:07:12	\N	\N	0	\N	\N	\N	53cc8114-8cc1-46f1-878a-3cf36a348b0a
+103	Headache	Pain in the cranial region that may occur as an isolated and benign symptom or as a manifestation of a wide variety of conditions including SUBARACHNOID HEMORRHAGE; CRANIOCEREBRAL TRAUMA; CENTRAL NERVOUS SYSTEM INFECTIONS; INTRACRANIAL HYPERTENSION; and other disorders. In general, recurrent headaches that are not associated with a primary disease process are referred to as HEADACHE DISORDERS (e.g., MIGRAINE).	1	139084				0	3	2014-12-02 21:07:24	\N	\N	0	\N	\N	\N	b13a4e90-c0d1-45f4-80ef-f526a79eb4db
+104	Below fold	Below fold	3	\N				0	3	2014-12-02 21:12:25	\N	\N	0	\N	\N	\N	03d95b22-3682-42e9-a5e3-f402d3606bb7
+105	BACK PAIN		1	148035				0	3	2014-12-02 21:14:25	\N	\N	0	\N	\N	\N	d7a364f3-bb4f-4438-9e6d-4822556c0300
+106	Myalgia	Muscular pain or tenderness, especially when diffuse and nonspecific.	1	121				0	3	2014-12-02 21:16:32	\N	\N	0	\N	\N	\N	7a5d1a75-6433-4a73-8b2c-26a101af4b67
+107	Bleeding from Mouth	Bleeding from the blood vessels of the mouth, which may occur as a result of injuries to the mouth, accidents in oral surgery, or diseases of the gums.	1	147234				0	3	2014-12-02 21:19:46	\N	\N	0	\N	\N	\N	d08f1fde-7e0e-4019-8d4a-5326b2ce96d4
+108	Bleeding Detail [binary]	Bleeding (Detail)	5	\N				0	3	2014-12-02 21:20:20	1	2014-12-03 14:21:42	0	\N	\N	\N	4e23eff5-c5c2-4ee1-83e0-24c665503771
+109	Haematemesis	Vomiting of blood.	1	139006				0	3	2014-12-02 21:30:03	\N	\N	0	\N	\N	\N	17c440ef-71da-4c03-a23a-bae5d8a1a683
+111	Symptoms B[invisible]	Symptoms the patient reports (second set)	5	\N				0	3	2014-12-03 09:40:36	1	2014-12-03 12:28:10	0	\N	\N	\N	fbfbe7bc-c422-4354-a49b-0218d93a5a7e
+112	Insert intravenous (IV) line		1	162623				0	3	2014-12-03 10:27:54	\N	\N	0	\N	\N	\N	2a5df87e-3bd1-4e6e-b051-b0bac3c34159
+113	Intravenous administration		1	160242				0	3	2014-12-03 10:28:39	\N	\N	0	\N	\N	\N	55e3d7e7-9e46-4ea6-9b0a-098f1fafece5
+114	Ebola virus RNA by polymerase chain reaction	Ebola virus PCR in any sample	1	162599				0	3	2014-12-03 10:29:27	\N	\N	0	\N	\N	\N	ae030f2e-9207-466b-9f07-1fc6f7a88ec2
+115	Obsolete	obsolete section	5	\N				0	3	2014-12-03 10:54:35	\N	\N	0	\N	\N	\N	7346bb95-cd03-4aad-b5bd-931631c88e01
 116	Symptoms A[binary][invisible]	Symptoms the patient reports (first set)	5	\N				0	1	2014-12-03 11:57:28	1	2014-12-03 12:28:20	0	\N	\N	\N	e52e6827-7b3a-4925-b2f0-9b7f3ffaf758
 117	Pain assessment[invisible]	The pain assessment field	5	\N				0	1	2014-12-03 14:13:35	\N	\N	0	\N	\N	\N	14fc7877-b95f-44c1-9639-a32b4a8631a1
 118	Pain Assessment	A general assessment of the patient's pain level	1	162721				0	1	2014-12-03 14:20:27	\N	\N	0	\N	\N	\N	c08f08d3-d423-43ea-858f-86ff324a3454
-119	Bleeding Overall	Bleeding	5	\N				0	1	2014-12-03 14:22:35	4	2015-01-23 16:51:11	0	\N	\N	\N	aa395417-5343-4c70-b951-19b72998ac2f
+119	Bleeding Overall	Bleeding	5	\N				0	1	2014-12-03 14:22:35	3	2015-01-23 16:51:11	0	\N	\N	\N	aa395417-5343-4c70-b951-19b72998ac2f
 120	Bleeding	Bleeding or escape of blood from a vessel.	1	147241				0	1	2014-12-03 14:31:06	\N	\N	0	\N	\N	\N	d316668f-7111-4d9e-a2cc-cfbc22d95479
 121	General Condition	Patient's general condition	1	162724				0	1	2014-12-03 15:08:38	\N	\N	0	\N	\N	\N	0ab02868-60b3-440d-9b35-fbe577f6048f
-122	Additional details [binary]	Additional Details	5	\N				0	1	2014-12-03 15:16:16	4	2015-01-22 15:51:32	0	\N	\N	\N	5bd3fdc6-f550-404e-8ce2-8f49d88b2eea
+122	Additional details [binary]	Additional Details	5	\N				0	1	2014-12-03 15:16:16	3	2015-01-22 15:51:32	0	\N	\N	\N	5bd3fdc6-f550-404e-8ce2-8f49d88b2eea
 123	IV line present	The patient as an IV line (e.g. cannula) fitted.	1	162725				0	1	2014-12-03 15:59:51	\N	\N	0	\N	\N	\N	5474b00c-54e8-4306-a4e7-47a167a9e984
 124	Method of fluid management		1	162653				0	1	2014-12-03 16:39:28	\N	\N	0	\N	\N	\N	c6a57e4c-282c-4c9d-9478-e22730f6bccf
 125	Dyspnea	Difficult or labored breathing.	1	122496				0	1	2014-12-03 17:19:03	\N	\N	0	\N	\N	\N	89d77f9f-535b-43bd-a25a-dae956f5f13a
-126	Method of fluid management		1	162653				0	4	2014-12-04 18:55:00	\N	\N	0	\N	\N	\N	3981edcd-fff0-4382-869f-fb3c3189b599
-127	IV line present	The patient as an IV line (e.g. cannula) fitted.	1	162725				0	4	2014-12-04 18:55:18	\N	\N	0	\N	\N	\N	f3912f53-6bca-49c8-8d98-b6bfc4a6601e
-128	General Condition	Patient's general condition	1	162724				0	4	2014-12-04 18:56:05	\N	\N	0	\N	\N	\N	195b2dd3-4970-4ac7-92ef-88be29b56a0e
-129	Text of encounter note	Free text note field intended to capture unstructured description of the patient encounter	1	162169				0	4	2014-12-15 15:12:11	\N	\N	0	\N	\N	\N	39693ee0-2b43-4218-8ae2-53f2df61ea4a
-130	Notes[invisible]		5	\N				0	4	2014-12-15 15:32:32	\N	\N	0	\N	\N	\N	c949db6b-0f51-42f4-a1ea-c50b8e728f3a
-131	Symptoms A[binary]	Signs and Symptoms	5	\N				0	4	2014-12-15 17:24:46	4	2014-12-15 20:22:35	0	\N	\N	\N	a0a1dd08-306f-414c-9f89-a9ec3803cb29
-132	Symptoms C[binary]	Other Symptoms	5	\N				0	4	2014-12-15 17:25:34	4	2015-01-22 15:43:41	0	\N	\N	\N	b8d0222d-66ed-42b7-873a-4943a3f6c027
-133	Special Group [binary]	Special Group	5	\N				0	4	2015-01-13 12:36:02	\N	\N	0	\N	\N	\N	e2ca9d4e-2173-41bb-bec7-9ccd695c614d
-134	L gene CT value	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	1	162729				0	4	2015-01-13 12:36:24	\N	\N	0	\N	\N	\N	d8911815-10d3-4ba1-9158-bda73c1d616a
-135	Ebola Lab Test Results	Ebola Lab Test Results	5	\N				0	4	2015-01-13 12:36:38	4	2015-01-24 00:48:09	0	\N	\N	\N	364c96e0-b4f2-4c64-848c-562264d6a3e6
-136	Np gene PCR CT value	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	1	162730				0	4	2015-01-13 12:36:45	4	2015-01-24 00:48:39	0	\N	\N	\N	108a2205-3ccd-485d-813a-13e205ecad05
-137	Ebola Np gene PCR CT value	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	1	162730				0	4	2015-01-13 12:41:07	\N	\N	0	\N	\N	\N	4b3819a2-9db7-4367-8879-160d506c6db6
-138	L gene CT value	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	1	162729				0	4	2015-01-13 12:41:16	\N	\N	0	\N	\N	\N	9647ae5e-e96b-4bab-ba0a-6207ff8b10b0
-139	Vomiting (daily count)	The count of the number of times where the patient vomited in the last 24 hours.	1	162731				0	4	2015-01-22 11:26:30	\N	\N	0	\N	\N	\N	45848eb9-1b09-452d-af11-45eb2cc400c3
-140	Diarrhea (daily count)	The count of the number of times the patient has had diarrhea in the past 24 hours.	1	162732				0	4	2015-01-22 11:27:01	\N	\N	0	\N	\N	\N	645276c1-56d1-493a-b87a-73310a046f3f
-141	Lower abdominal pain		1	157544				0	4	2015-01-22 11:42:14	\N	\N	0	\N	\N	\N	00bb63c7-7370-4d79-8432-5514294dfda7
-142	upper abdominal pain, unspecified		1	159249				0	4	2015-01-22 11:42:34	\N	\N	0	\N	\N	\N	c61bf9bb-fb8f-4c04-8a54-e6197fe3edfe
-143	Sore throat		1	158843				0	4	2015-01-22 13:19:04	\N	\N	0	\N	\N	\N	50fbcac4-eb73-444a-abf1-70df98672a70
-144	Heartburn		1	139059				0	4	2015-01-22 13:22:53	\N	\N	0	\N	\N	\N	eab9dee2-893f-474f-893f-816e49628fe7
-145	Red Eye		1	127777				0	4	2015-01-22 13:30:11	\N	\N	0	\N	\N	\N	feaa2625-3989-42e3-82e3-adb486c4feb4
-146	VAGINAL BLEEDING	Hemorrhage from vessels in the uterus, sometimes manifested as vaginal bleeding.	1	147232				0	4	2015-01-22 13:52:00	\N	\N	0	\N	\N	\N	3f9ebfea-96d5-409e-9ea4-a980696f3d42
-147	Melaena	Black, tarry feces containing digested blood.	1	134394				0	4	2015-01-22 14:15:04	\N	\N	0	\N	\N	\N	cf0fbee1-085d-42aa-82ea-bc2c830e54e4
-148	Bleeding from eyes	This is not hyphema or subconjunctival haemorrhage, it is actually bleeding out of the eyes. This is a rare symptom that occurs occasionally in Haemorrhagic fevers like Ebola.	1	162733				0	4	2015-01-22 15:06:19	\N	\N	0	\N	\N	\N	dea65760-0589-4690-8b6a-d8e429c52e3a
-149	Weakness section [invisible]	Weakness	5	\N				0	4	2015-01-22 15:45:35	4	2015-01-22 15:46:20	0	\N	\N	\N	0fe4067d-09e6-474e-90b3-16fc2c91ba1b
-150	General Condition	General condition of the patient	1	162724				0	4	2015-01-23 01:03:19	\N	\N	0	\N	\N	\N	391c5084-8d2b-4f30-8719-e59c7654de1a
-151	Level of consciousness	Best Conscious State (AVPU)	1	162643				0	4	2015-01-23 01:45:43	\N	\N	0	\N	\N	\N	d62c4fdc-4a3f-4e4f-8014-a059d772736f
-152	Mobility	A category for how well the patient can walk	1	162693				0	4	2015-01-23 01:46:27	\N	\N	0	\N	\N	\N	3c3eb627-58ae-42a8-9443-fd33b6266e43
-153	Negative	Confirmed negative Ebola virus test	1	162684				0	4	2015-01-24 00:50:19	\N	\N	0	\N	\N	\N	a0e64d14-02a3-4755-971d-3c02d0cabf8d
-154	Negative	Negative PCR test result	1	162737				0	4	2015-01-26 18:38:27	\N	\N	0	\N	\N	\N	7881e788-9f6f-4398-966d-0b24c087c627
-155	Check Patient ID and Name	Check Patient ID and Name	5	\N				0	4	2015-01-26 20:13:07	\N	\N	0	\N	\N	\N	9f4cc026-33e8-4cf8-9733-c703b7d8770c
-156	Confirm Lab Test Results	Confirm Lab Test Results	1	162738				0	4	2015-01-26 20:13:39	\N	\N	0	\N	\N	\N	fb2d7ac3-4f8a-4bde-a66b-bbd18a796a66
-157	I have checked the Patient ID and Name and confirm this lab test result.	I have checked the Patient ID and Name and confirm this lab test result.	1	162739				0	4	2015-01-26 21:11:31	\N	\N	0	\N	\N	\N	6bd03579-9ca4-4636-903d-f3746e3e4b59
-158	SIGN/SYMPTOM START DATE	The date when the sign or symptom started.	1	1730				0	4	2015-01-27 14:24:19	\N	\N	0	\N	\N	\N	f45c74b6-c74c-4f55-9efb-a9248d657732
-159	General condition section [invisible]	General condition section	5	\N				0	4	2015-02-06 13:40:38	4	2015-02-06 13:42:25	0	\N	\N	\N	dc785e33-baa3-4a53-bd11-bd44f4d52a91
-160	Admission Date	Admission Date	1	162622				0	4	2015-02-08 20:24:49	\N	\N	0	\N	\N	\N	7a235819-bd27-4aa1-b464-56fb3861a025
+126	Method of fluid management		1	162653				0	3	2014-12-04 18:55:00	\N	\N	0	\N	\N	\N	3981edcd-fff0-4382-869f-fb3c3189b599
+127	IV line present	The patient as an IV line (e.g. cannula) fitted.	1	162725				0	3	2014-12-04 18:55:18	\N	\N	0	\N	\N	\N	f3912f53-6bca-49c8-8d98-b6bfc4a6601e
+128	General Condition	Patient's general condition	1	162724				0	3	2014-12-04 18:56:05	\N	\N	0	\N	\N	\N	195b2dd3-4970-4ac7-92ef-88be29b56a0e
+129	Text of encounter note	Free text note field intended to capture unstructured description of the patient encounter	1	162169				0	3	2014-12-15 15:12:11	\N	\N	0	\N	\N	\N	39693ee0-2b43-4218-8ae2-53f2df61ea4a
+130	Notes[invisible]		5	\N				0	3	2014-12-15 15:32:32	\N	\N	0	\N	\N	\N	c949db6b-0f51-42f4-a1ea-c50b8e728f3a
+131	Symptoms A[binary]	Signs and Symptoms	5	\N				0	3	2014-12-15 17:24:46	3	2014-12-15 20:22:35	0	\N	\N	\N	a0a1dd08-306f-414c-9f89-a9ec3803cb29
+132	Symptoms C[binary]	Other Symptoms	5	\N				0	3	2014-12-15 17:25:34	3	2015-01-22 15:43:41	0	\N	\N	\N	b8d0222d-66ed-42b7-873a-4943a3f6c027
+133	Special Group [binary]	Special Group	5	\N				0	3	2015-01-13 12:36:02	\N	\N	0	\N	\N	\N	e2ca9d4e-2173-41bb-bec7-9ccd695c614d
+134	L gene CT value	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	1	162729				0	3	2015-01-13 12:36:24	\N	\N	0	\N	\N	\N	d8911815-10d3-4ba1-9158-bda73c1d616a
+135	Ebola Lab Test Results	Ebola Lab Test Results	5	\N				0	3	2015-01-13 12:36:38	3	2015-01-24 00:48:09	0	\N	\N	\N	364c96e0-b4f2-4c64-848c-562264d6a3e6
+136	Np gene PCR CT value	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	1	162730				0	3	2015-01-13 12:36:45	3	2015-01-24 00:48:39	0	\N	\N	\N	108a2205-3ccd-485d-813a-13e205ecad05
+137	Ebola Np gene PCR CT value	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	1	162730				0	3	2015-01-13 12:41:07	\N	\N	0	\N	\N	\N	4b3819a2-9db7-4367-8879-160d506c6db6
+138	L gene CT value	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	1	162729				0	3	2015-01-13 12:41:16	\N	\N	0	\N	\N	\N	9647ae5e-e96b-4bab-ba0a-6207ff8b10b0
+139	Vomiting (daily count)	The count of the number of times where the patient vomited in the last 24 hours.	1	162731				0	3	2015-01-22 11:26:30	\N	\N	0	\N	\N	\N	45848eb9-1b09-452d-af11-45eb2cc400c3
+140	Diarrhea (daily count)	The count of the number of times the patient has had diarrhea in the past 24 hours.	1	162732				0	3	2015-01-22 11:27:01	\N	\N	0	\N	\N	\N	645276c1-56d1-493a-b87a-73310a046f3f
+141	Lower abdominal pain		1	157544				0	3	2015-01-22 11:42:14	\N	\N	0	\N	\N	\N	00bb63c7-7370-4d79-8432-5514294dfda7
+142	upper abdominal pain, unspecified		1	159249				0	3	2015-01-22 11:42:34	\N	\N	0	\N	\N	\N	c61bf9bb-fb8f-4c04-8a54-e6197fe3edfe
+143	Sore throat		1	158843				0	3	2015-01-22 13:19:04	\N	\N	0	\N	\N	\N	50fbcac4-eb73-444a-abf1-70df98672a70
+144	Heartburn		1	139059				0	3	2015-01-22 13:22:53	\N	\N	0	\N	\N	\N	eab9dee2-893f-474f-893f-816e49628fe7
+145	Red Eye		1	127777				0	3	2015-01-22 13:30:11	\N	\N	0	\N	\N	\N	feaa2625-3989-42e3-82e3-adb486c4feb4
+146	VAGINAL BLEEDING	Hemorrhage from vessels in the uterus, sometimes manifested as vaginal bleeding.	1	147232				0	3	2015-01-22 13:52:00	\N	\N	0	\N	\N	\N	3f9ebfea-96d5-409e-9ea4-a980696f3d42
+147	Melaena	Black, tarry feces containing digested blood.	1	134394				0	3	2015-01-22 14:15:04	\N	\N	0	\N	\N	\N	cf0fbee1-085d-42aa-82ea-bc2c830e54e4
+148	Bleeding from eyes	This is not hyphema or subconjunctival haemorrhage, it is actually bleeding out of the eyes. This is a rare symptom that occurs occasionally in Haemorrhagic fevers like Ebola.	1	162733				0	3	2015-01-22 15:06:19	\N	\N	0	\N	\N	\N	dea65760-0589-4690-8b6a-d8e429c52e3a
+149	Weakness section [invisible]	Weakness	5	\N				0	3	2015-01-22 15:45:35	3	2015-01-22 15:46:20	0	\N	\N	\N	0fe4067d-09e6-474e-90b3-16fc2c91ba1b
+150	General Condition	General condition of the patient	1	162724				0	3	2015-01-23 01:03:19	\N	\N	0	\N	\N	\N	391c5084-8d2b-4f30-8719-e59c7654de1a
+151	Level of consciousness	Best Conscious State (AVPU)	1	162643				0	3	2015-01-23 01:45:43	\N	\N	0	\N	\N	\N	d62c4fdc-4a3f-4e4f-8014-a059d772736f
+152	Mobility	A category for how well the patient can walk	1	162693				0	3	2015-01-23 01:46:27	\N	\N	0	\N	\N	\N	3c3eb627-58ae-42a8-9443-fd33b6266e43
+153	Negative	Confirmed negative Ebola virus test	1	162684				0	3	2015-01-24 00:50:19	\N	\N	0	\N	\N	\N	a0e64d14-02a3-4755-971d-3c02d0cabf8d
+155	Check Patient ID and Name	Check Patient ID and Name	5	\N				0	3	2015-01-26 20:13:07	\N	\N	0	\N	\N	\N	9f4cc026-33e8-4cf8-9733-c703b7d8770c
+156	Confirm Lab Test Results	Confirm Lab Test Results	1	162738				0	3	2015-01-26 20:13:39	\N	\N	0	\N	\N	\N	fb2d7ac3-4f8a-4bde-a66b-bbd18a796a66
+157	I have checked the Patient ID and Name and confirm this lab test result.	I have checked the Patient ID and Name and confirm this lab test result.	1	162739				0	3	2015-01-26 21:11:31	\N	\N	0	\N	\N	\N	6bd03579-9ca4-4636-903d-f3746e3e4b59
+158	SIGN/SYMPTOM START DATE	The date when the sign or symptom started.	1	1730				0	3	2015-01-27 14:24:19	\N	\N	0	\N	\N	\N	f45c74b6-c74c-4f55-9efb-a9248d657732
+159	General condition section [invisible]	General condition section	5	\N				0	3	2015-02-06 13:40:38	3	2015-02-06 13:42:25	0	\N	\N	\N	dc785e33-baa3-4a53-bd11-bd44f4d52a91
+160	Admission Date	Admission Date	1	162622				0	3	2015-02-08 20:24:49	\N	\N	0	\N	\N	\N	7a235819-bd27-4aa1-b464-56fb3861a025
+161	3. Bleeding Sites	Bleeding Sites	1	162668				0	3	2015-02-09 22:46:03	\N	\N	0	\N	\N	\N	2f6778f8-8dd2-47cd-8fe8-746dd89f688c
+162	4. Notes	Free text note field intended to capture unstructured description of the patient encounter	1	162169				0	3	2015-02-09 22:47:07	\N	\N	0	\N	\N	\N	c9322836-3fe4-4709-b269-a1bed5d4d3c5
