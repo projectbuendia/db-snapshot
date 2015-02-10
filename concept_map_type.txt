@@ -1,70 +1,70 @@
-1	SAME-AS	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	35543629-7d8c-11e1-909d-c80aa9edcf4e
-2	NARROWER-THAN	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	43ac5109-7d8c-11e1-909d-c80aa9edcf4e
-3	BROADER-THAN	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	4b9d9421-7d8c-11e1-909d-c80aa9edcf4e
-4	Associated finding	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	55e02065-7d8c-11e1-909d-c80aa9edcf4e
-5	Associated morphology	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	605f4a61-7d8c-11e1-909d-c80aa9edcf4e
-6	Associated procedure	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	6eb1bfce-7d8c-11e1-909d-c80aa9edcf4e
-7	Associated with	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	781bdc8f-7d8c-11e1-909d-c80aa9edcf4e
-8	Causative agent	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	808f9e19-7d8c-11e1-909d-c80aa9edcf4e
-9	Finding site	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	889c3013-7d8c-11e1-909d-c80aa9edcf4e
-10	Has specimen	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	929600b9-7d8c-11e1-909d-c80aa9edcf4e
-11	Laterality	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	999c6fc0-7d8c-11e1-909d-c80aa9edcf4e
-12	Severity	\N	1	2014-11-03 00:00:00	1	\N	0	0	1	\N	\N	a0e52281-7d8c-11e1-909d-c80aa9edcf4e
-13	Access	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	f9e90b29-7d8c-11e1-909d-c80aa9edcf4e
-14	After	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	01b60e29-7d8d-11e1-909d-c80aa9edcf4e
-15	Clinical course	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	5f7c3702-7d8d-11e1-909d-c80aa9edcf4e
-16	Component	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	67debecc-7d8d-11e1-909d-c80aa9edcf4e
-17	Direct device	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	718c00da-7d8d-11e1-909d-c80aa9edcf4e
-18	Direct morphology	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	7b9509cb-7d8d-11e1-909d-c80aa9edcf4e
-19	Direct substance	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	82bb495d-7d8d-11e1-909d-c80aa9edcf4e
-20	Due to	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	8b77f7d3-7d8d-11e1-909d-c80aa9edcf4e
-21	Episodicity	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	94a81179-7d8d-11e1-909d-c80aa9edcf4e
-22	Finding context	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	9d23c22e-7d8d-11e1-909d-c80aa9edcf4e
-23	Finding informer	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	a4524368-7d8d-11e1-909d-c80aa9edcf4e
-24	Finding method	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	af089254-7d8d-11e1-909d-c80aa9edcf4e
-25	Has active ingredient	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	b65aa605-7d8d-11e1-909d-c80aa9edcf4e
-26	Has definitional manifestation	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	c2b7b2fa-7d8d-11e1-909d-c80aa9edcf4
-27	Has dose form	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	cc3878e6-7d8d-11e1-909d-c80aa9edcf4e
-28	Has focus	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	d67c5840-7d8d-11e1-909d-c80aa9edcf4e
-29	Has intent	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	de2fb2c5-7d8d-11e1-909d-c80aa9edcf4e
-30	Has interpretation	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	e758838b-7d8d-11e1-909d-c80aa9edcf4e
-31	Indirect device	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	ee63c142-7d8d-11e1-909d-c80aa9edcf4e
-32	Indirect morphology	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	f4f36681-7d8d-11e1-909d-c80aa9edcf4e
-33	Interprets	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	fc7f5fed-7d8d-11e1-909d-c80aa9edcf4e
-34	Measurement method	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	06b11d79-7d8e-11e1-909d-c80aa9edcf4e
-35	Method	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	0efb4753-7d8e-11e1-909d-c80aa9edcf4e
-36	Occurrence	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	16e7b617-7d8e-11e1-909d-c80aa9edcf4e
-37	Part of	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	1e82007b-7d8e-11e1-909d-c80aa9edcf4e
-38	Pathological process	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	2969915e-7d8e-11e1-909d-c80aa9edcf4e
-39	Priority	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	32d57796-7d8e-11e1-909d-c80aa9edcf4e
-40	Procedure context	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	3f11904c-7d8e-11e1-909d-c80aa9edcf4e
-41	Procedure device	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	468c4aa3-7d8e-11e1-909d-c80aa9edcf4e
-42	Procedure morphology	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	5383e889-7d8e-11e1-909d-c80aa9edcf4e
-43	Procedure site	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	5ad2655d-7d8e-11e1-909d-c80aa9edcf4e
-44	Procedure site - Direct	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	66085196-7d8e-11e1-909d-c80aa9edcf4e
-45	Procedure site - Indirect	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	7080e843-7d8e-11e1-909d-c80aa9edcf4e
-46	Property	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	76bfb796-7d8e-11e1-909d-c80aa9edcf4e
-47	Recipient category	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	7e7d00e4-7d8e-11e1-909d-c80aa9edcf4e
-48	Revision status	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	851e14c1-7d8e-11e1-909d-c80aa9edcf4e
-49	Route of administration	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	8ee5b13d-7d8e-11e1-909d-c80aa9edcf4e
-50	Scale type	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	986acf48-7d8e-11e1-909d-c80aa9edcf4e
-51	Specimen procedure	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	a6937642-7d8e-11e1-909d-c80aa9edcf4e
-52	Specimen source identity	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	b1d6941e-7d8e-11e1-909d-c80aa9edcf4e
-53	Specimen source morphology	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	b7c793c1-7d8e-11e1-909d-c80aa9edcf4e
-54	Specimen source topography	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	be9f9eb8-7d8e-11e1-909d-c80aa9edcf4e
-55	Specimen substance	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	c8f2bacb-7d8e-11e1-909d-c80aa9edcf4e
-56	Subject of information	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	d0664c4f-7d8e-11e1-909d-c80aa9edcf4e
-57	Subject relationship context	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	dace9d13-7d8e-11e1-909d-c80aa9edcf4e
-58	Surgical approach	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	e3cd666d-7d8e-11e1-909d-c80aa9edcf4e
-59	Temporal context	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	ed96447d-7d8e-11e1-909d-c80aa9edcf4e
-60	Time aspect	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	f415bcce-7d8e-11e1-909d-c80aa9edcf4e
-61	Using access device	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	fa9538a9-7d8e-11e1-909d-c80aa9edcf4e
-62	Using device	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	06588655-7d8f-11e1-909d-c80aa9edcf4e
-63	Using energy	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	0c2ae0bc-7d8f-11e1-909d-c80aa9edcf4e
-64	Using substance	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	13d2c607-7d8f-11e1-909d-c80aa9edcf4e
-65	IS A	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	1ce7a784-7d8f-11e1-909d-c80aa9edcf4e
-66	MAY BE A	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	267812a3-7d8f-11e1-909d-c80aa9edcf4e
-67	MOVED FROM	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	2de3168e-7d8f-11e1-909d-c80aa9edcf4e
-68	MOVED TO	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	32f0fd99-7d8f-11e1-909d-c80aa9edcf4e
-69	REPLACED BY	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	3b3b9a7d-7d8f-11e1-909d-c80aa9edcf4e
-70	WAS A	\N	1	2014-11-03 00:00:00	1	\N	1	0	1	\N	\N	41a034da-7d8f-11e1-909d-c80aa9edcf4e
+1	SAME-AS	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	35543629-7d8c-11e1-909d-c80aa9edcf4e
+2	NARROWER-THAN	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	43ac5109-7d8c-11e1-909d-c80aa9edcf4e
+3	BROADER-THAN	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	4b9d9421-7d8c-11e1-909d-c80aa9edcf4e
+4	Associated finding	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	55e02065-7d8c-11e1-909d-c80aa9edcf4e
+5	Associated morphology	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	605f4a61-7d8c-11e1-909d-c80aa9edcf4e
+6	Associated procedure	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	6eb1bfce-7d8c-11e1-909d-c80aa9edcf4e
+7	Associated with	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	781bdc8f-7d8c-11e1-909d-c80aa9edcf4e
+8	Causative agent	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	808f9e19-7d8c-11e1-909d-c80aa9edcf4e
+9	Finding site	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	889c3013-7d8c-11e1-909d-c80aa9edcf4e
+10	Has specimen	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	929600b9-7d8c-11e1-909d-c80aa9edcf4e
+11	Laterality	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	999c6fc0-7d8c-11e1-909d-c80aa9edcf4e
+12	Severity	\N	1	2015-01-23 00:00:00	1	\N	0	0	1	\N	\N	a0e52281-7d8c-11e1-909d-c80aa9edcf4e
+13	Access	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	f9e90b29-7d8c-11e1-909d-c80aa9edcf4e
+14	After	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	01b60e29-7d8d-11e1-909d-c80aa9edcf4e
+15	Clinical course	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	5f7c3702-7d8d-11e1-909d-c80aa9edcf4e
+16	Component	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	67debecc-7d8d-11e1-909d-c80aa9edcf4e
+17	Direct device	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	718c00da-7d8d-11e1-909d-c80aa9edcf4e
+18	Direct morphology	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	7b9509cb-7d8d-11e1-909d-c80aa9edcf4e
+19	Direct substance	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	82bb495d-7d8d-11e1-909d-c80aa9edcf4e
+20	Due to	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	8b77f7d3-7d8d-11e1-909d-c80aa9edcf4e
+21	Episodicity	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	94a81179-7d8d-11e1-909d-c80aa9edcf4e
+22	Finding context	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	9d23c22e-7d8d-11e1-909d-c80aa9edcf4e
+23	Finding informer	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	a4524368-7d8d-11e1-909d-c80aa9edcf4e
+24	Finding method	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	af089254-7d8d-11e1-909d-c80aa9edcf4e
+25	Has active ingredient	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	b65aa605-7d8d-11e1-909d-c80aa9edcf4e
+26	Has definitional manifestation	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	c2b7b2fa-7d8d-11e1-909d-c80aa9edcf4
+27	Has dose form	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	cc3878e6-7d8d-11e1-909d-c80aa9edcf4e
+28	Has focus	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	d67c5840-7d8d-11e1-909d-c80aa9edcf4e
+29	Has intent	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	de2fb2c5-7d8d-11e1-909d-c80aa9edcf4e
+30	Has interpretation	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	e758838b-7d8d-11e1-909d-c80aa9edcf4e
+31	Indirect device	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	ee63c142-7d8d-11e1-909d-c80aa9edcf4e
+32	Indirect morphology	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	f4f36681-7d8d-11e1-909d-c80aa9edcf4e
+33	Interprets	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	fc7f5fed-7d8d-11e1-909d-c80aa9edcf4e
+34	Measurement method	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	06b11d79-7d8e-11e1-909d-c80aa9edcf4e
+35	Method	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	0efb4753-7d8e-11e1-909d-c80aa9edcf4e
+36	Occurrence	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	16e7b617-7d8e-11e1-909d-c80aa9edcf4e
+37	Part of	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	1e82007b-7d8e-11e1-909d-c80aa9edcf4e
+38	Pathological process	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	2969915e-7d8e-11e1-909d-c80aa9edcf4e
+39	Priority	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	32d57796-7d8e-11e1-909d-c80aa9edcf4e
+40	Procedure context	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	3f11904c-7d8e-11e1-909d-c80aa9edcf4e
+41	Procedure device	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	468c4aa3-7d8e-11e1-909d-c80aa9edcf4e
+42	Procedure morphology	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	5383e889-7d8e-11e1-909d-c80aa9edcf4e
+43	Procedure site	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	5ad2655d-7d8e-11e1-909d-c80aa9edcf4e
+44	Procedure site - Direct	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	66085196-7d8e-11e1-909d-c80aa9edcf4e
+45	Procedure site - Indirect	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	7080e843-7d8e-11e1-909d-c80aa9edcf4e
+46	Property	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	76bfb796-7d8e-11e1-909d-c80aa9edcf4e
+47	Recipient category	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	7e7d00e4-7d8e-11e1-909d-c80aa9edcf4e
+48	Revision status	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	851e14c1-7d8e-11e1-909d-c80aa9edcf4e
+49	Route of administration	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	8ee5b13d-7d8e-11e1-909d-c80aa9edcf4e
+50	Scale type	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	986acf48-7d8e-11e1-909d-c80aa9edcf4e
+51	Specimen procedure	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	a6937642-7d8e-11e1-909d-c80aa9edcf4e
+52	Specimen source identity	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	b1d6941e-7d8e-11e1-909d-c80aa9edcf4e
+53	Specimen source morphology	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	b7c793c1-7d8e-11e1-909d-c80aa9edcf4e
+54	Specimen source topography	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	be9f9eb8-7d8e-11e1-909d-c80aa9edcf4e
+55	Specimen substance	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	c8f2bacb-7d8e-11e1-909d-c80aa9edcf4e
+56	Subject of information	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	d0664c4f-7d8e-11e1-909d-c80aa9edcf4e
+57	Subject relationship context	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	dace9d13-7d8e-11e1-909d-c80aa9edcf4e
+58	Surgical approach	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	e3cd666d-7d8e-11e1-909d-c80aa9edcf4e
+59	Temporal context	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	ed96447d-7d8e-11e1-909d-c80aa9edcf4e
+60	Time aspect	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	f415bcce-7d8e-11e1-909d-c80aa9edcf4e
+61	Using access device	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	fa9538a9-7d8e-11e1-909d-c80aa9edcf4e
+62	Using device	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	06588655-7d8f-11e1-909d-c80aa9edcf4e
+63	Using energy	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	0c2ae0bc-7d8f-11e1-909d-c80aa9edcf4e
+64	Using substance	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	13d2c607-7d8f-11e1-909d-c80aa9edcf4e
+65	IS A	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	1ce7a784-7d8f-11e1-909d-c80aa9edcf4e
+66	MAY BE A	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	267812a3-7d8f-11e1-909d-c80aa9edcf4e
+67	MOVED FROM	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	2de3168e-7d8f-11e1-909d-c80aa9edcf4e
+68	MOVED TO	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	32f0fd99-7d8f-11e1-909d-c80aa9edcf4e
+69	REPLACED BY	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	3b3b9a7d-7d8f-11e1-909d-c80aa9edcf4e
+70	WAS A	\N	1	2015-01-23 00:00:00	1	\N	1	0	1	\N	\N	41a034da-7d8f-11e1-909d-c80aa9edcf4e

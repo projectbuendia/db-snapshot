@@ -25,5 +25,8 @@
 25	IMO ProcedureIT	Intelligent Medical Objects, Inc. procedure/test datasource	\N	1	2013-10-01 13:34:40	0	1	\N	\N	912025e5-edb1-4774-8a0c-59febe5600e4
 26	Pharmacologic Drug Class	Class of drugs/medications used	\N	1	2014-02-07 22:11:41	1	1	2014-02-07 22:14:10	Error	caa29f2f-62e9-4ed7-98c0-8abaa0143f8d
 27	NDF-RT NUI	Unique numeric indicator from NDF-RT drug information database	\N	1	2014-02-07 22:15:18	0	1	\N	\N	d82521a1-6b31-4fac-ad4f-492a91aefca5
-28	org.msf.projectbuendia	Internal concepts added in ProjectBuendia	\N	3	2014-11-18 16:00:58	0	\N	\N	\N	7c3dd4e0-d3d3-4ed4-b5db-0b2bc358b09f
-29	Buendia GCE Server	Buendia GCE Server	104.155.15.141	3	2014-11-18 22:37:10	0	\N	\N	\N	7460bf8a-af4a-4892-8f2f-fdbbf85128a8
+28	FDA Route of Administration	Description.  This standard provides for all routes of administration for drugs. \
+\
+Source.  COMIS Reference table (which is used by the Drug Product Reference File to generate Approved Drug Products with Therapeutic Equivalence Evaluations (a.k.a. "The Orange Book")), and the Drug Registration and Listing Database, Office of Epidemiology and Biosurveillance Database.  Also, the names (but not the definitions or the numeric codes) that are represented in blue have been harmonized with the E2B route of administration terms for the International Conference on Harmonization (ICH).	\N	1	2015-01-16 18:06:56	0	1	\N	\N	9b77b4cb-172b-49a5-b8b1-7d30bd1739e0
+29	NCI Concept Code	National Cancer Institute concept code \
+URL: http://nciterms.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus	\N	1	2015-01-16 19:46:12	0	1	\N	\N	f79f5ac4-1c94-4b64-b0d4-04565c1d52b9

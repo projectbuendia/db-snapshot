@@ -13,6 +13,7 @@
 13	13	methods for preventing pregnancy	en	1	2004-01-01 00:00:00	1	\N	13FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 14	14	Diarrhea due to amoebic infection.	en	1	2004-04-02 00:00:00	1	2012-09-28 17:43:51	14FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15	15	Diarrhea due to cholera.	en	1	2004-04-02 00:00:00	1	\N	15FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16	16	Diarrhea due to an unspecified cause.	en	1	2004-01-01 00:00:00	1	\N	16FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17	17	Booster vaccination against diptheria and tetanus (IM) used in pediatric patients.	en	1	2004-01-01 00:00:00	1	2012-01-11 11:05:25	17FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 18	18	first vaccination for diptheria, pertussis (whooping cough), and tetanus (IM)	en	1	2004-01-01 00:00:00	1	\N	18FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 19	19	second vaccination for diptheria, pertussis (whooping cough), and tetanus (IM)	en	1	2004-01-01 00:00:00	1	\N	19FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -44,7 +45,7 @@
 45	44	The period from conception to birth when a woman carries a developing fetus in her uterus.	en	1	2004-01-01 00:00:00	1	\N	45FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 46	45	Test that determines pregnancy status through measure of hormone content in urine.	en	1	2004-01-01 00:00:00	1	\N	46FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 47	46	Implantation and subsequent development of a fertilized ovum outside the uterus, as in a fallopian tube.	en	1	2007-10-18 04:28:24	1	2013-10-30 13:58:30	47FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-48	47	Pregnancy with an associated diastolic blood pressure of >90 mmHg.	en	1	2004-01-01 00:00:00	1	2014-08-05 22:11:10	48FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+48	47	Pregnancy with an associated diastolic blood pressure of >90 mmHg.	en	1	2004-01-01 00:00:00	1	2014-12-09 14:48:07	48FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 49	48	Pregnancy terminated by a spontaneous abortion.	en	1	2004-01-01 00:00:00	1	2012-10-09 21:18:04	49FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 50	50	The intentional, premature expulsion of a nonviable fetus from the uterus.	en	1	2007-10-18 04:28:24	1	\N	50FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 51	51	growth failure in bone due to vitamin D deficiency	en	1	2004-01-01 00:00:00	1	\N	51FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -136,7 +137,7 @@
 137	138	Cutaneous abscess, furuncle and carbuncle, unspecified	en	1	2004-01-01 00:00:00	1	\N	137FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 138	139	Infection of the vagina.	en	1	2004-01-01 00:00:00	1	\N	138FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 139	140	A contagious skin disease caused by a parasitic mite (Sarcoptes scabiei) and characterized by intense itching.	en	1	2004-01-01 00:00:00	1	2013-10-31 13:51:49	139FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-140	141	An acute, highly infectious disease caused by a bacillus (Salmonella typhi) transmitted chiefly by contaminated food or water and characterized by high fever, headache, coughing, intestinal hemorrhaging, and rose-colored spots on the skin.	en	1	2004-01-01 00:00:00	1	2013-10-31 13:52:11	140FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+140	141	An acute, highly infectious disease caused by a bacillus (Salmonella typhi) transmitted chiefly by contaminated food or water and characterized by high fever, headache, coughing, intestinal hemorrhaging, and rose-colored spots on the skin.	en	1	2004-01-01 00:00:00	1	2014-12-09 02:48:38	140FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 141	142	Unspecified allergic reaction.	en	1	2004-01-01 00:00:00	1	\N	141FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 142	143	low back pain	en	1	2004-01-01 00:00:00	1	\N	142FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 143	144	An infection of the scalp caused by fungi of the genera Microsporum or Trichophyton, characterized by itchy, scaly patches and sometimes hair loss.	en	1	2004-01-01 00:00:00	1	\N	143FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -154,8 +155,8 @@
 155	156	unspecified injury	en	1	2004-01-01 00:00:00	1	\N	155FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 156	157	fever of unspecified origin, not =to PUO	en	1	2004-01-01 00:00:00	1	\N	156FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 157	158	pelvic inflammatory disease, usually due to infection	en	1	2004-01-01 00:00:00	1	\N	157FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-158	159	Patient died.	en	1	2004-01-01 00:00:00	1	2012-10-09 22:02:18	158FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-159	159	aliyefiwa au mfiwa	sw	1	2007-12-11 21:28:21	1	2012-10-09 22:02:18	159FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+158	159	Patient died.	en	1	2004-01-01 00:00:00	1	2014-11-17 05:43:28	158FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+159	159	aliyefiwa au mfiwa	sw	1	2007-12-11 21:28:21	1	2014-11-17 05:43:28	159FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 160	160	An infectious bacterial disease of humans that is caused by brucellae, transmitted by contact with infected animals, and characterized by fever, malaise, and headache.	en	1	2004-01-01 00:00:00	1	\N	160FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 161	161	Enlarged, firm, or otherwise abnormal lymph nodes usually associated with disease.	en	1	2004-01-01 00:00:00	1	\N	161FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 162	162	The occurrence of menstrual cycles at frequency that is higher than normal.	en	1	2004-01-01 00:00:00	1	2013-10-31 13:53:15	162FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -515,7 +516,7 @@ maradhi mbalimbali yakuambukizwa wakati wa kufanya tendo la ndoa.	sw	1	2007-12-1
 514	514	non-specific abnormality on a test	en	1	2004-01-01 00:00:00	1	\N	514FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 515	515	jaundice visible in sclera	en	1	2004-01-01 00:00:00	1	\N	515FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 516	516	Pale eye conjuctiva, often times associated with iron deficiency anemia.	en	1	2004-01-01 00:00:00	1	\N	516FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-517	517	Red, inflamed conjunctiva, often times associated with conjunctivitis.	en	1	2004-01-01 00:00:00	1	2012-10-10 13:38:57	517FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+517	517	Red, inflamed conjunctiva, often times associated with conjunctivitis.	en	1	2004-01-01 00:00:00	1	2014-11-21 02:47:43	517FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 518	518	Abnormal ocular fundus on examination.	en	1	2004-01-01 00:00:00	1	2012-10-10 13:41:08	518FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 519	519	redness of skin	en	1	2004-01-01 00:00:00	1	\N	519FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 520	520	Of, relating to, or characterized by a spot or spots.	en	1	2004-01-01 00:00:00	1	\N	520FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -1066,16 +1067,16 @@ maradhi mbalimbali yakuambukizwa wakati wa kufanya tendo la ndoa.	sw	1	2007-12-1
 1065	1062	Answer on encounter form: "Suspected past exposure (prior to relationship)"	en	1	2005-01-06 00:00:00	1	\N	1065FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1066	1063	The process of administering fluid into a vein or an artery with blood.	en	1	2005-01-06 00:00:00	1	2013-07-31 02:04:42	1066FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1067	1064	Generic answer.. ensures that when a negative is confirmed, that there is some way of noting this within the system.	en	1	2005-01-06 00:00:00	1	\N	1067FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1068	1065	Generic answer to a question.	en	1	2005-01-06 00:00:00	1	2014-10-07 18:39:17	1068FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1069	1066	Generic answer to a question.	en	1	2005-01-06 00:00:00	1	2014-10-11 15:48:46	1069FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1070	1067	Generic answer to a question.	en	1	2005-01-06 00:00:00	1	2013-01-27 01:37:12	1070FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1068	1065	Generic answer to a question.	en	1	2005-01-06 00:00:00	1	2014-12-05 02:59:41	1068FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1069	1066	Generic answer to a question.	en	1	2005-01-06 00:00:00	1	2014-12-05 03:00:01	1069FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1070	1067	Generic answer to a question.	en	1	2005-01-06 00:00:00	1	2014-12-05 03:00:27	1070FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1071	1068	Generic answer to a question.	en	1	2005-01-06 00:00:00	1	\N	1071FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1072	1069	Question which ascertains a number of general symptoms.	en	1	2005-01-06 00:00:00	1	2014-06-07 00:24:11	1072FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1073	1070	Question which ascertains number of symptoms related to the head, eyes, ears, neck, and throat.	en	1	2005-01-06 00:00:00	1	2014-06-07 00:24:30	1073FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1074	1071	Question which ascertains number of symptoms related to the cardiopulmonary system.	en	1	2005-01-06 00:00:00	1	2014-06-07 00:24:48	1074FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1075	1072	Generic temporal answer to question.	en	1	2005-01-06 00:00:00	1	2013-03-12 23:36:02	1075FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1076	1073	Generic temporal answer to question.	en	1	2005-01-06 00:00:00	1	2013-03-12 23:36:39	1076FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1077	1074	Generic temporal answer to question.	en	1	2005-01-06 00:00:00	1	2013-03-12 23:37:10	1077FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1075	1072	Generic temporal answer to question.	en	1	2005-01-06 00:00:00	1	2014-12-01 21:22:36	1075FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1076	1073	Generic temporal answer to question.	en	1	2005-01-06 00:00:00	1	2014-12-01 21:22:58	1076FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1077	1074	Generic temporal answer to question.	en	1	2005-01-06 00:00:00	1	2014-12-01 21:23:31	1077FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1078	1075	Descriptive quality.	en	1	2005-01-06 00:00:00	1	2013-08-23 21:43:54	1078FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1079	1076	Descriptive quality.	en	1	2005-01-06 00:00:00	1	\N	1079FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1080	1077	Descriptive quality.	en	1	2005-01-06 00:00:00	1	\N	1080FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -1420,7 +1421,7 @@ The equation is BMI = body weight in kilograms/height in meters squared.	en	1	20
 1408	1466	Focal neurological signs suggestive of stroke or toxoplasma encephalitis	en	1	2007-07-13 14:50:43	1	2012-10-12 13:11:40	1408FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1409	1467	Diarrhea for less than one month	en	1	2007-11-02 21:51:58	1	2012-10-12 13:24:51	1409FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1410	1468	Kuharisha kukuu( muda mrefu)	sw	1	2007-12-11 21:22:11	1	\N	1410FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1411	1472	LIGATURE DES TROMPES	fr	1	2007-07-13 15:08:57	1	2012-06-06 13:38:51	1411FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1411	1472	LIGATURE DES TROMPES	fr	1	2007-07-13 15:08:57	1	2014-12-23 02:35:27	1411FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1412	1474	NOMBRE DE PERSONNES QUI VIVENT DANS LA MAISON (Y COMPRIS LE PATIENT)	fr	1	2007-07-13 15:12:24	1	\N	1412FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1413	1475	NOMBRE DE CHAMBRES DE LA MAISON	fr	1	2007-07-13 15:13:07	1	\N	1413FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1414	1477	Used for civil status	en	1	2007-07-13 15:19:42	1	\N	1414FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -1488,7 +1489,7 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 1474	1632	Past history of fracture of the femur (thigh bone).	en	1	2009-01-09 16:12:32	1	2012-10-12 14:54:04	1474FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1475	1635	History of prior contraceptive use, type used.	en	1	2009-01-09 16:37:09	1	2013-05-12 17:33:32	1475FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1476	1636	Referral for pregnancy termination or abortion.	en	1	2009-01-09 17:06:53	1	\N	1476FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1477	1637	Dilation (dilatation) and curettage refers to the dilation (opening) of the cervix and surgical removal of the contents of the uterus. It is a therapeutic gynecological procedure as well as a rarely used method of first trimester abortion. It is commonly referred to as a D&C. REF: http://en.wikipedia.org/wiki/Dilation_and_curettage	en	1	2009-01-11 17:45:35	1	\N	1477FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1477	1637	Dilation (dilatation) and curettage refers to the dilation (opening) of the cervix and surgical removal of the contents of the uterus. It is a therapeutic gynecological procedure as well as a rarely used method of first trimester abortion. It is commonly referred to as a D&C. REF: http://en.wikipedia.org/wiki/Dilation_and_curettage	en	1	2009-01-11 17:45:35	1	2014-12-22 16:23:48	1477FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1478	1638	A medication used for the prophylaxis of disease during pregnancy. Similar to an order for medication but includes an episode number or sequence number (like an immunization)	en	1	2009-02-02 23:13:16	1	2013-11-18 13:12:39	1478FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1479	1639	The number of current treatment in a sequence. For example, the second prophylaxis for anemia during pregnancy or the fifth course of chemotherapy.	en	1	2009-02-02 23:15:03	1	2013-11-18 13:12:14	1479FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1480	1640	Date/time of admission to hospital or clinic	en	1	2009-02-03 00:34:29	1	\N	1480FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -1501,18 +1502,18 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 1487	1647	The length of time in days a person has been in the hospital. Admission and discharge on the same day counts as 1 day.	en	1	2009-03-17 15:12:42	1	\N	1487FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1488	1648	Whether a patient was referred to the facility or not. Question on a form answered with a check box.	en	1	2009-03-17 15:14:44	1	\N	1488FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1489	1649	Answer to question about type of telephone. A phone based at a home. Phone numbers are usually stored in another concept	en	1	2009-03-17 16:01:29	1	\N	1489FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1490	1650	Answer to question about type of phone. A cell phone or mobile phone. The actual number is stored in a separate field.	en	1	2009-03-17 16:06:55	1	\N	1490FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1490	1650	Answer to question about type of phone. A cell phone or mobile phone. The actual number is stored in a separate field.	en	1	2009-03-17 16:06:55	1	2014-11-21 02:18:58	1490FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1491	1651	Procedures/tests/performed	en	1	2009-04-23 14:58:49	1	2012-07-02 13:47:14	1491FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1492	1653	Answer to reason for admission question. Admitted for delivery of pregnant woman.	en	1	2009-04-23 15:46:52	1	\N	1492FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1493	1654	Answer to reason for admission question. Admitted for procedure or test.	en	1	2009-04-23 15:48:08	1	\N	1493FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1494	1655	The reason a person is admitted to the hospital or clinic.	en	1	2009-04-23 15:54:41	1	\N	1494FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1495	1657	Question: Has the patient delivered since the last visit to clinic or hospital or by community health worker?	en	1	2009-04-23 16:18:08	1	\N	1495FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1496	1658	Question on encounter form: "During the last month how many of his/her pulls did the patient take?"	en	1	2009-04-23 18:29:12	1	\N	1496FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1497	1659	Status of patient's Tuberculosis. 	en	1	2009-04-23 21:30:08	1	2012-07-05 15:23:27	1497FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1498	1660	Answer to a question about disease status.	en	1	2009-04-23 21:32:27	1	\N	1498FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1499	1661	Answer to a question about disease status.	en	1	2009-04-23 21:37:30	1	\N	1499FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1500	1662	Answer to a question about disease status. Patient is currently being treated for the disease.	en	1	2009-04-23 21:39:53	1	\N	1500FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1501	1663	Answer to a question about disease status. Patient has completed treatment for the disease.	en	1	2009-04-23 21:41:19	1	\N	1501FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1497	1659	Status of patient's Tuberculosis. 	en	1	2009-04-23 21:30:08	1	2015-01-19 17:24:26	1497FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1498	1660	Answer to a question about disease status.	en	1	2009-04-23 21:32:27	1	2015-01-19 17:24:59	1498FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1499	1661	Answer to a question about disease status.	en	1	2009-04-23 21:37:30	1	2015-01-19 17:25:43	1499FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1500	1662	Answer to a question about disease status. Patient is currently being treated for the disease.	en	1	2009-04-23 21:39:53	1	2015-01-19 17:26:04	1500FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1501	1663	Answer to a question about disease status. Patient has completed treatment for the disease.	en	1	2009-04-23 21:41:19	1	2015-01-19 17:26:22	1501FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1502	1664	Answer to question about reason for not starting treatment.	en	1	2009-04-23 21:46:56	1	\N	1502FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1503	1665	Answer to question about reason for non-treatment. Stock out includes no available medication.	en	1	2009-04-23 21:51:32	1	2012-06-14 21:24:22	1503FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1504	1666	Answer to question about reason for non-treatment. No appropriate medication is available for resistant organism (not the same as Stock Out).	en	1	2009-04-23 22:00:18	1	\N	1504FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -1576,9 +1577,9 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 1562	1729	Whether the sign or symptom is/was present	en	1	2009-06-24 16:52:38	1	2013-03-12 23:39:46	1562FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1563	1730	The date when the sign or symptom started.	en	1	2009-06-24 16:53:57	1	\N	1563FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1564	1731	The numeric value of the duration of the sign or symptom.	en	1	2009-06-24 16:54:56	1	\N	1564FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1565	1732	The units which correspond to the numeric value entered for a duration	en	1	2009-06-24 16:56:40	1	2014-10-02 19:58:53	1565FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1566	1733	interval of duration	en	1	2009-06-24 16:57:06	1	\N	1566FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1567	1734	Interval of duration	en	1	2009-06-24 16:57:26	1	2013-03-12 23:37:40	1567FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1565	1732	The units which correspond to the numeric value entered for a duration	en	1	2009-06-24 16:56:40	1	2014-12-01 21:21:26	1565FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1566	1733	interval of duration	en	1	2009-06-24 16:57:06	1	2014-12-01 21:22:02	1566FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1567	1734	Interval of duration	en	1	2009-06-24 16:57:26	1	2014-12-01 21:23:44	1567FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1568	1735	The time that a person was sick before dying.	en	1	2009-06-24 17:49:27	1	\N	1568FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1569	1736	Did the patient have any problems or challenges in accessing medical assistance or care?	en	1	2009-06-24 17:51:13	1	\N	1569FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1570	1737	Insufficient funds for transport. A reason for not receiving care.	en	1	2009-06-24 17:56:47	1	\N	1570FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -1644,8 +1645,8 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 1630	5005	Date of visit	en	1	2004-08-12 00:00:00	1	\N	1630FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1631	5006	General descriptive term.	en	1	2004-08-12 00:00:00	1	\N	1631FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1632	5007	A chronic, abnormal enlargement of the lymph nodes, usually associated with disease.	en	1	2004-08-12 00:00:00	1	\N	1632FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1633	5008	Abnormal enlargement of the liver.	en	1	2004-08-12 00:00:00	1	2012-10-12 17:04:00	1633FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1634	5009	Enlargement of the spleen.	en	1	2004-08-12 00:00:00	1	\N	1634FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1633	5008	Abnormal enlargement of the liver.	en	1	2004-08-12 00:00:00	1	2014-11-21 02:55:58	1633FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1634	5009	Enlargement of the spleen.	en	1	2004-08-12 00:00:00	1	2014-11-21 02:56:20	1634FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1635	5010	Inflammation/rash of skin	en	1	2004-08-12 00:00:00	1	\N	1635FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1636	5011	Inflammation of the parotid gland.	en	1	2004-08-12 00:00:00	1	\N	1636FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1637	5012	WHO Stage 2 / CDC Category A - Recurrent Or Persistent URIs, Sinusitis, Or Otitis Media	en	1	2004-08-12 00:00:00	1	2012-10-12 17:29:09	1637FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -1721,12 +1722,12 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 1707	5082	none	en	1	2004-08-12 00:00:00	1	\N	1707FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1708	5083	Patient who is enrolled in MTCT+	en	1	2004-08-12 00:00:00	1	\N	1708FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1709	5084	Describes whether HIV status should be disclosed to husband	en	1	2004-08-12 00:00:00	1	\N	1709FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1710	5085	A patient's systolic blood pressure measurement (taken with a manual cuff in either a sitting or standing position)	en	1	2004-08-12 00:00:00	1	2014-08-13 19:33:39	1710FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1711	5086	A patient's diastolic blood pressure measurement (taken with a manual cuff in either a sitting or standing position)	en	1	2004-08-12 00:00:00	1	2014-08-13 19:34:02	1711FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1710	5085	A patient's systolic blood pressure measurement (taken with a manual cuff in either a sitting or standing position)	en	1	2004-08-12 00:00:00	1	2014-12-06 02:54:14	1710FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1711	5086	A patient's diastolic blood pressure measurement (taken with a manual cuff in either a sitting or standing position)	en	1	2004-08-12 00:00:00	1	2014-12-06 02:54:55	1711FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1712	5087	Patient pulse rate, as measured with a peripheral oximeter.	en	1	2004-08-12 00:00:00	1	2014-10-13 18:39:56	1712FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1713	5088	Patient's temperature in degrees centigrade.	en	1	2004-08-12 00:00:00	1	2014-10-13 18:39:40	1713FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1714	5089	Patient's weight in kilograms.	en	1	2004-08-12 00:00:00	1	2014-10-13 18:39:05	1714FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1715	5090	Patient's height in centimeters.	en	1	2004-08-12 00:00:00	1	2014-10-13 18:39:22	1715FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1715	5090	Patient's height in centimeters.	en	1	2004-08-12 00:00:00	1	2014-12-17 22:00:03	1715FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1716	5091	none	en	1	2004-08-12 00:00:00	1	\N	1716FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1717	5092	Oxygen saturation, as measured from a peripheral oximeter.	en	1	2004-08-12 00:00:00	1	2014-10-13 18:40:38	1717FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1718	5093	Impression of Compliance 1 -4 4=excellent	en	1	2004-08-12 00:00:00	1	\N	1718FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -1739,9 +1740,9 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 1725	5100	describes a physical exam finding.. when the abdomen is palpated, the patient guards.	en	1	2004-08-12 00:00:00	1	\N	1725FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1726	5101	describes a physical exam finding.. when the abdomen is palpated, releasing pressure elicits pain.	en	1	2004-08-12 00:00:00	1	\N	1726FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1727	5102	describes an anatomic location close to the patient's bladder..	en	1	2004-08-12 00:00:00	1	\N	1727FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1728	5103	Finding of an abdominal mass upon physical examination.	en	1	2004-08-12 00:00:00	1	\N	1728FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1728	5103	Finding of an abdominal mass upon physical examination.	en	1	2004-08-12 00:00:00	1	2014-11-21 02:57:18	1728FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1729	5104	anatomic location in the left lower quadrant of the abdomen	en	1	2004-08-12 00:00:00	1	2012-05-23 15:17:18	1729FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1730	5105	Abdominal pain elicited on palpation.	en	1	2004-08-12 00:00:00	1	\N	1730FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1730	5105	Abdominal pain elicited on palpation.	en	1	2004-08-12 00:00:00	1	2014-11-21 02:55:37	1730FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1731	5106	Describes abdominal pain on examination.  Coded answer is location of this finding.	en	1	2004-08-12 00:00:00	1	\N	1731FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1732	5107	Anatomic location in the right upper quadrant of the abdomen.	en	1	2004-08-12 00:00:00	1	2012-05-23 15:18:19	1732FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1733	5108	Unusual walking patterns noted on physical exam	en	1	2004-08-12 00:00:00	1	2012-10-13 12:32:30	1733FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -1875,10 +1876,10 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 1861	5237	none	en	1	2004-08-12 00:00:00	1	\N	1861FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1862	5238	none	en	1	2004-08-12 00:00:00	1	\N	1862FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1863	5239	none	en	1	2004-08-12 00:00:00	1	\N	1863FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1864	5240	Patients that are lost to followup.. boolean question.	en	1	2004-08-12 00:00:00	1	\N	1864FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1864	5240	Patients that are lost to followup.. boolean question.	en	1	2004-08-12 00:00:00	1	2014-11-17 05:44:10	1864FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1865	5241	none	en	1	2004-08-12 00:00:00	1	\N	1865FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1866	5242	Measured respiratory rate in breaths per minute	en	1	2004-08-12 00:00:00	1	2014-10-13 18:40:18	1866FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1867	5242	FREQUENCE RESPIRATOIRE	fr	1	2007-08-29 15:26:54	1	2014-10-13 18:40:18	1867FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1866	5242	Measured respiratory rate in breaths per minute	en	1	2004-08-12 00:00:00	1	2014-12-08 03:25:46	1866FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1867	5242	FREQUENCE RESPIRATOIRE	fr	1	2007-08-29 15:26:54	1	2014-12-08 03:25:46	1867FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1868	5243	Atrophy of the gluteal muscles.	en	1	2004-08-12 00:00:00	1	2012-10-13 13:51:19	1868FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1869	5244	Complaint.  Person who describes nonspecific sores within the mouth	en	1	2004-08-12 00:00:00	1	\N	1869FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1870	5245	Term that describes skin paleness or loss of color	en	1	2004-08-12 00:00:00	1	2013-08-30 15:28:05	1870FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -1919,7 +1920,7 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 1905	5280	Question on encounter form: "Does the patient or their partner use another form of family planning, not otherwise specified?"	en	1	2004-08-12 00:00:00	1	\N	1905FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1906	5281	Other Family Planning Specify	en	1	2004-08-12 00:00:00	1	\N	1906FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1907	5282	Question on encounter form.  Defines the "pay category" of a patient for each visit.  Patient can currently have only one of these categories, but this can and will change in the future.	en	1	2004-08-12 00:00:00	1	\N	1907FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1908	5283	Zero to 100 scale commonly used for assessing terminally ill patients.	en	1	2004-08-12 00:00:00	1	2012-05-23 14:46:23	1908FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1908	5283	Zero to 100 scale commonly used for assessing terminally ill patients.	en	1	2004-08-12 00:00:00	1	2014-12-06 02:56:18	1908FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1909	5284	Normal, Abnormal	en	1	2004-08-12 00:00:00	1	\N	1909FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1910	5285	none	en	1	2004-08-12 00:00:00	1	\N	1910FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1911	5286	Normal, Abnormal	en	1	2004-08-12 00:00:00	1	\N	1911FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -1951,7 +1952,7 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 1937	5311	A sexual maturity rating used to determine the level of genital development.	en	1	2004-08-12 00:00:00	1	\N	1937FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1938	5312	Swelling / inflammation of any joint within the body.	en	1	2004-08-12 00:00:00	1	\N	1938FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1939	5313	Tenderness upon palpation of the muscle.	en	1	2004-08-12 00:00:00	1	\N	1939FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-1940	5314	Measurement of the largest part of the infant's head (just above the eyebrow and ears) used to determine brain growth.	en	1	2004-08-12 00:00:00	1	2014-08-13 19:36:32	1940FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+1940	5314	Measurement of the largest part of the infant's head (just above the eyebrow and ears) used to determine brain growth.	en	1	2004-08-12 00:00:00	1	2014-12-06 02:55:16	1940FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1941	5315	Type of visit- Scheduled or Unscheduled/Interim	en	1	2004-08-12 00:00:00	1	\N	1941FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1942	5316	Is The Child Currently Being Breastfed?	en	1	2004-08-12 00:00:00	1	\N	1942FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 1943	5317	If Breastfed, Is The Child Receiving Any Foods Or Liquids Other Than Breastmilk (Including Water)?	en	1	2004-08-12 00:00:00	1	\N	1943FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -2112,7 +2113,7 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 2098	5472	none	en	1	2004-08-12 00:00:00	1	\N	2098FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2099	5473	Serum electrolyte chemistry panel.	en	1	2004-08-12 00:00:00	1	2014-10-17 16:16:20	2099FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2100	5474	none	en	1	2004-08-12 00:00:00	1	\N	2100FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-2101	5475	Widely used test for detecting asymptomatic tuberculosis infection, or latent tuberculosis infection. Record the number of mm of induration.	en	1	2004-08-12 00:00:00	1	2013-02-25 15:46:07	2101FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+2101	5475	Widely used test for detecting asymptomatic tuberculosis infection, or latent tuberculosis infection. Record the number of mm of induration.	en	1	2004-08-12 00:00:00	1	2014-12-26 21:46:28	2101FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2102	5476	none	en	1	2004-08-12 00:00:00	1	\N	2102FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2103	5477	none	en	1	2004-08-12 00:00:00	1	\N	2103FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2104	5478	none	en	1	2004-08-12 00:00:00	1	\N	2104FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -2124,7 +2125,7 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 2110	5484	Nutritional counseling or support for patient or patient's family	en	1	2004-08-12 00:00:00	1	2013-04-16 15:46:50	2110FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2111	5485	none	en	1	2004-08-12 00:00:00	1	\N	2111FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2112	5486	none	en	1	2004-08-12 00:00:00	1	\N	2112FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-2113	5487	none	en	1	2004-08-12 00:00:00	1	\N	2113FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+2113	5487	none	en	1	2004-08-12 00:00:00	1	2014-12-26 21:51:52	2113FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2114	5488	none	en	1	2004-08-12 00:00:00	1	\N	2114FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2115	5489	none	en	1	2004-08-12 00:00:00	1	\N	2115FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2116	5490	none	en	1	2004-08-12 00:00:00	1	\N	2116FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -2261,7 +2262,7 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 2247	5616	Question on encounter form: "Have you disclosed your HIV status to any of the following people?"	en	1	2004-08-12 00:00:00	1	\N	2247FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2248	5617	General descriptive answer.. a patient's partner or spouse.	en	1	2004-08-12 00:00:00	1	\N	2248FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2249	5618	A general descriptive answer.. a patient's friend.	en	1	2004-08-12 00:00:00	1	2014-08-15 21:19:25	2249FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-2250	5619	A general descriptive answer:  a patient's health care provider.	en	1	2004-08-12 00:00:00	1	\N	2250FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+2250	5619	A general descriptive answer:  a patient's health care provider.	en	1	2004-08-12 00:00:00	1	2014-12-26 21:52:36	2250FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2251	5620	A general descriptive answer: a patient's other family member.	en	1	2004-08-12 00:00:00	1	2012-07-02 14:46:02	2251FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2252	5621	A general descriptive answer:  a patient's other household member which is not a family member.	en	1	2004-08-12 00:00:00	1	\N	2252FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2253	5622	A generic, descriptive answer which is a handwritten, non-coded response to a question.	en	1	2004-08-12 00:00:00	1	2014-09-13 21:47:32	2253FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -2600,6 +2601,7 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 2586	5957	A cough that expels mucus or sputum from the respiratory tract.	en	1	2004-08-12 00:00:00	1	\N	2586FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2587	5958	Question on encounter form which details the quality of the patient's productive cough.	en	1	2004-08-12 00:00:00	1	\N	2587FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2588	5959	Question on encounter form, describes cough duration on review of systems.	en	1	2004-08-12 00:00:00	1	\N	2588FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+2589	5960	Sensation of being out of breath.	en	1	2004-08-12 00:00:00	1	\N	2589FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2590	5961	Sensation of being out of breath while at rest.	en	1	2004-08-12 00:00:00	1	\N	2590FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2591	5962	Question on encounter form, describes shortness of breath duration on review of systems.	en	1	2004-08-12 00:00:00	1	\N	2591FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2592	5963	Sensation of being out of breath with exertion.	en	1	2004-08-12 00:00:00	1	\N	2592FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -2617,11 +2619,12 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 2604	5975	none	en	1	2004-08-12 00:00:00	1	\N	2604FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2605	5976	Question on encounter form, describes chest pain location on review of systems.  Compound answer.	en	1	2004-08-12 00:00:00	1	\N	2605FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2606	5977	none	en	1	2004-08-12 00:00:00	1	\N	2606FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-2607	5978	A feeling of sickness in the stomach characterized by an urge to vomit.	en	1	2004-08-12 00:00:00	1	2013-02-02 16:45:43	2607FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-2608	5979	Question on encounter form, describes nausea duration on review of systems.	en	1	2004-08-12 00:00:00	1	\N	2608FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+2607	5978	A feeling of sickness in the stomach characterized by an urge to vomit.	en	1	2004-08-12 00:00:00	1	2014-11-21 02:53:57	2607FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+2608	5979	Question on encounter form, describes nausea duration on review of systems.	en	1	2004-08-12 00:00:00	1	2014-12-05 02:44:32	2608FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2609	5980	To eject part or all of the contents of the stomach through the mouth, usually in a series of involuntary spasmic movements.	en	1	2004-08-12 00:00:00	1	\N	2609FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-2610	5981	Question on encounter form, describes vomiting duration on review of systems.	en	1	2004-08-12 00:00:00	1	\N	2610FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+2610	5981	Question on encounter form, describes vomiting duration on review of systems.	en	1	2004-08-12 00:00:00	1	2014-12-05 02:45:22	2610FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2611	5982	none	en	1	2004-08-12 00:00:00	1	\N	2611FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+2612	5983	none	en	1	2004-08-12 00:00:00	1	\N	2612FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2613	5984	Question on encounter form, describes diarrhea duration on review of systems.	en	1	2004-08-12 00:00:00	1	\N	2613FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2614	5985	none	en	1	2004-08-12 00:00:00	1	\N	2614FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2615	5986	Patient has or previously had jaundice, a yellowish discoloration of the skin.	en	1	2004-08-12 00:00:00	1	\N	2615FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -2755,7 +2758,7 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 2747	110042	Successive and rapid contractions of motor units associated with chronic nerve injury. The discharges arise from the peripheral aspects of regenerating nerves, and clinically impart a nearly continuous undulation of the body surface overlying the muscle. (Adams et al., Principles of Neurology, 6th ed, p1491)	en	1	2007-10-18 04:28:24	1	\N	2747FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2752	110050	Clinical or subclinical disturbances of cortical function due to a sudden, abnormal, excessive, and disorganized discharge of brain cells. Clinical manifestations include abnormal motor, sensory and psychic phenomena. Recurrent seizures are usually referred to as EPILEPSY or "seizure disorder."	en	1	2007-10-18 04:28:24	1	\N	2752FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2753	110051	A degenerative disease of the brain characterized by the insidious onset of dementia. Impairment of memory, judgement, attention span, and problem solving skills are followed by severe APRAXIA and a global loss of cognitive abilities. The condition primarily occurs after age 60, and is marked pathologically by severe cortical atrophy and the triad of SENILE PLAQUES; NEUROFIBRILLARY TANGLES; and NEUROPIL THREADS. (From Adams et al., Principles of Neurology, 6th ed, pp1049-57)	en	1	2007-10-18 04:28:24	1	\N	2753FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-2755	110055	Bleeding in the gastrointestinal tract.	en	1	2007-10-18 04:28:24	1	\N	2755FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+2755	110055	Stools which are dark or black in color. 	en	1	2007-10-18 04:28:24	1	2015-01-22 14:53:20	2755FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2756	110062	A common superficial bacterial infection caused by STAPHYLOCOCCUS AUREUS or group A beta-hemolytic streptococci. Characteristics include pustular lesions that rupture and discharge a thin, amber-colored fluid that dries and forms a crust. This condition is commonly located on the face, especially about the mouth and nose.	en	1	2007-10-18 04:28:24	1	\N	2756FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2760	110095	Replacement of the bone marrow by fibrous tissue, occurring in association with a myeloproliferative disorder or secondary to another, unrelated condition. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	2760FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 2761	110107	Extravasation and subsequent accumulation of blood in the subdural space between the dural and arachnoidal layers of the meninges. This condition primarily occurs over the surface of a cerebral hemisphere, but may develop in the posterior fossa and spinal canal. Acute (HEMATOMA, SUBDURAL, ACUTE) and chronic (HEMATOMA, SUBDURAL, CHRONIC) forms exist.	en	1	2007-10-18 04:28:24	1	\N	2761FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -3175,7 +3178,7 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 3514	113024	Any of the infectious diseases of man and other animals caused by species of MYCOBACTERIUM.	en	1	2007-10-18 04:28:24	1	\N	3514FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 3515	113025	Any of the infectious diseases of man and other animals caused by species of MYCOBACTERIUM.	en	1	2007-10-18 04:28:24	1	\N	3515FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 3516	113026	The presence of viable bacteria circulating in the blood. Fever, chills, tachycardia, and tachypnea are common acute manifestations of bacteremia. The majority of cases are seen in already hospitalized patients, most of whom have underlying diseases or procedures which render their bloodstreams susceptible to invasion.	en	1	2007-10-18 04:28:24	1	2012-10-16 14:06:01	3516FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-3517	113027	Systemic disease associated with the presence and persistence of pathogenic microorganisms or their toxins in the blood. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	3517FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+3517	113027	Systemic disease associated with the presence and persistence of pathogenic microorganisms or their toxins in the blood. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	2014-12-09 02:51:29	3517FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 3519	113032	Disorders of the special senses (i.e., vision, hearing, taste, and smell) or somatosensory system (i.e., afferent components of the peripheral nervous system).	en	1	2007-10-18 04:28:24	1	\N	3519FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 3520	113034	Benign eccrine poromas that present as multiple oval, brown-to-black plaques, located mostly on the chest and back. The age of onset is usually in the fourth or fifth decade.	en	1	2007-10-18 04:28:24	1	\N	3520FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 3522	113041	An acquired organic mental disorder with loss of intellectual abilities of sufficient severity to interfere with social or occupational functioning. The dysfunction is multifaceted and involves memory, behavior, personality, judgment, attention, spatial relations, language, abstract thought, and other executive functions. The intellectual decline is usually progressive, and initially spares the level of consciousness.	en	1	2007-10-18 04:28:24	1	\N	3522FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -3300,7 +3303,7 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 3673	113486	Tuberculosis of the lungs.	en	1	2007-10-18 04:28:24	1	2012-07-13 17:31:22	3673FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 3674	113487	Tuberculosis of the lungs.	en	1	2007-10-18 04:28:24	1	2012-07-13 17:31:36	3674FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 3675	113488	Tuberculosis of the lungs.	en	1	2007-10-18 04:28:24	1	2012-07-13 17:31:44	3675FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-3676	113489	Tuberculosis of the lungs.	en	1	2007-10-18 04:28:24	1	2012-07-13 17:31:52	3676FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+3676	113489	Tuberculosis of the lungs.	en	1	2007-10-18 04:28:24	1	2014-12-09 02:50:56	3676FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 3678	113491	Tuberculosis of the lungs.	en	1	2007-10-18 04:28:24	1	2012-07-13 17:38:25	3678FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 3679	113492	Tuberculosis of the lungs.	en	1	2007-11-02 20:12:42	1	\N	3679FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 3681	113494	Tuberculosis of the lungs.	en	1	2007-10-18 04:28:24	1	2012-07-13 17:38:32	3681FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -4311,7 +4314,7 @@ mapped to Glyburide	en	1	2008-11-06 16:53:12	1	\N	1457FFFFFFFFFFFFFFFFFFFFFFFFFF
 5128	117661	A malformation of the nervous system caused by failure of the anterior neuropore to close. Infants are born with intact spinal cords, cerebellums, and brainstems, but lack formation of neural structures above this level. The skull is only partially formed but the eyes are usually normal. This condition may be associated with folate deficiency. Affected infants are only capable of primitive (brain stem) reflexes and usually do not survive for more than two weeks. (From Menkes, Textbook of Child Neurology, 5th ed, p247)	en	1	2007-10-18 04:28:24	1	\N	5128FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5130	117663	Hemorrhage from vessels in the uterus, sometimes manifested as vaginal bleeding.	en	1	2007-10-18 04:28:24	1	2011-12-19 01:59:24	5130FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5131	117666	An accumulation of blood in the uterus. (Dorland, 28th ed)	en	1	2007-10-18 04:28:24	1	2011-12-19 01:59:51	5131FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-5132	117671	Bleeding in the gastrointestinal tract.	en	1	2007-10-18 04:28:24	1	2012-07-13 16:44:29	5132FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+5132	117671	Frank bleeding in the gastrointestinal tract.	en	1	2007-10-18 04:28:24	1	2015-01-22 15:00:44	5132FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5133	117672	Bleeding in the gastrointestinal tract.	en	1	2007-10-18 04:28:24	1	2012-07-13 16:44:45	5133FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5134	117675	Bleeding into the joints. It may arise from trauma or spontaneously in patients with hemophilia.	en	1	2007-10-18 04:28:24	1	2014-06-10 23:38:46	5134FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5135	117677	Bleeding into the joints. It may arise from trauma or spontaneously in patients with hemophilia.	en	1	2007-10-18 04:28:24	1	2014-06-04 17:43:41	5135FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -4552,7 +4555,7 @@ REF: Merck Manual	en	1	2007-10-18 04:28:24	1	\N	5393FFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5429	118624	A disease characterized by thickening of the endocardium, and frequently the inner third of the myocardium. The left ventricle is most frequently involved. Cardiomegaly and congestive heart failure may also be present.	en	1	2007-10-18 04:28:24	1	\N	5429FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5430	118627	Inflammation of the endometrium. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	5430FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5431	118628	A condition in which tissue more or less perfectly resembling the uterine mucous membrane (the endometrium) and containing typical endometrial granular and stromal elements occurs aberrantly in various locations in the pelvic cavity.	en	1	2007-10-18 04:28:24	1	\N	5431FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-5432	118629	A condition in which tissue more or less perfectly resembling the uterine mucous membrane (the endometrium) and containing typical endometrial granular and stromal elements occurs aberrantly in various locations in the pelvic cavity.	en	1	2007-10-18 04:28:24	1	\N	5432FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+5432	118629	A condition in which tissue more or less perfectly resembling the uterine mucous membrane (the endometrium) and containing typical endometrial granular and stromal elements occurs aberrantly in various locations in the pelvic cavity.	en	1	2007-10-18 04:28:24	1	2014-12-22 22:02:54	5432FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5433	118631	A condition in which tissue more or less perfectly resembling the uterine mucous membrane (the endometrium) and containing typical endometrial granular and stromal elements occurs aberrantly in various locations in the pelvic cavity.	en	1	2007-10-18 04:28:24	1	\N	5433FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5434	118634	Abnormal overgrowth of endometrium. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	5434FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5435	118639	Exudative and proliferative inflammatory alterations of the endocardium, characterized by the presence of vegetations on the surface of the endocardium or in the endocardium itself, and most commonly involving a heart valve, but sometimes affecting the inner lining of the cardiac chambers or the endocardium elsewhere. It may occur as a primary disorder or as a complication of or in association with another disease. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	5435FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -4828,8 +4831,8 @@ REF: Merck Manual	en	1	2007-10-18 04:28:24	1	\N	5393FFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5801	119690	An inherited disease of exocrine glands, affecting most characteristically the pancreas, respiratory system, and sweat glands, usually beginning in infancy and typified by chronic respiratory infections, pancreatic insufficiency, and susceptibility to heat prostration. Cirrhosis of liver occurring in childhood is common and may produce portal hypertension, splenomegaly, and hypersplenism.	en	1	2007-10-18 04:28:24	1	\N	5801FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5803	119692	An inherited disease of exocrine glands, affecting most characteristically the pancreas, respiratory system, and sweat glands, usually beginning in infancy and typified by chronic respiratory infections, pancreatic insufficiency, and susceptibility to heat prostration. Cirrhosis of liver occurring in childhood is common and may produce portal hypertension, splenomegaly, and hypersplenism.	en	1	2007-10-18 04:28:24	1	\N	5803FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5804	119695	A kidney containing one or more cysts, including polycystic disease (KIDNEY, POLYCYSTIC), solitary cyst, multiple simple cysts, and retention cysts (associated with parenchymal scarring). (Stedman, 25th ed)	en	1	2007-10-18 04:28:24	1	\N	5804FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-5805	119702	General term for cysts and cystic diseases of the ovary.	en	1	2007-10-18 04:28:24	1	\N	5805FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-5806	119703	General term for cysts and cystic diseases of the ovary.	en	1	2007-10-18 04:28:24	1	\N	5806FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+5805	119702	General term for cysts and cystic diseases of the ovary.	en	1	2007-10-18 04:28:24	1	2014-12-22 22:42:45	5805FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+5806	119703	General term for cysts and cystic diseases of the ovary.	en	1	2007-10-18 04:28:24	1	2014-12-22 22:41:36	5806FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5807	119704	A congenital cystic dilatation of the common bile duct; this condition may be asymptomatic, or cause vomiting, fever, jaundice, or pain in the right upper quadrant.	en	1	2007-10-18 04:28:24	1	\N	5807FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5808	119706	An affective disorder characterized by periods of depression and hypomania. These may be separated by periods of normal mood.	en	1	2007-10-18 04:28:24	1	\N	5808FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 5809	119707	A major affective disorder marked by severe mood swings (manic or major depressive episodes) and a tendency to remission and recurrence.	en	1	2007-10-18 04:28:24	1	\N	5809FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -5225,7 +5228,7 @@ REF: Merck Manual	en	1	2007-10-18 04:28:24	1	\N	5393FFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6358	121366	A form of bronchial disorder associated with airway obstruction, marked by recurrent attacks of paroxysmal dyspnea, with wheezing due to spasmodic contraction of the bronchi.	en	1	2007-10-18 04:28:24	1	2012-10-21 18:26:44	6358FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6359	121367	A form of bronchial disorder associated with airway obstruction, marked by recurrent attacks of paroxysmal dyspnea, with wheezing due to spasmodic contraction of the bronchi.	en	1	2007-10-18 04:28:24	1	\N	6359FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6361	121369	A form of bronchial disorder associated with airway obstruction, marked by recurrent attacks of paroxysmal dyspnea, with wheezing due to spasmodic contraction of the bronchi.	en	1	2007-10-18 04:28:24	1	\N	6361FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-6363	121372	A sudden intense and continuous aggravation of a state of asthma, marked by dyspnea to the point of exhaustion and collapse and not responding to the usual therapeutic efforts.	en	1	2007-10-18 04:28:24	1	\N	6363FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+6363	121372	A sudden intense and continuous aggravation of a state of asthma, marked by dyspnea to the point of exhaustion and collapse and not responding to the usual therapeutic efforts.	en	1	2007-10-18 04:28:24	1	2014-12-22 22:22:05	6363FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6364	121373	A form of bronchial disorder associated with airway obstruction, marked by recurrent attacks of paroxysmal dyspnea, with wheezing due to spasmodic contraction of the bronchi.	en	1	2007-10-18 04:28:24	1	\N	6364FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6366	121375	ugonjwa wa pumu	sw	1	2007-12-11 21:17:36	1	2013-05-07 14:24:50	6366FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6367	121376	Clinical sign or symptom manifested as debility, or lack or loss of strength and energy.	en	1	2007-10-18 04:28:24	1	\N	6367FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -5508,7 +5511,7 @@ REF: Merck Manual	en	1	2007-10-18 04:28:24	1	\N	5393FFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6773	122779	Chronic form of ichthyosis that is inherited as a sex-linked recessive trait carried on the X-chromosome and transmitted to the male offspring. It is characterized by severe scaling, especially on the extremities, and is associated with steroid sulfatase deficiency.	en	1	2007-10-18 04:28:24	1	\N	6773FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6774	122783	An autosomal recessive inherited disorder with multiple forms of phenotypic expression, caused by a defect in the oxidative decarboxylation of branched-chain ammino acids (AMINO ACIDS, BRANCHED-CHAIN). These metabolites accumulate in body fluids and render a "maple syrup" odor. The disease is divided into classic, intermediate, intermittent, and thiamine responsive subtypes. The classic form presents in the first week of life with ketoacidosis, hypoglycemia, emesis, neonatal seizures, and hypertonia. The intermediate and intermittent forms present in childhood or later with acute episodes of ataxia and vomiting. (From Adams et al., Principles of Neurology, 6th ed, p936)	en	1	2007-10-18 04:28:24	1	\N	6774FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6775	122785	A form of dwarfism due to deficient release of SOMATOTROPIN which may result from dysfunction of the hypothalamus or anterior pituitary gland.	en	1	2007-10-18 04:28:24	1	\N	6775FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-6776	122793	Dryness of the eye surfaces caused by deficiency of tears or conjunctival secretions. It may be associated with vitamin A deficiency, trauma, or any condition in which the eyelids do not close completely.	en	1	2007-10-18 04:28:24	1	\N	6776FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+6776	122793	Dryness of the eye surfaces caused by deficiency of tears or conjunctival secretions. It may be associated with vitamin A deficiency, trauma, or any condition in which the eyelids do not close completely.	en	1	2007-10-18 04:28:24	1	2014-12-09 02:54:45	6776FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6777	122802	A rare, pigmentary, and atrophic autosomal recessive disease affecting all races. It is manifested as an extreme photosensitivity to ultraviolet light as the result of a deficiency in the enzyme that permits excisional repair of ultraviolet-damaged DNA.	en	1	2007-10-18 04:28:24	1	2012-06-14 00:35:07	6777FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6778	122804	Any of several generalized skin disorders characterized by dryness, roughness, and scaliness, due to hypertrophy of the stratum corneum epidermis. Most are genetic, but some are acquired, developing in association with other systemic disease or genetic syndrome.	en	1	2007-10-18 04:28:24	1	\N	6778FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6779	122809	The severe infantile form of inherited lysosomal lipid storage diseases, due to deficiency of acid lipase. It results in accumulation of neutral lipids, particularly cholesterol esters, within cells (particularly leukocytes, fibroblasts, and liver cells). An allelic variant of CHOLESTEROL ESTER STORAGE DISEASE, it is also known as Wolman's xanthomatosis.	en	1	2007-10-18 04:28:24	1	\N	6779FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -5592,7 +5595,7 @@ REF: Merck Manual	en	1	2007-10-18 04:28:24	1	\N	5393FFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6860	122976	Group of hemorrhagic disorders in which the von Willebrand factor (Factor VIII-related antigen) is either quantitatively or qualitatively abnormal. They are usually inherited as an autosomal dominant trait though rare kindreds are autosomal recessive. Symptoms vary depending on severity and disease type but may include prolonged bleeding time, deficiency of factor VIII, and impaired platelet adhesion.	en	1	2007-10-18 04:28:24	1	\N	6860FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6861	122977	Group of hemorrhagic disorders in which the von Willebrand factor (Factor VIII-related antigen) is either quantitatively or qualitatively abnormal. They are usually inherited as an autosomal dominant trait though rare kindreds are autosomal recessive. Symptoms vary depending on severity and disease type but may include prolonged bleeding time, deficiency of factor VIII, and impaired platelet adhesion.	en	1	2007-10-18 04:28:24	1	\N	6861FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6862	122979	An autosomal dominant disorder associated with various neoplasms including central nervous system (most often cerebellar) and retinal HEMANGIOBLASTOMA, endolymphatic sac tumors, renal cell carcinoma (see CARCINOMA, RENAL CELL), renal and pancreatic cysts, HEMANGIOMA of the spinal cord, and PHEOCHROMOCYTOMA. The most common presenting manifestations are neurologic deficits associated with intracranial hemangioblastomas which may hemorrhage, causing ataxia, INTRACRANIAL HYPERTENSION, and other signs of neurologic dysfunction. (From Neurochirurgie 1998 Nov;44(4):258-66)	en	1	2007-10-18 04:28:24	1	\N	6862FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-6863	122983	The forcible expulsion of the contents of the stomach through the mouth.	en	1	2007-11-02 19:46:00	1	2013-02-02 16:45:19	6863FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+6863	122983	The forcible expulsion of the contents of the stomach through the mouth.	en	1	2007-11-02 19:46:00	1	2014-12-05 02:45:03	6863FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6864	122985	Any impairment, arrest, or reversal of the normal flow of intestinal contents toward the anus.	en	1	2007-10-18 04:28:24	1	\N	6864FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6865	122993	Conditions in which increased pressure within a limited space compromises the circulation and function of tissue within that space. Compartmentation involves mainly the leg but also involved are the forearm, arm, thigh, shoulder, and buttock. Some of the causes of increased pressure are trauma, tight dressings, hemorrhage, and exercise. Sequelae include nerve compression, paralysis, and contracture.	en	1	2007-10-18 04:28:24	1	\N	6865FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 6866	122994	Conditions in which increased pressure within a limited space compromises the circulation and function of tissue within that space. Compartmentation involves mainly the leg but also involved are the forearm, arm, thigh, shoulder, and buttock. Some of the causes of increased pressure are trauma, tight dressings, hemorrhage, and exercise. Sequelae include nerve compression, paralysis, and contracture.	en	1	2007-10-18 04:28:24	1	\N	6866FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -5788,7 +5791,7 @@ REF: Merck Manual	en	1	2007-10-18 04:28:24	1	\N	5393FFFFFFFFFFFFFFFFFFFFFFFFFFFF
 7082	123561	Any hindrance to the passage of air into and out of the lungs.	en	1	2007-10-18 04:28:24	1	\N	7082FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 7083	123565	A catarrhal disorder of the upper respiratory tract, which may be viral, a mixed infection, or an allergic reaction. It is marked by acute coryza, slight rise in temperature, chilly sensations, and general indisposition. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	7083FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 7084	123566	Diseases characterized by a selective degeneration of the motor neurons of the spinal cord, brainstem, or motor cortex. Clinical subtypes are distinguished by the major site of degeneration. In AMYOTROPHIC LATERAL SCLEROSIS there is involvment of upper, lower, and brainstem motor neurons. In progressive muscular atrophy and related syndromes (see MUSCULAR ATROPHY, SPINAL) the motor neurons in the spinal cord are primarily affected. With progressive bulbar palsy (BULBAR PALSY, PROGRESSIVE), the initial degeneration occurs in the brainstem. In primary lateral sclerosis, the cortical neurons are affected in isolation. (Adams et al., Principles of Neurology, 6th ed, p1089)	en	1	2007-10-18 04:28:24	1	\N	7084FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-7085	123569	Bleeding in the gastrointestinal tract.	en	1	2007-10-18 04:28:24	1	2012-07-04 20:37:07	7085FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+7085	123569	Bleeding in the esophagus, stomach or duodenum parts of the gastrointestinal tract.	en	1	2007-10-18 04:28:24	1	2015-01-22 14:56:47	7085FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 7086	123572	The child who is not wanted by one or both parents.	en	1	2007-10-18 04:28:24	1	\N	7086FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 7087	123573	Gait abnormalities that are a manifestation of nervous system dysfunction. These conditions may be caused by a wide variety of disorders which affect motor control, sensory feedback, and muscle strength including: CENTRAL NERVOUS SYSTEM DISEASES; PERIPHER	en	1	2007-10-18 04:28:24	1	\N	7087FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 7088	123574	Diabetes mellitus characterized by insulin deficiency, sudden onset, severe hyperglycemia, rapid progression to ketoacidosis, and death unless treated with insulin. The disease may occur at any age, but is most common in childhood or adolescence.	en	1	2007-10-18 04:28:24	1	\N	7088FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -6263,7 +6266,7 @@ After the acute stage, a chronic phagedenic (spreading) ulcer may persist and pe
 7619	125561	The act of killing oneself.	en	1	2007-10-18 04:28:24	1	\N	7619FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 7620	125562	Disorders in which the symptoms are distressing to the individual and recognized by him or her as being unacceptable. Social relationships may be greatly affected but usually remain within acceptable limits. The disturbance is relatively enduring or recurrent without treatment.	en	1	2007-10-18 04:28:24	1	\N	7620FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 7621	125569	A pathological condition caused by lack of oxygen, manifested in impending or actual cessation of life.	en	1	2007-10-18 04:28:24	1	\N	7621FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-7622	125571	The abrupt and unexplained death of an apparently healthy infant under one year of age, remaining unexplained after a thorough case investigation, including performance of a complete autopsy, examination of the death scene, and review of the clinical history. (Pediatr Pathol 1991 Sep-Oct;11(5):677-84)	en	1	2007-10-18 04:28:24	1	\N	7622FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+7622	125571	The abrupt and unexplained death of an apparently healthy infant under one year of age, remaining unexplained after a thorough case investigation, including performance of a complete autopsy, examination of the death scene, and review of the clinical history. (Pediatr Pathol 1991 Sep-Oct;11(5):677-84)	en	1	2007-10-18 04:28:24	1	2014-12-09 22:02:52	7622FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 7623	125572	The abrupt and unexplained death of an apparently healthy infant under one year of age, remaining unexplained after a thorough case investigation, including performance of a complete autopsy, examination of the death scene, and review of the clinical history. (Pediatr Pathol 1991 Sep-Oct;11(5):677-84)	en	1	2007-10-18 04:28:24	1	\N	7623FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 7624	125576	The sudden cessation of all vital bodily functions, manifested by the permanent loss of total cerebral, respiratory, and cardiovascular functions.	en	1	2007-10-18 04:28:24	1	\N	7624FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 7625	125577	The sudden cessation of heart action, leading to death of the heart and, ultimately, of the individual.	en	1	2007-10-18 04:28:24	1	\N	7625FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -6679,7 +6682,7 @@ After the acute stage, a chronic phagedenic (spreading) ulcer may persist and pe
 8057	126879	A group of disorders characterized by the excessive production of porphyrins or their precursors that arises from abnormalities in the regulation of the porphyrin-heme pathway. The porphyrias are usually divided into three broad groups, erythropoietic (PORPHYRIA, ERYTHROPOIETIC), hepatic (PORPHYRIA, HEPATIC), and erythrohepatic (PORPHYRIA, ERYTHROHEPATIC), according to the major sites of abnormal porphyrin synthesis.	en	1	2007-10-18 04:28:24	1	\N	8057FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8058	126882	An acute infectious disease caused by YERSINIA PESTIS that affects humans, wild rodents, and their ectoparasites. This condition persists due to its firm entrenchment in sylvatic rodent-flea ecosystems throughout the world. Bubonic plague is the most common form.	en	1	2007-10-18 04:28:24	1	\N	8058FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8059	126883	A retrogressive pathological change in the retina, focal or generalized, caused by genetic defects, inflammation, trauma, vascular disease, or aging. Degeneration affecting predominantly the macula lutea of the retina is MACULAR DEGENERATION. (Newell, Ophthalmology: Principles and Concepts, 7th ed, p304)	en	1	2007-10-18 04:28:24	1	\N	8059FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-8060	126884	Absence of menstruation.	en	1	2007-10-18 04:28:24	1	\N	8060FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+8060	126884	Absence of menstruation due to secondary cause.	en	1	2007-10-18 04:28:24	1	2014-12-22 21:59:45	8060FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8061	126885	A heterogenous group of inherited disorders characterized by recurring attacks of rapidly progressive flaccid paralysis or myotonia. These conditions have in common a mutation of the gene encoding the alpha subunit of the sodium channel in skeletal muscle. They are frequently associated with fluctuations in serum potassium levels. Periodic paralysis may also occur as a non-familial process secondary to THYROTOXICOSIS and other conditions. (From Adams et al., Principles of Neurology, 6th ed, p1481)	en	1	2007-10-18 04:28:24	1	\N	8061FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8062	126888	Conditions which feature clinical manifestations resembling primary Parkinson disease that are caused by a known or suspected condition. Examples include parkinsonism caused by vascular injury, drugs, trauma, toxin exposure, neoplasms, infections and degenerative or hereditary conditions. Clinical features may include bradykinesia, rigidity, parkinsonian gait, and masked facies. In general, tremor is less prominent in secondary parkinsonism than in the primary form. (From Joynt, Clinical Neurology, 1998, Ch38, pp39-42)	en	1	2007-10-18 04:28:24	1	\N	8062FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8063	126894	Infections of the central nervous system caused by TREPONEMA PALLIDUM which present with a variety of clinical syndromes. The initial phase of infection usually causes a mild or asymptomatic meningeal reaction. The meningovascular form may present acutely as BRAIN INFARCTION. The infection may also remain subclinical for several years. Late syndromes include general paresis; TABES DORSALIS; meningeal syphilis; syphilitic OPTIC ATROPHY; and spinal syphilis. General paresis is characterized by progressive DEMENTIA; DYSARTHRIA; TREMOR; MYOCLONUS; SEIZURES; and Argyll-Robertson pupils. (Adams et al., Principles of Neurology, 6th ed, pp722-8)	en	1	2007-10-18 04:28:24	1	\N	8063FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -7042,7 +7045,7 @@ After the acute stage, a chronic phagedenic (spreading) ulcer may persist and pe
 8438	127957	Congenital defects of closure of one or more vertebral arches, which may be associated with malformations of the spinal cord, nerve roots, congenital fibrous bands, lipomas, and congenital cysts. These malformations range from mild (e.g., SPINA BIFIDA OCCULTA) to severe, including rachischisis where there is complete failure of neural tube and spinal cord fusion, resulting in exposure of the spinal cord at the surface. Spinal dysraphism includes all forms of spina bifida. The open form is called SPINA BIFIDA CYSTICA and the closed form is SPINA BIFIDA OCCULTA. (From Joynt, Clinical Neurology, 1992, Ch55, p34)	en	1	2007-10-18 04:28:24	1	\N	8438FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8440	127959	An area showing altered staining behavior in the nucleus or cytoplasm of a virus-infected cell. Some inclusion bodies represent "virus factories" in which viral nucleic acid or protein is being synthesized; others are merely artifacts of fixation and staining. One example, Negri bodies, are found in the cytoplasm or processes of nerve cells in animals that have died from rabies.	en	1	2007-10-18 04:28:24	1	\N	8440FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8441	127963	Brief reversible episodes of focal, nonconvulsive ischemic dysfunction of the brain having a duration of less than 24 hours, and usually less than one hour, caused by transient thrombotic or embolic blood vessel occlusion or stenosis. Events may be classified by arterial distribution, temporal pattern, or etiology (e.g., embolic vs. thrombotic). (From Adams et al., Principles of Neurology, 6th ed, pp814-6)	en	1	2007-10-18 04:28:24	1	\N	8441FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-8442	127971	A protozoan disease caused by four species of the genus PLASMODIUM (P. falciparum (MALARIA, FALCIPARUM), P. vivax (MALARIA, VIVAX), P. ovale, and P. malariae) and transmitted by the bite of an infected female mosquito of the genus Anopheles. Malaria is endemic in parts of Asia, Africa, Central and South America, Oceania, and certain Caribbean islands. It is characterized by extreme exhaustion associated with paroxysms of high fever, sweating, shaking chills, and anemia.	en	1	2007-10-18 04:28:24	1	\N	8442FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+8442	127971	A protozoan disease caused by four species of the genus PLASMODIUM (P. falciparum (MALARIA, FALCIPARUM), P. vivax (MALARIA, VIVAX), P. ovale, and P. malariae) and transmitted by the bite of an infected female mosquito of the genus Anopheles. Malaria is endemic in parts of Asia, Africa, Central and South America, Oceania, and certain Caribbean islands. It is characterized by extreme exhaustion associated with paroxysms of high fever, sweating, shaking chills, and anemia.	en	1	2007-10-18 04:28:24	1	2014-12-05 19:34:16	8442FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8443	127977	Severe or complete loss of motor function in all four limbs which may result from BRAIN DISEASES; SPINAL CORD DISEASES; PERIPHERAL NERVOUS SYSTEM DISEASES; NEUROMUSCULAR DISEASES; or rarely MUSCULAR DISEASES. The locked-in syndrome is characterized by quadriplegia in combination with cranial muscle paralysis. Consciousness is spared and the only retained voluntary motor activity may be limited eye movements. This condition is usually caused by a lesion in the upper BRAIN STEM which injures the descending cortico-spinal and cortico-bulbar tracts.	en	1	2007-10-18 04:28:24	1	\N	8443FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8444	127979	Partial or complete loss of vision in one half of the visual field(s) of one or both eyes. Subtypes include altitudinal hemianopsia, characterized by a visual defect above or below the horizontal meridian of the visual field. Homonymous hemianopsia refers to a visual defect that affects both eyes equally, and occurs either to the left or right of the midline of the visual field. Binasal hemianopsia consists of loss of vision in the nasal hemifields of both eyes. Bitemporal hemianopsia is the bilateral loss of vision in the temporal fields. Quadrantanopsia refers to loss of vision in one quarter of the visual field in one or both eyes.	en	1	2007-10-18 04:28:24	1	\N	8444FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8445	127980	Maladaptive reactions to identifiable psychosocial stressors occurring within a short time after onset of the stressor. They are manifested by either impairment in social or occupational functioning or by symptoms (depression, anxiety, etc.) that are in excess of a normal and expected reaction to the stressor.	en	1	2007-10-18 04:28:24	1	\N	8445FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -7238,7 +7241,7 @@ After the acute stage, a chronic phagedenic (spreading) ulcer may persist and pe
 8642	128491	A fungal infection that may appear in two forms: 1) a primary lesion characterized by the formation of a small cutaneous nodule and small nodules along the lymphatics that may heal within several months; and 2) chronic granulomatous lesions characterized by thick crusts, warty growths, and unusual vascularity and infection in the middle or upper lobes of the lung.	en	1	2007-10-18 04:28:24	1	\N	8642FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8643	128492	A heterogenous group of degenerative syndromes marked by progressive cerebellar dysfunction either in isolation or combined with other neurologic manifestations. Sporadic and inherited subtypes occur. Inheritance patterns include autosomal dominant, autosomal recessive, and X-linked.	en	1	2007-10-18 04:28:24	1	\N	8643FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8644	128493	An acute infectious disease caused by YERSINIA PESTIS that affects humans, wild rodents, and their ectoparasites. This condition persists due to its firm entrenchment in sylvatic rodent-flea ecosystems throughout the world. Bubonic plague is the most common form.	en	1	2007-10-18 04:28:24	1	\N	8644FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-8645	128494	Absence of menstruation.	en	1	2007-10-18 04:28:24	1	\N	8645FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+8645	128494	Absence of menstruation.	en	1	2007-10-18 04:28:24	1	2014-12-22 21:58:13	8645FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8646	128496	Glaucoma in which the angle of the anterior chamber is open and the trabecular meshwork does not encroach on the base of the iris.	en	1	2007-10-18 04:28:24	1	2013-05-08 23:08:18	8646FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8653	128520	Malignant neoplasms arising in the neuroectoderm, the portion of the ectoderm of the early embryo that gives rise to the central and peripheral nervous systems, including some glial cells.	en	1	2007-10-18 04:28:24	1	\N	8653FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 8670	128560	A malignant tumor originating from the endothelial cells of lymphatic vessels. Most lymphangiosarcomas arise in an arm secondary to radical mastectomy but they sometimes complicate idiopathic lymphedema. The lymphedema has usually been present for 6 to 10 years before malignant changes develop. (From Dorland, 27th ed; Holland et al., Cancer Medicine, 3d ed, p1866)	en	1	2007-10-18 04:28:24	1	\N	8670FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -8352,7 +8355,7 @@ ref: http://en.wikipedia.org/wiki/Night_sweats	en	1	2007-11-02 20:10:01	1	\N	983
 10000	133403	Inflammation of the liver and liver disease involving degenerative or necrotic alterations of hepatocytes.	en	1	2007-10-18 04:28:24	1	\N	10000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10001	133404	Disorders in the processing of iron in the body: its absorption, transport, storage, and utilization. (From Mosby's Medical, Nursing, & Allied Health Dictionary, 4th ed)	en	1	2007-10-18 04:28:24	1	\N	10001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10002	133411	Acute conjunctival inflammation in the newborn, usually caused by maternal gonococcal infection. The causative agent is NEISSERIA GONORRHOEAE. The baby's eyes are contaminated during passage through the birth canal.	en	1	2007-10-18 04:28:24	1	\N	10002FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-10003	133414	Acute conjunctival inflammation in the newborn, usually caused by maternal gonococcal infection. The baby's eyes are contaminated during passage through the birth canal.	en	1	2007-10-18 04:28:24	1	2014-01-29 02:14:09	10003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+10003	133414	Acute conjunctival inflammation in the newborn, usually caused by maternal gonococcal infection. The baby's eyes are contaminated during passage through the birth canal.	en	1	2007-10-18 04:28:24	1	2014-12-09 02:49:00	10003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10004	133419	Excessive slowness in the action of the heart, usually with a heart rate below 60 beats per minute.	en	1	2007-10-18 04:28:24	1	\N	10004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10005	133422	A transient absence of spontaneous respiration.	en	1	2007-10-18 04:28:24	1	\N	10005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10006	133426	Fetal oxygen deficiency.	en	1	2007-10-18 04:28:24	1	\N	10006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -8387,7 +8390,7 @@ ref: http://en.wikipedia.org/wiki/Night_sweats	en	1	2007-11-02 20:10:01	1	\N	983
 10038	133490	A syndrome characterized by recurrent episodes of excruciating pain lasting several seconds or longer in the sensory distribution of the trigeminal nerve. Pain may be initiated by stimulation of trigger points on the face, lips, or gums or by movement of facial muscles or chewing. Associated conditions include MULTIPLE SCLEROSIS, vascular anomalies, ANEURSYMS, and neoplasms. (Adams et al., Principles of Neurology, 6th ed, p187)	en	1	2007-10-18 04:28:24	1	\N	10038FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10039	133491	Acquired or developmental conditions marked by an impaired ability to comprehend or generate spoken forms of language.	en	1	2007-10-18 04:28:24	1	\N	10039FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10040	133496	Focal accumulations of edema fluid in the nasal mucosa accompanied by hyperplasia of the associated submucosal connective tissue. Polyps may be neoplasms, foci of inflammation, degenerative lesions, or malformations.	en	1	2007-10-18 04:28:24	1	\N	10040FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-10041	133499	Bleeding from the nose.	en	1	2007-10-18 04:28:24	1	2012-10-26 19:09:27	10041FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+10041	133499	Bleeding from the nose.	en	1	2007-10-18 04:28:24	1	2014-12-05 02:46:31	10041FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10042	133501	Cerebral tissue herniation through a congenital or acquired defect in the skull. The majority of congenital encephaloceles occur in the occipital or frontal regions. Clinical features include a protuberant mass that may be pulsatile. The quantity and location of protruding neural tissue determines the type and degree of neurologic deficit. Visual defects, psychomotor developmental delay, and persistent motor deficits frequently occur.	en	1	2007-10-18 04:28:24	1	\N	10042FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10043	133502	Inflammation of the mucous membrane of the nose.	en	1	2007-10-18 04:28:24	1	\N	10043FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10044	133516	Diseases of the nail plate and tissues surrounding it. The concept is limited to primates.	en	1	2007-10-18 04:28:24	1	\N	10044FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -8700,7 +8703,7 @@ ref: http://en.wikipedia.org/wiki/Night_sweats	en	1	2007-11-02 20:10:01	1	\N	983
 10378	134390	A form of osteosclerosis or hyperostosis extending in a linear track through one of the long bones of an extremity, and consisting of proliferated ivory-like new bone. "Melo-" is from the Greek, limb and "-rheostosis" refers to streaks (rheo- from the Greek, flow), in the bones. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	10378FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10379	134391	Abnormal development of cartilage and bone.	en	1	2007-10-18 04:28:24	1	\N	10379FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10380	134392	An idiopathic syndrome characterized by one or more of the following; recurrent orofacial swelling, relapsing facial paralysis, and fissured tongue (lingua plicata). The onset is usually in childhood and relapses are common. Cheilitis granulomatosa is a monosymptomatic variant of this condition. (Dermatol Clin 1996 Apr;14(2):371-9; Magalini & Magalini, Dictionary of Medical Syndromes, 4th ed, p531)	en	1	2007-10-18 04:28:24	1	\N	10380FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-10381	134394	Black, tarry feces containing digested blood.	en	1	2007-10-18 04:28:24	1	\N	10381FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+10381	134394	Black, tarry feces containing digested blood.	en	1	2007-10-18 04:28:24	1	2015-01-22 15:01:19	10381FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10382	134397	A schwannoma that arises from the vestibular division of the vestibulocochlear nerve and tends to present in the fifth or sixth decade of life. Clinical manifestations include loss of hearing, headache, vertigo, facial pain, tinnitus, and facial weakness. Bilateral acoustic neuromas are associated with NEUROFIBROMATOSIS 2. (From Adams et al., Principles of Neurology, 6th ed, p673)	en	1	2007-10-18 04:28:24	1	\N	10382FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10383	134400	Disorders of increased melanin pigmentation that develop without preceding inflammatory disease.	en	1	2007-10-18 04:28:24	1	\N	10383FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 10386	134408	A form of pigmented nevus showing intense melanocytic activity around the dermo-epidermal junction. Large numbers of spindle-shaped melanocytes proliferate downward toward the dermis and usually a large amount of pigment is present. It was first described in 1976 and the bulk of patients reported have been young females with the lesions presenting on the thighs. (From Rook et al., Textbook of Dermatology, 4th ed, 1992, p185)	en	1	2007-10-18 04:28:24	1	\N	10386FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -9429,7 +9432,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 11213	136571	The prolapse of one part of the intestine into the lumen of an immediately adjoining part. There are four varieties: colic, involving segments of the large intestine; enteric, involving only the small intestine; ileocecal, in which the ileocecal valve prolapses into the cecum, drawing the ileum along with it; and ileocolic, in which the ileum prolapses through the ileocecal valve into the colon. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	11213FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 11214	136572	The prolapse of one part of the intestine into the lumen of an immediately adjoining part. There are four varieties: colic, involving segments of the large intestine; enteric, involving only the small intestine; ileocecal, in which the ileocecal valve prolapses into the cecum, drawing the ileum along with it; and ileocolic, in which the ileum prolapses through the ileocecal valve into the colon. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	11214FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 11215	136573	The prolapse of one part of the intestine into the lumen of an immediately adjoining part. There are four varieties: colic, involving segments of the large intestine; enteric, involving only the small intestine; ileocecal, in which the ileocecal valve prolapses into the cecum, drawing the ileum along with it; and ileocolic, in which the ileum prolapses through the ileocecal valve into the colon. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	11215FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-11216	136578	A sudden intense and continuous aggravation of a state of asthma, marked by dyspnea to the point of exhaustion and collapse and not responding to the usual therapeutic efforts.	en	1	2007-10-18 04:28:24	1	\N	11216FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+11216	136578	A sudden intense and continuous aggravation of a state of asthma, marked by dyspnea to the point of exhaustion and collapse and not responding to the usual therapeutic efforts.	en	1	2007-10-18 04:28:24	1	2014-12-22 22:19:56	11216FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 11217	136579	The process of aging due to changes in the structure and elasticity of the skin over time. It may be a part of physiological aging or it may be due to the effects of ultraviolet radiation, usually through exposure to sunlight.	en	1	2007-10-18 04:28:24	1	\N	11217FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 11218	136580	Bleeding into a cerebral hemisphere of the brain, including lobar, subcortical white matter, and basal ganglia hemorrhages. Commonly associated conditions include HYPERTENSION; INTRACRANIAL ARTERIOSCLEROSIS; INTRACRANIAL ANEURYSM; CRANIOCEREBRAL TRAUMA; INTRACRANIAL ARTERIOVENOUS MALFORMATIONS; CEREBRAL AMYLOID ANGIOPATHY; and CEREBRAL INFARCTION.	en	1	2007-10-18 04:28:24	1	\N	11218FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 11219	136581	Bleeding into a cerebral hemisphere of the brain, including lobar, subcortical white matter, and basal ganglia hemorrhages. Commonly associated conditions include HYPERTENSION; INTRACRANIAL ARTERIOSCLEROSIS; INTRACRANIAL ANEURYSM; CRANIOCEREBRAL TRAUMA; INTRACRANIAL ARTERIOVENOUS MALFORMATIONS; CEREBRAL AMYLOID ANGIOPATHY; and CEREBRAL INFARCTION.	en	1	2007-10-18 04:28:24	1	\N	11219FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -10497,7 +10500,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 12341	139569	A congenital fissure of the abdominal wall not involving the site of insertion of the umbilical cord, and usually accompanied by protrusion of the small and part of the large intestine. (Dorland, 28th ed)	en	1	2007-10-18 04:28:24	1	\N	12341FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12342	139575	Bleeding in the gastrointestinal tract.	en	1	2007-10-18 04:28:24	1	2012-11-02 22:53:47	12342FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12343	139579	Any impairment, arrest, or reversal of the normal flow of intestinal contents toward the anus.	en	1	2007-10-18 04:28:24	1	\N	12343FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-12344	139582	Bleeding in the gastrointestinal tract.	en	1	2007-10-18 04:28:24	1	2012-06-11 23:28:32	12344FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+12344	139582	Bleeding in the gastrointestinal tract.	en	1	2007-10-18 04:28:24	1	2015-01-22 14:57:29	12344FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12345	139587	Infection with a fungus of the genus CANDIDA. It is usually a superficial infection of the moist areas of the body and is generally caused by CANDIDA ALBICANS. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	12345FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12346	139588	An acute bacterial infection caused by ingestion of BACILLUS organisms. Carnivores may become infected from ingestion of infected carcasses. It is transmitted to humans by contact with infected animals or contaminated animal products. The most common form in humans is cutaneous anthrax.	en	1	2007-10-18 04:28:24	1	\N	12346FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12347	139590	Inflammation of the esophagus caused by reflux of gastric juice and/or stomach and duodenal contents.	en	1	2007-10-18 04:28:24	1	2012-06-26 00:44:46	12347FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -10808,7 +10811,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 12681	140837	A series of gastrointestinal disorders which share in common the excessive loss of protein, mainly albumin, across the gut wall. They occur in the stomach (Menetrier disease), as well as the small bowel (intestinal lymphangiectases, assorted inflammatory states). They are also occasionally associated with congestive heart failure (again a small bowel protein loss).	en	1	2007-10-18 04:28:24	1	\N	12681FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12682	140838	Separation of the inner layers of the retina (neural retina) from the pigment epithelium. Retinal detachment occurs more commonly in men than in women, in eyes with degenerative myopia, in aging and in aphakia. It may occur after an uncomplicated cataract extraction, but it is seen more often if vitreous humor has been lost during surgery. (Dorland, 27th ed; Newell, Ophthalmology: Principles and Concepts, 7th ed, p310-12).	en	1	2007-10-18 04:28:24	1	\N	12682FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12683	140843	Degenerative changes in the macula lutea of the retina.	en	1	2007-10-18 04:28:24	1	\N	12683FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-12684	140848	A form of bronchial disorder associated with airway obstruction, marked by recurrent attacks of paroxysmal dyspnea, with wheezing due to spasmodic contraction of the bronchi.	en	1	2007-10-18 04:28:24	1	\N	12684FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+12684	140848	A form of bronchial disorder associated with airway obstruction, marked by recurrent attacks of paroxysmal dyspnea, with wheezing due to spasmodic contraction of the bronchi.	en	1	2007-10-18 04:28:24	1	2014-12-22 22:20:27	12684FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12685	140849	A form of bronchial disorder associated with airway obstruction, marked by recurrent attacks of paroxysmal dyspnea, with wheezing due to spasmodic contraction of the bronchi.	en	1	2007-10-18 04:28:24	1	\N	12685FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12686	140850	A form of bronchial disorder associated with airway obstruction, marked by recurrent attacks of paroxysmal dyspnea, with wheezing due to spasmodic contraction of the bronchi.	en	1	2007-10-18 04:28:24	1	\N	12686FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12688	140852	Conditions in which inhalation of organic dusts results in hypersensitivity reactions at the alveolar level, associated with the production of precipitins.	en	1	2007-10-18 04:28:24	1	\N	12688FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -11094,7 +11097,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 12987	141689	A syndrome characterized by marked limitation of abduction of the eye, variable limitation of adduction and retraction of the globe, and narrowing of the palpebral fissure on attempted adduction. The condition is caused by aberrant innervation of the lateral rectus by fibers of the oculomotor nerve. There are three subtypes: type 1 (associated with loss of abduction), type 2 (associated with loss of adduction), and type 3 (loss of abduction and adduction). It is usually caused by congenital hypoplasia of the abducens nerve or nucleus, but may rarely represent an acquired syndrome. (Adams et al., Principles of Neurology, 6th ed, p271; Miller et al., Clinical Neuro-Ophthalmology, 4th ed, p691)	en	1	2007-10-18 04:28:24	1	\N	12987FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12988	141690	A syndrome characterized by marked limitation of abduction of the eye, variable limitation of adduction and retraction of the globe, and narrowing of the palpebral fissure on attempted adduction. The condition is caused by aberrant innervation of the lateral rectus by fibers of the oculomotor nerve. There are three subtypes: type 1 (associated with loss of abduction), type 2 (associated with loss of adduction), and type 3 (loss of abduction and adduction). It is usually caused by congenital hypoplasia of the abducens nerve or nucleus, but may rarely represent an acquired syndrome. (Adams et al., Principles of Neurology, 6th ed, p271; Miller et al., Clinical Neuro-Ophthalmology, 4th ed, p691)	en	1	2007-10-18 04:28:24	1	\N	12988FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12989	141691	Any inflammation of the skin.	en	1	2007-10-18 04:28:24	1	\N	12989FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-12991	141695	Corneal and conjunctival dryness due to deficient tear production, predominantly in menopausal and post-menopausal women. Filamentary keratitis or erosion of the conjunctival and corneal epithelium may be caused by these disorders. Sensation of the presence of a foreign body in the eye and burning of the eyes may occur.	en	1	2007-10-18 04:28:24	1	\N	12991FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+12991	141695	Corneal and conjunctival dryness due to deficient tear production, predominantly in menopausal and post-menopausal women. Filamentary keratitis or erosion of the conjunctival and corneal epithelium may be caused by these disorders. Sensation of the presence of a foreign body in the eye and burning of the eyes may occur.	en	1	2007-10-18 04:28:24	1	2014-12-09 02:54:05	12991FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12992	141696	A disease caused by a deficiency of thiamine (vitamin B1) and characterized by polyneuritis, cardiac pathology, and edema. The epidemic form is found primarily in areas in which white (polished) rice is the staple food, as in Japan, China, the Philippines, India, and other countries of southeast Asia. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	12992FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12993	141701	Anemia characterized by the presence of erythroblasts containing excessive deposits of iron in the marrow.	en	1	2007-10-18 04:28:24	1	\N	12993FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 12994	141702	A group of disorders characterized by the excessive production of porphyrins or their precursors that arises from abnormalities in the regulation of the porphyrin-heme pathway. The porphyrias are usually divided into three broad groups, erythropoietic (PORPHYRIA, ERYTHROPOIETIC), hepatic (PORPHYRIA, HEPATIC), and erythrohepatic (PORPHYRIA, ERYTHROHEPATIC), according to the major sites of abnormal porphyrin synthesis.	en	1	2007-10-18 04:28:24	1	\N	12994FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -11269,7 +11272,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 13187	142407	Passage of excessively liquid or excessively frequent stools.	en	1	2007-10-18 04:28:24	1	2014-10-09 15:18:34	13187FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 13188	142408	Passage of excessively liquid or excessively frequent stools.	en	1	2007-10-18 04:28:24	1	\N	13188FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 13189	142409	Poisoning by staphylococcal toxins present in contaminated food.	en	1	2007-10-18 04:28:24	1	\N	13189FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-13190	142412	Passage of excessively liquid or excessively frequent stools.	en	1	2007-11-02 20:21:44	1	2014-08-05 16:15:14	13190FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+13190	142412	Passage of excessively liquid or excessively frequent stools.	en	1	2007-11-02 20:21:44	1	2014-12-03 19:06:12	13190FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 13191	142414	Progressive thickening of diaphyseal cortex of long bones.	en	1	2007-10-18 04:28:24	1	\N	13191FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 13193	142420	Protrusion of some part of the abdominal or retroperitoneal structures through the diaphragm into the thorax. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	13193FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 13194	142421	Elevation of the dome of the diaphragm, usually the result of paralysis of a phrenic nerve. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	13194FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -12357,7 +12360,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 14372	146269	Tumors or cancer of the INTESTINES.	en	1	2007-10-18 04:28:24	1	\N	14372FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 14373	146293	Tumors or cancer of the biliary tract.	en	1	2007-10-18 04:28:24	1	\N	14373FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 14374	146295	Tumors or cancer of the VULVA.	en	1	2007-10-18 04:28:24	1	\N	14374FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-14375	146299	A malignancy arising in uterine cervical epithelium and confined thereto, representing a continuum of histological changes ranging from well-differentiated CIN 1 (formerly, mild dysplasia) to severe dysplasia/carcinoma in situ, CIN 3. The lesion arises at the squamocolumnar cell junction at the transformation zone of the endocervical canal, with a variable tendency to develop invasive epidermoid carcinoma, a tendency that is enhanced by concomitant human papillomaviral infection. (Segen, Dictionary of Modern Medicine, 1992)	en	1	2007-10-18 04:28:24	1	\N	14375FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+14375	146299	A malignancy arising in uterine cervical epithelium and confined thereto, representing a continuum of histological changes ranging from well-differentiated CIN 1 (formerly, mild dysplasia) to severe dysplasia/carcinoma in situ, CIN 3. The lesion arises at the squamocolumnar cell junction at the transformation zone of the endocervical canal, with a variable tendency to develop invasive epidermoid carcinoma, a tendency that is enhanced by concomitant human papillomaviral infection. (Segen, Dictionary of Modern Medicine, 1992)	en	1	2007-10-18 04:28:24	1	2014-12-21 22:19:45	14375FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 14376	146336	Tumors or cancer of the prostate.	en	1	2007-10-18 04:28:24	1	\N	14376FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 14378	146387	Tumors or cancer of the breast.	en	1	2007-10-18 04:28:24	1	\N	14378FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 14380	146413	Tumors or cancer of the INTESTINES.	en	1	2007-10-18 04:28:24	1	\N	14380FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -12601,7 +12604,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 14635	147234	Bleeding from the blood vessels of the mouth, which may occur as a result of injuries to the mouth, accidents in oral surgery, or diseases of the gums.	en	1	2007-10-18 04:28:24	1	\N	14635FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 14636	147239	Submucosal varices of the lower esophagus or gastric fundus mucosa, frequently caused by the development of portal collateral vessels consequent to portal hypertension.	en	1	2007-10-18 04:28:24	1	2012-06-11 23:49:07	14636FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 14637	147240	Uterine bleeding, usually irregular or acyclic, between periods.	en	1	2007-10-18 04:28:24	1	\N	14637FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-14638	147241	Bleeding or escape of blood from a vessel.	en	1	2007-10-18 04:28:24	1	2012-06-04 18:24:04	14638FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+14638	147241	Bleeding or escape of blood from a vessel.	en	1	2007-10-18 04:28:24	1	2014-12-09 02:49:48	14638FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 14639	147243	A fungal infection that may appear in two forms: 1) a primary lesion characterized by the formation of a small cutaneous nodule and small nodules along the lymphatics that may heal within several months; and 2) chronic granulomatous lesions characterized by thick crusts, warty growths, and unusual vascularity and infection in the middle or upper lobes of the lung.	en	1	2007-10-18 04:28:24	1	\N	14639FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 14640	147244	Injuries resulting when a person is struck by particles impelled with violent force from an explosion. Blast causes pulmonary concussion and hemorrhage, laceration of other thoracic and abdominal viscera, ruptured ear drums, and minor effects in the central nevous system. (From Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	14640FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 14641	147251	An abnormal passage in the bladder or between the bladder and any surrounding organ.	en	1	2007-10-18 04:28:24	1	\N	14641FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -13339,6 +13342,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 15488	149847	Bleeding from a peptic ulcer.	en	1	2007-10-18 04:28:24	1	\N	15488FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15489	149850	A peptic ulcer situated in the duodenum. (Dorland, 28th ed)	en	1	2007-10-18 04:28:24	1	\N	15489FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15490	149854	Disease having a short and relatively severe course.	en	1	2007-10-18 04:28:24	1	\N	15490FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+15491	149856	DEF: Frequent and loose bowel movements of acute onset (< 24 hours).  DESC: Commonly associated with abdominal pain. May be associated with blood or mucus in the stool. REF: <a href="http://www.healthatoz.com/healthatoz/Atoz/common/standard/transform.jsp?requestURI=/healthatoz/Atoz/ency/diarrhea.jsp"> URL</a>	en	1	2007-10-18 04:28:24	1	2014-12-09 14:52:18	15491FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15492	149858	Localized destruction of the tooth surface initiated by decalcification of the enamel followed by enzymatic lysis of organic structures and leading to cavity formation. If left unchecked, the cavity may penetrate the enamel and dentin and reach the pulp. The three most prominent theories used to explain the etiology of the disase are that acids produced by bacteria lead to decalcification; that micro-organisms destroy the enamel protein; or that keratolytic micro-organisms produce chelates that lead to decalcification.	en	1	2007-10-18 04:28:24	1	\N	15492FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15493	149859	Inflammation of the lacrimal sac. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	15493FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15494	149860	Inflammation of the urinary bladder. (Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	15494FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -13615,7 +13619,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 15875	151673	Invasion and multiplication of microorganisms in body tissues, which may be clinically inapparent or result in local cellular injury. A local infection may persist and spread by extension to become an acute, subacute, or chronic clinical infection or disease state. It may also become systemic when the microorganisms gain access to the lymphatic or vascular system. (From Dorland, 27th ed)	en	1	2007-10-18 04:28:24	1	\N	15875FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15876	1820	The reason why the patient did not receive/take medications at the hospital.	en	1	2009-07-03 08:58:47	1	\N	15876FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15877	1821	A traditional healer	en	1	2009-07-05 21:04:04	1	\N	15877FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-15878	1822	A duration unit, 60 minutes = 1 hour.	en	1	2009-07-06 17:27:04	1	2013-03-12 23:38:11	15878FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+15878	1822	A duration unit, 60 minutes = 1 hour.	en	1	2009-07-06 17:27:04	1	2014-12-01 21:22:19	15878FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15879	1823	The number of abortions or miscarriages a mother has had. To be included in Gravida/Parity/Abortion calculations.	en	1	2009-07-13 12:40:52	1	2013-01-04 16:22:15	15879FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15880	1824	The type of phone to associate with a telephone number	en	1	2009-07-13 14:25:52	1	\N	15880FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15881	1825	The total number of children who are still alive.	en	1	2009-07-13 14:53:15	1	2013-01-10 17:30:09	15881FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -13623,7 +13627,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 15883	1833	General descriptive answer.	en	1	2009-07-13 20:27:19	1	\N	15883FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15884	1834	General descriptive answer.	en	1	2009-07-13 20:27:50	1	\N	15884FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15885	1835	The relative size of the baby at birth (not birth weight)	en	1	2009-07-13 20:28:54	1	\N	15885FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-15886	1837	The number of stools per day	en	1	2009-07-13 20:53:46	1	\N	15886FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+15886	1837	The number of stools per day	en	1	2009-07-13 20:53:46	1	2014-12-07 02:54:45	15886FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15887	1838	The onset of signs or symptoms	en	1	2009-07-14 11:22:16	1	2012-03-09 15:04:37	15887FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15888	1839	General response to a timing question. Sudden, very fast, abrupt would be characterized using this value	en	1	2009-07-14 11:24:02	1	\N	15888FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15889	1840	General response to a timing question. Fast, quickly, over one day would be characterized using this value.	en	1	2009-07-14 11:25:00	1	\N	15889FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -13695,6 +13699,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 15955	1502	ACCOUCHEMENT AU CENTRE MÉDICAL	fr	1	2010-05-03 16:52:32	1	\N	15955FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15961	1358	Respuesta a pregunta	es	1	2010-05-03 16:52:33	1	\N	15961FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15962	142592	Infeccion aguda febril	es	1	2010-05-03 16:52:34	1	\N	15962FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+15963	149856		es	1	2010-05-03 16:52:34	1	2014-12-09 14:52:18	15963FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15964	845	Examen ultrasonido del abdomen	es	1	2010-05-03 16:52:34	1	2012-11-03 18:27:39	15964FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15966	1914	Preventative counseling or education about HIV/AIDS by health care provider such as CHW, CHEW, volunteer, etc. Not to be confused with Voluntary Counseling and Testing (VCT) as part of a testing program or Diagnostic Testing and Counseling (DTC)	en	1	2010-05-30 19:36:12	1	\N	15966FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 15967	1915	The total number of women given birth control pills in household by the community health care worker or other home visit provider.	en	1	2010-05-31 21:48:32	1	\N	15967FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -13890,7 +13895,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 16158	159523	Does the patient have family history of epilepsy?	en	1	2010-09-02 14:36:28	1	\N	16158FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16159	159524	Method of family planning, practice of voluntarily refraining from sexual activities.	en	1	2010-09-02 16:46:06	1	2012-06-15 13:54:47	16159FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16160	159525	Surgical procedure to make a person infertile.	en	1	2010-09-02 17:39:30	1	\N	16160FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16161	1472	The surgical procedure in fallopian tube to prevent pregnancy, a method of female sterilization.	en	1	2010-09-02 17:43:18	1	2012-06-06 13:38:51	16161FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16161	1472	The surgical procedure in fallopian tube to prevent pregnancy, a method of female sterilization.	en	1	2010-09-02 17:43:18	1	2014-12-23 02:35:27	16161FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16162	1489	A method of male sterilization.	en	1	2010-09-02 17:45:41	1	2012-06-15 14:29:54	16162FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16163	159526	Has the patient taken any epilepsy medication in past?	es	1	2010-09-03 13:15:26	1	\N	16163FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16164	159527	Name of anti-epileptic drugs taken in past	en	1	2010-09-03 13:22:07	1	\N	16164FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -13945,8 +13950,8 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 16213	1389	Patient had active tuberculosis in past.	en	1	2010-09-10 13:54:11	1	2012-10-11 16:22:53	16213FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16214	159576	Describes HIV status of the patient.	en	1	2010-09-13 11:42:33	1	\N	16214FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16215	117772	Swelling of the thyroid gland, mainly due to iodine deficiency	en	1	2010-09-14 12:36:12	1	\N	16215FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16216	135488	Abnormally enlarged lymph nodes.	en	1	2010-09-14 12:40:22	1	\N	16216FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16217	142412	DEF: Kuhara kutoa maji mengi kwa njia ya haja kubwa. CAPTION: Mgonjwa amaharisha?	sw	1	2010-09-15 12:24:17	1	2014-08-05 16:15:14	16217FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16216	135488	Abnormally enlarged lymph nodes.	en	1	2010-09-14 12:40:22	1	2014-11-21 17:46:12	16216FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16217	142412	DEF: Kuhara kutoa maji mengi kwa njia ya haja kubwa. CAPTION: Mgonjwa amaharisha?	sw	1	2010-09-15 12:24:17	1	2014-12-03 19:06:12	16217FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16218	159526	History of previous drug treatment for epilepsy	en	1	2010-09-20 18:05:35	1	\N	16218FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16219	159509	CAPTION: Après les crises, le patient est-t?il confu ou somnolent?	fr	1	2010-09-20 20:36:21	1	\N	16219FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16220	159577	Flush or pour flush toilet, lavatory, etc.	en	1	2010-09-21 17:43:33	1	\N	16220FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -13955,9 +13960,9 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 16224	159583	Unit of currency used in Rwanda	en	1	2010-09-21 19:43:00	1	\N	16224FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16225	159584	Unit of currency used in the United States	en	1	2010-09-21 19:44:12	1	\N	16225FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16226	159556	Les symptômes ont-ils commencés au tour de l'accouchement?	fr	1	2010-09-21 19:49:29	1	\N	16226FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16227	1498	General qualifier value	en	1	2010-09-22 15:03:38	1	\N	16227FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16228	1499	General qualifier value of the severity	en	1	2010-09-22 15:06:56	1	\N	16228FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16229	1500	General qualifier value for the severity assesment	en	1	2010-09-22 15:09:41	1	\N	16229FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16227	1498	General qualifier value	en	1	2010-09-22 15:03:38	1	2014-12-06 02:47:37	16227FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16228	1499	General qualifier value of the severity	en	1	2010-09-22 15:06:56	1	2014-12-06 02:47:54	16228FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16229	1500	General qualifier value for the severity assesment	en	1	2010-09-22 15:09:41	1	2014-12-06 02:48:13	16229FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16230	159585	Used to document whether infection with Dengue is suspected in a patient. Not to be used as a diagnosis.	en	1	2010-09-24 12:30:22	1	\N	16230FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16231	83356	Same as 767	en	1	2010-10-10 20:51:43	1	\N	16231FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16232	104942	Same as 768	en	1	2010-10-10 20:55:57	1	\N	16232FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -13993,7 +13998,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 16262	159608	Location for obtaining water. A dam creates an artificial lake or pond.	en	1	2010-10-29 20:58:50	1	\N	16262FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16263	159609	Source of water.	en	1	2010-10-29 21:02:21	1	\N	16263FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16264	159613	Occupation where person works as a laborer on occasion, but is not fully employed.	en	1	2010-10-29 21:09:43	1	\N	16264FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16265	159615	Overarching set of systems for review	en	1	2010-10-29 21:12:15	1	2014-08-13 18:01:24	16265FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16265	159615	Overarching set of systems for review	en	1	2010-10-29 21:12:15	1	2014-11-22 20:33:36	16265FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16266	159619	Any surgery or surgical procedure. Unknown which type. See also 1933, minor surgical procedure.	en	1	2010-10-31 18:26:32	1	\N	16266FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16267	159620	The date and time of the emergency call to a dispatcher or other emergency call in center.	en	1	2010-10-31 18:45:42	1	\N	16267FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16268	159621	The date and time that the ambulance left after picking up patient at scene/facility for transport.	en	1	2010-10-31 18:48:13	1	\N	16268FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -14080,7 +14085,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 16349	159681	Total amount of land owned by person's family (in acres)	en	1	2010-11-05 20:36:10	1	\N	16349FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16350	159720	Father of spouse or significant other	en	1	2010-11-05 21:03:16	1	\N	16350FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16351	159721	The fluid that weeps from the vagina for a week or so after delivery of a baby. At first the lochia is primarily blood, followed by a more mucousy fluid containing dried blood, and finally a clear-to-yellow discharge.	en	1	2010-11-07 16:01:56	1	\N	16351FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16352	159728	Procedure for termination of pregnancy using vacuum aspiration	en	1	2010-11-07 16:16:43	1	\N	16352FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16352	159728	Procedure for termination of pregnancy using vacuum aspiration	en	1	2010-11-07 16:16:43	1	2014-12-22 16:10:59	16352FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16353	159736	Caption: "Was the male household member involved in patient's care?"	en	1	2010-11-07 17:23:15	1	\N	16353FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16354	159739	C-section done to deliver the baby due to emergency indications	en	1	2010-11-08 17:14:23	1	2012-09-27 14:31:15	16354FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16355	159741	which type of toilet is present	en	1	2010-11-08 18:24:00	1	\N	16355FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -14113,8 +14118,8 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 16383	159783	non-specific oral contraceptive pill containing both progestin and estradiol	en	1	2010-11-12 16:39:54	1	\N	16383FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16384	159784	non-specific oral contraceptive pill containing only progestin component	en	1	2010-11-12 16:42:48	1	\N	16384FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16385	159785	Academic institution. Higher learning.	en	1	2010-11-12 16:58:01	1	\N	16385FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16386	159786	outcome of tuberculosis treatment	en	1	2010-11-12 17:22:04	1	\N	16386FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16387	159791	treatment of the disease successfully terminated the problem. Can be generalized to all the diseases as a outcome of the treatment.	en	1	2010-11-12 18:15:51	1	2013-03-10 00:20:13	16387FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16386	159786	outcome of tuberculosis treatment	en	1	2010-11-12 17:22:04	1	2014-12-26 21:50:47	16386FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16387	159791	treatment of the disease successfully terminated the problem. Can be generalized to all the diseases as a outcome of the treatment.	en	1	2010-11-12 18:15:51	1	2015-01-23 22:30:12	16387FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16388	159792	Which phase of the tuberculosis treatment the patient is on? 	en	1	2010-11-12 18:28:56	1	\N	16388FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16389	159793	phase/stage of the tuberculosis treatment	en	1	2010-11-12 18:31:10	1	\N	16389FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16390	159796	Free text field to document reason for missed visit.	en	1	2010-11-12 20:03:24	1	\N	16390FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -14202,7 +14207,7 @@ REF: WHO	en	1	2007-10-18 04:28:24	1	2012-06-14 00:07:32	10420FFFFFFFFFFFFFFFFFFF
 16473	159944	Second or non-primary qualifier value such as for a diagnosis	en	1	2010-12-04 21:53:25	1	2013-08-21 09:31:39	16473FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16474	159945	third or following primary and secondary as in qualifying a diagnosis	en	1	2010-12-04 21:54:54	1	2014-04-04 14:44:42	16474FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16475	159946	Classification of diagnosis as primary, secondary, etc.	en	1	2010-12-04 22:02:33	1	2014-08-05 20:36:48	16475FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16476	159947	The set of diagnoses that were either addressed or diagnosed during the current visit	en	1	2010-12-14 02:44:15	1	2013-08-21 09:14:54	16476FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16476	159947	The set of diagnoses that were either addressed or diagnosed during the current visit	en	1	2010-12-14 02:44:15	1	2015-01-06 22:35:02	16476FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16477	159948	The date the diagnosis was first made for the patient.	en	1	2010-12-14 02:46:18	1	2013-03-12 23:39:10	16477FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16478	159949	The coded number of children born in a single delivery.	en	1	2010-12-14 03:09:57	1	2013-02-28 18:54:03	16478FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16479	159950	Malaria without complications such as cerebral malaria, hemolysis, shock, etc.	en	1	2010-12-14 03:22:06	1	2012-06-07 18:21:54	16479FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -14673,7 +14678,7 @@ HELP: Service Delivery Tally sheet, Section A.1.2 – Family Planning Acceptors,
 16948	161073	Counseling on importance of taking extra nutritious foods and supplementation of iron, folic acid and other micro-nutrients during pregnancy	en	1	2012-08-05 16:04:14	1	\N	16948FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16949	161074	Counseling on different physical exams to be performed in each antenatal visit including, weight check, abdominal exam, blood pressure among others	en	1	2012-08-05 16:29:52	1	\N	16949FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16950	161075	Whether the pregnancy is registered to the concerned health center or to the health care provider	en	1	2012-08-05 17:22:28	1	\N	16950FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16951	161078	The Gleason Grading system is used to help evaluate the prognosis of men with prostate cancer. Together with other parameters, it is incorporated into a strategy of prostate cancer staging which predicts prognosis and helps guide therapy. A Gleason score is given to prostate cancer based upon its microscopic appearance. REF: http://en.wikipedia.org/wiki/Gleason_Grading_System	en	1	2012-08-06 13:35:17	1	\N	16951FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16951	161078	The Gleason Grading system is used to help evaluate the prognosis of men with prostate cancer. Together with other parameters, it is incorporated into a strategy of prostate cancer staging which predicts prognosis and helps guide therapy. A Gleason score is given to prostate cancer based upon its microscopic appearance. REF: http://en.wikipedia.org/wiki/Gleason_Grading_System	en	1	2012-08-06 13:35:17	1	2014-12-08 20:36:15	16951FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16952	161081	Rhombencephalosynapsis is where the cerebellum is fused because of an absence of cerebellar vermis. The cerebellar vermis is a narrow, wormlike structure between the hemispheres of the cerebellum. REF: http://rhombencephalosynapsis.org	en	1	2012-08-07 10:14:02	1	\N	16952FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16953	161094	Counseling on importance of skin-to-skin care, which is also called kangaroo method, in preventing a newborn from hypothermia and also initiating breastfeeding.	en	1	2012-08-08 18:17:10	1	\N	16953FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16954	161095	Counseling on importance of initiating breastfeeding within one hour of birth	en	1	2012-08-08 18:31:07	1	\N	16954FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -14700,8 +14705,8 @@ HELP: Service Delivery Tally sheet, Section A.1.2 – Family Planning Acceptors,
 16974	161133	The rate of fluid filtration from the glomerular capillaries to the Bowman's capsule, taken indirectly through calculation from other values	en	1	2012-08-14 15:59:57	1	2012-09-26 14:20:41	16974FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16975	161134	Urine creatinine clearance, or the volume of plasma cleared of creatinine per unit of time, taken through 24-hour collection	en	1	2012-08-14 16:05:12	1	\N	16975FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16976	161136	This set will help record name, gender and birth date of each of the children	en	1	2012-08-21 16:20:05	1	2013-01-30 14:08:24	16976FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16977	161138	Gleason Grade based on the degree of loss of normal glandular tissue architecture on the majority of the prostate tissue	en	1	2012-08-29 13:09:00	1	\N	16977FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-16978	161139	Gleason Grade based on the degree of loss of normal glandular tissue architecture on the minority of the prostate tissue	en	1	2012-08-29 13:11:06	1	\N	16978FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16977	161138	Gleason Grade based on the degree of loss of normal glandular tissue architecture on the majority of the prostate tissue	en	1	2012-08-29 13:09:00	1	2014-12-08 20:21:19	16977FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+16978	161139	Gleason Grade based on the degree of loss of normal glandular tissue architecture on the minority of the prostate tissue	en	1	2012-08-29 13:11:06	1	2014-12-08 20:21:07	16978FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16979	161140	List of spectrum of scores from which the patient will choose a value depending on satisfaction on services rendered	en	1	2012-08-29 13:18:42	1	2012-08-29 22:32:43	16979FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16980	161149	Procedure or test where bone marrow is aspirated and examined under microscopy	en	1	2012-08-29 14:11:00	1	2013-01-13 21:35:57	16980FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 16981	161150	Bone marrow examination with immunophenotyping\
@@ -14734,7 +14739,7 @@ HELP: Service Delivery Tally sheet, Section A.1.2 – Family Planning Acceptors,
 17007	161177	Was peritoneal dialysis done during the patient's hospital stay?	en	1	2012-08-29 22:26:11	1	\N	17007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17008	161178	Peritoneal dialysis was done during the patient's transplant surgery?	en	1	2012-08-29 22:28:06	1	\N	17008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17009	161179	An immunosuppresant used to prevent transplant rejection	en	1	2012-08-29 22:29:29	1	\N	17009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17010	161185	Total amount of the out-of-pocket or co-pay expenses from the patient	en	1	2012-09-05 13:48:23	1	\N	17010FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17010	161185	Total amount of the out-of-pocket or co-pay expenses from the patient	en	1	2012-09-05 13:48:23	1	2014-12-08 20:19:33	17010FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17011	161187	This is the itemized list of items patient spent on, without prices	en	1	2012-09-05 13:51:55	1	2012-09-24 14:40:39	17011FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17012	161188	Drug class	en	1	2012-09-05 13:59:38	1	\N	17012FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17013	161189	General qualifier term for any medication/drugs	en	1	2012-09-05 14:00:55	1	\N	17013FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -14853,8 +14858,8 @@ REF: http://www.ilae.org/Visitors/Centre/ctf/documents/ClassificationReport_2010
 17120	161648	Provision of food supplements to patient or family of patient	en	1	2013-04-11 10:04:42	1	\N	17120FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17121	161649	Provision of micronutrients to patient or patient family for patient	en	1	2013-04-11 10:05:17	1	\N	17121FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17122	161652	Based on actual dispensed drugs, Good=>95%, Fair= 85-94%, Poor=<84%	en	1	2013-04-22 02:11:55	1	2013-04-22 02:16:09	17122FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17123	161654	Case number or treatment number for patient. This is not a count, but an identifier.	en	1	2013-04-26 14:29:42	1	\N	17123FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17124	161655	Case or ID number for antenatal clinic registration. Unique for pregnancy, but not for patient. Not count of anc visits.	en	1	2013-04-26 14:32:16	1	\N	17124FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17123	161654	Case number or treatment number for patient. This is not a count, but an identifier.	en	1	2013-04-26 14:29:42	1	2014-12-08 20:09:20	17123FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17124	161655	Case or ID number for antenatal clinic registration. Unique for pregnancy, but not for patient. Not count of anc visits.	en	1	2013-04-26 14:32:16	1	2014-12-08 20:07:16	17124FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17125	119757	See 119758	en	1	2013-05-11 18:54:39	1	\N	17125FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17126	119756	See 119758	en	1	2013-05-11 18:55:13	1	\N	17126FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17127	161884	Antenatal care of normal pregnancy other than for first pregnancy (primigravida).	en	1	2013-05-24 02:54:33	1	2013-05-24 15:16:29	17127FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -14875,7 +14880,7 @@ viscera. This definition suggests that the organisms causing postoperative infec
 REF: http://www.cdc.gov/hicpac/SSI/table7-8-9-10-SSI.html	en	1	2013-07-31 01:19:42	1	2013-07-31 15:09:39	17137FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17138	161939	Transfusion product, usually denoted by unit	en	1	2013-07-31 15:18:42	1	2013-07-31 15:20:17	17138FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17139	162051	Temporary alphanumeric number given to a newborn before an official birth certificate is provided.	en	1	2013-08-21 09:53:59	1	2013-08-23 19:40:32	17139FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17140	162053	Registration number from the comprehensive care center	en	1	2013-08-21 12:34:58	1	2013-08-23 19:49:22	17140FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17140	162053	Registration number from the comprehensive care center	en	1	2013-08-21 12:34:58	1	2014-12-08 19:55:10	17140FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17141	161928	Estimated volume of blood lost in liters (0.5L=500ml)	en	1	2013-08-22 09:04:12	1	2013-08-22 09:04:55	17141FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17142	162054	An alphanumeric code/number which represents the point where the patient received care	en	1	2013-08-23 19:38:33	1	2013-08-23 19:38:49	17142FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17143	162056	Infant milestone. Child smiles when is smiled at.	en	1	2013-08-23 20:44:13	1	2013-08-23 20:57:26	17143FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -14887,7 +14892,7 @@ REF: http://www.cdc.gov/hicpac/SSI/table7-8-9-10-SSI.html	en	1	2013-07-31 01:19:
 17149	162062	Infant milestone. Child is able to stand unassisted.	en	1	2013-08-23 21:06:08	1	2013-08-23 21:06:23	17149FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17150	162063	Infant milestone. Child is able to walk unassisted.	en	1	2013-08-23 21:08:33	1	2013-08-23 21:08:51	17150FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17151	162066	Finding of strabismus (squint) on examination	en	1	2013-08-23 21:58:07	1	2013-08-23 21:58:23	17151FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17152	162068	Age in months child achieved a developmental milestone.	en	1	2013-08-29 01:50:44	1	2013-08-29 01:50:54	17152FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17152	162068	Age in months child achieved a developmental milestone.	en	1	2013-08-29 01:50:44	1	2014-12-08 19:54:30	17152FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17153	162075	Delivery of multiple newborns in the same gestation.	en	1	2013-08-30 02:03:53	1	2013-08-30 02:03:59	17153FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17154	162079	Date/time that a test result was obtained. This is not when the test was ordered, or when the result was given to the patient.	en	1	2013-08-30 02:24:18	1	2013-08-30 02:24:27	17154FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17155	162080	First in an ordered list	en	1	2013-08-30 02:26:40	1	2013-08-30 02:26:49	17155FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -15015,7 +15020,7 @@ REF: http://www.cdc.gov/hicpac/SSI/table7-8-9-10-SSI.html	en	1	2013-07-31 01:19:
 17278	162501	The date a device, drug or other object was created/manufactured.	en	1	2014-06-06 17:56:06	1	\N	17278FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17279	162502	Date of expiration of a drug or supply.	en	1	2014-06-06 18:51:52	1	2014-06-06 18:52:00	17279FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17280	162511	Inability to cry, usually in infants who are dehydrated.	en	1	2014-06-07 00:17:34	1	2014-06-07 00:17:46	17280FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17281	162513	Time of capillary refill in seconds	en	1	2014-06-07 00:21:42	1	2014-11-02 02:15:30	17281FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17281	162513	Time of capillary refill in seconds	en	1	2014-06-07 00:21:42	1	2014-12-07 02:53:38	17281FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17282	162517	Infant is not fed any other food or liquid besides breast milk.	en	1	2014-06-07 00:55:27	1	2014-06-07 00:55:35	17282FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17283	162518	Infant wakes up spontaneously to feed.	en	1	2014-06-07 00:56:37	1	2014-06-07 00:56:44	17283FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17284	162522	Was a feed observed on current visit?	en	1	2014-06-07 01:08:34	1	2014-06-07 01:08:44	17284FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -15027,7 +15032,7 @@ REF: http://www.cdc.gov/hicpac/SSI/table7-8-9-10-SSI.html	en	1	2013-07-31 01:19:
 17290	162543	Flesh of a cow	en	1	2014-07-15 02:49:38	1	2014-07-15 02:49:49	17290FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17291	162544	Food made from cocoa	en	1	2014-07-15 02:51:55	1	2014-07-15 02:52:11	17291FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17292	162546	Organism	en	1	2014-07-15 02:55:22	1	2014-07-15 02:55:31	17292FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17293	162555	A convenience set of reactions to allergens for documenting allergy history	en	1	2014-08-05 19:29:21	1	2014-09-14 15:17:15	17293FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17293	162555	A convenience set of reactions to allergens for documenting allergy history	en	1	2014-08-05 19:29:21	1	2014-11-10 22:55:37	17293FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17294	162554	A convenience set to allow for easy selection of common environmental allergens	en	1	2014-08-05 19:29:49	1	\N	17294FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17295	162553	A convenience set to allow for easy selection of common food allergens	en	1	2014-08-05 19:30:02	1	\N	17295FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17296	162552	A convenience set to allow for easy selection of common drug allergens	en	1	2014-08-05 19:30:18	1	2014-09-13 21:45:54	17296FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -15044,10 +15049,10 @@ REF: http://www.cdc.gov/hicpac/SSI/table7-8-9-10-SSI.html	en	1	2013-07-31 01:19:
 17307	162570	Respondent declined or refused to answer a question.	en	1	2014-08-15 21:32:55	1	\N	17307FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17308	162571	Person with illness or receiving care	en	1	2014-08-15 21:35:11	1	2014-08-15 21:35:22	17308FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17309	162573	Adjective inferring potential or possibility. Used as an answer to a question. Similar to "maybe"	en	1	2014-08-18 15:24:29	1	2014-08-18 15:24:36	17309FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17310	162576	Link to new patient identifier if patient has transferred out of facility	en	1	2014-08-22 18:37:52	1	2014-08-22 18:38:00	17310FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17311	162578	Feeding amount in milliliters	en	1	2014-08-22 18:53:56	1	2014-08-22 18:54:06	17311FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17310	162576	Link to new patient identifier if patient has transferred out of facility	en	1	2014-08-22 18:37:52	1	2014-11-21 02:08:53	17310FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17311	162578	Feeding amount in milliliters	en	1	2014-08-22 18:53:56	1	2014-12-08 19:53:17	17311FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17312	162582	A qualifier term which can be used to differentiate a numeric entry. For example, a duration could be a number + duration unit (number of occurrences).	en	1	2014-09-17 21:42:59	1	\N	17312FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17313	162583	Unit of time, 1/60 of a minute	en	1	2014-09-18 15:14:53	1	2014-09-18 15:15:04	17313FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17313	162583	Unit of time, 1/60 of a minute	en	1	2014-09-18 15:14:53	1	2014-12-01 21:21:47	17313FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17314	162584	Standard deviation that a child's weight is from the median weight of a child at the same AGE in the reference data (WHO chart)	en	1	2014-09-22 18:45:54	1	2014-10-13 23:19:39	17314FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17315	162585	The date a child was fully vaccinated. Assumes child is not only up to date with immunizations but no further immunization is required.	en	1	2014-09-22 18:58:52	1	2014-10-02 21:17:14	17315FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17316	162586	Combination of measles and rubella (German measles) vaccine	en	1	2014-09-28 01:24:18	1	2014-09-28 01:24:27	17316FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -15061,7 +15066,7 @@ REF: http://www.cdc.gov/hicpac/SSI/table7-8-9-10-SSI.html	en	1	2013-07-31 01:19:
 17324	162597	Presence of Ebola virus IgM in serum sample	en	1	2014-10-15 19:14:01	1	2014-10-15 19:14:54	17324FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17325	162598	Presence of Ebola virus IgG antibody in serum sample.	en	1	2014-10-15 19:16:11	1	2014-10-15 19:16:20	17325FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17326	162599	Ebola virus PCR in any sample	en	1	2014-10-15 19:18:01	1	2014-10-15 19:19:48	17326FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17327	162603	Numeric portion to be used with duration units	en	1	2014-10-15 19:28:44	1	2014-10-15 19:29:05	17327FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17327	162603	Numeric portion to be used with duration units	en	1	2014-10-15 19:28:44	1	2014-12-08 19:51:14	17327FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17328	162604	Countries part of travel history	en	1	2014-10-15 19:30:22	1	2014-10-15 19:30:34	17328FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17329	162606	Country in West Africa	en	1	2014-10-15 19:33:16	1	2014-10-15 19:33:23	17329FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17330	162607	Country in West Africa	en	1	2014-10-15 19:35:14	1	2014-10-15 19:35:24	17330FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -15085,19 +15090,19 @@ The mechanism of its actions is thought to be related to the selective inhibitio
 REF: http://en.wikipedia.org/wiki/Favipiravir	en	1	2014-10-27 18:25:12	1	2014-10-27 18:25:37	17345FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17346	162639	Brincidofovir (CMX001) is an experimental antiviral drug being developed by Chimerix of Durham, NC, for the treatment of cytomegalovirus, adenovirus, smallpox, and ebolavirus infections. Brincidofovir is a prodrug of cidofovir. Conjugated to a lipid, the compound is designed to release cidofovir intracellularly, allowing for higher intracellular and lower plasma concentrations of cidofovir, effectively increasing its activity against dsDNA viruses, as well as oral bioavailability. REF: http://en.wikipedia.org/wiki/Brincidofovir	en	1	2014-10-27 18:27:20	1	2014-10-27 18:27:31	17346FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17347	162640	ZMapp is an experimental biopharmaceutical drug comprising three chimeric monoclonal antibodies under development as a treatment for Ebola virus disease. The drug was first tested in humans during the 2014 West Africa Ebola virus outbreak, but has not been subjected to a randomized controlled trial to determine its safety or its efficacy. REF: http://en.wikipedia.org/wiki/ZMapp	en	1	2014-10-27 18:29:32	1	2014-10-27 18:29:41	17347FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17348	162642	Level of severity of symptom	en	1	2014-10-30 13:37:28	1	\N	17348FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17348	162642	Level of severity of symptom	en	1	2014-10-30 13:37:28	1	2014-11-07 20:13:16	17348FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17349	162648	Qualifier value for a reduction or below normal value	en	1	2014-10-30 14:31:38	1	2014-10-30 14:31:45	17349FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17350	162655	Qualifier value describing shape of substance	en	1	2014-10-30 15:18:28	1	2014-10-30 15:18:34	17350FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17351	162656	Qualifier term describing shape of substance	en	1	2014-10-30 15:19:06	1	2014-10-30 15:19:12	17351FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17352	162657	Description of state of substance	en	1	2014-10-30 15:20:27	1	2014-10-30 15:20:35	17352FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17353	162659	The total number of mL of bodily outputs (urine, vomit, diarrhea, etc.) over 24 hours	en	1	2014-10-30 16:32:59	1	2014-10-30 16:35:41	17353FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17354	162663	"The discharge package includes money for transportation to their communities, clothing and food items." from WHO webpage.	en	1	2014-10-31 17:00:30	1	2014-10-31 17:01:17	17354FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17354	162663	"The discharge package includes money for transportation to their communities, clothing and food items." from WHO webpage.	en	1	2014-10-31 17:00:30	1	2014-11-19 13:59:08	17354FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17355	162664	A location for burial. 	en	1	2014-10-31 17:03:19	1	2014-10-31 17:04:52	17355FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17356	162668	Question identifying site of bleeding	en	1	2014-11-02 01:51:51	1	2014-11-02 02:09:57	17356FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17357	162669	Body structure	en	1	2014-11-02 01:57:01	1	2014-11-02 01:57:09	17357FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17358	162670	Body structure	en	1	2014-11-02 01:58:30	1	2014-11-02 01:58:41	17358FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17359	162671	Body structure	en	1	2014-11-02 02:00:00	1	2014-11-02 02:00:09	17359FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17360	162672	Body structure	en	1	2014-11-02 02:00:51	1	2014-11-02 02:01:16	17360FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17360	162672	Body structure	en	1	2014-11-02 02:00:51	1	2014-11-21 02:59:29	17360FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17361	162673	Body structure	en	1	2014-11-02 02:01:58	1	2014-11-02 02:02:26	17361FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17362	162676	Qualitative description of symptom progression or status.	en	1	2014-11-03 12:05:04	1	2014-11-03 12:09:42	17362FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17363	162677	Qualifier 	en	1	2014-11-03 12:05:47	1	2014-11-03 12:05:58	17363FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -15112,37 +15117,50 @@ REF: http://en.wikipedia.org/wiki/Favipiravir	en	1	2014-10-27 18:25:12	1	2014-10
 17372	162688	List of medications used to manage pain.	en	1	2014-11-04 01:01:48	1	2014-11-04 01:02:01	17372FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17373	162689	A geographical division	en	1	2014-11-04 01:04:39	1	2014-11-04 01:04:49	17373FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 17374	162690	A geographic division	en	1	2014-11-04 01:06:20	1	2014-11-04 01:06:30	17374FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-17375	162693	A category for how the patient can walk	en	1	2014-11-18 13:55:28	\N	\N	3705cc42-bccc-4243-88b3-cfb76d48d4a6
-17377	162700	The patient is only able to drink, not even take on liquid food.	en	3	2014-11-18 23:37:38	\N	\N	0897b218-5d7b-4549-bf6a-4c6601b4d1f3
-17378	162701	The patient cannot eat or drink anything	en	3	2014-11-18 23:39:24	\N	\N	f6e9c80f-2ea4-4a9c-bf5a-708f32f09039
-17379	162702	What the patient is able to eat or drink	en	3	2014-11-18 23:39:36	\N	\N	8d82f3b6-f786-47cd-b15b-8a6c95db5485
-17383	162721	A general assessment of the patient's pain level	en	1	2014-12-03 14:18:49	\N	\N	54e3a6f4-c55e-43dc-a2a2-078169dd1fc4
-17384	162721	A general assessment of the patient's pain level	en_GB_client	1	2014-12-03 14:18:49	\N	\N	d522116f-e7e5-41a1-9f67-c25c3cd2eec0
-17385	162644	Responds to pain (AVPU)	en_GB_client	1	2014-12-03 14:47:35	\N	\N	182591b8-0508-47af-a306-cc642e560fa3
-17386	159508	Unresponsive (AVPU)	en_GB_client	1	2014-12-03 14:47:59	\N	\N	a883e2b5-2134-43a8-80d8-4c04a03ad3db
-17387	162645	Responds to voice (AVPU)	en_GB_client	1	2014-12-03 14:48:25	\N	\N	031a6be4-f2f3-4ca6-a05b-bbf3686aa00c
-17388	160282	Alert/awake (AVPU)	en	1	2014-12-03 14:48:51	\N	\N	a0aeb406-2801-4a9a-b1e2-0c2d03bfef92
-17389	162696	Assisted Walking	en_GB_client	1	2014-12-03 14:50:42	\N	\N	53952fb6-96a3-495c-b5a8-f66b09b3100c
-17390	162695	Independent Walking	en_GB_client	1	2014-12-03 14:51:07	\N	\N	51c764d1-db21-4bb2-aa66-54a2426bfbab
-17391	162722	Patient condition good	en_GB_client	1	2014-12-03 15:01:01	\N	\N	f873c22f-65cc-4668-b5d3-f54ac3e42bb8
-17392	162133	Patient condition fair/satisfactory	en_GB_client	1	2014-12-03 15:01:29	\N	\N	d0940742-2723-48bb-b723-373672d3de41
-17393	162723	Patient Condition Very Poor	en_GB_client	1	2014-12-03 15:02:37	\N	\N	a6dc40a8-2d9f-4d4d-9592-0ddb46b8a7d0
-17394	162132	Patient condition poor	en_GB_client	1	2014-12-03 15:05:16	\N	\N	597fb3e3-5fac-4864-a7b0-d647af1aceba
-17395	162724	Patient's general condition	en	1	2014-12-03 15:07:59	\N	\N	1cfe6591-743b-45b8-b8e1-eaa7185c726f
-17396	162725	The patient as an IV line (e.g. cannula) fitted.	en_GB_client	1	2014-12-03 15:58:32	\N	\N	773661b0-f982-40a5-a3cd-12876a288ca3
-17397	162725	The patient as an IV line (e.g. cannula) fitted.	en	1	2014-12-03 15:58:32	\N	\N	c44b9078-fbde-44ce-86d4-164858332e9c
-17398	162726	The patient is well-hydrated	en	1	2014-12-03 16:34:49	\N	\N	a4de8ddc-a50d-4d5e-81ae-e602aec3d995
-17400	162728	An observation that a patient is believed to be dead by someone who is not qualified to certify/confirm the patient is dead	en	3	2015-01-13 10:25:18	\N	\N	7157cfa8-01f3-4b67-8f65-aa50825bf64a
-17401	162729	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	en	3	2015-01-13 12:32:50	\N	\N	82a38840-94ee-4350-8444-ac415ccd3f85
-17402	162730	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	en	3	2015-01-13 12:34:08	\N	\N	23b8f7e8-017e-4281-a80f-b6f2eea36c00
-17403	162731	The count of the number of times where the patient vomited in the last 24 hours.	en	3	2015-01-22 11:18:57	\N	\N	136c9fce-fdef-46ae-a5be-8213801fa1c1
-17404	162732	The count of the number of times the patient has had diarrhea in the past 24 hours.	en	3	2015-01-22 11:22:38	\N	\N	f5f45b88-ae3c-4d14-8694-00cec742eddf
-17405	162733	This is not hyphema or subconjunctival haemorrhage, it is actually bleeding out of the eyes. This is a rare symptom that occurs occasionally in Haemorrhagic fevers like Ebola.	en	3	2015-01-22 15:05:35	\N	\N	4a4bf467-eb17-49c6-9f92-03fd3b43a792
-17406	162734	Answer for a question about how the patient is eating. Indicates they have no problems, and have nothing changing their eating habits (through loss of appetite or pain).	en	3	2015-01-23 16:56:39	\N	\N	6bba5f1e-3967-4158-be94-f0514f93ff3f
-17407	162735	Answer to a question about the patient's eating habits. Indicates the patient is not eating enough. Does not distinguish between loss of appetite, or pain or other physical problem preventing eating. However, some solid food is being consumed, just not enough.	en	3	2015-01-23 16:59:04	\N	\N	8b9dcf96-8c48-4625-8c9e-372da458ec17
-17408	162736	A patient status where they are so sick they are only receiving palliative care	en	3	2015-01-23 23:49:58	\N	\N	de73507c-df0d-47a5-8005-2a13d4373571
-17409	162723	Vital signs are unstable and not within normal limits. Patient may be unconscious. Indicators are unfavorable.	en	3	2015-01-23 23:57:43	\N	\N	7b575a83-43f4-4997-b052-96336d8f94fb
-17410	162738	Indicates that lab test results have been confirmed	en	3	2015-01-26 20:10:13	\N	\N	2f5f9d05-a7eb-434e-81b8-44435e6dd56b
-17411	162739	Confirms PCR lab test results	en	3	2015-01-26 20:10:35	\N	\N	328dcdee-fd24-4634-b6d2-cf5aa7746c28
-17412	162729	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	en_GB_client	3	2015-02-10 13:24:18	\N	\N	6e46c507-f32b-4971-8e8f-5c57a368992a
-17413	162730	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	en_GB_client	3	2015-02-10 13:24:49	\N	\N	f6c8106e-81b3-4bb8-bd22-03495e7b0a2f
+17375	162694	Evidence of an active WHO stage 3 or 4 illness?	en	1	2014-11-07 22:42:47	1	\N	17375FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17376	162696	Patient is able to give consent/assent	en	1	2014-11-07 22:45:22	1	2014-11-07 22:45:29	17376FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17377	162697	Patient eligible for clinical trial or study	en	1	2014-11-07 22:48:28	1	\N	17377FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17378	162698	Patient failed to return to pick up lab results	en	1	2014-11-07 22:55:32	1	2014-11-07 23:00:12	17378FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17379	162714	Discharge packet used for building support with patient.	en	1	2014-11-19 13:43:25	1	2014-11-19 13:43:35	17379FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17380	162721	Physical location where patient noticed onset of symptoms.	en	1	2014-11-19 22:52:25	1	2014-11-19 22:53:32	17380FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17381	162722	Child or children (<18 years old) who remain at home without adult supervision	en	1	2014-11-20 04:27:39	1	2014-11-20 04:27:52	17381FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17382	162724	Generic field to capture a health facility name	en	1	2014-11-21 01:57:27	1	\N	17382FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17383	162725	Generic field to capture an address in text form.	en	1	2014-11-21 02:00:47	1	2014-11-21 02:00:58	17383FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17384	162726	Details of facility where patient had a healthcare related exposure.	en	1	2014-11-21 02:08:22	1	2014-11-21 02:14:36	17384FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17385	162727	The patient's identifier from another facility	en	1	2014-11-21 02:09:56	1	2014-11-21 02:10:09	17385FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17386	162729	Free text entry to record name of next of kin	en	1	2014-11-21 02:22:18	1	\N	17386FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17387	162731	Patient ward where patients have vomiting, diarrhea, etc. which may be more infectious	en	1	2014-11-21 02:35:51	1	2014-11-21 02:36:01	17387FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17388	162732	Patient ward where patients do not have vomiting, diarrhea or other liquid exposures which may be less infectious	en	1	2014-11-21 02:38:24	1	2014-11-21 02:38:35	17388FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17389	162734	Total liver span in centimeters	en	1	2014-11-21 02:50:09	1	2014-12-08 19:49:55	17389FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17390	160495	Body structure	en	1	2014-11-21 02:58:54	1	\N	17390FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17391	162736	Is the patient taking any medication at all?	en	1	2014-11-22 20:28:16	1	2014-11-22 20:28:27	17391FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17392	162737	General outcome of physical exam, whether any abnormalities were detected.	en	1	2014-11-22 20:37:50	1	2014-11-22 20:37:59	17392FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17393	162740	Participated in a funeral (carried or touched body)	en	1	2014-11-25 23:36:17	1	2014-11-25 23:36:28	17393FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17394	162748	Filling out of repeat prescription card completed.	en	1	2014-12-03 20:00:33	1	2014-12-03 20:00:41	17394FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17395	162754	Malaria caused by species other than P. falciparum	en	1	2014-12-05 19:50:53	1	2014-12-05 19:51:00	17395FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17396	162755	Patient is able to speak coherently	en	1	2014-12-06 02:21:15	1	2014-12-06 02:21:27	17396FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17397	162757	Liquids that are consumed orally	en	1	2014-12-06 02:37:56	1	2014-12-06 02:38:56	17397FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17398	162763	Unit of product use (small bottle)	en	1	2014-12-11 14:58:08	1	2014-12-11 14:58:18	17398FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17399	162796	Antiretroviral regimen	en	1	2014-12-19 17:45:13	1	2014-12-19 17:46:14	17399FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17400	162815	Manual cleaning of the uterus with a finger, usually after delivery	en	1	2014-12-23 02:41:57	1	2014-12-23 16:51:06	17400FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17401	162820	A question which identifies the severity of a problem or diagnosis. Also can be used as a convenience set.	en	1	2015-01-06 22:32:02	1	2015-01-23 02:45:55	17401FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17402	162826	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	en	1	2015-01-14 02:43:56	1	2015-01-14 02:46:37	17402FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17403	162827	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	en	1	2015-01-14 02:45:58	1	2015-01-14 02:46:13	17403FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17404	160241	Administration within the respiratory tract by inhaling orally or nasally for local or systemic effect.	en	1	2015-01-16 19:49:57	1	\N	17404FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17405	160245	Administration beneath the skin; hypodermic.  	en	1	2015-01-16 19:50:39	1	\N	17405FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17406	160243	Administration within a muscle.	en	1	2015-01-16 19:51:06	1	\N	17406FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17407	160240	Administration to or by way of the mouth.	en	1	2015-01-16 19:51:31	1	\N	17407FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17408	160242	Administration within or into a vein or veins.	en	1	2015-01-16 19:51:57	1	\N	17408FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17409	161253	Administration to the nose; administered by way of the nose.	en	1	2015-01-16 19:53:14	1	\N	17409FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17410	162391	Administration through the dermal layer of the skin to the systemic circulation by diffusion.	en	1	2015-01-16 19:54:41	1	\N	17410FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17411	162392	Administration into the vagina.	en	1	2015-01-16 19:55:29	1	\N	17411FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17412	162393	Administration to the rectum.	en	1	2015-01-16 19:56:07	1	\N	17412FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17413	162798	Administration through the nose and into the stomach, usually by means of a tube.	en	1	2015-01-16 19:56:53	1	\N	17413FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17414	162828	When the patient was admitted to the facility for this visit, were they a confirmed case, or a suspect?	en	1	2015-01-19 17:23:52	1	2015-01-19 17:24:03	17414FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17415	162829	Ebola patients with non-specific features:  pyrexia, weakness, lethargy, myalgia	en	1	2015-01-19 17:31:59	1	2015-01-22 19:21:59	17415FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17416	162830	Ebola patients with non-specific features (pyrexia, weakness, lethargy, myalgia) PLUS  diarrhoea and/or vomiting	en	1	2015-01-19 17:33:13	1	2015-01-22 19:21:37	17416FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17417	162831	Ebola patient with non-specific features (pyrexia, weakness, lethargy, myalgia) PLUS diarrhoea and/or vomiting PLUS clinical shock, signs of organ failure, neurological involvement, and/or hemorrhage.	en	1	2015-01-19 17:34:16	1	2015-01-22 19:21:10	17417FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17418	162832	Physician decision to shift emphasis from resuscitative to palliative care due to poor prognostic indicators and/or failure to respond to therapy for Ebola	en	1	2015-01-19 17:35:41	1	2015-01-22 02:55:44	17418FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17419	162833	Convalescent Ebola patient	en	1	2015-01-19 17:36:35	1	2015-01-22 02:55:58	17419FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+17420	162835	Haemolacria is a physical condition that causes a person to produce tears that are partially composed of blood.-Wikipedia\
+This is in distinction from bleeding into the eye, or under the conjunctiva.	en	1	2015-01-22 17:56:19	1	2015-01-22 17:57:22	17420FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF

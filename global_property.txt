@@ -1,7 +1,7 @@
 application.name	OpenMRS	The name of this application, as presented to the user, for example on the login and welcome pages.	41ae95ff-5c56-41dd-b225-a154e3656ad4	\N	\N	\N	\N
 calculation.mandatory	false	true/false whether or not the calculation module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	34e34053-ee41-4f8b-ab30-a57481fe7755	\N	\N	\N	\N
 calculation.started	false	DO NOT MODIFY. true/false whether or not the calculation module has been started.  This is used to make sure modules that were running  prior to a restart are started again	4d396901-e87f-420b-a74e-8d612fcaee5b	\N	\N	\N	\N
-ciel.conceptsVersion	20141103	Date or version of CIEL concept dictionary present in the database	f7703d13-8650-400c-811b-baf37d3bae91	\N	\N	\N	\N
+ciel.conceptsVersion	20150123	Date or version of CIEL concept dictionary present in the database	f7703d13-8650-400c-811b-baf37d3bae91	\N	\N	\N	\N
 concept.caseSensitiveNamesInConceptNameTable	true	Indicates whether names in the concept_name table are case sensitive or not. Setting this to false for MySQL with a case insensitive collation improves search performance.	d416fc3a-8276-444f-828f-36618461abcc	\N	\N	\N	\N
 concept.causeOfDeath	5002	Concept id of the concept defining the CAUSE OF DEATH concept	17d03e79-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
 concept.cd4_count	5497	Concept id of the concept defining the CD4 count concept	17d03fb4-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N

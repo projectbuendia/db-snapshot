@@ -150,7 +150,7 @@
 1815	\N	\N	\N	\N	\N	\N		0
 1823	\N	\N	\N	\N	\N	\N		0
 1825	\N	\N	\N	\N	\N	\N		0
-1837	\N	\N	\N	\N	\N	\N		0
+1837	50	9	3	0	\N	\N		0
 1864	\N	\N	\N	\N	\N	\N		0
 1865	\N	\N	\N	\N	\N	\N		0
 1867	\N	\N	\N	\N	\N	\N		0
@@ -183,7 +183,7 @@
 5087	230	\N	\N	0	\N	\N	rate/min	0
 5088	43	\N	\N	25	\N	\N	DEG C	1
 5089	250	\N	\N	0	\N	\N	kg	1
-5090	228	\N	\N	10	\N	\N	cm	1
+5090	272	\N	\N	10	\N	\N	cm	1
 5092	100	\N	\N	0	\N	\N	%	0
 5093	\N	\N	\N	\N	\N	\N	\N	0
 5094	\N	\N	\N	\N	\N	\N	\N	0
@@ -193,7 +193,7 @@
 5220	\N	\N	\N	\N	\N	\N	\N	0
 5221	\N	\N	\N	\N	\N	\N	\N	0
 5223	\N	\N	\N	\N	\N	\N	\N	0
-5242	\N	\N	\N	\N	\N	\N	\N	0
+5242	\N	120	70	0	\N	\N		0
 5268	\N	\N	\N	\N	\N	\N	\N	0
 5270	\N	\N	\N	\N	\N	\N	\N	0
 5281	\N	\N	\N	\N	\N	\N	\N	0
@@ -918,7 +918,7 @@
 160334	\N	\N	\N	\N	\N	\N		0
 160335	\N	\N	\N	\N	\N	\N		0
 160339	\N	\N	\N	\N	\N	\N		0
-160347	15	\N	\N	0	\N	\N	\N	0
+160347	15	\N	\N	0	\N	\N		0
 160373	\N	\N	\N	\N	\N	\N		0
 160374	\N	\N	\N	\N	\N	\N		0
 160375	\N	\N	\N	\N	\N	\N		0
@@ -949,35 +949,35 @@
 160913	\N	\N	\N	0	\N	\N	ng/mL	1
 160914	\N	\N	\N	0	\N	\N	mg/dL	1
 160915	\N	\N	\N	0	\N	\N	ng/mL	1
-160916	\N	\N	\N	\N	\N	\N		1
+160916	\N	2.5	\N	0	1	\N		1
 160917	\N	\N	\N	0	\N	\N	ng/mL	1
-160918	\N	\N	\N	\N	\N	\N		1
-160919	\N	\N	\N	\N	\N	\N		0
-160920	\N	\N	\N	\N	\N	\N		1
-160921	\N	\N	\N	\N	\N	\N		0
-160922	\N	\N	\N	\N	\N	\N		1
-161002	\N	\N	\N	\N	\N	\N		0
-161003	\N	\N	\N	\N	\N	\N		0
-161078	\N	\N	\N	\N	\N	\N		0
+160918	\N	\N	\N	0	\N	\N		1
+160919	\N	\N	\N	0	\N	\N	U/mL	0
+160920	\N	\N	30	0	\N	\N		1
+160921	\N	\N	37	0	\N	\N		0
+160922	\N	\N	\N	0	\N	\N		1
+161002	\N	\N	\N	0	\N	\N		0
+161003	\N	\N	\N	0	\N	\N		0
+161078	5	\N	\N	1	\N	\N		0
 161132	\N	\N	\N	0	\N	\N	ml/min/1.73m2	1
 161133	\N	\N	\N	0	\N	\N	ml/min/1.73m2	1
 161134	\N	\N	\N	0	\N	\N	ml/min/1.73m2	1
-161138	\N	\N	\N	\N	\N	\N		0
-161139	\N	\N	\N	\N	\N	\N		0
+161138	5	\N	\N	1	\N	\N		0
+161139	5	\N	\N	1	\N	\N		0
 161153	\N	\N	\N	0	\N	\N	Seconds	1
 161154	\N	\N	\N	0	\N	\N	g/dL	1
-161185	\N	\N	\N	\N	\N	\N	PESO	1
+161185	\N	\N	\N	0	\N	\N	PESO	1
 161205	100	\N	\N	0	\N	\N		0
 161261	7	\N	\N	0	\N	\N		0
 161262	\N	\N	\N	0	\N	\N		0
 161433	\N	\N	\N	0	\N	\N	minutes	1
 161435	\N	\N	\N	0	\N	\N	Minute	1
-161438	\N	\N	\N	\N	\N	\N		1
-161439	\N	\N	\N	\N	\N	\N		1
-161455	\N	\N	\N	\N	\N	\N		1
-161469	\N	\N	\N	\N	\N	\N		0
+161438	14	\N	8	0	\N	4.6		1
+161439	1.1	\N	1.035	1	\N	\N		1
+161455	14	\N	4.5	0	\N	3.8		1
+161469	\N	\N	200	0	\N	\N		0
 161481	\N	\N	\N	0	\N	\N	Minute	1
-161482	\N	\N	\N	\N	\N	\N		1
+161482	\N	4	1.2	0	\N	0.8		1
 161489	\N	\N	\N	0	\N	\N	mIU/ml	1
 161490	\N	\N	\N	0	\N	\N	mIU/ml	1
 161494	\N	\N	\N	0	\N	\N	IU/ml	1
@@ -989,30 +989,34 @@
 161511	\N	\N	\N	0	\N	\N	ng/ml	1
 161516	\N	\N	\N	0	\N	\N	ng/ml	1
 161556	\N	\N	\N	\N	\N	\N		1
-161654	\N	\N	\N	\N	\N	\N		0
-161655	\N	\N	\N	\N	\N	\N		0
+161654	\N	\N	\N	0	\N	\N		0
+161655	\N	\N	\N	0	\N	\N		0
 161928	20	\N	\N	0	\N	\N	L	1
 161929	\N	\N	\N	0	\N	\N	L	0
-162053	9999999999	\N	\N	\N	\N	\N		0
-162068	\N	\N	\N	\N	\N	\N	months	1
-162196	\N	\N	\N	\N	\N	\N		0
+162053	9999999999	\N	\N	0	\N	\N		0
+162068	\N	\N	\N	0	\N	\N	months	1
+162196	\N	\N	\N	0	\N	\N		0
 162258	\N	\N	\N	1	\N	\N		0
 162261	10	\N	\N	0	\N	\N	cm	0
-162513	\N	\N	\N	0	\N	\N	seconds	1
+162513	60	\N	30	0	\N	\N	seconds	1
 162523	\N	\N	\N	0	\N	\N		1
 162524	\N	\N	\N	0	\N	\N	g	1
 162557	\N	\N	\N	0	\N	\N		0
-162578	\N	\N	\N	\N	\N	\N	ml	0
+162578	\N	\N	\N	0	\N	\N	ml	0
 162584	\N	\N	\N	\N	\N	\N		0
-162603	\N	\N	\N	\N	\N	\N		0
-162646	\N	\N	\N	0	\N	\N	cm	0
-162658	\N	\N	\N	0	\N	\N	mL	0
+162603	\N	\N	\N	0	\N	\N		0
+162646	\N	\N	19	0	\N	\N	cm	0
+162658	15000	\N	5000	0	\N	\N	mL	0
 162659	\N	\N	\N	0	\N	\N	mL	0
 162660	\N	\N	\N	0	\N	\N	mL	0
 162661	\N	\N	\N	0	\N	\N	mL	0
 162662	\N	\N	\N	0	\N	\N	mL	0
 162675	\N	\N	\N	0	\N	\N	mL	0
-162729	40	\N	\N	0	\N	\N	\N	0
-162730	40	\N	\N	0	\N	\N	\N	0
-162731	\N	\N	\N	0	\N	\N	\N	0
-162732	\N	\N	\N	0	\N	\N	\N	0
+162734	\N	\N	\N	0	\N	\N	cm	1
+162742	\N	\N	\N	0	\N	\N		0
+162745	\N	\N	\N	0	\N	\N	mL/hr	0
+162746	15000	\N	\N	0	\N	\N	mL/24 hrs	0
+162826	40	\N	\N	0	\N	\N		1
+162827	40	\N	\N	0	\N	\N		1
+777000014	\N	\N	\N	0	\N	\N	\N	0
+777000015	\N	\N	\N	0	\N	\N	\N	0
