@@ -15144,3 +15144,5 @@ REF: http://en.wikipedia.org/wiki/Favipiravir	en	1	2014-10-27 18:25:12	1	2014-10
 17409	162723	Vital signs are unstable and not within normal limits. Patient may be unconscious. Indicators are unfavorable.	en	3	2015-01-23 23:57:43	\N	\N	7b575a83-43f4-4997-b052-96336d8f94fb
 17410	162738	Indicates that lab test results have been confirmed	en	3	2015-01-26 20:10:13	\N	\N	2f5f9d05-a7eb-434e-81b8-44435e6dd56b
 17411	162739	Confirms PCR lab test results	en	3	2015-01-26 20:10:35	\N	\N	328dcdee-fd24-4634-b6d2-cf5aa7746c28
+17412	162729	Part of a test result for ebola, the CT value from a qPCR test using an L gene marker.	en_GB_client	3	2015-02-10 13:24:18	\N	\N	6e46c507-f32b-4971-8e8f-5c57a368992a
+17413	162730	Part of a test result for ebola, the CT value from a qPCR test using an Np (nucleoprotein) gene marker.	en_GB_client	3	2015-02-10 13:24:49	\N	\N	f6c8106e-81b3-4bb8-bd22-03495e7b0a2f
