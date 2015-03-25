@@ -201,7 +201,7 @@ webservices.rest.mandatory	false	true/false whether or not the webservices.rest 
 webservices.rest.maxResultsAbsolute	100	The absolute max results limit. If the client requests a larger number of results, then will get an error	b7157197-635e-4627-a4ce-070e280a03cb	\N	\N	\N	\N
 webservices.rest.maxResultsDefault	50	The default max results limit if the user does not provide a maximum when making the web service call.	c7e95edb-e7c1-41d7-b49d-d1b99ba62a82	\N	\N	\N	\N
 webservices.rest.started	true	DO NOT MODIFY. true/false whether or not the webservices.rest module has been started.  This is used to make sure modules that were running  prior to a restart are started again	3e206156-7bf4-4efa-80db-ac248600488c	\N	\N	\N	\N
-webservices.rest.uriPrefix	http://104.155.15.141:8080/openmrs	The URI prefix through which clients consuming web services will connect to the web application, should be of the form http://{ipAddress}:{port}/{contextPath}	5c639c83-f5d0-4df3-8dc1-fc2a787b25bb	\N	\N	\N	\N
+webservices.rest.uriPrefix	http://10.0.0.50:9000/openmrs	The URI prefix through which clients consuming web services will connect to the web application, should be of the form http://{ipAddress}:{port}/{contextPath}	5c639c83-f5d0-4df3-8dc1-fc2a787b25bb	\N	\N	\N	\N
 xforms.adminEmail	\N	An e-mail address where notifications about failed data uploads will be sent.	a0542b14-4b08-47b3-9d5f-cd2c9726fe68	\N	\N	\N	\N
 xforms.afterCancelUrl	xforms/formentry/patient.page?	The url to go to after cancelling an xform.	2475eb6e-bde6-4756-9040-6cd2e7684a7f	\N	\N	\N	\N
 xforms.afterSubmitUrl	coreapps/findpatient/findPatient.page?app=xforms.formentry	The url to go to after submitting an xform.	799f9cf6-8839-4ef2-9c2b-b95b366e1267	\N	\N	\N	\N
