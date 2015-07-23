@@ -1,0 +1,1069 @@
+6	<?xml version="1.0" encoding="UTF-8"?><xf:xforms xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jr="http://openrosa.org/javarosa">\
+  <xf:model id="openmrs_model">\
+    <xf:instance id="openmrs_model_instance">\
+      <form xmlns:openmrs="http://infopath/moduleServlet/formentry/forms/schema/6-1" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" id="6" name="Clinical observation" version="0.6" uuid="736b90ee-fda6-4438-a6ed-71acd36381f3">\
+  <header>\
+    <enterer/>\
+    <date_entered/>\
+    <session/>\
+    <uid/>\
+  </header>\
+  <encounter>\
+    <encounter.encounter_datetime openmrs_table="encounter" openmrs_attribute="encounter_datetime" xsi:nil="true">'today()'</encounter.encounter_datetime>\
+    <encounter.location_id openmrs_table="encounter" openmrs_attribute="location_id" xsi:nil="true"/>\
+    <encounter.provider_id openmrs_table="encounter" openmrs_attribute="provider_id" xsi:nil="true" provider_id_type="PROVIDER.ID"/>\
+  </encounter>\
+  <vitals>\
+    <pulse openmrs_concept="5087^Pulse^99DCT" openmrs_datatype="NM">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </pulse>\
+    <respiratory_rate openmrs_concept="5242^Respiratory rate^99DCT" openmrs_datatype="NM">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </respiratory_rate>\
+    <temperature_c openmrs_concept="5088^Temperature (C)^99DCT" openmrs_datatype="NM">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </temperature_c>\
+    <weight_kg openmrs_concept="5089^Weight (kg)^99DCT" openmrs_datatype="NM">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </weight_kg>\
+  </vitals>\
+  <symptoms_abinary>\
+    <nausea openmrs_concept="5978^Nausea^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </nausea>\
+  </symptoms_abinary>\
+  <symptoms_binvisible>\
+    <vomiting_daily_count openmrs_concept="777000014^Vomiting (count in last 24 hours)^99DCT" openmrs_datatype="NM">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </vomiting_daily_count>\
+    <diarrhea_daily_count openmrs_concept="777000015^Diarrhea (count in last 24 hours)^99DCT" openmrs_datatype="NM">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </diarrhea_daily_count>\
+  </symptoms_binvisible>\
+  <pain_assessmentinvisible>\
+    <pain_assessment openmrs_concept="777000007^Pain Assessment^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </pain_assessment>\
+  </pain_assessmentinvisible>\
+  <pain_detailbinary>\
+    <headache openmrs_concept="139084^Headache^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </headache>\
+    <sore_throat openmrs_concept="158843^Sore throat^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </sore_throat>\
+    <heartburn openmrs_concept="139059^Heartburn^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </heartburn>\
+    <chest_pain openmrs_concept="120749^Chest pain^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </chest_pain>\
+    <upper_abdominal_pain_unspecified openmrs_concept="159249^upper abdominal pain, unspecified^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </upper_abdominal_pain_unspecified>\
+    <lower_abdominal_pain openmrs_concept="157544^Lower abdominal pain^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </lower_abdominal_pain>\
+    <back_pain openmrs_concept="148035^Back pain^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </back_pain>\
+    <myalgia openmrs_concept="121^Myalgia^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </myalgia>\
+  </pain_detailbinary>\
+  <bleeding_overall>\
+    <bleeding openmrs_concept="147241^Bleeding^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </bleeding>\
+  </bleeding_overall>\
+  <bleeding_detail_binary>\
+    <bleeding_from_mouth openmrs_concept="147234^Bleeding from Mouth^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </bleeding_from_mouth>\
+    <haemorrhage_nasal openmrs_concept="133499^Nasal haemorrhage^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </haemorrhage_nasal>\
+    <hemoptysis openmrs_concept="138905^Hemoptysis^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </hemoptysis>\
+    <haematemesis openmrs_concept="139006^Haematemesis^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </haematemesis>\
+    <hematuria openmrs_concept="840^Hematuria^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </hematuria>\
+    <vaginal_bleeding openmrs_concept="147232^VAGINAL BLEEDING^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </vaginal_bleeding>\
+    <melaena openmrs_concept="134394^Melaena^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </melaena>\
+    <hematochezia openmrs_concept="117671^Hematochezia^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </hematochezia>\
+    <bleeding_from_eyes openmrs_concept="777000016^Bleeding from eyes^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </bleeding_from_eyes>\
+  </bleeding_detail_binary>\
+  <weakness_section_invisible>\
+    <weakness openmrs_concept="5226^WEAKNESS^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </weakness>\
+  </weakness_section_invisible>\
+  <symptoms_cbinary>\
+    <cough openmrs_concept="143264^Cough^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </cough>\
+    <dyspnea openmrs_concept="122496^Dyspnea^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </dyspnea>\
+    <hiccups openmrs_concept="138662^Hiccoughs^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </hiccups>\
+    <red_eye openmrs_concept="127777^Red Eye^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </red_eye>\
+  </symptoms_cbinary>\
+  <general_health>\
+    <level_of_consciousness openmrs_concept="162643^Level of consciousness^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </level_of_consciousness>\
+    <mobility openmrs_concept="777000000^Mobility^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </mobility>\
+    <food_slash_drink openmrs_concept="777000003^Food / Drink^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </food_slash_drink>\
+    <method_of_fluid_management openmrs_concept="162653^Method of fluid management^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </method_of_fluid_management>\
+  </general_health>\
+  <general_condition_section_invisible>\
+    <general_condition openmrs_concept="777000010^General Condition^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </general_condition>\
+  </general_condition_section_invisible>\
+  <additional_details_binary>\
+    <pregnancy_status openmrs_concept="5272^PREGNANCY STATUS^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </pregnancy_status>\
+    <iv_line_present openmrs_concept="777000011^IV line present^99DCT" openmrs_datatype="CWE" multiple="0">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </iv_line_present>\
+  </additional_details_binary>\
+  <notesinvisible>\
+    <text_of_encounter_note openmrs_concept="162169^Text of encounter note^99DCT" openmrs_datatype="ST">\
+        <date xsi:nil="true"/>\
+        <time xsi:nil="true"/>\
+        <value xsi:nil="true"/>\
+    </text_of_encounter_note>\
+  </notesinvisible>\
+  </form>\
+    </xf:instance>\
+    <xf:bind id="encounter.encounter_datetime" nodeset="/form/encounter/encounter.encounter_datetime" type="xsd:dateTime" constraint=". &lt;= today()" message="Encounter date cannot be after today" required="true()"/>\
+    <xf:bind id="encounter.location_id" nodeset="/form/encounter/encounter.location_id" type="xsd:string" required="true()"/>\
+    <xf:bind id="encounter.provider_id" nodeset="/form/encounter/encounter.provider_id" type="xsd:string" required="true()"/>\
+    <xf:bind id="pulse" nodeset="/form/vitals/pulse/value" type="xsd:decimal"/>\
+    <xf:bind id="respiratory_rate" nodeset="/form/vitals/respiratory_rate/value" type="xsd:decimal"/>\
+    <xf:bind id="temperature_c" nodeset="/form/vitals/temperature_c/value" type="xsd:decimal" constraint=". &gt;= 25.0 and . &lt;= 43.0" message="value should be between 25.0 and 43.0 inclusive"/>\
+    <xf:bind id="weight_kg" nodeset="/form/vitals/weight_kg/value" type="xsd:decimal" constraint=". &gt;= 0.0 and . &lt;= 250.0" message="value should be between 0.0 and 250.0 inclusive"/>\
+    <xf:bind id="nausea" nodeset="/form/symptoms_abinary/nausea/value" type="xsd:string"/>\
+    <xf:bind id="vomiting_daily_count" nodeset="/form/symptoms_binvisible/vomiting_daily_count/value" type="xsd:decimal"/>\
+    <xf:bind id="diarrhea_daily_count" nodeset="/form/symptoms_binvisible/diarrhea_daily_count/value" type="xsd:decimal"/>\
+    <xf:bind id="pain_assessment" nodeset="/form/pain_assessmentinvisible/pain_assessment/value" type="xsd:string"/>\
+    <xf:bind id="headache" nodeset="/form/pain_detailbinary/headache/value" type="xsd:string"/>\
+    <xf:bind id="sore_throat" nodeset="/form/pain_detailbinary/sore_throat/value" type="xsd:string"/>\
+    <xf:bind id="heartburn" nodeset="/form/pain_detailbinary/heartburn/value" type="xsd:string"/>\
+    <xf:bind id="chest_pain" nodeset="/form/pain_detailbinary/chest_pain/value" type="xsd:string"/>\
+    <xf:bind id="upper_abdominal_pain_unspecified" nodeset="/form/pain_detailbinary/upper_abdominal_pain_unspecified/value" type="xsd:string"/>\
+    <xf:bind id="lower_abdominal_pain" nodeset="/form/pain_detailbinary/lower_abdominal_pain/value" type="xsd:string"/>\
+    <xf:bind id="back_pain" nodeset="/form/pain_detailbinary/back_pain/value" type="xsd:string"/>\
+    <xf:bind id="myalgia" nodeset="/form/pain_detailbinary/myalgia/value" type="xsd:string"/>\
+    <xf:bind id="bleeding" nodeset="/form/bleeding_overall/bleeding/value" type="xsd:string"/>\
+    <xf:bind id="bleeding_from_mouth" nodeset="/form/bleeding_detail_binary/bleeding_from_mouth/value" type="xsd:string"/>\
+    <xf:bind id="haemorrhage_nasal" nodeset="/form/bleeding_detail_binary/haemorrhage_nasal/value" type="xsd:string"/>\
+    <xf:bind id="hemoptysis" nodeset="/form/bleeding_detail_binary/hemoptysis/value" type="xsd:string"/>\
+    <xf:bind id="haematemesis" nodeset="/form/bleeding_detail_binary/haematemesis/value" type="xsd:string"/>\
+    <xf:bind id="hematuria" nodeset="/form/bleeding_detail_binary/hematuria/value" type="xsd:string"/>\
+    <xf:bind id="vaginal_bleeding" nodeset="/form/bleeding_detail_binary/vaginal_bleeding/value" type="xsd:string"/>\
+    <xf:bind id="melaena" nodeset="/form/bleeding_detail_binary/melaena/value" type="xsd:string"/>\
+    <xf:bind id="hematochezia" nodeset="/form/bleeding_detail_binary/hematochezia/value" type="xsd:string"/>\
+    <xf:bind id="bleeding_from_eyes" nodeset="/form/bleeding_detail_binary/bleeding_from_eyes/value" type="xsd:string"/>\
+    <xf:bind id="weakness" nodeset="/form/weakness_section_invisible/weakness/value" type="xsd:string"/>\
+    <xf:bind id="cough" nodeset="/form/symptoms_cbinary/cough/value" type="xsd:string"/>\
+    <xf:bind id="dyspnea" nodeset="/form/symptoms_cbinary/dyspnea/value" type="xsd:string"/>\
+    <xf:bind id="hiccups" nodeset="/form/symptoms_cbinary/hiccups/value" type="xsd:string"/>\
+    <xf:bind id="red_eye" nodeset="/form/symptoms_cbinary/red_eye/value" type="xsd:string"/>\
+    <xf:bind id="level_of_consciousness" nodeset="/form/general_health/level_of_consciousness/value" type="xsd:string"/>\
+    <xf:bind id="mobility" nodeset="/form/general_health/mobility/value" type="xsd:string"/>\
+    <xf:bind id="food_slash_drink" nodeset="/form/general_health/food_slash_drink/value" type="xsd:string"/>\
+    <xf:bind id="method_of_fluid_management" nodeset="/form/general_health/method_of_fluid_management/value" type="xsd:string"/>\
+    <xf:bind id="general_condition" nodeset="/form/general_condition_section_invisible/general_condition/value" type="xsd:string"/>\
+    <xf:bind id="pregnancy_status" nodeset="/form/additional_details_binary/pregnancy_status/value" type="xsd:string"/>\
+    <xf:bind id="iv_line_present" nodeset="/form/additional_details_binary/iv_line_present/value" type="xsd:string"/>\
+    <xf:bind id="text_of_encounter_note" nodeset="/form/notesinvisible/text_of_encounter_note/value" type="xsd:string"/>\
+    <xf:bind id="patient_relative" nodeset="/form/patient/patient_relative"/>\
+    <xf:bind id="patient_relative.person" nodeset="/form/patient/patient_relative/patient_relative.person" type="xsd:string"/>\
+    <xf:bind id="patient_relative.relationship" nodeset="/form/patient/patient_relative/patient_relative.relationship" type="xsd:string"/>\
+  </xf:model>\
+  <xf:group id="1">\
+    <xf:label>Page1</xf:label>\
+    <xf:input bind="encounter.encounter_datetime">\
+      <xf:label>ENCOUNTER DATETIME</xf:label>\
+    </xf:input>\
+    <xf:select1 bind="encounter.location_id">\
+      <xf:label>LOCATION ID</xf:label>\
+      <xf:item id="559">\
+        <xf:label>C1 [559]</xf:label>\
+        <xf:value>559</xf:value>\
+      </xf:item>\
+      <xf:item id="568">\
+        <xf:label>C10 [568]</xf:label>\
+        <xf:value>568</xf:value>\
+      </xf:item>\
+      <xf:item id="560">\
+        <xf:label>C2 [560]</xf:label>\
+        <xf:value>560</xf:value>\
+      </xf:item>\
+      <xf:item id="561">\
+        <xf:label>C3 [561]</xf:label>\
+        <xf:value>561</xf:value>\
+      </xf:item>\
+      <xf:item id="562">\
+        <xf:label>C4 [562]</xf:label>\
+        <xf:value>562</xf:value>\
+      </xf:item>\
+      <xf:item id="563">\
+        <xf:label>C5 [563]</xf:label>\
+        <xf:value>563</xf:value>\
+      </xf:item>\
+      <xf:item id="564">\
+        <xf:label>C6 [564]</xf:label>\
+        <xf:value>564</xf:value>\
+      </xf:item>\
+      <xf:item id="565">\
+        <xf:label>C7 [565]</xf:label>\
+        <xf:value>565</xf:value>\
+      </xf:item>\
+      <xf:item id="566">\
+        <xf:label>C8 [566]</xf:label>\
+        <xf:value>566</xf:value>\
+      </xf:item>\
+      <xf:item id="567">\
+        <xf:label>C9 [567]</xf:label>\
+        <xf:value>567</xf:value>\
+      </xf:item>\
+      <xf:item id="9">\
+        <xf:label>Confirmed Zone [9]</xf:label>\
+        <xf:value>9</xf:value>\
+      </xf:item>\
+      <xf:item id="571">\
+        <xf:label>D1 [571]</xf:label>\
+        <xf:value>571</xf:value>\
+      </xf:item>\
+      <xf:item id="170">\
+        <xf:label>Discharged [170]</xf:label>\
+        <xf:value>170</xf:value>\
+      </xf:item>\
+      <xf:item id="544">\
+        <xf:label>Facility [544]</xf:label>\
+        <xf:value>544</xf:value>\
+      </xf:item>\
+      <xf:item id="2">\
+        <xf:label>Facility Kailahun [2]</xf:label>\
+        <xf:value>2</xf:value>\
+      </xf:item>\
+      <xf:item id="569">\
+        <xf:label>Kailahun [569]</xf:label>\
+        <xf:value>569</xf:value>\
+      </xf:item>\
+      <xf:item id="570">\
+        <xf:label>Le1 [570]</xf:label>\
+        <xf:value>570</xf:value>\
+      </xf:item>\
+      <xf:item id="10">\
+        <xf:label>Morgue [10]</xf:label>\
+        <xf:value>10</xf:value>\
+      </xf:item>\
+      <xf:item id="555">\
+        <xf:label>P1 [555]</xf:label>\
+        <xf:value>555</xf:value>\
+      </xf:item>\
+      <xf:item id="556">\
+        <xf:label>P2 [556]</xf:label>\
+        <xf:value>556</xf:value>\
+      </xf:item>\
+      <xf:item id="557">\
+        <xf:label>P3 [557]</xf:label>\
+        <xf:value>557</xf:value>\
+      </xf:item>\
+      <xf:item id="558">\
+        <xf:label>P4 [558]</xf:label>\
+        <xf:value>558</xf:value>\
+      </xf:item>\
+      <xf:item id="8">\
+        <xf:label>Probable Zone [8]</xf:label>\
+        <xf:value>8</xf:value>\
+      </xf:item>\
+      <xf:item id="551">\
+        <xf:label>S1 [551]</xf:label>\
+        <xf:value>551</xf:value>\
+      </xf:item>\
+      <xf:item id="552">\
+        <xf:label>S2 [552]</xf:label>\
+        <xf:value>552</xf:value>\
+      </xf:item>\
+      <xf:item id="553">\
+        <xf:label>S3 [553]</xf:label>\
+        <xf:value>553</xf:value>\
+      </xf:item>\
+      <xf:item id="554">\
+        <xf:label>S4 [554]</xf:label>\
+        <xf:value>554</xf:value>\
+      </xf:item>\
+      <xf:item id="7">\
+        <xf:label>Suspect Zone [7]</xf:label>\
+        <xf:value>7</xf:value>\
+      </xf:item>\
+      <xf:item id="6">\
+        <xf:label>Triage [6]</xf:label>\
+        <xf:value>6</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="encounter.provider_id">\
+      <xf:label>PROVIDER ID</xf:label>\
+      <xf:item id="347">\
+        <xf:label>Ashley Sharpe [null]</xf:label>\
+        <xf:value>347</xf:value>\
+      </xf:item>\
+      <xf:item id="353">\
+        <xf:label>Dirk Gorissen [null]</xf:label>\
+        <xf:value>353</xf:value>\
+      </xf:item>\
+      <xf:item id="350">\
+        <xf:label>Foo Barman [null]</xf:label>\
+        <xf:value>350</xf:value>\
+      </xf:item>\
+      <xf:item id="343">\
+        <xf:label>Guest User [null]</xf:label>\
+        <xf:value>343</xf:value>\
+      </xf:item>\
+      <xf:item id="344">\
+        <xf:label>Ivan Gayton [null]</xf:label>\
+        <xf:value>344</xf:value>\
+      </xf:item>\
+      <xf:item id="351">\
+        <xf:label>Manfred Mann [null]</xf:label>\
+        <xf:value>351</xf:value>\
+      </xf:item>\
+      <xf:item id="352">\
+        <xf:label>Marc Robillard [null]</xf:label>\
+        <xf:value>352</xf:value>\
+      </xf:item>\
+      <xf:item id="345">\
+        <xf:label>Merce Rocaspana [null]</xf:label>\
+        <xf:value>345</xf:value>\
+      </xf:item>\
+      <xf:item id="354">\
+        <xf:label>Nadav Savio [null]</xf:label>\
+        <xf:value>354</xf:value>\
+      </xf:item>\
+      <xf:item id="355">\
+        <xf:label>Paul Kelso [null]</xf:label>\
+        <xf:value>355</xf:value>\
+      </xf:item>\
+      <xf:item id="346">\
+        <xf:label>Rob Broeder [null]</xf:label>\
+        <xf:value>346</xf:value>\
+      </xf:item>\
+      <xf:item id="348">\
+        <xf:label>Tf Yf [null]</xf:label>\
+        <xf:value>348</xf:value>\
+      </xf:item>\
+      <xf:item id="349">\
+        <xf:label>Uj Pq [null]</xf:label>\
+        <xf:value>349</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:input bind="pulse">\
+      <xf:label>Pulse</xf:label>\
+      <xf:hint>Patient pulse rate, as measured with a peripheral oximeter.</xf:hint>\
+    </xf:input>\
+    <xf:input bind="respiratory_rate">\
+      <xf:label>Respiratory rate</xf:label>\
+      <xf:hint>Measured respiratory rate in breaths per minute</xf:hint>\
+    </xf:input>\
+    <xf:input bind="temperature_c">\
+      <xf:label>Temperature (C)</xf:label>\
+      <xf:hint>Patient's temperature in degrees centigrade.</xf:hint>\
+    </xf:input>\
+    <xf:input bind="weight_kg">\
+      <xf:label>Weight (kg)</xf:label>\
+      <xf:hint>Patient's weight in kilograms.</xf:hint>\
+    </xf:input>\
+    <xf:select1 bind="nausea">\
+      <xf:label>Nausea</xf:label>\
+      <xf:hint>A feeling of sickness in the stomach characterized by an urge to vomit.</xf:hint>\
+      <xf:item concept_id="5978" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="5978" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="5978" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:input bind="vomiting_daily_count">\
+      <xf:label>Vomiting (count in last 24 hours)</xf:label>\
+    </xf:input>\
+    <xf:input bind="diarrhea_daily_count">\
+      <xf:label>Diarrhea (count in last 24 hours)</xf:label>\
+    </xf:input>\
+    <xf:select1 bind="pain_assessment">\
+      <xf:label>Pain Assessment</xf:label>\
+      <xf:item concept_id="777000007" id="1107^None^99DCT">\
+        <xf:label>None</xf:label>\
+        <xf:value>1107^None^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000007" id="1498^Mild^99DCT">\
+        <xf:label>Mild</xf:label>\
+        <xf:value>1498^Mild^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000007" id="1499^Moderate^99DCT">\
+        <xf:label>Moderate</xf:label>\
+        <xf:value>1499^Moderate^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000007" id="1500^Severe^99DCT">\
+        <xf:label>Severe</xf:label>\
+        <xf:value>1500^Severe^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="headache">\
+      <xf:label>Headache</xf:label>\
+      <xf:hint>Pain in the cranial region that may occur as an isolated and benign symptom or as a manifestation of a wide variety of conditions including SUBARACHNOID HEMORRHAGE; CRANIOCEREBRAL TRAUMA; CENTRAL NERVOUS SYSTEM INFECTIONS; INTRACRANIAL HYPERTENSION; and other disorders. In general, recurrent headaches that are not associated with a primary disease process are referred to as HEADACHE DISORDERS (e.g., MIGRAINE).</xf:hint>\
+      <xf:item concept_id="139084" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="139084" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="139084" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="sore_throat">\
+      <xf:label>Sore throat</xf:label>\
+      <xf:item concept_id="158843" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="158843" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="158843" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="heartburn">\
+      <xf:label>Heartburn</xf:label>\
+      <xf:item concept_id="139059" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="139059" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="139059" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="chest_pain">\
+      <xf:label>Chest pain</xf:label>\
+      <xf:item concept_id="120749" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="120749" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="120749" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="upper_abdominal_pain_unspecified">\
+      <xf:label>upper abdominal pain, unspecified</xf:label>\
+      <xf:item concept_id="159249" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="159249" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="159249" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="lower_abdominal_pain">\
+      <xf:label>Lower abdominal pain</xf:label>\
+      <xf:item concept_id="157544" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="157544" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="157544" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="back_pain">\
+      <xf:label>Back pain</xf:label>\
+      <xf:item concept_id="148035" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="148035" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="148035" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="myalgia">\
+      <xf:label>Myalgia</xf:label>\
+      <xf:hint>Muscular pain or tenderness, especially when diffuse and nonspecific.</xf:hint>\
+      <xf:item concept_id="121" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="121" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="121" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="bleeding">\
+      <xf:label>Bleeding</xf:label>\
+      <xf:hint>Bleeding or escape of blood from a vessel.</xf:hint>\
+      <xf:item concept_id="147241" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="147241" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="bleeding_from_mouth">\
+      <xf:label>Bleeding from Mouth</xf:label>\
+      <xf:hint>Bleeding from the blood vessels of the mouth, which may occur as a result of injuries to the mouth, accidents in oral surgery, or diseases of the gums.</xf:hint>\
+      <xf:item concept_id="147234" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="147234" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="147234" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="haemorrhage_nasal">\
+      <xf:label>Nasal haemorrhage</xf:label>\
+      <xf:hint>Bleeding from the nose.</xf:hint>\
+      <xf:item concept_id="133499" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="133499" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="133499" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="hemoptysis">\
+      <xf:label>Hemoptysis</xf:label>\
+      <xf:hint>Bronchial hemorrhage manifested with spitting of blood.</xf:hint>\
+      <xf:item concept_id="138905" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="138905" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="138905" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="haematemesis">\
+      <xf:label>Haematemesis</xf:label>\
+      <xf:hint>Vomiting of blood.</xf:hint>\
+      <xf:item concept_id="139006" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="139006" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="139006" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="hematuria">\
+      <xf:label>Hematuria</xf:label>\
+      <xf:hint>The presence of blood or blood cells in the urine.</xf:hint>\
+      <xf:item concept_id="840" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="840" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="840" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="vaginal_bleeding">\
+      <xf:label>VAGINAL BLEEDING</xf:label>\
+      <xf:hint>Hemorrhage from vessels in the uterus, sometimes manifested as vaginal bleeding.</xf:hint>\
+      <xf:item concept_id="147232" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="147232" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="147232" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="melaena">\
+      <xf:label>Melaena</xf:label>\
+      <xf:hint>Black, tarry feces containing digested blood.</xf:hint>\
+      <xf:item concept_id="134394" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="134394" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="134394" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="hematochezia">\
+      <xf:label>Hematochezia</xf:label>\
+      <xf:hint>Frank bleeding in the gastrointestinal tract.</xf:hint>\
+      <xf:item concept_id="117671" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="117671" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="117671" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="bleeding_from_eyes">\
+      <xf:label>Bleeding from eyes</xf:label>\
+      <xf:item concept_id="777000016" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000016" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000016" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="weakness">\
+      <xf:label>WEAKNESS</xf:label>\
+      <xf:hint>The condition or quality of being weak.</xf:hint>\
+      <xf:item concept_id="5226" id="1107^None^99DCT">\
+        <xf:label>None</xf:label>\
+        <xf:value>1107^None^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="5226" id="1498^Mild^99DCT">\
+        <xf:label>Mild</xf:label>\
+        <xf:value>1498^Mild^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="5226" id="1499^Moderate^99DCT">\
+        <xf:label>Moderate</xf:label>\
+        <xf:value>1499^Moderate^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="5226" id="1500^Severe^99DCT">\
+        <xf:label>Severe</xf:label>\
+        <xf:value>1500^Severe^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="cough">\
+      <xf:label>Cough</xf:label>\
+      <xf:item concept_id="143264" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="143264" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="143264" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="dyspnea">\
+      <xf:label>Dyspnea</xf:label>\
+      <xf:hint>Difficult or labored breathing.</xf:hint>\
+      <xf:item concept_id="122496" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="122496" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="122496" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="hiccups">\
+      <xf:label>Hiccoughs</xf:label>\
+      <xf:hint>A spasm of the diaphragm that causes a sudden inhalation followed by rapid closure of the glottis which produces a sound.</xf:hint>\
+      <xf:item concept_id="138662" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="138662" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="138662" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="red_eye">\
+      <xf:label>Red Eye</xf:label>\
+      <xf:item concept_id="127777" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="127777" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="127777" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="level_of_consciousness">\
+      <xf:label>Level of consciousness</xf:label>\
+      <xf:item concept_id="162643" id="160282^Awake^99DCT">\
+        <xf:label>Awake</xf:label>\
+        <xf:value>160282^Awake^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="162643" id="162645^Responds to voice^99DCT">\
+        <xf:label>Responds to voice</xf:label>\
+        <xf:value>162645^Responds to voice^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="162643" id="162644^Responds to pain^99DCT">\
+        <xf:label>Responds to pain</xf:label>\
+        <xf:value>162644^Responds to pain^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="162643" id="159508^Staring or unresponsive to stimuli^99DCT">\
+        <xf:label>Staring or unresponsive to stimuli</xf:label>\
+        <xf:value>159508^Staring or unresponsive to stimuli^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="mobility">\
+      <xf:label>Mobility</xf:label>\
+      <xf:item concept_id="777000000" id="162750^Able to walk without assistance^99DCT">\
+        <xf:label>Able to walk without assistance</xf:label>\
+        <xf:value>162750^Able to walk without assistance^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000000" id="777000022^Walking with Difficulty^99DCT">\
+        <xf:label>Walking with Difficulty</xf:label>\
+        <xf:value>777000022^Walking with Difficulty^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000000" id="162751^Able to walk with assistance^99DCT">\
+        <xf:label>Able to walk with assistance</xf:label>\
+        <xf:value>162751^Able to walk with assistance^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000000" id="162752^Bedridden^99DCT">\
+        <xf:label>Bedridden</xf:label>\
+        <xf:value>162752^Bedridden^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="food_slash_drink">\
+      <xf:label>Food / Drink</xf:label>\
+      <xf:item concept_id="777000003" id="777000017^Eating well^99DCT">\
+        <xf:label>Eating well</xf:label>\
+        <xf:value>777000017^Eating well^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000003" id="777000018^Eating insufficiently^99DCT">\
+        <xf:label>Eating insufficiently</xf:label>\
+        <xf:value>777000018^Eating insufficiently^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000003" id="777000001^Only drink^99DCT">\
+        <xf:label>Only drink</xf:label>\
+        <xf:value>777000001^Only drink^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000003" id="777000002^Nothing^99DCT">\
+        <xf:label>Nothing</xf:label>\
+        <xf:value>777000002^Nothing^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="method_of_fluid_management">\
+      <xf:label>Method of fluid management</xf:label>\
+      <xf:item concept_id="162653" id="777000012^Well hydrated^99DCT">\
+        <xf:label>Well hydrated</xf:label>\
+        <xf:value>777000012^Well hydrated^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="162653" id="351^ORAL REHYDRATION SALTS^99DCT">\
+        <xf:label>ORAL REHYDRATION SALTS</xf:label>\
+        <xf:value>351^ORAL REHYDRATION SALTS^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="162653" id="162651^Maintenance intravenous fluid infusion^99DCT">\
+        <xf:label>Maintenance intravenous fluid infusion</xf:label>\
+        <xf:value>162651^Maintenance intravenous fluid infusion^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="general_condition">\
+      <xf:label>General Condition</xf:label>\
+      <xf:item concept_id="777000010" id="1855^IN GOOD HEALTH^99DCT">\
+        <xf:label>IN GOOD HEALTH</xf:label>\
+        <xf:value>1855^IN GOOD HEALTH^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000010" id="137793^Illness^99DCT">\
+        <xf:label>Illness</xf:label>\
+        <xf:value>137793^Illness^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000010" id="777000009^Patient condition critical^99DCT">\
+        <xf:label>Patient condition critical</xf:label>\
+        <xf:value>777000009^Patient condition critical^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000010" id="777000019^Palliative^99DCT">\
+        <xf:label>Palliative</xf:label>\
+        <xf:value>777000019^Palliative^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000010" id="119844^Convalescence^99DCT">\
+        <xf:label>Convalescence</xf:label>\
+        <xf:value>119844^Convalescence^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000010" id="777000013^Suspected dead^99DCT">\
+        <xf:label>Suspected dead</xf:label>\
+        <xf:value>777000013^Suspected dead^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000010" id="160432^Dead^99DCT">\
+        <xf:label>Dead</xf:label>\
+        <xf:value>160432^Dead^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000010" id="159791^Cure, outcome^99DCT">\
+        <xf:label>Cure, outcome</xf:label>\
+        <xf:value>159791^Cure, outcome^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000010" id="777000004^discharged from ebola facility^99DCT">\
+        <xf:label>discharged from ebola facility</xf:label>\
+        <xf:value>777000004^discharged from ebola facility^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="pregnancy_status">\
+      <xf:label>PREGNANCY STATUS</xf:label>\
+      <xf:hint>Question on encounter form: "Is the patient pregnant?"</xf:hint>\
+      <xf:item concept_id="5272" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="5272" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="5272" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:select1 bind="iv_line_present">\
+      <xf:label>IV line present</xf:label>\
+      <xf:item concept_id="777000011" id="1067^Unknown^99DCT">\
+        <xf:label>Unknown</xf:label>\
+        <xf:value>1067^Unknown^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000011" id="1065^Yes^99DCT">\
+        <xf:label>Yes</xf:label>\
+        <xf:value>1065^Yes^99DCT</xf:value>\
+      </xf:item>\
+      <xf:item concept_id="777000011" id="1066^No^99DCT">\
+        <xf:label>No</xf:label>\
+        <xf:value>1066^No^99DCT</xf:value>\
+      </xf:item>\
+    </xf:select1>\
+    <xf:input bind="text_of_encounter_note">\
+      <xf:label>Text of encounter note</xf:label>\
+      <xf:hint>Free text note field intended to capture unstructured description of the patient encounter</xf:hint>\
+    </xf:input>\
+    <xf:group id="patient/patient_relative">\
+      <xf:label>RELATIONSHIPS</xf:label>\
+      <xf:hint>Relationships that this patient has.</xf:hint>\
+      <xf:repeat bind="patient_relative">\
+        \
+        <xf:input bind="patient_relative.person">\
+          <xf:label>RELATIVE</xf:label>\
+        </xf:input>\
+        \
+        <xf:select1 bind="patient_relative.relationship">\
+          <xf:item id="1A">\
+            <xf:label>is Doctor [1]</xf:label>\
+            <xf:value>1A</xf:value>\
+          </xf:item>\
+          <xf:item id="1B">\
+            <xf:label>is Patient [1]</xf:label>\
+            <xf:value>1B</xf:value>\
+          </xf:item>\
+          <xf:item id="2A">\
+            <xf:label>is Sibling [2]</xf:label>\
+            <xf:value>2A</xf:value>\
+          </xf:item>\
+          <xf:item id="3A">\
+            <xf:label>is Parent [3]</xf:label>\
+            <xf:value>3A</xf:value>\
+          </xf:item>\
+          <xf:item id="3B">\
+            <xf:label>is Child [3]</xf:label>\
+            <xf:value>3B</xf:value>\
+          </xf:item>\
+          <xf:item id="4A">\
+            <xf:label>is Aunt/Uncle [4]</xf:label>\
+            <xf:value>4A</xf:value>\
+          </xf:item>\
+          <xf:item id="4B">\
+            <xf:label>is Niece/Nephew [4]</xf:label>\
+            <xf:value>4B</xf:value>\
+          </xf:item>\
+          <xf:label>RELATIONSHIP</xf:label>\
+        </xf:select1>\
+      </xf:repeat>\
+    </xf:group>\
+  </xf:group>\
+</xf:xforms>	\N	3	2015-07-15 08:05:57	\N	\N	<?xml version="1.0" encoding="UTF-8"?><Language><LanguageText lang="en"><xform id="6"><text xpath="xforms/model[@id='openmrs_model']/instance[@id='openmrs_model_instance']/form[@name]" value="Clinical observation"/><text xpath="xforms/group[@id='1']/label" value="Page1"/><text xpath="xforms/group[@id='1']/input[@bind='encounter.encounter_datetime']/label" value="ENCOUNTER DATETIME"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/label" value="LOCATION ID"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='559']/label" value="C1 [559]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='568']/label" value="C10 [568]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='560']/label" value="C2 [560]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='561']/label" value="C3 [561]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='562']/label" value="C4 [562]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='563']/label" value="C5 [563]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='564']/label" value="C6 [564]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='565']/label" value="C7 [565]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='566']/label" value="C8 [566]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='567']/label" value="C9 [567]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='9']/label" value="Confirmed Zone [9]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='571']/label" value="D1 [571]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='170']/label" value="Discharged [170]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='544']/label" value="Facility [544]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='2']/label" value="Facility Kailahun [2]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='569']/label" value="Kailahun [569]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='570']/label" value="Le1 [570]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='10']/label" value="Morgue [10]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='555']/label" value="P1 [555]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='556']/label" value="P2 [556]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='557']/label" value="P3 [557]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='558']/label" value="P4 [558]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='8']/label" value="Probable Zone [8]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='551']/label" value="S1 [551]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='552']/label" value="S2 [552]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='553']/label" value="S3 [553]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='554']/label" value="S4 [554]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='7']/label" value="Suspect Zone [7]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.location_id']/item[@id='6']/label" value="Triage [6]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/label" value="PROVIDER ID"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='347']/label" value="Ashley Sharpe [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='353']/label" value="Dirk Gorissen [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='350']/label" value="Foo Barman [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='343']/label" value="Guest User [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='344']/label" value="Ivan Gayton [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='351']/label" value="Manfred Mann [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='352']/label" value="Marc Robillard [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='345']/label" value="Merce Rocaspana [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='354']/label" value="Nadav Savio [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='355']/label" value="Paul Kelso [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='346']/label" value="Rob Broeder [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='348']/label" value="Tf Yf [null]"/><text xpath="xforms/group[@id='1']/select1[@bind='encounter.provider_id']/item[@id='349']/label" value="Uj Pq [null]"/><text xpath="xforms/group[@id='1']/input[@bind='pulse']/label" value="Pulse"/><text xpath="xforms/group[@id='1']/input[@bind='pulse']/hint" value="Patient pulse rate, as measured with a peripheral oximeter."/><text xpath="xforms/group[@id='1']/input[@bind='respiratory_rate']/label" value="Respiratory rate"/><text xpath="xforms/group[@id='1']/input[@bind='respiratory_rate']/hint" value="Measured respiratory rate in breaths per minute"/><text xpath="xforms/group[@id='1']/input[@bind='temperature_c']/label" value="Temperature (C)"/><text xpath="xforms/group[@id='1']/input[@bind='temperature_c']/hint" value="Patient's temperature in degrees centigrade."/><text xpath="xforms/group[@id='1']/input[@bind='weight_kg']/label" value="Weight (kg)"/><text xpath="xforms/group[@id='1']/input[@bind='weight_kg']/hint" value="Patient's weight in kilograms."/><text xpath="xforms/group[@id='1']/select1[@bind='nausea']/label" value="Nausea"/><text xpath="xforms/group[@id='1']/select1[@bind='nausea']/hint" value="A feeling of sickness in the stomach characterized by an urge to vomit."/><text xpath="xforms/group[@id='1']/select1[@bind='nausea']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='nausea']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='nausea']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/input[@bind='vomiting_daily_count']/label" value="Vomiting (count in last 24 hours)"/><text xpath="xforms/group[@id='1']/input[@bind='diarrhea_daily_count']/label" value="Diarrhea (count in last 24 hours)"/><text xpath="xforms/group[@id='1']/select1[@bind='pain_assessment']/label" value="Pain Assessment"/><text xpath="xforms/group[@id='1']/select1[@bind='pain_assessment']/item[@id='1107^None^99DCT']/label" value="None"/><text xpath="xforms/group[@id='1']/select1[@bind='pain_assessment']/item[@id='1498^Mild^99DCT']/label" value="Mild"/><text xpath="xforms/group[@id='1']/select1[@bind='pain_assessment']/item[@id='1499^Moderate^99DCT']/label" value="Moderate"/><text xpath="xforms/group[@id='1']/select1[@bind='pain_assessment']/item[@id='1500^Severe^99DCT']/label" value="Severe"/><text xpath="xforms/group[@id='1']/select1[@bind='headache']/label" value="Headache"/><text xpath="xforms/group[@id='1']/select1[@bind='headache']/hint" value="Pain in the cranial region that may occur as an isolated and benign symptom or as a manifestation of a wide variety of conditions including SUBARACHNOID HEMORRHAGE; CRANIOCEREBRAL TRAUMA; CENTRAL NERVOUS SYSTEM INFECTIONS; INTRACRANIAL HYPERTENSION; and other disorders. In general, recurrent headaches that are not associated with a primary disease process are referred to as HEADACHE DISORDERS (e.g., MIGRAINE)."/><text xpath="xforms/group[@id='1']/select1[@bind='headache']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='headache']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='headache']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='sore_throat']/label" value="Sore throat"/><text xpath="xforms/group[@id='1']/select1[@bind='sore_throat']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='sore_throat']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='sore_throat']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='heartburn']/label" value="Heartburn"/><text xpath="xforms/group[@id='1']/select1[@bind='heartburn']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='heartburn']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='heartburn']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='chest_pain']/label" value="Chest pain"/><text xpath="xforms/group[@id='1']/select1[@bind='chest_pain']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='chest_pain']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='chest_pain']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='upper_abdominal_pain_unspecified']/label" value="upper abdominal pain, unspecified"/><text xpath="xforms/group[@id='1']/select1[@bind='upper_abdominal_pain_unspecified']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='upper_abdominal_pain_unspecified']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='upper_abdominal_pain_unspecified']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='lower_abdominal_pain']/label" value="Lower abdominal pain"/><text xpath="xforms/group[@id='1']/select1[@bind='lower_abdominal_pain']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='lower_abdominal_pain']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='lower_abdominal_pain']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='back_pain']/label" value="Back pain"/><text xpath="xforms/group[@id='1']/select1[@bind='back_pain']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='back_pain']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='back_pain']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='myalgia']/label" value="Myalgia"/><text xpath="xforms/group[@id='1']/select1[@bind='myalgia']/hint" value="Muscular pain or tenderness, especially when diffuse and nonspecific."/><text xpath="xforms/group[@id='1']/select1[@bind='myalgia']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='myalgia']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='myalgia']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding']/label" value="Bleeding"/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding']/hint" value="Bleeding or escape of blood from a vessel."/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding_from_mouth']/label" value="Bleeding from Mouth"/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding_from_mouth']/hint" value="Bleeding from the blood vessels of the mouth, which may occur as a result of injuries to the mouth, accidents in oral surgery, or diseases of the gums."/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding_from_mouth']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding_from_mouth']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding_from_mouth']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='haemorrhage_nasal']/label" value="Nasal haemorrhage"/><text xpath="xforms/group[@id='1']/select1[@bind='haemorrhage_nasal']/hint" value="Bleeding from the nose."/><text xpath="xforms/group[@id='1']/select1[@bind='haemorrhage_nasal']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='haemorrhage_nasal']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='haemorrhage_nasal']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='hemoptysis']/label" value="Hemoptysis"/><text xpath="xforms/group[@id='1']/select1[@bind='hemoptysis']/hint" value="Bronchial hemorrhage manifested with spitting of blood."/><text xpath="xforms/group[@id='1']/select1[@bind='hemoptysis']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='hemoptysis']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='hemoptysis']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='haematemesis']/label" value="Haematemesis"/><text xpath="xforms/group[@id='1']/select1[@bind='haematemesis']/hint" value="Vomiting of blood."/><text xpath="xforms/group[@id='1']/select1[@bind='haematemesis']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='haematemesis']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='haematemesis']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='hematuria']/label" value="Hematuria"/><text xpath="xforms/group[@id='1']/select1[@bind='hematuria']/hint" value="The presence of blood or blood cells in the urine."/><text xpath="xforms/group[@id='1']/select1[@bind='hematuria']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='hematuria']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='hematuria']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='vaginal_bleeding']/label" value="VAGINAL BLEEDING"/><text xpath="xforms/group[@id='1']/select1[@bind='vaginal_bleeding']/hint" value="Hemorrhage from vessels in the uterus, sometimes manifested as vaginal bleeding."/><text xpath="xforms/group[@id='1']/select1[@bind='vaginal_bleeding']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='vaginal_bleeding']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='vaginal_bleeding']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='melaena']/label" value="Melaena"/><text xpath="xforms/group[@id='1']/select1[@bind='melaena']/hint" value="Black, tarry feces containing digested blood."/><text xpath="xforms/group[@id='1']/select1[@bind='melaena']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='melaena']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='melaena']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='hematochezia']/label" value="Hematochezia"/><text xpath="xforms/group[@id='1']/select1[@bind='hematochezia']/hint" value="Frank bleeding in the gastrointestinal tract."/><text xpath="xforms/group[@id='1']/select1[@bind='hematochezia']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='hematochezia']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='hematochezia']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding_from_eyes']/label" value="Bleeding from eyes"/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding_from_eyes']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding_from_eyes']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='bleeding_from_eyes']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='weakness']/label" value="WEAKNESS"/><text xpath="xforms/group[@id='1']/select1[@bind='weakness']/hint" value="The condition or quality of being weak."/><text xpath="xforms/group[@id='1']/select1[@bind='weakness']/item[@id='1107^None^99DCT']/label" value="None"/><text xpath="xforms/group[@id='1']/select1[@bind='weakness']/item[@id='1498^Mild^99DCT']/label" value="Mild"/><text xpath="xforms/group[@id='1']/select1[@bind='weakness']/item[@id='1499^Moderate^99DCT']/label" value="Moderate"/><text xpath="xforms/group[@id='1']/select1[@bind='weakness']/item[@id='1500^Severe^99DCT']/label" value="Severe"/><text xpath="xforms/group[@id='1']/select1[@bind='cough']/label" value="Cough"/><text xpath="xforms/group[@id='1']/select1[@bind='cough']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='cough']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='cough']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='dyspnea']/label" value="Dyspnea"/><text xpath="xforms/group[@id='1']/select1[@bind='dyspnea']/hint" value="Difficult or labored breathing."/><text xpath="xforms/group[@id='1']/select1[@bind='dyspnea']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='dyspnea']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='dyspnea']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='hiccups']/label" value="Hiccoughs"/><text xpath="xforms/group[@id='1']/select1[@bind='hiccups']/hint" value="A spasm of the diaphragm that causes a sudden inhalation followed by rapid closure of the glottis which produces a sound."/><text xpath="xforms/group[@id='1']/select1[@bind='hiccups']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='hiccups']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='hiccups']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='red_eye']/label" value="Red Eye"/><text xpath="xforms/group[@id='1']/select1[@bind='red_eye']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='red_eye']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='red_eye']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='level_of_consciousness']/label" value="Level of consciousness"/><text xpath="xforms/group[@id='1']/select1[@bind='level_of_consciousness']/item[@id='160282^Awake^99DCT']/label" value="Awake"/><text xpath="xforms/group[@id='1']/select1[@bind='level_of_consciousness']/item[@id='162645^Responds to voice^99DCT']/label" value="Responds to voice"/><text xpath="xforms/group[@id='1']/select1[@bind='level_of_consciousness']/item[@id='162644^Responds to pain^99DCT']/label" value="Responds to pain"/><text xpath="xforms/group[@id='1']/select1[@bind='level_of_consciousness']/item[@id='159508^Staring or unresponsive to stimuli^99DCT']/label" value="Staring or unresponsive to stimuli"/><text xpath="xforms/group[@id='1']/select1[@bind='mobility']/label" value="Mobility"/><text xpath="xforms/group[@id='1']/select1[@bind='mobility']/item[@id='162750^Able to walk without assistance^99DCT']/label" value="Able to walk without assistance"/><text xpath="xforms/group[@id='1']/select1[@bind='mobility']/item[@id='777000022^Walking with Difficulty^99DCT']/label" value="Walking with Difficulty"/><text xpath="xforms/group[@id='1']/select1[@bind='mobility']/item[@id='162751^Able to walk with assistance^99DCT']/label" value="Able to walk with assistance"/><text xpath="xforms/group[@id='1']/select1[@bind='mobility']/item[@id='162752^Bedridden^99DCT']/label" value="Bedridden"/><text xpath="xforms/group[@id='1']/select1[@bind='food_slash_drink']/label" value="Food / Drink"/><text xpath="xforms/group[@id='1']/select1[@bind='food_slash_drink']/item[@id='777000017^Eating well^99DCT']/label" value="Eating well"/><text xpath="xforms/group[@id='1']/select1[@bind='food_slash_drink']/item[@id='777000018^Eating insufficiently^99DCT']/label" value="Eating insufficiently"/><text xpath="xforms/group[@id='1']/select1[@bind='food_slash_drink']/item[@id='777000001^Only drink^99DCT']/label" value="Only drink"/><text xpath="xforms/group[@id='1']/select1[@bind='food_slash_drink']/item[@id='777000002^Nothing^99DCT']/label" value="Nothing"/><text xpath="xforms/group[@id='1']/select1[@bind='method_of_fluid_management']/label" value="Method of fluid management"/><text xpath="xforms/group[@id='1']/select1[@bind='method_of_fluid_management']/item[@id='777000012^Well hydrated^99DCT']/label" value="Well hydrated"/><text xpath="xforms/group[@id='1']/select1[@bind='method_of_fluid_management']/item[@id='351^ORAL REHYDRATION SALTS^99DCT']/label" value="ORAL REHYDRATION SALTS"/><text xpath="xforms/group[@id='1']/select1[@bind='method_of_fluid_management']/item[@id='162651^Maintenance intravenous fluid infusion^99DCT']/label" value="Maintenance intravenous fluid infusion"/><text xpath="xforms/group[@id='1']/select1[@bind='general_condition']/label" value="General Condition"/><text xpath="xforms/group[@id='1']/select1[@bind='general_condition']/item[@id='1855^IN GOOD HEALTH^99DCT']/label" value="IN GOOD HEALTH"/><text xpath="xforms/group[@id='1']/select1[@bind='general_condition']/item[@id='137793^Illness^99DCT']/label" value="Illness"/><text xpath="xforms/group[@id='1']/select1[@bind='general_condition']/item[@id='777000009^Patient condition critical^99DCT']/label" value="Patient condition critical"/><text xpath="xforms/group[@id='1']/select1[@bind='general_condition']/item[@id='777000019^Palliative^99DCT']/label" value="Palliative"/><text xpath="xforms/group[@id='1']/select1[@bind='general_condition']/item[@id='119844^Convalescence^99DCT']/label" value="Convalescence"/><text xpath="xforms/group[@id='1']/select1[@bind='general_condition']/item[@id='777000013^Suspected dead^99DCT']/label" value="Suspected dead"/><text xpath="xforms/group[@id='1']/select1[@bind='general_condition']/item[@id='160432^Dead^99DCT']/label" value="Dead"/><text xpath="xforms/group[@id='1']/select1[@bind='general_condition']/item[@id='159791^Cure, outcome^99DCT']/label" value="Cure, outcome"/><text xpath="xforms/group[@id='1']/select1[@bind='general_condition']/item[@id='777000004^discharged from ebola facility^99DCT']/label" value="discharged from ebola facility"/><text xpath="xforms/group[@id='1']/select1[@bind='pregnancy_status']/label" value="PREGNANCY STATUS"/><text xpath="xforms/group[@id='1']/select1[@bind='pregnancy_status']/hint" value="Question on encounter form: &quot;Is the patient pregnant?&quot;"/><text xpath="xforms/group[@id='1']/select1[@bind='pregnancy_status']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='pregnancy_status']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='pregnancy_status']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/select1[@bind='iv_line_present']/label" value="IV line present"/><text xpath="xforms/group[@id='1']/select1[@bind='iv_line_present']/item[@id='1067^Unknown^99DCT']/label" value="Unknown"/><text xpath="xforms/group[@id='1']/select1[@bind='iv_line_present']/item[@id='1065^Yes^99DCT']/label" value="Yes"/><text xpath="xforms/group[@id='1']/select1[@bind='iv_line_present']/item[@id='1066^No^99DCT']/label" value="No"/><text xpath="xforms/group[@id='1']/input[@bind='text_of_encounter_note']/label" value="Text of encounter note"/><text xpath="xforms/group[@id='1']/input[@bind='text_of_encounter_note']/hint" value="Free text note field intended to capture unstructured description of the patient encounter"/><text xpath="xforms/group[@id='1']/group[@id='patient/patient_relative']/label" value="RELATIONSHIPS"/><text xpath="xforms/group[@id='1']/group[@id='patient/patient_relative']/hint" value="Relationships that this patient has."/><text xpath="xforms/group[@id='1']/group[@id='patient/patient_relative']/repeat/input[@bind='patient_relative.person']/label" value="RELATIVE"/><text xpath="xforms/group[@id='1']/group[@id='patient/patient_relative']/repeat/select1[@bind='patient_relative.relationship']/label" value="RELATIONSHIP"/><text xpath="xforms/group[@id='1']/group[@id='patient/patient_relative']/repeat/select1[@bind='patient_relative.relationship']/item[@id='1A']/label" value="is Doctor [1]"/><text xpath="xforms/group[@id='1']/group[@id='patient/patient_relative']/repeat/select1[@bind='patient_relative.relationship']/item[@id='1B']/label" value="is Patient [1]"/><text xpath="xforms/group[@id='1']/group[@id='patient/patient_relative']/repeat/select1[@bind='patient_relative.relationship']/item[@id='2A']/label" value="is Sibling [2]"/><text xpath="xforms/group[@id='1']/group[@id='patient/patient_relative']/repeat/select1[@bind='patient_relative.relationship']/item[@id='3A']/label" value="is Parent [3]"/><text xpath="xforms/group[@id='1']/group[@id='patient/patient_relative']/repeat/select1[@bind='patient_relative.relationship']/item[@id='3B']/label" value="is Child [3]"/><text xpath="xforms/group[@id='1']/group[@id='patient/patient_relative']/repeat/select1[@bind='patient_relative.relationship']/item[@id='4A']/label" value="is Aunt/Uncle [4]"/><text xpath="xforms/group[@id='1']/group[@id='patient/patient_relative']/repeat/select1[@bind='patient_relative.relationship']/item[@id='4B']/label" value="is Niece/Nephew [4]"/><text xpath="xforms/model[@id='openmrs_model']/bind[@id='encounter.encounter_datetime'][@message]" value="Encounter date cannot be after today"/><text xpath="xforms/model[@id='openmrs_model']/bind[@id='temperature_c'][@message]" value="value should be between 25.0 and 43.0 inclusive"/><text xpath="xforms/model[@id='openmrs_model']/bind[@id='weight_kg'][@message]" value="value should be between 0.0 and 250.0 inclusive"/></xform><Form id="6"><text xpath="Form/Page[@Binding='Page1'][@Text]" value="Page1"/></Form></LanguageText></Language>	\N	2604a478-0f8b-4bff-91bc-7bbae9e92de4	\N
