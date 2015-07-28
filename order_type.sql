@@ -43,8 +43,8 @@ CREATE TABLE `order_type` (
   KEY `user_who_retired_order_type` (`retired_by`),
   KEY `order_type_changed_by` (`changed_by`),
   KEY `order_type_parent` (`parent`),
+  CONSTRAINT `order_type_parent_order_type` FOREIGN KEY (`parent`) REFERENCES `order_type` (`order_type_id`),
   CONSTRAINT `order_type_changed_by` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`),
-  CONSTRAINT `order_type_parent` FOREIGN KEY (`parent`) REFERENCES `orders` (`order_id`),
   CONSTRAINT `type_created_by` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
   CONSTRAINT `user_who_retired_order_type` FOREIGN KEY (`retired_by`) REFERENCES `users` (`user_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
