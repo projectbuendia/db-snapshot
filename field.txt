@@ -156,3 +156,5 @@
 161	3. Bleeding Sites	Bleeding Sites	1	162668				0	3	2015-02-09 22:46:03	\N	\N	0	\N	\N	\N	2f6778f8-8dd2-47cd-8fe8-746dd89f688c
 162	4. Notes	Free text note field intended to capture unstructured description of the patient encounter	1	162169				0	3	2015-02-09 22:47:07	\N	\N	0	\N	\N	\N	c9322836-3fe4-4709-b269-a1bed5d4d3c5
 163	Haemorrhagic Duodenitis	\N	1	138862	\N	\N	\N	0	3	2015-07-28 06:49:08	\N	\N	0	\N	\N	\N	8b41ca49-3811-4e37-9e36-25c97c6eb445
+164	Bleeding site	Question identifying site of bleeding	5	162668				0	3	2015-08-06 02:07:14	3	2015-08-06 02:09:59	0	\N	\N	\N	845ebded-8565-4deb-86c3-d01f0b68967e
+165	Bleeding from Mouth	Bleeding from the blood vessels of the mouth, which may occur as a result of injuries to the mouth, accidents in oral surgery, or diseases of the gums.	1	147234				0	3	2015-08-06 02:08:36	\N	\N	0	\N	\N	\N	4dbb9dd1-ddb1-4836-912b-eb2cd0b32bfb
