@@ -5,3 +5,4 @@
 5	There was an error starting the module: Project Buendia Module	1	1	\N	1	2015-08-04 21:37:29	3	2015-08-05 00:57:03	6ecc5acb-db7f-4fef-9c40-ffaa83d661fc
 6	There was an error starting the module: Project Buendia Module	1	1	\N	1	2015-08-04 21:41:39	3	2015-08-05 00:57:04	e70c73d7-3d2d-4d16-a9cd-45bca4caac0e
 7	There was an error starting the module: Project Buendia Module	1	1	\N	1	2015-08-06 01:27:42	3	2015-08-07 01:03:20	05fcd1d5-3572-4fb5-87d4-6938dc4d197c
+8	There was an error starting the module: Project Buendia Module	1	1	\N	1	2015-08-08 08:43:36	3	2015-08-08 09:56:43	a8ed3f73-584b-4002-8b55-9b1b8bdfaab5
