@@ -134,7 +134,7 @@ order.drugDispensingUnitsConceptUuid	\N	Specifies the uuid of the concept set wh
 order.drugDosingUnitsConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible drug dosing units	dff0174c-07a6-4988-9ea7-9b1f564d6ed4	\N	\N	\N	\N
 order.drugRoutesConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible drug routes	93a18c6f-3f99-423a-8f29-2400b9df7f9e	\N	\N	\N	\N
 order.durationUnitsConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible duration units	07eeabd4-beac-4dca-8c0f-d6a99e9d39e2	\N	\N	\N	\N
-order.nextOrderNumberSeed	33	The next order number available for assignment	6ec7790c-b9ea-4f3b-86a4-5b4e219acaab	\N	\N	\N	\N
+order.nextOrderNumberSeed	1	The next order number available for assignment	6ec7790c-b9ea-4f3b-86a4-5b4e219acaab	\N	\N	\N	\N
 order.orderNumberGeneratorBeanId	\N	Specifies spring bean id of the order generator to use when assigning order numbers	6e10c5bf-5426-4d0f-b6b1-c3a37c7069da	\N	\N	\N	\N
 order.testSpecimenSourcesConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible test specimen sources	cdf244aa-3935-4c73-aec6-789cf8b618a1	\N	\N	\N	\N
 patient.defaultPatientIdentifierValidator	org.openmrs.patient.impl.LuhnIdentifierValidator	This property sets the default patient identifier validator.  The default validator is only used in a handful of (mostly legacy) instances.  For example, it's used to generate the isValidCheckDigit calculated column and to append the string "(default)" to the name of the default validator on the editPatientIdentifierType form.	17d055bc-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
@@ -151,8 +151,8 @@ patientSearch.matchMode	START	Specifies how patient names are matched while sear
 patient_identifier.importantTypes	\N	A comma delimited list of PatientIdentifier names : PatientIdentifier locations that will be displayed on the patient dashboard.  E.g.: TRACnet ID:Rwanda,ELDID:Kenya	17d05ba8-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
 person.searchMaxResults	1000	The maximum number of results returned by patient searches	17d05aa2-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
 projectbuendia.chartUuids	ea43f213-66fb-4af6-8a49-70fd6b9ce5d4,975afbce-d4e3-4060-a25f-afcd0e5564ef	UUIDs of forms listed as charts by the REST endpoint. (Comma-separated.)	7da4d84a-ea8a-4427-ba71-b21172855b16	\N	\N	\N	\N
-projectbuendia.currentProfile	chart.csv	Name of the currently active profile, which defines the forms and UI customizations for the Buendia app.\
-      This should be the name of a file in /usr/share/buendia/profiles (including the .csv extension).	c79b41b1-2aa0-413e-a4de-bd55398b5a0b	\N	\N	\N	\N
+projectbuendia.currentProfile	\N	Name of the currently active profile, which defines the forms and UI customizations for the Buendia app.\
+      This should be the name of a file in /usr/share/buendia/profiles (including the .csv extension).	df6c4e15-ecad-4e1c-949b-a950ad678806	\N	\N	\N	\N
 projectbuendia.openmrs.mandatory	false	true/false whether or not the projectbuendia.openmrs module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	b8c47333-955c-4301-a7d9-8bdb52ec4c24	\N	\N	\N	\N
 projectbuendia.openmrs.started	true	DO NOT MODIFY. true/false whether or not the projectbuendia.openmrs module has been started.  This is used to make sure modules that were running  prior to a restart are started again	6c0b2880-b71e-4c2b-9cf8-15686aa3349d	\N	\N	\N	\N
 provider.unknownProviderUuid	\N	Specifies the uuid of the Unknown Provider account	5d925273-b965-4e8f-9c3d-eb8a4936f846	\N	\N	\N	\N
@@ -174,7 +174,7 @@ reporting.testPatientsCohortDefinition	\N	Points to a cohort definition represen
 reportProblem.url	http://errors.openmrs.org/scrap	The openmrs url where to submit bug reports	94b05aad-26dd-412a-adf0-38f47cd51e91	\N	\N	\N	\N
 scheduler.password	test	Password for the OpenMRS user that will perform the scheduler activities	6cb182aa-2188-4bba-93d0-d0df89c3f179	\N	\N	\N	\N
 scheduler.username	admin	Username for the OpenMRS user that will perform the scheduler activities	ecc9e12b-9ddf-418f-9adc-f29a5d2be9de	\N	\N	\N	\N
-search.caseSensitiveDatabaseStringComparison	true	Indicates whether database string comparison is case sensitive or not. Setting this to false for MySQL with a case insensitive collation improves search performance.	20d5abc2-f126-4bde-894f-8475fb98a5c2	\N	\N	\N	\N
+search.caseSensitiveDatabaseStringComparison	true	Indicates whether database string comparison is case sensitive or not. Setting this to false for MySQL with a case insensitive collation improves search performance.	e0add789-29d7-4e2a-ace7-68dcd32f4bd9	\N	\N	\N	\N
 searchWidget.batchSize	200	The maximum number of search results that are returned by an ajax call	908cf52d-9a22-4318-94c7-82e2ca0d9187	\N	\N	\N	\N
 searchWidget.maximumResults	2000	Specifies the maximum number of results to return from a single search in the search widgets	c3c8e15f-5c2a-4c88-9c6f-8ca9ed01902d	\N	\N	\N	\N
 searchWidget.runInSerialMode	false	Specifies whether the search widgets should make ajax requests in serial or parallel order, a value of true is appropriate for implementations running on a slow network connection and vice versa	ba044e44-d819-4a1e-80ee-bbb9686d1cbe	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
@@ -194,7 +194,7 @@ user.viewingAttributeTypes	\N	A comma delimited list of PersonAttributeType name
 use_patient_attribute.healthCenter	false	Indicates whether or not the 'health center' attribute is shown when viewing/searching for patients	17d05fcc-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
 use_patient_attribute.mothersName	false	Indicates whether or not mother's name is able to be added/viewed for a patient	17d06059-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
 use_patient_attribute.tribe	true	Indicates whether or not the 'tribe' attribute is shown when viewing/searching for patients	17d060f0-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-visits.allowOverlappingVisits	true	true/false whether or not to allow visits of a given patient to overlap	944835c8-45f0-4f60-bc24-05a7161cd6bc	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
+visits.allowOverlappingVisits	true	true/false whether or not to allow visits of a given patient to overlap	0c981c32-2df7-40ef-bb89-cc5ab0529996	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
 visits.assignmentHandler	org.openmrs.api.handler.ExistingVisitAssignmentHandler	Set to the name of the class responsible for assigning encounters to visits.	e4a2d379-5299-42e2-95be-e21c31e73f05	\N	\N	\N	\N
 visits.autoCloseVisitType	\N	comma-separated list of the visit type(s) to automatically close	73a7b79d-3cff-4d4f-afb8-92aaa28cc58a	\N	\N	\N	\N
 visits.enabled	true	Set to true to enable the Visits feature. This will replace the 'Encounters' tab with a 'Visits' tab on the dashboard.	926f0476-e4da-4879-9e46-6173190c0450	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
@@ -226,7 +226,7 @@ xforms.emailServerConfig	\N	A list of e-mail server properties in a form of 'mai
 xforms.encounterDateIncludesTime	true	Set to true if the encounter date should include time.	326d571f-acde-4641-846c-b23de87a9a83	\N	\N	\N	\N
 xforms.error_dir	xforms/error	Directory containing the xforms error items.  This will contain xform model xml files that have not been submitted into the formentry queue because of processing errors.	5d76c954-a8c1-42e1-b087-5c5dc5b58c53	\N	\N	\N	\N
 xforms.includePatientRelationships	true	Specifies that when creating a new xform, a node for patient relationships\
-            (relatives) should be created automatically.	eb588132-523a-4c16-a038-0d006d507110	\N	\N	\N	\N
+            (relatives) should be created automatically.	9ceb7dc1-a803-49bf-8e22-ea2c149f0cc8	\N	\N	\N	\N
 xforms.includeUsersInXformsDownload	true	Set to true if you want to include users when downloading xforms, else set to false if you want to always load the users list separately.	fc0825d7-3583-4aab-a0b4-3a2880314778	\N	\N	\N	\N
 xforms.isRemoteFormEntry	false	Set to true if this is a remote form entry server (Not the main server).	1b98566c-260b-41dc-ae49-ada051ddaa99	\N	\N	\N	\N
 xforms.localeList	en:English	The list of locales supported by the form designer. e.g:  en:English,fr:French,es:Spanish,it:Italian,pt:Portuguese	6176f254-99c0-4a0b-95e2-0ff43b17d89a	\N	\N	\N	\N
@@ -258,7 +258,7 @@ xforms.showOfflineFormDesigner	false	Set to true if you want to show the form de
 xforms.showPreviewTab	true	Set to true if you want to display the Preview tab of the form designer.	61c69a3f-7407-4eec-a41c-5da7382d7cf5	\N	\N	\N	\N
 xforms.showSubmitSuccessMsg	false	Set to true if you want to display the form submitted successfully message every time a form is submitted successfully.	0391d42f-ed46-40eb-92e3-48b89698eff4	\N	\N	\N	\N
 xforms.showXformsSourceTab	false	Set to true if you want to display the xforms source tab of the form designer.	bca43876-ade6-4a08-872e-bc3865e8c4eb	\N	\N	\N	\N
-xforms.singleEntryForms	\N	Comma separated list of form ids that do not allow more than one entry for each patient.	7606ad18-6d84-43ce-bed8-2fd98dfbdece	\N	\N	\N	\N
+xforms.singleEntryForms	\N	Comma separated list of form ids that do not allow more than one entry for each patient.	2c1e5c95-16b1-40c9-b426-8d3135225086	\N	\N	\N	\N
 xforms.singleSelectAppearance	minimal	The appearance of single select input fields. Allowed values are: {full,minimal,compact}	81ab6100-e29e-4bad-accb-6ab1f1037f07	\N	\N	\N	\N
 xforms.smsFieldSepChar	=	The separator between questions and answers in the sms text.	43eedc90-eb76-4e29-8219-2d1daf9a6e70	\N	\N	\N	\N
 xforms.smsSendFailureReports	true	Set to true if you want sms sender to get failure reports, else set to false.	a192ae36-313f-4f80-885b-e39a55a68b60	\N	\N	\N	\N
