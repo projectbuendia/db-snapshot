@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	ENCOUNTER.ENCOUNTER_DATETIME	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2014-11-19 15:04:11	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	ENCOUNTER.LOCATION_ID	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2014-11-19 15:04:34	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	ENCOUNTER.PROVIDER_ID	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-08-25 00:53:35	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2014-11-19 15:04:11	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2014-11-19 15:04:34	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-08-25 00:53:35	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
@@ -190,3 +190,77 @@
 195	Red blood in stool	Red blood in stool	1	117671	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	2d2b1eea-69f2-46f6-9ae2-325119aaa177
 196	Bleeding from eyes	Bleeding from eyes	1	777000016	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	05fe8653-56a6-419d-b231-5f21b48cdd95
 197	Notes	Notes	1	162169	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	8f3c6a15-b73c-4112-bdc2-d32dbaceabe8
+198	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-25 16:28:40	\N	\N	0	\N	\N	\N	86614219-e35d-4f01-94cd-0e8f184017c7
+199	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-25 16:28:40	\N	\N	0	\N	\N	\N	931f33d6-5462-4a3b-8d18-fec093cd6781
+200	MUAC (cm)	MUAC (cm)	1	1343	\N	\N	\N	0	3	2015-08-25 16:28:40	\N	\N	0	\N	\N	\N	7a4aff6c-981a-4df9-b0f4-06b52449c89c
+201	Height (cm)	Height (cm)	1	5090	\N	\N	\N	0	3	2015-08-25 16:28:40	\N	\N	0	\N	\N	\N	0d0adc23-c63b-4828-b70e-9f59ea8bfb64
+202	Oedema	Oedema	1	460	\N	\N	\N	0	3	2015-08-25 16:28:40	\N	\N	0	\N	\N	\N	4829f101-0948-48b8-a838-fcaa0c0751a4
+203	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	1eb896da-8af5-44bc-be55-24f8bd2e9c87
+204	Vital signs	Vital signs	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	b026bab3-d8c3-4976-b5bc-8a0a87721aa2
+205	Pulse (BPM)	Pulse (BPM)	1	5087	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	a021b529-cd93-4c05-844c-a835a9a85ce5
+206	Respiratory rate (BPM)	Respiratory rate (BPM)	1	5242	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	736570a1-b2f9-4cec-ba3a-c41776ac1370
+207	Signs and Symptoms	Signs and Symptoms	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	b050ece0-9334-429d-9cb0-235ed683aa48
+208	Pain (Detail)[binary]	Pain (Detail)	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	16f5960c-97fa-4ffb-a368-f4243c822832
+209	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	d20356c8-940e-42ac-b8b4-b23ce0bfe444
+210	Bleeding (Detail)[binary]	Bleeding (Detail)	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	3d5fe356-c6d9-4d4d-a11f-63529b2dc69e
+211	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	01153f0e-e892-42e2-a28c-a76b2e2b17e5
+212	Other Symptoms[binary]	Other Symptoms	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	e67b749a-b2c0-44a5-8f8a-fa6ec6a5467e
+213	Hiccups	Hiccups	1	138662	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	b57a4d1d-0143-4290-8782-6599e1bcb057
+214	Overall Assessment	Overall Assessment	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	8bab9d51-f9ea-4ad3-971f-bc92ff27ff3a
+215	Diet	Diet	1	777000003	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	b4a7c250-43fb-46f5-a0ad-4900605b81d4
+216	Hydration	Hydration	1	162653	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	759fc35b-82b5-4da8-b330-2843987c7b02
+217	Additional details[binary]	Additional details	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	edf3b7db-431f-4e69-ad79-35852e40b014
+218	Pregnant	Pregnant	1	5272	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	8e441d50-6a7c-4ad9-804a-353090dc11d6
+219	IV access present	IV access present	1	777000011	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	a3e8995e-9c17-4c4f-8d36-468a89da9d9c
+220	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	6b883744-489e-4040-8bf6-ae6073b09f24
+221	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	67a8b7fa-88b8-4c9e-940b-7097454daafa
+222	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	c29dbf0f-4785-45bb-91c6-d45aa94aa38a
+223	Systolic Blood Pressure (mm Hg)	Systolic Blood Pressure (mm Hg)	1	5085	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	9edef74c-793c-4eda-aeae-35dd2776f7f6
+224	Diastolic Blood Pressure (mm Hg)	Diastolic Blood Pressure (mm Hg)	1	5086	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	b4d80289-11f8-4cd0-80cc-c48e150507e7
+225	SpOâ‚‚ Oxygen Sat (%)	SpOâ‚‚ Oxygen Sat (%)	1	5092	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	a27cab27-332c-4a29-a634-8b4ead3f06b7
+226	Capillary refill (s)	Capillary refill (s)	1	162513	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	2f0e50d4-0119-4e18-9367-4bc8433b2f7d
+227	Blood sugar (mg/ml)	Blood sugar (mg/ml)	1	887	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	4e0ec12a-1369-4653-8287-5b92173de61c
+228	Patient Condition	Patient Condition	5	\N	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	c85699be-255c-4887-b4a9-ad4a6f9e9e87
+229	Consciousness (AVPU)	Consciousness (AVPU)	1	162643	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	657f7663-b40e-4daa-aff4-924a4fd13522
+230	Appetite	Appetite	1	777000003	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	0606b3c4-3bb4-4600-b138-7227fb76cb42
+231	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	3e6c4e54-04f3-4a45-a197-eab3cd39f4a1
+232	Anaemia	Anaemia	1	115127	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	21daafa1-1f1c-4308-b16e-db5b0c6e3160
+233	Dehydration	Dehydration	1	1497	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	4c236112-d95b-4843-8d56-3adbfe51b242
+234	Diarrhoea (24h count)	Diarrhoea (24h count)	1	1837	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	cc0c16e3-104f-4263-9e44-a39948fd0c1e
+235	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	c5e179b6-f0eb-453c-859e-9c5084ef1855
+236	Bloody diarrhoea	Bloody diarrhoea	1	138868	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	2b47a4c7-c72f-47a7-b9dd-da834b55a714
+237	Watery diarrhoea	Watery diarrhoea	1	161887	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	33d4d4a8-cd78-4386-8d1e-c1decc02f1a4
+238	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	069e9223-1aaf-4fd0-8043-a577a1e7fd36
+239	Vomiting	Vomiting	1	122983	\N	\N	\N	0	3	2015-08-25 16:33:47	\N	\N	0	\N	\N	\N	2f58ba07-a9fc-4751-9d41-f7f0f68e7185
+240	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-25 16:33:48	\N	\N	0	\N	\N	\N	95f9a345-e5ac-4bf6-8fc3-1b847cfcd52c
+241	Notes	Notes	5	\N	\N	\N	\N	0	3	2015-08-25 16:33:48	\N	\N	0	\N	\N	\N	080fa966-43e0-42f1-b1e3-411dc47382f3
+242	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-25 16:35:37	\N	\N	0	\N	\N	\N	323934cc-b1c7-4730-9a89-576bd5195ea1
+243	Vital signs	Vital signs	5	\N	\N	\N	\N	0	3	2015-08-25 16:35:37	\N	\N	0	\N	\N	\N	e9d58ac4-796f-44a9-8d18-79712cf2e6d4
+244	Signs and Symptoms	Signs and Symptoms	5	\N	\N	\N	\N	0	3	2015-08-25 16:35:37	\N	\N	0	\N	\N	\N	6aee9d02-071a-43a8-b8ea-3afb50d79cc8
+245	Pain (Detail)[binary]	Pain (Detail)	5	\N	\N	\N	\N	0	3	2015-08-25 16:35:37	\N	\N	0	\N	\N	\N	d2485b35-d58e-4564-af25-ff3a085d2581
+246	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-25 16:35:37	\N	\N	0	\N	\N	\N	2ce227d5-2508-401b-80ca-81c7fce60189
+247	Bleeding (Detail)[binary]	Bleeding (Detail)	5	\N	\N	\N	\N	0	3	2015-08-25 16:35:37	\N	\N	0	\N	\N	\N	4fe34da1-8c3e-488f-8754-ce9cd8837eb5
+248	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-25 16:35:37	\N	\N	0	\N	\N	\N	ac583a25-16ad-4be6-a5ed-fcd5450110c5
+249	Other Symptoms[binary]	Other Symptoms	5	\N	\N	\N	\N	0	3	2015-08-25 16:35:37	\N	\N	0	\N	\N	\N	745d15e6-8160-4c0c-b260-4cf60d6596ed
+250	Overall Assessment	Overall Assessment	5	\N	\N	\N	\N	0	3	2015-08-25 16:35:37	\N	\N	0	\N	\N	\N	049c01df-69d7-44fe-baf9-4b6d01861c09
+251	Additional details[binary]	Additional details	5	\N	\N	\N	\N	0	3	2015-08-25 16:35:37	\N	\N	0	\N	\N	\N	14c7dbeb-d508-4739-a40b-a15d0d5260f5
+252	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-25 16:35:37	\N	\N	0	\N	\N	\N	0f3574ee-23f7-420f-8449-afafd44ffc66
+253	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-25 16:39:34	\N	\N	0	\N	\N	\N	c5957045-810a-46b1-99d2-59255adb70a0
+254	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-25 16:39:34	\N	\N	0	\N	\N	\N	41e92814-7392-4551-bfa0-aed10409fc4e
+255	MUAC	MUAC	1	1343	\N	\N	\N	0	3	2015-08-25 16:59:10	\N	\N	0	\N	\N	\N	f303cfef-0a07-46c4-89bb-c657f10dff45
+256	Haemorrhagic Duodenitis	Haemorrhagic Duodenitis	1	138862	\N	\N	\N	0	3	2015-08-25 16:59:10	\N	\N	0	\N	\N	\N	ccb38b69-522a-4fe2-9641-cb2ba47e7779
+257	Height	Height	1	5090	\N	\N	\N	0	3	2015-08-25 17:01:59	\N	\N	0	\N	\N	\N	39733eb5-fe87-4524-9b50-d1db48549740
+258	Paracheck	Paracheck	1	1643	\N	\N	\N	0	3	2015-08-25 17:01:59	\N	\N	0	\N	\N	\N	e1c45696-9389-4ebd-bcec-1e36d9e6118d
+259	Upper Respiratory Infection	Upper Respiratory Infection	1	123565	\N	\N	\N	0	3	2015-08-25 17:01:59	\N	\N	0	\N	\N	\N	700b588f-5f9e-4fe6-a700-d51abc1eee23
+260	Lower Respiratory Infection	Lower Respiratory Infection	1	135556	\N	\N	\N	0	3	2015-08-25 17:01:59	\N	\N	0	\N	\N	\N	0dc08c3b-d88c-402c-85fe-513ae4ac46fd
+261	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-25 17:13:41	\N	\N	0	\N	\N	\N	a9bf360f-68a7-4852-be62-33a7ff61f2c5
+262	Vital signs	Vital signs	5	\N	\N	\N	\N	0	3	2015-08-25 17:13:41	\N	\N	0	\N	\N	\N	aaffa474-2602-4443-b064-d4eeef46b107
+263	Signs and Symptoms	Signs and Symptoms	5	\N	\N	\N	\N	0	3	2015-08-25 17:13:41	\N	\N	0	\N	\N	\N	dafdc558-c216-43f0-899f-a080fb539feb
+264	Pain (Detail)[binary]	Pain (Detail)	5	\N	\N	\N	\N	0	3	2015-08-25 17:13:41	\N	\N	0	\N	\N	\N	e20cf367-1ccd-455d-a4cc-fb805ace3896
+265	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-25 17:13:41	\N	\N	0	\N	\N	\N	f8a3f2f3-85a3-4d6c-8d6e-61256ad4fd1c
+266	Bleeding (Detail)[binary]	Bleeding (Detail)	5	\N	\N	\N	\N	0	3	2015-08-25 17:13:41	\N	\N	0	\N	\N	\N	8e69aa7f-a32d-4fa0-af28-8dc32468bcc3
+267	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-25 17:13:41	\N	\N	0	\N	\N	\N	900510c5-a9b3-47d7-b829-400bcbc59230
+268	Other Symptoms[binary]	Other Symptoms	5	\N	\N	\N	\N	0	3	2015-08-25 17:13:41	\N	\N	0	\N	\N	\N	d8819210-ec74-40db-af45-33179a8abd1b
+269	Overall Assessment	Overall Assessment	5	\N	\N	\N	\N	0	3	2015-08-25 17:13:41	\N	\N	0	\N	\N	\N	ed160c84-3e5e-49d9-8938-f137b63896fd
+270	Additional details[binary]	Additional details	5	\N	\N	\N	\N	0	3	2015-08-25 17:13:41	\N	\N	0	\N	\N	\N	9c97a77c-34b3-4d60-9d5a-df0ab76895f7
+271	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-25 17:13:41	\N	\N	0	\N	\N	\N	105f204b-8642-473b-a0a2-61ea314aeafd
