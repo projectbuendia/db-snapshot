@@ -156,3 +156,37 @@
 161	3. Bleeding Sites	Bleeding Sites	1	162668				0	3	2015-02-09 22:46:03	\N	\N	0	\N	\N	\N	2f6778f8-8dd2-47cd-8fe8-746dd89f688c
 162	4. Notes	Free text note field intended to capture unstructured description of the patient encounter	1	162169				0	3	2015-02-09 22:47:07	\N	\N	0	\N	\N	\N	c9322836-3fe4-4709-b269-a1bed5d4d3c5
 163	Edema	An abnormal excess accumulation of serous fluid in connective tissue or in a serous cavity.	1	460				0	3	2015-08-25 00:18:02	\N	\N	0	\N	\N	\N	b1c4c599-c079-44ee-9f63-8dd982bccf4e
+164	All	All	5	1163	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	a33975c7-86d8-4c10-aef5-ff0de68c5b0c
+165	Temperature (Â°C)	Temperature (Â°C)	1	5088	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	95d36c41-002e-4d07-8201-f3cfa577b948
+166	Weight (kg)	Weight (kg)	1	5089	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	b33ba2cf-fabe-4031-a232-502fce08c311
+167	Condition	Condition	1	777000010	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	c881bf09-b50c-4f3a-8f65-77ad82ea52ed
+168	Consciousness	Consciousness	1	162643	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	c6155b6e-16d2-483b-86e1-6d711d203de5
+169	Mobility	Mobility	1	777000000	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	7ca5ac09-05a4-4fed-8aef-28960d0af96b
+170	Nausea	Nausea	1	5978	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	a941425f-90fb-4615-9e54-8469a69cc7f3
+171	Vomiting (24h count)	Vomiting (24h count)	1	777000014	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	8e583f71-cf73-4a0b-ae06-d07ae0190397
+172	Diarrhoea (24h count)	Diarrhoea (24h count)	1	777000015	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	01b199f0-3f85-4388-997c-77afeaf0af51
+173	Pain level	Pain level	1	777000007	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	3125f4c9-ef6e-4539-819b-c98eb6bd85e1
+174	Bleeding	Bleeding	1	147241	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	d6475e34-a79f-466d-8d37-0a73a052f642
+175	Weakness	Weakness	1	5226	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	79b9cdae-e977-4a01-bc4c-8e797421b3be
+176	Cough	Cough	1	143264	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	ab6bb4f5-b47c-485d-9563-2163d5a35739
+177	Difficulty breathing	Difficulty breathing	1	122496	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	d493c286-d811-4f77-8fc9-dc3cc43e0c8d
+178	Hiccups	Hiccups	1	138862	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	85e0bd04-58fd-43cd-9392-d5e7bbffca61
+179	Red eyes	Red eyes	1	127777	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	14f9800d-e085-46d3-8062-1d7208c70ba5
+180	Headache	Headache	1	139084	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	d903d423-4f7c-4acb-9853-c734d7a5eb6e
+181	Sore throat	Sore throat	1	158843	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	63bbf2b1-0f81-4686-ba34-ebcce2999c35
+182	Heartburn	Heartburn	1	139059	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	8ae2ae4c-4ced-4654-955a-6cb433efc114
+183	Chest pain	Chest pain	1	120749	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	df13761e-1d10-4196-a0d3-3f3532c01c5a
+184	Abdominal pain (upper)	Abdominal pain (upper)	1	159249	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	c1dbc54b-d36f-4758-b303-37952be56765
+185	Abdominal pain (lower)	Abdominal pain (lower)	1	157544	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	c7382b94-44b3-4ff7-bc93-d9a843cc7c70
+186	Back pain	Back pain	1	148035	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	bc99e7f6-30d1-47e8-9fb4-9413b633d9e2
+187	Muscle/joint pain	Muscle/joint pain	1	121	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	af9f6ea9-1266-43bd-85fd-fd09ccc2e1d8
+188	Oral bleeding	Oral bleeding	1	147234	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	1c25b4ea-f0d0-40e3-8b81-333c11716149
+189	Nosebleed	Nosebleed	1	133499	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	dfac12b1-b9f2-4b41-b98e-32fef7d945eb
+190	Coughing up blood	Coughing up blood	1	138905	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	4e4956a5-bf2c-461f-9a04-443b7938e40c
+191	Vomiting blood	Vomiting blood	1	139006	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	97682902-628a-403f-9d0d-4b423c5c457b
+192	Blood in urine	Blood in urine	1	840	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	c9186afc-85a7-4bf7-ad62-9f10329ad738
+193	Vaginal bleeding	Vaginal bleeding	1	147232	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	5ac771e2-d00a-4f95-9a19-d0e417096861
+194	Black blood in stool	Black blood in stool	1	134394	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	98ae1402-7924-4164-bcba-e90c776b43dd
+195	Red blood in stool	Red blood in stool	1	117671	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	2d2b1eea-69f2-46f6-9ae2-325119aaa177
+196	Bleeding from eyes	Bleeding from eyes	1	777000016	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	05fe8653-56a6-419d-b231-5f21b48cdd95
+197	Notes	Notes	1	162169	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	8f3c6a15-b73c-4112-bdc2-d32dbaceabe8
