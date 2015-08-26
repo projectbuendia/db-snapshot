@@ -29,7 +29,7 @@
 855	\N	\N	30	0	\N	0	mm/hr	0
 856	\N	\N	\N	0	\N	\N	copies/ml	0
 857	\N	\N	\N	0	\N	\N	mmol/L	1
-887	\N	\N	\N	0	\N	\N	mg/ml	0
+887	\N	\N	\N	\N	\N	\N	\N	1
 952	\N	\N	\N	0	\N	\N	10^3/uL	0
 980	\N	\N	\N	0	\N	\N		1
 1006	\N	\N	5.17	0	\N	\N	mmol/L	1
@@ -150,7 +150,7 @@
 1815	\N	\N	\N	\N	\N	\N		0
 1823	\N	\N	\N	\N	\N	\N		0
 1825	\N	\N	\N	\N	\N	\N		0
-1837	50	9	3	0	\N	\N		0
+1837	\N	\N	\N	\N	\N	\N	\N	1
 1864	\N	\N	\N	\N	\N	\N		0
 1865	\N	\N	\N	\N	\N	\N		0
 1867	\N	\N	\N	\N	\N	\N		0
@@ -178,13 +178,13 @@
 5053	\N	\N	\N	\N	\N	\N		0
 5054	\N	\N	\N	\N	\N	\N	\N	0
 5064	\N	\N	\N	\N	\N	\N	\N	0
-5085	250	\N	\N	0	\N	\N	mmHg	0
-5086	150	\N	\N	0	\N	\N	mmHg	0
-5087	230	\N	\N	0	\N	\N	rate/min	0
-5088	43	\N	\N	25	\N	\N	DEG C	1
-5089	250	\N	\N	0	\N	\N	kg	1
-5090	272	\N	\N	10	\N	\N	cm	1
-5092	100	\N	\N	0	\N	\N	%	0
+5085	\N	\N	\N	\N	\N	\N	\N	1
+5086	\N	\N	\N	\N	\N	\N	\N	1
+5087	\N	\N	\N	\N	\N	\N	\N	1
+5088	\N	\N	\N	\N	\N	\N	\N	1
+5089	250	\N	\N	\N	\N	\N	\N	1
+5090	272	\N	\N	10	\N	\N	\N	1
+5092	\N	\N	\N	\N	\N	\N	\N	1
 5093	\N	\N	\N	\N	\N	\N	\N	0
 5094	\N	\N	\N	\N	\N	\N	\N	0
 5095	\N	\N	\N	\N	\N	\N	\N	0
@@ -193,7 +193,7 @@
 5220	\N	\N	\N	\N	\N	\N	\N	0
 5221	\N	\N	\N	\N	\N	\N	\N	0
 5223	\N	\N	\N	\N	\N	\N	\N	0
-5242	\N	120	70	0	\N	\N	\N	0
+5242	\N	\N	\N	\N	\N	\N	\N	1
 5268	\N	\N	\N	\N	\N	\N	\N	0
 5270	\N	\N	\N	\N	\N	\N	\N	0
 5281	\N	\N	\N	\N	\N	\N	\N	0
@@ -998,7 +998,7 @@
 162196	\N	\N	\N	0	\N	\N		0
 162258	\N	\N	\N	1	\N	\N		0
 162261	10	\N	\N	0	\N	\N	cm	0
-162513	60	\N	30	0	\N	\N	seconds	1
+162513	\N	\N	\N	\N	\N	\N	\N	1
 162523	\N	\N	\N	0	\N	\N		1
 162524	\N	\N	\N	0	\N	\N	g	1
 162557	\N	\N	\N	0	\N	\N		0
@@ -1018,5 +1018,6 @@
 162746	15000	\N	\N	0	\N	\N	mL/24 hrs	0
 162826	40	\N	\N	0	\N	\N		1
 162827	40	\N	\N	0	\N	\N		1
-777000014	\N	\N	\N	0	\N	\N	\N	0
-777000015	\N	\N	\N	0	\N	\N	\N	0
+777000014	\N	\N	\N	\N	\N	\N	\N	1
+777000015	\N	\N	\N	\N	\N	\N	\N	1
+777000102	500	\N	260	\N	\N	135	\N	1
