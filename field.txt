@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-08-26 17:59:12	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-08-26 17:59:12	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-08-26 17:59:12	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-08-27 10:00:37	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-08-27 10:00:37	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-08-27 10:00:37	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
@@ -466,3 +466,55 @@
 471	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-26 17:57:38	\N	\N	0	\N	\N	\N	ae1cba34-6f76-4b54-ba62-6fc3f9d26bb1
 472	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-26 17:59:12	\N	\N	0	\N	\N	\N	57181c3e-d0ea-4e5c-b8e8-9e1193b65806
 473	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-26 17:59:12	\N	\N	0	\N	\N	\N	f8efc02a-063d-4b11-a969-6d326e6e0ba9
+474	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:09	\N	\N	0	\N	\N	\N	8ce94718-b4fd-49bd-91e4-e627afcf44db
+475	Vital signs	Vital signs	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:09	\N	\N	0	\N	\N	\N	fa8090b7-5a76-44ed-9406-c9668c2c6bc7
+476	Signs and Symptoms	Signs and Symptoms	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:10	\N	\N	0	\N	\N	\N	898b4298-48e7-4572-8199-9712686ef54b
+477	Pain (detail)[binary]	Pain (detail)	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:10	\N	\N	0	\N	\N	\N	fa3b31f8-2bf9-4cca-92fe-6c4e9485a194
+478	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:10	\N	\N	0	\N	\N	\N	53e3950b-f984-4974-96e3-333c86cd66fb
+479	Bleeding (detail)[binary]	Bleeding (detail)	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:10	\N	\N	0	\N	\N	\N	d134726f-84ea-4876-8580-c09f08306784
+480	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:10	\N	\N	0	\N	\N	\N	8df64ceb-0829-447b-b45c-22e62f1e61e7
+481	Other symptoms[binary]	Other symptoms	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:10	\N	\N	0	\N	\N	\N	8b84872e-926e-4f09-825c-a40d2ac2ea7f
+482	Overall Assessment	Overall Assessment	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:10	\N	\N	0	\N	\N	\N	5e18c675-95fb-457a-a897-2ebaacf90913
+483	Additional details[binary]	Additional details	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:10	\N	\N	0	\N	\N	\N	d1d20fa7-41e5-4a85-8118-f10a2b1ac444
+484	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:10	\N	\N	0	\N	\N	\N	f5db33a1-2f80-417f-8064-82a262c65ca3
+485	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:17	\N	\N	0	\N	\N	\N	c007bc77-127b-486a-bed3-da39bcfdf80c
+486	Vital signs	Vital signs	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:17	\N	\N	0	\N	\N	\N	ce0a9da4-cbf2-40a9-a3b8-ee5df107ecf3
+487	Signs and Symptoms	Signs and Symptoms	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:17	\N	\N	0	\N	\N	\N	8afd7702-bd4f-4915-9817-64b91060a61b
+488	Pain (detail)[binary]	Pain (detail)	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:17	\N	\N	0	\N	\N	\N	78c6fc0e-cde2-4794-acac-e774b25a426b
+489	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:17	\N	\N	0	\N	\N	\N	6b62afc6-6717-491b-bd60-355eedeb70bd
+490	Bleeding (detail)[binary]	Bleeding (detail)	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:17	\N	\N	0	\N	\N	\N	221ff5af-15f0-4fce-bd67-841b59dec635
+491	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:17	\N	\N	0	\N	\N	\N	e89c74ea-b3e5-4fee-a715-ce0e5fee68c7
+492	Other symptoms[binary]	Other symptoms	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:17	\N	\N	0	\N	\N	\N	3075fff8-446f-44e9-813a-c112531f1d3c
+493	Overall Assessment	Overall Assessment	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:17	\N	\N	0	\N	\N	\N	de177eb3-d862-4bf2-ade6-0c520bdc7cf4
+494	Additional details[binary]	Additional details	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:17	\N	\N	0	\N	\N	\N	56f5c967-f549-444e-8c9e-e5313ac6d6da
+495	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:17	\N	\N	0	\N	\N	\N	6627d648-ad66-4494-9570-c77a08803ef7
+496	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:24	\N	\N	0	\N	\N	\N	72a6e3cb-6979-44f6-85a0-e232550193dc
+497	Vital signs	Vital signs	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:24	\N	\N	0	\N	\N	\N	ca869d50-df24-4b68-a430-bdd39dbdfc6c
+498	Signs and Symptoms	Signs and Symptoms	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:24	\N	\N	0	\N	\N	\N	c8450b8f-5e44-4d6d-8533-6a4b1d885ef7
+499	Pain (detail)[binary]	Pain (detail)	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:24	\N	\N	0	\N	\N	\N	f6736851-3dbb-41fa-8b23-921c8d5f31cd
+500	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:24	\N	\N	0	\N	\N	\N	2a8f2b0e-6dcd-4944-80bf-526be57daca4
+501	Bleeding (detail)[binary]	Bleeding (detail)	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:24	\N	\N	0	\N	\N	\N	71ef9d5a-bd6b-4150-8cf7-cafed22811e3
+502	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:24	\N	\N	0	\N	\N	\N	a694d02d-b529-45e3-aa12-0d4cb2a81eab
+503	Other symptoms[binary]	Other symptoms	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:24	\N	\N	0	\N	\N	\N	c7d3184f-c3dc-4ad8-9984-aa4e95df9e0e
+504	Overall Assessment	Overall Assessment	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:24	\N	\N	0	\N	\N	\N	e27f28b7-e725-4b67-bf13-af620986f523
+505	Additional details[binary]	Additional details	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:24	\N	\N	0	\N	\N	\N	46819fe8-e338-4554-b130-e7cbbd7867f5
+506	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:24	\N	\N	0	\N	\N	\N	7ad3590c-3599-4d7f-8580-8c363850e4c6
+507	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:30	\N	\N	0	\N	\N	\N	80ee5023-d6df-4b0d-8e68-2590ce48981c
+508	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:30	\N	\N	0	\N	\N	\N	87ff2c47-b7bc-4c80-8ce6-7fbe4f59c55c
+509	Patient Condition	Patient Condition	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:30	\N	\N	0	\N	\N	\N	7b8b98ea-0a1a-4de8-9b91-5bc8d15ccd39
+510	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:30	\N	\N	0	\N	\N	\N	8d0e328f-825b-45eb-9dbd-fc298aacbfad
+511	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:30	\N	\N	0	\N	\N	\N	fd95f5d9-04b0-4215-8da9-60addffbe815
+512	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:30	\N	\N	0	\N	\N	\N	e0d5710e-8177-436c-b1a2-49dfba8db0b9
+513	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:30	\N	\N	0	\N	\N	\N	a47e47c5-a703-4b1c-8165-3026ff5fe38b
+514	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:30	\N	\N	0	\N	\N	\N	dd774e7e-7867-404a-a7d5-dba920431585
+515	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	4d9b968e-e0dc-4cb2-9be8-d05861986b01
+516	Vital signs	Vital signs	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	c8769bf4-dc49-4f1d-968d-3357f81338b6
+517	Signs and Symptoms	Signs and Symptoms	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	7c6e6637-3f19-4a9c-8f22-008e2aa58a6f
+518	Pain (detail)[binary]	Pain (detail)	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	ef3dc729-c4c5-4b05-b3d6-b424d5459596
+519	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	43abc0f6-1ba4-47b4-9604-c9a7f345e468
+520	Bleeding (detail)[binary]	Bleeding (detail)	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	6413bc87-a207-4dd3-9e98-69793fa87dd8
+521	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	1818075e-eb06-4367-94c0-610570b221e6
+522	Other symptoms[binary]	Other symptoms	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	0915ef71-c69f-4087-b8e6-925fa8286f15
+523	Overall Assessment	Overall Assessment	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	34cc188f-049f-4beb-9dbd-86887bc03ebc
+524	Additional details[binary]	Additional details	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	54a29df7-1464-4a8e-a530-a9592ee2c83c
+525	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	05fd905a-bef3-4a42-b1e2-cd8723b2fcf3

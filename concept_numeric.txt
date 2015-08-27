@@ -180,9 +180,9 @@
 5064	\N	\N	\N	\N	\N	\N	\N	0
 5085	\N	\N	\N	\N	\N	\N	\N	1
 5086	\N	\N	\N	\N	\N	\N	\N	1
-5087	\N	\N	\N	\N	\N	\N	\N	1
+5087	\N	\N	100	\N	\N	60	\N	1
 5088	\N	\N	\N	\N	\N	\N	\N	1
-5089	250	\N	\N	\N	\N	\N	\N	1
+5089	\N	\N	\N	\N	\N	\N	\N	1
 5090	272	\N	\N	10	\N	\N	\N	1
 5092	\N	\N	\N	\N	\N	\N	\N	1
 5093	\N	\N	\N	\N	\N	\N	\N	0
