@@ -1,5 +1,5 @@
 5	New patient (unused)	0.5	1	0	\N	\N	An old patient intake form; keeping it around to possibly revisit in the future.	1	1	2014-11-18 11:11:22	3	2015-02-04 11:52:32	0	\N	\N	\N	c47d4d3d-f9a3-4f97-9623-d7acee81d401
-6	Clinical observation	0.6	\N	1	\N	\N	\N	2	1	2014-11-18 11:11:47	3	2015-08-26 19:36:42	0	\N	\N	\N	736b90ee-fda6-4438-a6ed-71acd36381f3
+6	Clinical observation	0.6	\N	0	\N	\N	\N	2	1	2014-11-18 11:11:47	3	2015-08-26 19:36:42	0	\N	\N	\N	736b90ee-fda6-4438-a6ed-71acd36381f3
 7	Chart display order	0.6	\N	0	\N	\N	\N	2	3	2014-11-25 13:48:18	3	2015-02-14 18:22:51	0	\N	\N	\N	ea43f213-66fb-4af6-8a49-70fd6b9ce5d4
 8	Chart top section	0.6	\N	0	\N	\N	For now, defines concepts needed for the 'top section' of the patient chart, but does not affect the layout of this section.	2	3	2014-12-02 22:30:57	3	2015-02-14 18:22:44	0	\N	\N	\N	975afbce-d4e3-4060-a25f-afcd0e5564ef
 9	Test results	0.6	\N	0	\N	\N	\N	2	3	2015-01-13 12:35:08	3	2015-02-14 18:23:12	0	\N	\N	\N	34d727a6-e515-4f27-ae91-703ba2c164ae
