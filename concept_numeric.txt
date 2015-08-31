@@ -1,5 +1,5 @@
 9	\N	\N	\N	\N	\N	\N	\N	0
-21	\N	\N	17.8	0	7	10.4	g/dL	1
+21	\N	\N	\N	\N	\N	\N	\N	1
 301	\N	\N	\N	\N	\N	\N	\N	0
 579	\N	\N	\N	\N	\N	\N	cm	0
 648	\N	\N	\N	\N	\N	\N	\N	0

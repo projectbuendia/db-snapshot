@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-08-31 11:53:28	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-08-31 11:53:28	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-08-31 11:53:28	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-08-31 15:39:53	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-08-31 15:39:53	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-08-31 15:39:53	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
@@ -530,3 +530,150 @@
 535	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	d3b917e9-86e8-4fdd-920f-5deccdd16700
 536	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	658de044-ddf1-48e9-8fdd-3d8adf43b2ad
 537	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	a2c1182f-1d21-4f30-88c9-fcc62e71ea04
+538	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:06	\N	\N	0	\N	\N	\N	7e059e57-87b9-44e7-a73a-13d8acafb48e
+539	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:06	\N	\N	0	\N	\N	\N	af60a3e8-5eab-489a-bb6f-51fe5795c952
+540	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	1b8dde03-ea95-4cbd-9127-39b32100addb
+541	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	8687efe1-a9d8-40e9-b87e-76cd90f4c4ba
+542	Temperature (	Temperature (	1	5088	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	5f72e954-a7ed-42ca-8ffc-37b3eec1844b
+543	SpO	SpO	1	5092	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	dae8b953-e121-4311-a7e2-bfc13eaaf559
+544	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	6a970aea-7845-42cf-83d5-3084fe6892cd
+545	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	540a0728-a47c-45e6-8755-b1b6aed0fa4b
+546	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	b1c54680-9021-4d18-ab35-352f730103b4
+547	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	32728b6c-1828-42a7-b1e6-c1a7caa5cb64
+548	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	a079755f-4375-485b-b1ea-df2212a3a973
+549	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	c15586e3-7d40-4ca2-b28b-2f086b4c9291
+550	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	1ce557fe-495c-4ff6-add9-ede91fe6309c
+551	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	188d8dd4-029e-4262-83c1-72bda217f2dc
+552	Temperature (	Temperature (	1	5088	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	5c8cc6e3-a95a-4cc7-9158-a8c0ce320067
+553	Systolic BP (mm Hg)	Systolic BP (mm Hg)	1	5085	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	5192d109-4c91-474c-9307-28dc19e729b7
+554	Diastolic BP (mm Hg)	Diastolic BP (mm Hg)	1	5086	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	da7ad719-9fde-4e22-b14b-d373953f5c54
+555	SpO	SpO	1	5092	\N	\N	\N	0	3	2015-08-31 14:36:07	\N	\N	0	\N	\N	\N	cae8cae8-b26f-4871-857d-6afe2dbcd8cd
+556	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:28	\N	\N	0	\N	\N	\N	10ee5c03-34f2-4f58-874c-365e2aee551f
+557	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:28	\N	\N	0	\N	\N	\N	624ba27d-6556-4068-910e-e76b025b32ff
+558	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:28	\N	\N	0	\N	\N	\N	34cf8f4e-0287-4a1f-95de-69276b588b9a
+559	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:28	\N	\N	0	\N	\N	\N	0bb16863-5abe-416f-96fb-6cb0e68a9543
+560	Temperature (å¡C)	Temperature (å¡C)	1	5088	\N	\N	\N	0	3	2015-08-31 14:37:28	\N	\N	0	\N	\N	\N	259fe243-8008-4c51-9be0-35fc387e4605
+561	SpO‰ââ Oxygen Sat (%)	SpO‰ââ Oxygen Sat (%)	1	5092	\N	\N	\N	0	3	2015-08-31 14:37:28	\N	\N	0	\N	\N	\N	342d76c6-6d0c-46d6-85e0-dbfc61af6cee
+562	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:28	\N	\N	0	\N	\N	\N	28fb16c5-e4b8-47e1-a94e-9c269579e884
+563	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:28	\N	\N	0	\N	\N	\N	4db42fc5-ef93-4a1d-ab04-7bb8f5297f9b
+564	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:29	\N	\N	0	\N	\N	\N	2f8dae74-fd5a-4cbe-8d36-8422c87e5505
+565	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:29	\N	\N	0	\N	\N	\N	341f6a1e-6ebb-4c63-bbcf-bfe9e6466499
+566	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:29	\N	\N	0	\N	\N	\N	722fd171-8a14-4d16-9481-2a1016109061
+567	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:29	\N	\N	0	\N	\N	\N	7c77754d-790f-404a-a117-d363b141b55f
+568	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:29	\N	\N	0	\N	\N	\N	f7e5d98a-b294-4cbd-aa02-3a770f001938
+569	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 14:37:29	\N	\N	0	\N	\N	\N	59526800-1d89-43dd-a598-936bb6fdd646
+570	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	ab5fd304-7d59-4568-9e2f-b616b2bc97db
+571	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	b3fa9775-c21d-4ce6-8f8e-7c95ab1095bf
+572	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	7ecfa604-63e7-4788-8321-0185c3f65c45
+573	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	2e17be3f-1104-46f5-bce4-38bad98ef324
+574	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	5afc6f60-0113-492c-9267-46337717ac52
+575	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	185a64a4-331b-4f47-a2b7-84da4b380e2d
+576	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	a1884230-788d-432a-b61d-0c51baf2f191
+577	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	a1533a67-8c8b-4510-abcc-76f4a79f1647
+578	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	284efc6a-b939-4c0f-87ce-7c0f3eb48fd6
+579	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	b019335d-1a17-46dd-8505-d5f532e1c944
+580	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	8e17eadc-94b4-4ea6-bf09-7903eae7b691
+581	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 14:39:31	\N	\N	0	\N	\N	\N	6c742f2a-41be-41fa-b0e5-9dddd06422b7
+582	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	2d099e41-c7f8-4eac-a2da-0a9f70e88fbd
+583	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	97538788-0f10-49ce-81cd-f40d8f9232c2
+584	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	3b0896c2-ad16-4ec5-9d57-6008472953f1
+585	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	635b3bf4-cf76-42b2-a35e-d6e4a76c593b
+586	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	6b67cec8-3f0c-4c6b-86b2-f988692f9aba
+587	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	e9af3615-997b-466d-8236-269373e4f8f4
+588	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	3e643b35-2031-47b4-b99d-36fb9f3d9371
+589	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	12c75980-99db-4f9c-aff1-2b46d86e3c0e
+590	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	f244411f-74b8-459a-b56e-8d9de3cdb609
+591	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	28bfce59-f7df-45c1-8b03-37b896edd8e1
+592	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	69efe39d-2186-428c-9617-35b7cea79bf4
+593	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:40	\N	\N	0	\N	\N	\N	c3b287a7-3f97-4da3-a603-0b96a8d07520
+594	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	8d4102c8-e2b2-4dbd-a124-7a28c5ef5e25
+595	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	4bbedbdb-dad8-466f-9bc9-94c618ec6b02
+596	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	a4359e59-1ba3-4674-9805-238b8d344659
+597	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	c32647cb-0155-467a-9d46-f968840baa6f
+598	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	e6162a07-4474-4708-886a-ce683d0b51e5
+599	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	3a722388-be90-457b-817b-685b5d664402
+600	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	5bc5a704-d79b-47b8-ad59-8c77cade5f01
+601	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	0da02168-c585-437c-b863-5a3b0ecba9d7
+602	Chest infection[binary]	Chest infection	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	19e5bb0c-5bb7-4b75-96b8-1ad488569049
+603	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	f1c120e7-ddfa-4147-ac77-40588442c66a
+604	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	40bcf33c-a621-4ca8-8435-f41b73bdefec
+605	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	64fe6250-5005-46cb-8a2b-750703b5689a
+606	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 14:54:42	\N	\N	0	\N	\N	\N	13969253-9065-4c7a-bc93-d4699e633394
+607	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	55f75b22-355f-4878-bee4-14415aa235b4
+608	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	5c3ac1c7-5871-4dd5-b684-506c91d9b657
+609	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	083f988d-77ab-4860-a807-ae51e766e5ad
+610	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	ceac0389-6156-4c70-b339-5d21e3e1c176
+611	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	03b5ca2c-5d57-40f7-b2d2-0a42374058f8
+612	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	bf8ea87c-b49b-48a6-ae9e-60a5bed56a64
+613	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	f9d8d3c9-6c54-4b62-9af6-9535a3ab66e6
+614	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	bccfc47c-422a-420b-a8ef-ab610f161de1
+615	Chest infection[binary]	Chest infection	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	866d405f-4d37-44be-969c-1654db5c3076
+616	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	fe2ca085-f8fe-421e-b5b4-2910b903963b
+617	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	c5209ef6-8235-4319-80c3-533ccb253239
+618	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	a1943e18-8825-45c6-8d59-41b3dc425fd8
+619	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 14:57:08	\N	\N	0	\N	\N	\N	a2a9270e-4bfc-41a3-87bf-facb826815cc
+620	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	0650a488-eb25-41da-aeb6-c70eafb989a5
+621	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	e00e6cb7-72ac-4c55-84ef-106476f9cdc7
+622	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	ad6490b3-46b4-4fc4-ab13-7cb59dd56117
+623	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	d5c794be-3ce4-49d8-9dc8-dd409b427ea6
+624	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	1598cb46-19b7-4a8c-b020-0c8c5f9dac91
+625	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	1aba772d-e47a-4d3a-b190-d6876d42abb9
+626	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	e7d3704b-87e1-47a0-bdcd-b9c1b7502753
+627	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	871d9bb9-9c7c-4de8-b587-f1b473805ae1
+628	Chest infection[binary]	Chest infection	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	bfd4eb8e-ebd6-47b9-8ebb-5ee91f8a092d
+629	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	9748478f-4791-47e9-b31c-c4052142dcd3
+630	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	9f83d12f-c153-41c4-bf72-5c5ea92d92d1
+631	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	8dcd5c8a-c157-46f3-bd60-d57362150167
+632	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:05	\N	\N	0	\N	\N	\N	159faa71-8699-4b6e-b30c-39707bf2b69a
+633	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	6e28d9e9-4630-4858-8157-66347d20eae9
+634	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	cc5cc30a-a740-4a8a-af06-fa5d3b1e5e08
+635	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	0c3ea2d2-f88b-47fb-81dd-56c91af9b483
+636	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	3dbb8d4b-d956-4635-b036-379a7e490b93
+637	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	dffbc4df-3fd8-42ec-8a2d-8718714ce569
+638	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	593982ac-5128-4254-a938-74712be2cc64
+639	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	86120d2b-7273-4f5e-969d-00d5c36687e2
+640	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	2deb2717-5331-4b73-8e23-0cb2d4649b22
+641	Chest infection[binary]	Chest infection	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	08ac0a3e-8628-4cdc-a40c-c71c4a0320b0
+642	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	56880d61-891c-4b12-8d7b-30488747a31a
+643	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	5d5eacae-80a5-46a0-a8d2-e68d61d77d66
+644	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	f35fa53c-10a5-4a75-8616-fbcae14a66f4
+645	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:37	\N	\N	0	\N	\N	\N	457dd672-160a-4e2e-a419-4ffe142f44ec
+646	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	cf9be7ad-3f2b-4979-b240-c85b1570fd9d
+647	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	0908934e-8e9a-4289-bef9-2a21eca44845
+648	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	0e58dcca-4ed9-43c3-811f-3c5052444415
+649	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	c1ea0f51-fce7-4e66-83c6-75fb5a999821
+650	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	c21dacb1-c4a5-492e-887a-20e0c678c455
+651	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	af98dd41-9a7b-4af8-ac1a-df3d6c389d76
+652	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	8c918249-8bf8-4e6c-9836-13334e49af66
+653	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	6047d949-f638-45b3-b924-a977972b78ac
+654	Chest infection[binary]	Chest infection	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	6b0e3a79-b899-437f-8f09-343b8b4d53f5
+655	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	795fd646-6036-4647-8c10-6c086e1b56c9
+656	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	57392268-4be8-4342-a7b9-f7ed52120ea5
+657	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	934cbf13-7978-4515-b4fa-645be11f63cd
+658	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 15:01:38	\N	\N	0	\N	\N	\N	570c9065-af4d-4a6f-902e-8e78a1f4ff22
+659	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	5e1e03c1-3794-4834-933b-b39c82c9e4c8
+660	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	e1964512-f4ab-4835-8168-02bb5c7a828a
+661	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	30b40a94-2381-4830-bac6-d733b021a0a5
+662	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	1432988f-5008-4502-bbc3-a52f2970172d
+663	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	fae0c423-d993-4096-a688-d7eb24ffc508
+664	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	13b88ead-dd07-42d0-a81c-1d7dc4816f18
+665	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	b17799f1-1855-4f75-a8ec-5a6fa2b4be39
+666	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	8cf3e2d1-c29d-4be4-a6ca-628a1ca4afc6
+667	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	cfe5d104-3150-4d76-ab27-3df7a60eafd3
+668	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	c03bc69c-ad1a-4d17-b4c7-596ea5a10069
+669	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	fa68eae1-4e45-442c-85a1-53f2de264e1a
+670	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 15:02:10	\N	\N	0	\N	\N	\N	2cb3594d-8a69-467d-915b-87aabe40ff73
+671	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	08566d04-b5b8-49ec-9112-4cc1ab53ba15
+672	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	f76c7651-5ebd-4cd2-a1fb-ac8815486283
+673	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	fbcb216e-bae1-476f-aa0d-8246210533f5
+674	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	a5e65b1c-3a12-41b3-8378-c3a341e20e10
+675	Haemoglobin (g/dL)	Haemoglobin (g/dL)	1	21	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	833f7a2f-233f-4bcf-bb7c-3f8880ca1845
+676	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	b14db454-bef8-49ab-98f3-bfbd9a26b9b4
+677	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	87ef3580-6ee4-4fc7-bf7d-e97abacfa70d
+678	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	f3501706-4089-4570-ad5d-1059c04e10cc
+679	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	245e38e8-b7f7-4067-b7e8-867174412ca2
+680	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	40563a2a-7518-4024-96bc-b7d76f16c9c3
+681	Pallor	Pallor	1	5245	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	0407b661-0de3-43f7-86ab-9d9cf1da61c3
+682	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	ae5f230f-3294-4dde-9a18-6583d96f407b
+683	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	d01e0c52-47ef-4e02-a00e-28be78c94ba8
+684	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 15:39:53	\N	\N	0	\N	\N	\N	8520a6f1-89c2-4b5a-93e0-ba29d871cadf
