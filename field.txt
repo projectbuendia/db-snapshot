@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-08-27 10:00:37	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-08-27 10:00:37	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-08-27 10:00:37	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-08-31 11:53:28	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-08-31 11:53:28	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-08-31 11:53:28	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
@@ -518,3 +518,15 @@
 523	Overall Assessment	Overall Assessment	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	34cc188f-049f-4beb-9dbd-86887bc03ebc
 524	Additional details[binary]	Additional details	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	54a29df7-1464-4a8e-a530-a9592ee2c83c
 525	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-27 10:00:37	\N	\N	0	\N	\N	\N	05fd905a-bef3-4a42-b1e2-cd8723b2fcf3
+526	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	fec76243-ab21-4e43-8f14-1e9125c8ec90
+527	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	a52bcb7a-b96a-4557-b2c2-72057d4c1f1a
+528	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	fa00485a-9001-429b-b4ef-69c44780a594
+529	Vitals	Vitals	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	7ae71ad1-7dca-4027-9188-d940c5453064
+530	Patient condition	Patient condition	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	ef3fdb78-1eba-4d74-b447-fecc194fb2ab
+531	Symptoms	Symptoms	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	654aaa46-a27a-4cb0-b984-a011c16c271e
+532	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	ce37497a-e607-46e7-95c1-21363f0f5b0e
+533	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	b90342a6-ed74-4bf8-984a-ecc089eeeb02
+534	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	01e5e69d-c77f-49ed-abe2-49c64e074340
+535	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	d3b917e9-86e8-4fdd-920f-5deccdd16700
+536	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	658de044-ddf1-48e9-8fdd-3d8adf43b2ad
+537	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-08-31 11:53:28	\N	\N	0	\N	\N	\N	a2c1182f-1d21-4f30-88c9-fcc62e71ea04
