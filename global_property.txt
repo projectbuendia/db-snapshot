@@ -134,7 +134,7 @@ order.drugDispensingUnitsConceptUuid	\N	Specifies the uuid of the concept set wh
 order.drugDosingUnitsConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible drug dosing units	dff0174c-07a6-4988-9ea7-9b1f564d6ed4	\N	\N	\N	\N
 order.drugRoutesConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible drug routes	93a18c6f-3f99-423a-8f29-2400b9df7f9e	\N	\N	\N	\N
 order.durationUnitsConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible duration units	07eeabd4-beac-4dca-8c0f-d6a99e9d39e2	\N	\N	\N	\N
-order.nextOrderNumberSeed	39	The next order number available for assignment	6ec7790c-b9ea-4f3b-86a4-5b4e219acaab	\N	\N	\N	\N
+order.nextOrderNumberSeed	44	The next order number available for assignment	6ec7790c-b9ea-4f3b-86a4-5b4e219acaab	\N	\N	\N	\N
 order.orderNumberGeneratorBeanId	\N	Specifies spring bean id of the order generator to use when assigning order numbers	6e10c5bf-5426-4d0f-b6b1-c3a37c7069da	\N	\N	\N	\N
 order.testSpecimenSourcesConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible test specimen sources	cdf244aa-3935-4c73-aec6-789cf8b618a1	\N	\N	\N	\N
 patient.defaultPatientIdentifierValidator	org.openmrs.patient.impl.LuhnIdentifierValidator	This property sets the default patient identifier validator.  The default validator is only used in a handful of (mostly legacy) instances.  For example, it's used to generate the isValidCheckDigit calculated column and to append the string "(default)" to the name of the default validator on the editPatientIdentifierType form.	17d055bc-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
