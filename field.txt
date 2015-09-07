@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-06 22:46:16	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-06 22:46:16	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-06 22:46:16	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-07 16:10:07	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-07 16:10:07	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-07 16:10:07	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
@@ -805,3 +805,27 @@
 864	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-09-06 22:46:16	\N	\N	0	\N	\N	\N	75796618-74e2-4f36-98af-c235de02fb72
 865	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-09-06 22:46:16	\N	\N	0	\N	\N	\N	951000c8-eff3-45dd-bc39-3566f9ce6462
 866	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-09-06 22:46:16	\N	\N	0	\N	\N	\N	6f958c94-70f0-4b04-8bcd-9a42900916bd
+876	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:06	\N	\N	0	\N	\N	\N	7b16233d-7b37-49c9-82eb-b2038060f74d
+877	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:06	\N	\N	0	\N	\N	\N	d95eb2c6-bcec-4e65-ae0d-20d95f08a533
+878	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:06	\N	\N	0	\N	\N	\N	a32a3807-c217-4d64-b189-dbe83edd7dbf
+879	Paracheck	Paracheck	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:06	\N	\N	0	\N	\N	\N	3751ba42-e5dc-4a7e-af0e-582ed71c7f39
+880	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:06	\N	\N	0	\N	\N	\N	54e46ab4-0740-4866-9f10-625edeb742ca
+881	Standard Observations	Standard Observations	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:06	\N	\N	0	\N	\N	\N	2c3f7130-d82f-4e9a-b0fc-a3cde266afd2
+882	Any specific type of diarrhoea?[binary]	Any specific type of diarrhoea?	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:06	\N	\N	0	\N	\N	\N	8d6af3ad-4950-4d65-8087-1840dfd89373
+883	[invisible]	[invisible]	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:06	\N	\N	0	\N	\N	\N	76f72632-86f9-46d0-b4d6-c27dab40de8a
+884	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:06	\N	\N	0	\N	\N	\N	6a5df0d4-4caa-4030-9936-745ec3881ad1
+885	Urinary tract infection (UTI)	Urinary tract infection (UTI)	1	777111633	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	79ffbfb8-0fd1-49fa-8152-bead71e29d24
+886	Otitis media	Otitis media	1	777131113	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	693ba819-975b-4841-a948-e4d64851c769
+887	Scabies	Scabies	1	777000140	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	0f497aa7-85aa-4846-980a-92e04691bfa7
+888	Angular stomatitis	Angular stomatitis	1	777125860	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	11bac5c9-d2d5-4d53-ae07-9f4b7b054c20
+889	Oral candidiasis	Oral candidiasis	1	777005334	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	f6c1659c-102b-42b6-b3c9-47f2b0c195e9
+890	Gingivitis	Gingivitis	1	777139438	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	03d18a76-c8d1-4b5f-95b9-675f4cad00e1
+891	Intensive Observations	Intensive Observations	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	604876ab-fc1a-4dbe-8f7b-4c7324b0868a
+892	Shock	Shock	1	777112989	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	0e3f2dcf-c28f-47f9-a7b2-15aaa28d0b12
+893	Any other symptoms?[binary]	Any other symptoms?	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	12ac1236-8a2a-4890-8d90-2f17f7f5c861
+894	Cyanosis	Cyanosis	1	777143050	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	9361c7a3-167d-492d-8733-a088d22ae8a9
+895	Amoebiasis	Amoebiasis	1	777000124	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	6ae0603e-ea7d-404a-958b-21a05b3d473f
+896	Jaundice	Jaundice	1	777136443	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	7e4f6656-db17-41ab-9e92-aec7eecb0719
+897	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	32841bf3-4049-4686-aada-b16f588926f7
+898	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	9c36df01-e0e9-4303-8046-e980ee446b21
+899	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	6f734496-890a-4ce1-aa2c-3068c54b5f6a
