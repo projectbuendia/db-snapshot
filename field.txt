@@ -193,7 +193,7 @@
 198	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-25 16:28:40	\N	\N	0	\N	\N	\N	86614219-e35d-4f01-94cd-0e8f184017c7
 199	Anthropometrics	Anthropometrics	5	\N	\N	\N	\N	0	3	2015-08-25 16:28:40	\N	\N	0	\N	\N	\N	931f33d6-5462-4a3b-8d18-fec093cd6781
 200	MUAC (cm)	MUAC (cm)	1	1343	\N	\N	\N	0	3	2015-08-25 16:28:40	\N	\N	0	\N	\N	\N	7a4aff6c-981a-4df9-b0f4-06b52449c89c
-201	Height (cm)	Height (cm)	1	5090	\N	\N	\N	0	3	2015-08-25 16:28:40	\N	\N	0	\N	\N	\N	0d0adc23-c63b-4828-b70e-9f59ea8bfb64
+201	Height (cm)	Height (cm)	1	5090				0	3	2015-08-25 16:28:40	3	2015-09-08 07:40:15	0	\N	\N	\N	0d0adc23-c63b-4828-b70e-9f59ea8bfb64
 202	Oedema	Oedema	1	460	\N	\N	\N	0	3	2015-08-25 16:28:40	\N	\N	0	\N	\N	\N	4829f101-0948-48b8-a838-fcaa0c0751a4
 203	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	1eb896da-8af5-44bc-be55-24f8bd2e9c87
 204	Vital signs	Vital signs	5	\N	\N	\N	\N	0	3	2015-08-25 16:31:42	\N	\N	0	\N	\N	\N	b026bab3-d8c3-4976-b5bc-8a0a87721aa2
