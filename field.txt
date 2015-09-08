@@ -158,14 +158,14 @@
 163	Edema	An abnormal excess accumulation of serous fluid in connective tissue or in a serous cavity.	1	460				0	3	2015-08-25 00:18:02	\N	\N	0	\N	\N	\N	b1c4c599-c079-44ee-9f63-8dd982bccf4e
 164	All	All	5	1163	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	a33975c7-86d8-4c10-aef5-ff0de68c5b0c
 165	Temperature (Â°C)	Temperature (Â°C)	1	5088	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	95d36c41-002e-4d07-8201-f3cfa577b948
-166	Weight (kg)	Weight (kg)	1	5089	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	b33ba2cf-fabe-4031-a232-502fce08c311
+166	Weight (kg)	Weight (kg)	1	5089				0	3	2015-08-25 12:15:07	3	2015-09-08 04:19:54	0	\N	\N	\N	b33ba2cf-fabe-4031-a232-502fce08c311
 167	Condition	Condition	1	777000010	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	c881bf09-b50c-4f3a-8f65-77ad82ea52ed
 168	Consciousness	Consciousness	1	162643	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	c6155b6e-16d2-483b-86e1-6d711d203de5
 169	Mobility	Mobility	1	777000000	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	7ca5ac09-05a4-4fed-8aef-28960d0af96b
 170	Nausea	Nausea	1	5978	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	a941425f-90fb-4615-9e54-8469a69cc7f3
 171	Vomiting (24h count)	Vomiting (24h count)	1	777000014	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	8e583f71-cf73-4a0b-ae06-d07ae0190397
 172	Diarrhoea (24h count)	Diarrhoea (24h count)	1	777000015	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	01b199f0-3f85-4388-997c-77afeaf0af51
-173	Pain level	Pain level	1	777000007	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	3125f4c9-ef6e-4539-819b-c98eb6bd85e1
+173	Pain level	Pain level	1	777000007				0	3	2015-08-25 12:15:07	3	2015-09-08 04:20:28	0	\N	\N	\N	3125f4c9-ef6e-4539-819b-c98eb6bd85e1
 174	Bleeding	Bleeding	1	147241	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	d6475e34-a79f-466d-8d37-0a73a052f642
 175	Weakness	Weakness	1	5226	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	79b9cdae-e977-4a01-bc4c-8e797421b3be
 176	Cough	Cough	1	143264	\N	\N	\N	0	3	2015-08-25 12:15:07	\N	\N	0	\N	\N	\N	ab6bb4f5-b47c-485d-9563-2163d5a35739
