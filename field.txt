@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-16 04:37:59	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-16 04:37:59	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-16 04:37:59	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-16 19:49:04	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-16 19:49:04	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-16 19:49:04	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
@@ -896,3 +896,30 @@
 964	Jaundice	{"label": "Jaundice", "concepts": [888136443], "type": "yes_no"}	1	888136443	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	f7d1173a-722b-4323-b14e-69212b6ae824
 965	Urinating	{"label": "Urinating", "concepts": [888000100], "type": "yes_no"}	1	888000100	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	ca362ce3-c828-495b-a402-24244988cd25
 966	Pallor	{"label": "Pallor", "concepts": [888005245], "type": "yes_no"}	1	888005245	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	b9dc7c9a-0968-457b-bef7-be26a145dde5
+967	tiles	{"type": "GRID_SECTION"}	5	\N	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	bf152f4c-e267-4566-878f-382921bfcbb5
+968	Weight (kg)	{"label": "Weight (kg)", "concepts": [5089], "type": "sparkline"}	1	5089	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	468ba10d-3165-4835-99dc-80f68d0ef9e2
+969	Oedema	{"label": "Oedema", "concepts": [460], "type": "range 0-3 (None / Mild / Moderate / Severe)"}	1	460	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	1b2a0933-0c93-480e-adc7-cbec363d1673
+970	Temperature (°C)	{"label": "Temperature (\\u00b0C)", "concepts": [5088], "type": "sparkline"}	1	5088	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	933fb3c9-f0a9-49ad-b414-1167c38a722a
+971	Urinating	{"label": "Urinating", "concepts": [777000100], "type": "yes / no / unknown"}	1	777000100	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	ebf28535-47c5-465b-9074-f291c1bb3ecf
+972	grid	{"type": "GRID_SECTION"}	5	\N	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	20f7e73d-fc54-42c8-9b93-752fd4c69abc
+973	Notes	{"label": "Notes", "concepts": [162169], "type": "text"}	1	162169	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	8f9186aa-e545-48a3-84be-69ee1a6aba28
+974	Temperature (°C)	{"label": "Temperature (\\u00b0C)", "concepts": [5088], "type": "number"}	1	5088	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	66416d4f-ce6f-4cae-babf-3e6d4ade5d93
+975	Height	{"label": "Height", "concepts": [5090], "type": "number"}	1	5090	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	55772f45-97d3-4c4e-8b59-4ae085b16ecb
+976	Weight (kg)	{"label": "Weight (kg)", "concepts": [5089], "type": "number + graph"}	1	5089	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	f6d1136e-be57-441a-a7bc-60ff952c9897
+977	Systolic BP (mmHg)	{"label": "Systolic BP (mmHg)", "concepts": [5085], "type": "blood pressure"}	1	5085	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	3fef869b-33d5-40f8-b7a5-7f1b61118d92
+978	Diastolic BP (mmHg)	{"label": "Diastolic BP (mmHg)", "concepts": [5086], "type": "blood pressure"}	1	5086	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	b9605caf-572b-4a91-9da3-cf32a90d63fa
+979	Paracheck	{"label": "Paracheck", "concepts": [1643], "type": "positive or negative"}	1	1643	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	dd5d6b1c-88fa-4ddf-a210-25f16fd51fa6
+980	Consciousness	{"label": "Consciousness", "concepts": [162643], "type": "letter (A, V, P or U)"}	1	162643	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	56e17b60-3399-4991-b5e5-5aa448b99728
+981	Appetite	{"label": "Appetite", "concepts": [777000003], "type": "range 0-3"}	1	777000003	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	1fcc76be-d6e6-44a5-aeea-39e2e73af98f
+982	Oedema	{"label": "Oedema", "concepts": [460], "type": "range 0-3"}	1	460	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	256afd87-ff99-45e9-a7c8-fbc26b1b7f9d
+983	Anaemia	{"label": "Anaemia", "concepts": [115127], "type": "yes / no / unknown"}	1	115127	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	d8ebcb5c-3fee-4592-9148-d9109464c4c6
+984	Dehydration	{"label": "Dehydration", "concepts": [1497], "type": "range 0-3"}	1	1497	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	8767ddd4-776c-49ec-8228-4cd8fca19fef
+985	Vomiting	{"label": "Vomiting", "concepts": [122983], "type": "yes / no / unknown"}	1	122983	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	9e482fa2-acd9-4d63-86b5-87a45c3e74b6
+986	Cough	{"label": "Cough", "concepts": [143264], "type": "yes / no / unknown"}	1	143264	\N	\N	\N	0	3	2015-09-16 18:52:15	\N	\N	0	\N	\N	\N	918259f0-8b63-4b7b-a469-2c99ffa64127
+987	MUAC	{"label": "MUAC", "css_style": "{1,select,<115:color:#c00;<135:color:#c80}", "concepts": [777000102], "format": "# mm", "type": "number"}	1	777000102	\N	\N	\N	0	3	2015-09-16 18:52:35	\N	\N	0	\N	\N	\N	7c0345a0-427e-495b-bc83-7a83a748d667
+988	Temperature	{"css_class": "{1,select,>39:critical}", "label": "Temperature", "concepts": [5088], "format": "#.0\\u00b0 C", "type": "number"}	1	5088	\N	\N	\N	0	3	2015-09-16 18:52:35	\N	\N	0	\N	\N	\N	ea715c40-693b-493b-933a-556df3e3da34
+989	Anaemia	{"caption_format": "{1,name}", "label": "Anaemia", "concepts": [777115127], "format": "{1,select,1107:\\u00b7;1498:\\ud834\\udf60;1499:\\ud834\\udf61;1500:\\ud834\\udf62}", "type": "severity_bars"}	1	777115127	\N	\N	\N	0	3	2015-09-16 18:52:35	\N	\N	0	\N	\N	\N	e08bfc7d-7bc0-4850-a5bf-4e3792387242
+990	Pain level	{"caption_format": "{1,name}", "label": "Pain level", "concepts": [777000007], "format": "{1,select,1107:\\u00b7;1498:\\ud834\\udf69;1499:\\ud834\\udf6a;1500:\\ud834\\udf6b}", "type": "severity_bars"}	1	777000007	\N	\N	\N	0	3	2015-09-16 18:52:35	\N	\N	0	\N	\N	\N	0d5ee382-d741-4986-b498-af037e605a55
+991	MUAC	{"label": "MUAC", "css_style": "{1,select,<115:color:red;<135:color:orange}", "concepts": [777000102], "format": "# mm", "type": "number"}	1	777000102	\N	\N	\N	0	3	2015-09-16 19:03:05	\N	\N	0	\N	\N	\N	e1976d5b-0e8a-497c-a312-8fd9c6bf7bb2
+992	MUAC	{"label": "MUAC", "css_style": "{1,select,<115:color:#c00;<135:color:#c80}", "concepts": [777000102], "format": "# m0m0", "type": "number"}	1	777000102	\N	\N	\N	0	3	2015-09-16 19:13:53	\N	\N	0	\N	\N	\N	054a7fd1-6f20-40b6-8292-a0134243d46d
+993	MUAC	{"label": "MUAC", "css_style": "{1,select,<115:color:#c00;<135:color:#c80}", "concepts": [777000102], "format": "{1,number,# m0m0}", "type": "number"}	1	777000102	\N	\N	\N	0	3	2015-09-16 19:37:25	\N	\N	0	\N	\N	\N	bcef6a94-1011-4206-bfb3-8bd0eda91afd
