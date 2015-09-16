@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-07 16:10:07	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-07 16:10:07	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-07 16:10:07	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-16 04:37:59	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-16 04:37:59	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-16 04:37:59	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
@@ -829,3 +829,70 @@
 897	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	32841bf3-4049-4686-aada-b16f588926f7
 898	ENCOUNTER	Encounter	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	9c36df01-e0e9-4303-8046-e980ee446b21
 899	Additional notes	Additional notes	5	\N	\N	\N	\N	0	3	2015-09-07 16:10:07	\N	\N	0	\N	\N	\N	6f734496-890a-4ce1-aa2c-3068c54b5f6a
+900	Cough	Cough	1	888143264	\N	\N	\N	0	3	2015-09-16 04:37:58	\N	\N	0	\N	\N	\N	4b4c5fbe-416f-4eda-9de7-d7cfeb3068b6
+901	Upper Respiratory Infection	Upper Respiratory Infection	1	888123565	\N	\N	\N	0	3	2015-09-16 04:37:58	\N	\N	0	\N	\N	\N	ec29c8ea-565d-4bba-a2ef-59bfab2eccc8
+902	Lower Respiratory Infection	Lower Respiratory Infection	1	888135556	\N	\N	\N	0	3	2015-09-16 04:37:58	\N	\N	0	\N	\N	\N	7a9af9ec-4604-474f-adb0-f122a9896b6e
+903	Anaemia	Anaemia	1	888115127	\N	\N	\N	0	3	2015-09-16 04:37:58	\N	\N	0	\N	\N	\N	a498e3a1-0929-45c5-8449-86560e9478e1
+904	Urinary tract infection (UTI)	Urinary tract infection (UTI)	1	888111633	\N	\N	\N	0	3	2015-09-16 04:37:58	\N	\N	0	\N	\N	\N	3bc61847-ae7d-4571-a616-565254b4228e
+905	Otitis media	Otitis media	1	888131113	\N	\N	\N	0	3	2015-09-16 04:37:58	\N	\N	0	\N	\N	\N	877d7bf7-9e44-469f-bcc3-02c6e691e696
+906	Scabies	Scabies	1	888000140	\N	\N	\N	0	3	2015-09-16 04:37:58	\N	\N	0	\N	\N	\N	c4081ae2-f445-478c-aeca-1660d168b27a
+907	Angular stomatitis	Angular stomatitis	1	888125860	\N	\N	\N	0	3	2015-09-16 04:37:58	\N	\N	0	\N	\N	\N	9377228c-6d68-48b1-8950-dba1ee3b3428
+908	Oral candidiasis	Oral candidiasis	1	888005334	\N	\N	\N	0	3	2015-09-16 04:37:58	\N	\N	0	\N	\N	\N	96d2dee1-fb53-4063-aa4f-75bb1e23f2eb
+909	Gingivitis	Gingivitis	1	888139438	\N	\N	\N	0	3	2015-09-16 04:37:58	\N	\N	0	\N	\N	\N	c07fe331-3d9f-46ee-92e9-e149f46fddd8
+910	Anaemia	Anaemia	1	777115127	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	e4f6e9fd-eef6-4aff-a17f-ccd45f34fb04
+911	Cyanosis	Cyanosis	1	888143050	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	31a51e10-bc4b-4401-8e47-b96cf23ee931
+912	Amoebiasis	Amoebiasis	1	888000124	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	7366575f-8444-4a1a-a659-c67036e9e81f
+913	Jaundice	Jaundice	1	888136443	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	349e95cf-f20c-4076-ab41-c240312bc672
+914	Urinating	Urinating	1	888000100	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	b1904288-ed21-4c78-b777-af1e5ff04f94
+915	Pallor	Pallor	1	888005245	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	5a6da21c-4c91-4d56-8fc5-9ddad672a5a0
+916	TB status	TB status	1	1659	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	c83505a3-a126-447c-a80a-f73c54b2c214
+917	HIV status	HIV status	1	1401	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	f7db40e7-9cc7-4f3d-a1d4-4f059ab9de77
+918	[tiles]	{"type": "TILE_ROW"}	5	\N	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	bd261615-096b-41ee-bd0b-32359f4f6041
+919	Weight	{"label": "Weight", "concepts": [5089], "format": "{1,select,<10:#.00 kg;#.0 kg}", "type": "sparkline"}	1	5089	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	80e9438f-5f25-45e7-86c7-a29aa929a15d
+920	MUAC	{"label": "MUAC", "concepts": [777000102], "format": "# mm", "type": "number"}	1	777000102	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	91af52c0-ba81-4d91-a99e-ded2dce9c90f
+921	Oedema	{"label": "Oedema", "concepts": [460], "type": "select_one"}	1	460	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	d18d8e08-c4a8-499b-8b5f-fb7e2ef42456
+922	Conditions	{"label": "Conditions", "concepts": [1401, 1659], "format": "{1,select,888000115:HIV+;888000114:HIV exp}\\n{2,select,888000109:TB+;888000110:TB+;888000108:TB sus}", "type": "custom"}	1	1401	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	34dcbc67-3a46-4f10-888c-2fd4d1b8da98
+923	Temperature	{"label": "Temperature", "concepts": [5088], "format": "#.0\\u00b0 C", "type": "number"}	1	5088	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	4b9a7b84-1950-4248-949a-90ac7f7a73ee
+924	Pulse	{"label": "Pulse", "concepts": [5087], "format": "# bpm", "type": "number"}	1	5087	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	7bf44b8d-96d0-4d8a-afe8-597f0eddf9cd
+925	Respiratory rate	{"label": "Respiratory rate", "concepts": [5242], "format": "# bpm", "type": "number"}	1	5242	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	01429a50-6975-4273-a895-b10f5436f594
+926	Urinating	{"label": "Urinating", "concepts": [777000100], "type": "yes_no"}	1	777000100	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	cdd7f605-54ef-40b2-b352-14e62ebc2191
+927	Observations	{"type": "GRID_SECTION"}	5	\N	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	fc564eb1-47a0-47c9-9b2b-dcc5626293ca
+928	Notes	{"label": "Notes", "concepts": [162169], "type": "text_icon"}	1	162169	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	741b0297-474d-47cc-9862-b569313013c1
+929	Height (cm)	{"label": "Height (cm)", "concepts": [5090], "type": "number"}	1	5090	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	562eb370-f26c-40f2-bb3a-334ed216716a
+930	Weight (kg)	{"label": "Weight (kg)", "script": "function() { }", "concepts": [5089], "format": "#.0", "type": "number"}	1	5089	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	7cc86dd6-9abd-4144-bba6-8a0a022a5925
+931	MUAC (mm)	{"label": "MUAC (mm)", "concepts": [777000102], "type": "number"}	1	777000102	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	3af0860b-9187-4964-8208-de9a63533bb6
+932	Temperature (°C)	{"label": "Temperature (\\u00b0C)", "concepts": [5088], "format": "#.0", "type": "number"}	1	5088	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	0aeac6df-fff8-4181-9098-0a668c95beb9
+933	Paracheck	{"label": "Paracheck", "concepts": [1643], "format": "{1,select,703:+;664:\\u2013;1138:?;}", "type": "select_one"}	1	1643	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	52912cb1-5bff-448e-b08b-1f51a39c4e3a
+934	Diarrhoea (24h count)	{"label": "Diarrhoea (24h count)", "concepts": [1837], "type": "number"}	1	1837	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	954d5888-6a6f-4c95-a920-a8c361922130
+935	Bloody diarrhoea	{"label": "Bloody diarrhoea", "concepts": [138868], "type": "yes_no"}	1	138868	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	1ad10042-e3c3-4026-a8de-bbbd520ec335
+936	Watery diarrhoea	{"label": "Watery diarrhoea", "concepts": [161887], "type": "yes_no"}	1	161887	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	5cf77d02-2f32-4a7d-957f-9062d031435a
+937	Vomiting	{"label": "Vomiting", "concepts": [122983], "format": "{1,select,1107:\\u00b7;1498:\\u2013;1499:=;1500:\\u2263}", "type": "select_one"}	1	122983	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	4f703ae5-e865-4dac-bc0f-c592606633de
+938	Dehydration	{"label": "Dehydration", "concepts": [1497], "format": "{1,select,1107:\\u00b7;1498:\\u2013;1499:=;1500:\\u2263}", "type": "select_one"}	1	1497	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	e18cb980-9855-4986-83d3-2bad2e9762e6
+939	Cough	{"label": "Cough", "concepts": [888143264], "type": "yes_no"}	1	888143264	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	93fe1981-02c9-4b4a-9b30-4a2faa2dcc70
+940	Upper Respiratory Infection	{"label": "Upper Respiratory Infection", "concepts": [888123565], "type": "yes_no"}	1	888123565	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	1d2caa6a-aeb0-4be2-82de-1a839c0a58af
+941	Lower Respiratory Infection	{"label": "Lower Respiratory Infection", "concepts": [888135556], "type": "yes_no"}	1	888135556	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	743a8eaf-1f01-49b1-b8da-0c033cef15a6
+942	Anaemia	{"label": "Anaemia", "concepts": [888115127], "type": "yes_no"}	1	888115127	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	76f24701-c6a4-420b-9159-10b53658ee1f
+943	Appetite	{"label": "Appetite", "concepts": [777000003], "type": "select_one"}	1	777000003	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	2fd3d03a-357e-4587-800b-db07fcab5e87
+944	Urinary tract infection (UTI)	{"label": "Urinary tract infection (UTI)", "concepts": [888111633], "type": "yes_no"}	1	888111633	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	3278b0a7-a2a4-474d-af5f-febe64fcb142
+945	Otitis media	{"label": "Otitis media", "concepts": [888131113], "type": "yes_no"}	1	888131113	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	2783aba8-dd15-4c8a-9b05-5b45e0aed986
+946	Scabies	{"label": "Scabies", "concepts": [888000140], "type": "yes_no"}	1	888000140	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	ced6423e-efd9-4597-818f-321b1f091314
+947	Angular stomatitis	{"label": "Angular stomatitis", "concepts": [888125860], "type": "yes_no"}	1	888125860	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	15e9112f-1bbd-4dd4-b4c2-60bb0065266c
+948	Oral candidiasis	{"label": "Oral candidiasis", "concepts": [888005334], "type": "yes_no"}	1	888005334	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	8ffa1bcb-e61e-4e1e-8f65-b1d71b7a240f
+949	Gingivitis	{"label": "Gingivitis", "concepts": [888139438], "type": "yes_no"}	1	888139438	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	c1971b76-7816-4f4b-9cb9-aafa868a56df
+950	Pulse (bpm)	{"label": "Pulse (bpm)", "concepts": [5087], "type": "number"}	1	5087	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	16f4ec90-98c0-42ef-98bf-9d2ee5c58b72
+951	Respiratory rate (bpm)	{"label": "Respiratory rate (bpm)", "concepts": [5242], "type": "number"}	1	5242	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	8204d0b1-0be6-413e-b4d4-88e74e5ad028
+952	SpO₂ Oxygen Sat (%)	{"label": "SpO\\u2082 Oxygen Sat (%)", "concepts": [5092], "type": "number"}	1	5092	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	3d557df2-b0c8-4251-b315-4bbfca2cc8b9
+953	Capillary refill (s)	{"label": "Capillary refill (s)", "concepts": [162513], "type": "number"}	1	162513	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	517a9b5c-5b7f-4512-86c9-0f264db308b1
+954	Blood sugar (mg/mL)	{"label": "Blood sugar (mg/mL)", "concepts": [887], "type": "number"}	1	887	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	7027527b-0a68-4c7b-b859-6e1df696c886
+955	Haemoglobin (g/dL)	{"label": "Haemoglobin (g/dL)", "concepts": [21], "type": "number"}	1	21	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	07046c73-00dc-4e1a-83d5-548f37f2cb6e
+956	Consciousness (AVPU)	{"label": "Consciousness (AVPU)", "concepts": [162643], "type": "select_one"}	1	162643	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	74403a3f-92d0-42a5-844b-6565c906da60
+957	Anaemia	{"caption_format": "{1,name}", "label": "Anaemia", "concepts": [777115127], "format": "{1,select,1107:\\u00b7;1498:\\u2013;1499:=;1500:\\u2263}", "type": "severity_bars"}	1	777115127	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	38dd267f-116b-4fec-82e3-93d307c5859c
+958	Pain level	{"caption_format": "{1,name}", "label": "Pain level", "concepts": [777000007], "format": "{1,select,1107:\\u00b7;1498:\\u2013;1499:=;1500:\\u2263}", "type": "severity_bars"}	1	777000007	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	e5eb77e8-06c8-4b1b-b5d1-a045111d82ac
+959	Shock	{"caption_format": "{1,name}", "label": "Shock", "concepts": [777112989], "format": "{1,select,1107:\\u00b7;1498:\\u2013;1499:=;1500:\\u2263}", "type": "severity_bars"}	1	777112989	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	3bc68d6c-6505-4288-bd9d-5e84b83b0208
+960	Cyanosis	{"label": "Cyanosis", "concepts": [888143050], "type": "yes_no"}	1	888143050	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	b252dfe1-821e-4309-8351-9d1cb643c341
+961	TB status	{"label": "TB status", "concepts": [1659], "type": "select_one"}	1	1659	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	bfabc397-572d-4d1c-86f4-82db3901c338
+962	HIV status	{"label": "HIV status", "concepts": [1401], "type": "select_one"}	1	1401	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	139ef5dc-62bc-4d01-ba2c-b94a45167086
+963	Amoebiasis	{"label": "Amoebiasis", "concepts": [888000124], "type": "yes_no"}	1	888000124	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	16038445-ffc1-40bf-9a89-e03e9a40c27f
+964	Jaundice	{"label": "Jaundice", "concepts": [888136443], "type": "yes_no"}	1	888136443	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	f7d1173a-722b-4323-b14e-69212b6ae824
+965	Urinating	{"label": "Urinating", "concepts": [888000100], "type": "yes_no"}	1	888000100	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	ca362ce3-c828-495b-a402-24244988cd25
+966	Pallor	{"label": "Pallor", "concepts": [888005245], "type": "yes_no"}	1	888005245	\N	\N	\N	0	3	2015-09-16 04:37:59	\N	\N	0	\N	\N	\N	b9dc7c9a-0968-457b-bef7-be26a145dde5
