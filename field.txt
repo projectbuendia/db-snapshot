@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-16 19:49:04	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-16 19:49:04	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-16 19:49:04	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-17 21:54:55	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-17 21:54:55	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-17 21:54:55	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
@@ -923,3 +923,24 @@
 991	MUAC	{"label": "MUAC", "css_style": "{1,select,<115:color:red;<135:color:orange}", "concepts": [777000102], "format": "# mm", "type": "number"}	1	777000102	\N	\N	\N	0	3	2015-09-16 19:03:05	\N	\N	0	\N	\N	\N	e1976d5b-0e8a-497c-a312-8fd9c6bf7bb2
 992	MUAC	{"label": "MUAC", "css_style": "{1,select,<115:color:#c00;<135:color:#c80}", "concepts": [777000102], "format": "# m0m0", "type": "number"}	1	777000102	\N	\N	\N	0	3	2015-09-16 19:13:53	\N	\N	0	\N	\N	\N	054a7fd1-6f20-40b6-8292-a0134243d46d
 993	MUAC	{"label": "MUAC", "css_style": "{1,select,<115:color:#c00;<135:color:#c80}", "concepts": [777000102], "format": "{1,number,# m0m0}", "type": "number"}	1	777000102	\N	\N	\N	0	3	2015-09-16 19:37:25	\N	\N	0	\N	\N	\N	bcef6a94-1011-4206-bfb3-8bd0eda91afd
+998	Section 1	Section 1	5	\N	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	42614f2b-7c43-47a6-aa4a-254454387548
+999	[test] Temperature (°C)	[test] Temperature (°C)	1	999005088	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	4b70f8b8-956a-4d3c-827c-a6856d0786ad
+1000	[test] Respiratory rate (bpm)	[test] Respiratory rate (bpm)	1	999005242	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	2abfcdcc-e755-4b35-9cd7-008010e99bb4
+1001	[test] SpO₂ oxygen sat (%)	[test] SpO₂ oxygen sat (%)	1	999005092	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	6edb5f85-dd93-47b2-8312-7ed077a9cd76
+1002	[test] Blood pressure, systolic	[test] Blood pressure, systolic	1	999005085	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	eaf0fcb9-9144-4b3a-ba1f-36b2d7eb3e69
+1003	[test] Blood pressure, diastolic	[test] Blood pressure, diastolic	1	999005086	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	9df6384a-2323-41d0-8038-58efc0345103
+1004	Section 2	Section 2	5	\N	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	ddfb2284-27cf-4d01-a189-7d16c4c9342f
+1005	[test] Weight (kg)	[test] Weight (kg)	1	999005089	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	77d9387a-fafa-4518-8e42-90d056f91a86
+1006	[test] Height (cm)	[test] Height (cm)	1	999005090	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	c4e1116d-a38b-405e-acab-d19b1b1b0d21
+1007	[test] Shock	[test] Shock	1	999112989	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	4493905b-bdfe-4566-ae16-9f74008cb3b5
+1008	[test] Consciousness (AVPU)	[test] Consciousness (AVPU)	1	999162643	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	a959fb99-a0fc-4c2b-b1e9-aba18659b1f6
+1009	[test] Other symptoms[binary]	[test] Other symptoms	5	\N	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	cebaccb4-d577-4acc-a65b-d2086695d2a5
+1010	[test] Cough	[test] Cough	1	999143264	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	417fdd22-645d-49be-b089-e88729938aeb
+1011	[test] Anaemia	[test] Anaemia	1	999115127	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	225000d7-3031-4c2c-b87d-bb05d913f273
+1012	[test] Scabies	[test] Scabies	1	999000140	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	5309d87c-fc4d-4e56-8995-bcf73c6ecf78
+1013	[test] Gingivitis	[test] Gingivitis	1	999139438	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	b4c0c95b-3fb1-4cda-9286-11b2bb58961b
+1014	[test] Hiccups	[test] Hiccups	1	999138862	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	7839a5cb-4cfa-4828-ba8f-e9b949f533d0
+1015	[test] Headache	[test] Headache	1	999139084	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	cc5a0a3c-09a1-4824-8e69-6dfd434794bd
+1016	[test] Sore throat	[test] Sore throat	1	999158843	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	08ac1ac0-0a3d-4732-b1ee-0c6689239690
+1017	[test] Heartburn	[test] Heartburn	1	999139059	\N	\N	\N	0	3	2015-09-17 20:04:54	\N	\N	0	\N	\N	\N	6a92f340-b962-4ece-a0a0-7f5f7db49972
+1018	[test] Notes	[test] Notes	1	999162169	\N	\N	\N	0	3	2015-09-17 20:04:54	\N	\N	0	\N	\N	\N	022a6a43-44a9-4447-82b7-79ab0742871e
