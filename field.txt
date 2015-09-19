@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-18 00:36:24	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-18 00:36:24	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-18 00:36:24	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-19 00:05:25	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-19 00:05:25	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-19 00:05:25	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
