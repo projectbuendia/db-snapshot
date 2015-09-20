@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-19 00:05:25	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-19 00:05:25	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-19 00:05:25	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-20 08:59:17	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-20 08:59:17	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-20 08:59:17	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
@@ -944,3 +944,4 @@
 1016	[test] Sore throat	[test] Sore throat	1	999158843	\N	\N	\N	0	3	2015-09-17 20:04:53	\N	\N	0	\N	\N	\N	08ac1ac0-0a3d-4732-b1ee-0c6689239690
 1017	[test] Heartburn	[test] Heartburn	1	999139059	\N	\N	\N	0	3	2015-09-17 20:04:54	\N	\N	0	\N	\N	\N	6a92f340-b962-4ece-a0a0-7f5f7db49972
 1018	[test] Notes	[test] Notes	1	999162169	\N	\N	\N	0	3	2015-09-17 20:04:54	\N	\N	0	\N	\N	\N	022a6a43-44a9-4447-82b7-79ab0742871e
+1021	Section 3	Section 3	5	\N	\N	\N	\N	0	3	2015-09-20 08:57:39	\N	\N	0	\N	\N	\N	9fa95329-ff96-4bb4-b53e-ecc94da4beb0
