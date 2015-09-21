@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-20 08:59:17	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-20 08:59:17	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-20 08:59:17	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-09-21 18:56:00	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-09-21 18:56:00	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-09-21 18:56:00	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
@@ -945,3 +945,25 @@
 1017	[test] Heartburn	[test] Heartburn	1	999139059	\N	\N	\N	0	3	2015-09-17 20:04:54	\N	\N	0	\N	\N	\N	6a92f340-b962-4ece-a0a0-7f5f7db49972
 1018	[test] Notes	[test] Notes	1	999162169	\N	\N	\N	0	3	2015-09-17 20:04:54	\N	\N	0	\N	\N	\N	022a6a43-44a9-4447-82b7-79ab0742871e
 1021	Section 3	Section 3	5	\N	\N	\N	\N	0	3	2015-09-20 08:57:39	\N	\N	0	\N	\N	\N	9fa95329-ff96-4bb4-b53e-ecc94da4beb0
+1023	TB and HIV status	TB and HIV status	5	\N	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	ec155ca9-ff40-4e28-99db-e1e145a1dcb2
+1024	Test Section	{"type": "GRID_SECTION"}	5	\N	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	629ae612-326e-4d40-8043-4bc8bb9281bb
+1025	[test] Temperature (°C)	{"label": "[test] Temperature (\\u00b0C)", "concepts": [999005088], "type": "number"}	1	999005088	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	ef992a62-ca77-4683-b670-6e810ed279bf
+1026	[test] Respiratory rate (bpm)	{"label": "[test] Respiratory rate (bpm)", "concepts": [999005242], "type": "number"}	1	999005242	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	984b6dd9-6eaf-4f9f-93bc-dc7e53d2a165
+1027	[test] SpO₂ oxygen sat (%)	{"label": "[test] SpO\\u2082 oxygen sat (%)", "concepts": [999005092], "type": "number"}	1	999005092	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	6a3e9cf2-1f1a-49f0-870e-0f720fafb99b
+1028	[test] Blood pressure, systolic	{"label": "[test] Blood pressure, systolic", "concepts": [999005085], "type": "number"}	1	999005085	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	e22ead38-0db3-47fe-882f-a6e90ad0fcb6
+1029	[test] Blood pressure, diastolic	{"label": "[test] Blood pressure, diastolic", "concepts": [999005086], "type": "number"}	1	999005086	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	97f362db-15fb-4b24-8f3b-1717de486b1c
+1030	[test] Weight (kg)	{"label": "[test] Weight (kg)", "concepts": [999005089], "type": "number"}	1	999005089	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	58ea664b-4c83-42cf-b5fc-1427b2fc1bcb
+1031	[test] Height (cm)	{"label": "[test] Height (cm)", "concepts": [999005090], "type": "number"}	1	999005090	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	7625c6d2-c605-4304-9ab1-d0a16982ef0a
+1032	[test] Shock	{"caption_format": "{1,name}", "label": "[test] Shock", "concepts": [999112989], "format": "{1,select,1107:\\u00b7;1498:\\ud834\\udf69;1499:\\ud834\\udf6a;1500:\\ud834\\udf6b}", "type": "severity_bars"}	1	999112989	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	83962581-3fa5-4b4d-b373-d666d46a632c
+1033	[test] Consciousness (AVPU)	{"label": "[test] Consciousness (AVPU)", "concepts": [999162643], "type": "select_one"}	1	999162643	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	6480d2ce-3a2a-412e-8c41-dea22d42f163
+1034	[test] Cough	{"label": "[test] Cough", "concepts": [999143264], "type": "yes_no"}	1	999143264	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	8e7a0bf4-64ea-47f4-899b-367b1b85a26a
+1035	[test] Anaemia	{"label": "[test] Anaemia", "concepts": [999115127], "type": "yes_no"}	1	999115127	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	d0b69df5-46a0-4883-a802-877060f2d7e0
+1036	[test] Scabies	{"label": "[test] Scabies", "concepts": [999000140], "type": "yes_no"}	1	999000140	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	528964a9-2b35-47c8-9a4d-e3acd9f5c793
+1037	[test] Gingivitis	{"label": "[test] Gingivitis", "concepts": [999139438], "type": "yes_no"}	1	999139438	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	276e093c-6ab4-4cbe-a64d-af5005e2b2e6
+1038	[test] Hiccups	{"label": "[test] Hiccups", "concepts": [999138862], "type": "yes_no"}	1	999138862	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	bc2f9294-167a-4d38-a23a-d0375870e188
+1039	[test] Headache	{"label": "[test] Headache", "concepts": [999139084], "type": "yes_no"}	1	999139084	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	a1005d6e-84ba-454a-b607-3b7b4e96f500
+1040	[test] Sore throat	{"label": "[test] Sore throat", "concepts": [999158843], "type": "yes_no"}	1	999158843	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	93c02cab-742e-4c92-a001-56c898f357d7
+1041	[test] Heartburn	{"label": "[test] Heartburn", "concepts": [999139059], "type": "yes_no"}	1	999139059	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	5423c489-56f0-4c32-9393-8045762421c0
+1042	Pregnant	{"label": "Pregnant", "concepts": [5272], "type": "yes_no"}	1	5272	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	7a612e83-9317-4ef9-9c43-b159455b7a87
+1043	Condition	{"label": "Condition", "concepts": [777000010], "type": "select_one"}	1	777000010	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	af44fb97-efe1-4bf4-bd24-637212f1c96e
+1044	[test] Notes	{"label": "[test] Notes", "script": "tab", "concepts": [999162169], "type": "text"}	1	999162169	\N	\N	\N	0	3	2015-09-21 18:56:00	\N	\N	0	\N	\N	\N	df09f7b0-c678-4902-ab88-bf0b1d207d7c

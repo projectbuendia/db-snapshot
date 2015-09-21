@@ -151,10 +151,7 @@ patientSearch.matchMode	START	Specifies how patient names are matched while sear
 patient_identifier.importantTypes	\N	A comma delimited list of PatientIdentifier names : PatientIdentifier locations that will be displayed on the patient dashboard.  E.g.: TRACnet ID:Rwanda,ELDID:Kenya	17d05ba8-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
 person.searchMaxResults	1000	The maximum number of results returned by patient searches	17d05aa2-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
 projectbuendia.chartUuids	ea43f213-66fb-4af6-8a49-70fd6b9ce5d4,975afbce-d4e3-4060-a25f-afcd0e5564ef	UUIDs of forms listed as charts by the REST endpoint. (Comma-separated.)	7da4d84a-ea8a-4427-ba71-b21172855b16	\N	\N	\N	\N
-projectbuendia.currentProfile	nutrition-ping-all-v2.csv	Name of the currently active profile, which defines the forms and UI customizations for the\
-      Buendia app.\
-      This should be the name of a file in /usr/share/buendia/profiles (including the .csv\
-      extension).	df6c4e15-ecad-4e1c-949b-a950ad678806	\N	\N	\N	\N
+projectbuendia.currentProfile	nutrition-vinicius-all.csv	\N	df6c4e15-ecad-4e1c-949b-a950ad678806	\N	\N	\N	\N
 projectbuendia.openmrs.mandatory	false	true/false whether or not the projectbuendia.openmrs module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	b8c47333-955c-4301-a7d9-8bdb52ec4c24	\N	\N	\N	\N
 projectbuendia.openmrs.started	true	DO NOT MODIFY. true/false whether or not the projectbuendia.openmrs module has been started.  This is used to make sure modules that were running  prior to a restart are started again	6c0b2880-b71e-4c2b-9cf8-15686aa3349d	\N	\N	\N	\N
 provider.unknownProviderUuid	\N	Specifies the uuid of the Unknown Provider account	5d925273-b965-4e8f-9c3d-eb8a4936f846	\N	\N	\N	\N
