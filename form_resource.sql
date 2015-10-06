@@ -34,7 +34,7 @@ CREATE TABLE `form_resource` (
   UNIQUE KEY `uuid` (`uuid`),
   UNIQUE KEY `unique_form_and_name` (`form_id`,`name`),
   CONSTRAINT `form_resource_form_fk` FOREIGN KEY (`form_id`) REFERENCES `form` (`form_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
