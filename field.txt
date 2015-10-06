@@ -14,9 +14,9 @@
 14	PATIENT.TRIBE		2	\N	patient	tribe	$!{patient.attributeMap.Tribe.hydratedObject.tribeId}^$!{patient.attributeMap.Tribe.hydratedObject.name}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97daa-6437-11e4-badf-42010af0dc15
 15	PATIENT_ADDRESS.ADDRESS1		2	\N	patient_address	address1	$!{patient.getPersonAddress().getAddress1()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97e69-6437-11e4-badf-42010af0dc15
 16	PATIENT_ADDRESS.ADDRESS2		2	\N	patient_address	address2	$!{patient.getPersonAddress().getAddress2()}	0	1	2006-07-18 00:00:00	\N	\N	0	\N	\N	\N	17c97f25-6437-11e4-badf-42010af0dc15
-17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-10-06 14:00:20	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
-18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-10-06 14:00:20	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
-19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-10-06 14:00:20	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
+17	encounter.encounter_datetime	Date and time of encounter	2	\N	encounter	encounter_datetime	\N	0	1	2006-07-18 00:00:00	3	2015-10-06 17:08:39	0	\N	\N	\N	17c97fec-6437-11e4-badf-42010af0dc15
+18	encounter.location_id	Location	2	\N	encounter	location_id	\N	0	1	2006-07-18 00:00:00	3	2015-10-06 17:08:39	0	\N	\N	\N	17c980b0-6437-11e4-badf-42010af0dc15
+19	encounter.provider_id	Clinician	2	\N	encounter	provider_id		0	1	2006-07-18 00:00:00	3	2015-10-06 17:08:39	0	\N	\N	\N	17c98170-6437-11e4-badf-42010af0dc15
 20	WEIGHT (KG)	Patient's weight in kilograms.	1	5089				0	1	2006-07-18 00:00:00	3	2015-01-22 11:35:40	0	\N	\N	\N	17c98231-6437-11e4-badf-42010af0dc15
 21	PROBLEM LIST	List of problems for a given patient visit.	1	1284				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c982ef-6437-11e4-badf-42010af0dc15
 22	PROBLEM ADDED	Diagnosis or problem noted on a patient encounter.	1	6042				0	1	2006-07-26 00:00:00	\N	\N	0	\N	\N	\N	17c983b4-6437-11e4-badf-42010af0dc15
@@ -1082,3 +1082,5 @@
 1193	Feeding 7	{"label": "Feeding 7", "concepts": [1777000124], "format": "{1,select,888000017:\\u25cf;888000018:3/4;888000019:1/2;888000020:1/4;888000021:\\u25cb;888000022:\\u25cb;888000023:\\u25cb}", "type": "select_one"}	1	1777000124	\N	\N	\N	0	3	2015-10-06 14:00:20	\N	\N	0	\N	\N	\N	69569282-3552-44ea-a6d0-6ed2ab877c79
 1194	Feeding 8	{"label": "Feeding 8", "concepts": [1777000125], "format": "{1,select,888000017:\\u25cf;888000018:3/4;888000019:1/2;888000020:1/4;888000021:\\u25cb;888000022:\\u25cb;888000023:\\u25cb}", "type": "select_one"}	1	1777000125	\N	\N	\N	0	3	2015-10-06 14:00:20	\N	\N	0	\N	\N	\N	58fcbbb8-3190-4d56-9fa4-b84f6ecff49f
 1195	- [debugging section] -	{"label": "- [debugging section] -", "concepts": [1777000116], "type": "number"}	1	1777000116	\N	\N	\N	0	3	2015-10-06 14:00:20	\N	\N	0	\N	\N	\N	14f45d8e-f8fb-4b41-a83c-53744406b630
+1196	[test] Temperature (°C)	{"label": "[test] Temperature (\\u00b0C)", "concepts": [999005088], "format": "#.0", "type": "number"}	1	999005088	\N	\N	\N	0	3	2015-10-06 17:08:39	\N	\N	0	\N	\N	\N	bf01d744-52d3-419a-b5eb-9e80d7a77a5c
+1197	[test] Weight (kg)	{"label": "[test] Weight (kg)", "concepts": [999005089], "format": "#.0", "type": "number"}	1	999005089	\N	\N	\N	0	3	2015-10-06 17:08:39	\N	\N	0	\N	\N	\N	8cf7adbe-df1e-4037-b0f5-0646eccd2be0
