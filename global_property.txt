@@ -145,18 +145,18 @@ patient.identifierRegex	\N	WARNING: Using this search property can cause a drop 
 patient.identifierSearchPattern	\N	If this is empty, the regex or suffix/prefix search is used.  Comma separated list of identifiers to check.  Allows for faster searching of multiple options rather than the slow regex. e.g. @SEARCH@,0@SEARCH@,@SEARCH-1@-@CHECKDIGIT@,0@SEARCH-1@-@CHECKDIGIT@ would turn a request for "4127" into a search for "in ('4127','04127','412-7','0412-7')"	28477a5d-e2e8-4f80-aafa-daf4cc4b5fbf	\N	\N	\N	\N
 patient.identifierSuffix	\N	This property is only used if patient.identifierRegex is empty.  The string here is prepended to the sql indentifier search string.  The sql becomes "... where identifier like '<PREFIX><QUERY STRING><SUFFIX>';".  Typically this value is either a percent sign (%) or empty.	17d05987-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
 patient.listingAttributeTypes	\N	A comma delimited list of PersonAttributeType names that should be displayed for patients in _lists_	17d05a16-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-patient.nameValidationRegex	\N	Names of the patients must pass this regex. Eg : ^[a-zA-Z \\-]+$ contains only english alphabet letters, spaces, and hyphens. A value of .* or the empty string means no validation is done.	2f2ad055-5511-4677-9018-1c3bfbec0e65	\N	\N	\N	\N
+patient.nameValidationRegex	^[a-zA-Z \\-]+$	Names of the patients must pass this regex. Eg : ^[a-zA-Z \\-]+$ contains only english alphabet letters, spaces, and hyphens. A value of .* or the empty string means no validation is done.	2f2ad055-5511-4677-9018-1c3bfbec0e65	\N	\N	\N	\N
 patient.viewingAttributeTypes	\N	A comma delimited list of PersonAttributeType names that should be displayed for patients when _viewing individually_	17d05b23-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
 patientSearch.matchMode	START	Specifies how patient names are matched while searching patient. Valid values are 'ANYWHERE' or 'START'. Defaults to start if missing or invalid value is present.	09aeec92-c514-4de7-9072-b999916915e5	\N	\N	\N	\N
 patient_identifier.importantTypes	\N	A comma delimited list of PatientIdentifier names : PatientIdentifier locations that will be displayed on the patient dashboard.  E.g.: TRACnet ID:Rwanda,ELDID:Kenya	17d05ba8-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
 person.searchMaxResults	1000	The maximum number of results returned by patient searches	17d05aa2-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-projectbuendia.chartUuids	ea43f213-66fb-4af6-8a49-70fd6b9ce5d4,975afbce-d4e3-4060-a25f-afcd0e5564ef	UUIDs of forms listed as charts by the REST endpoint. (Comma-separated.)	7da4d84a-ea8a-4427-ba71-b21172855b16	\N	\N	\N	\N
+projectbuendia.currentProfile	\N	Name of the currently active profile, which defines the forms and UI customizations for the Buendia app.  This should be the name of a file in /usr/share/buendia/profiles (including the .csv extension).	buendia_property_current_profile	\N	\N	\N	\N
 projectbuendia.openmrs.mandatory	false	true/false whether or not the projectbuendia.openmrs module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	b8c47333-955c-4301-a7d9-8bdb52ec4c24	\N	\N	\N	\N
 projectbuendia.openmrs.started	true	DO NOT MODIFY. true/false whether or not the projectbuendia.openmrs module has been started.  This is used to make sure modules that were running  prior to a restart are started again	6c0b2880-b71e-4c2b-9cf8-15686aa3349d	\N	\N	\N	\N
 provider.unknownProviderUuid	\N	Specifies the uuid of the Unknown Provider account	5d925273-b965-4e8f-9c3d-eb8a4936f846	\N	\N	\N	\N
 report.deleteReportsAgeInHours	72	Reports that are not explicitly saved are deleted automatically when they are this many hours old. (Values less than or equal to zero means do not delete automatically)	2013b670-a86d-4687-aca5-999cbc5d29f6	\N	\N	\N	\N
 report.xmlMacros	\N	Macros that will be applied to Report Schema XMLs when they are interpreted. This should be java.util.properties format.	17d05c33-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-reporting.dataEvaluationBatchSize	-1	This determines whether to run evaluators for Data in batches and what the size of those batches should be.\
+reporting.dataEvaluationBatchSize	-1	This determines whether to run evaluators for Data in batches and what the size of those batches should be.\
 A value of less than or equal to 0 indicates that no batching is desired.	debf729d-00c6-4ade-b8b4-471214bd25de	\N	\N	\N	\N
 reporting.defaultDateFormat	dd/MMM/yyyy	Default date format to use when formatting report data	921710fb-14cd-436b-8345-dbad5614005e	\N	\N	\N	\N
 reporting.defaultLocale	en	Default locale to use when formatting report data	98342ff4-96a5-44dd-8e9e-8a512751b12b	\N	\N	\N	\N
@@ -172,6 +172,7 @@ reporting.testPatientsCohortDefinition	\N	Points to a cohort definition represen
 reportProblem.url	http://errors.openmrs.org/scrap	The openmrs url where to submit bug reports	94b05aad-26dd-412a-adf0-38f47cd51e91	\N	\N	\N	\N
 scheduler.password	test	Password for the OpenMRS user that will perform the scheduler activities	6cb182aa-2188-4bba-93d0-d0df89c3f179	\N	\N	\N	\N
 scheduler.username	admin	Username for the OpenMRS user that will perform the scheduler activities	ecc9e12b-9ddf-418f-9adc-f29a5d2be9de	\N	\N	\N	\N
+search.caseSensitiveDatabaseStringComparison	true	Indicates whether database string comparison is case sensitive or not. Setting this to false for MySQL with a case insensitive collation improves search performance.	45eb7f56-e3f2-42f4-ae12-e8adb29ebc33	\N	\N	\N	\N
 searchWidget.batchSize	200	The maximum number of search results that are returned by an ajax call	908cf52d-9a22-4318-94c7-82e2ca0d9187	\N	\N	\N	\N
 searchWidget.maximumResults	2000	Specifies the maximum number of results to return from a single search in the search widgets	c3c8e15f-5c2a-4c88-9c6f-8ca9ed01902d	\N	\N	\N	\N
 searchWidget.runInSerialMode	false	Specifies whether the search widgets should make ajax requests in serial or parallel order, a value of true is appropriate for implementations running on a slow network connection and vice versa	ba044e44-d819-4a1e-80ee-bbb9686d1cbe	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
@@ -191,6 +192,7 @@ user.viewingAttributeTypes	\N	A comma delimited list of PersonAttributeType name
 use_patient_attribute.healthCenter	false	Indicates whether or not the 'health center' attribute is shown when viewing/searching for patients	17d05fcc-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
 use_patient_attribute.mothersName	false	Indicates whether or not mother's name is able to be added/viewed for a patient	17d06059-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
 use_patient_attribute.tribe	true	Indicates whether or not the 'tribe' attribute is shown when viewing/searching for patients	17d060f0-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
+visits.allowOverlappingVisits	true	true/false whether or not to allow visits of a given patient to overlap	ce745f44-8123-492c-ba3a-edf846f919aa	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
 visits.assignmentHandler	org.openmrs.api.handler.ExistingVisitAssignmentHandler	Set to the name of the class responsible for assigning encounters to visits.	e4a2d379-5299-42e2-95be-e21c31e73f05	\N	\N	\N	\N
 visits.autoCloseVisitType	\N	comma-separated list of the visit type(s) to automatically close	73a7b79d-3cff-4d4f-afb8-92aaa28cc58a	\N	\N	\N	\N
 visits.enabled	true	Set to true to enable the Visits feature. This will replace the 'Encounters' tab with a 'Visits' tab on the dashboard.	926f0476-e4da-4879-9e46-6173190c0450	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
@@ -201,7 +203,7 @@ webservices.rest.mandatory	false	true/false whether or not the webservices.rest 
 webservices.rest.maxResultsAbsolute	100	The absolute max results limit. If the client requests a larger number of results, then will get an error	b7157197-635e-4627-a4ce-070e280a03cb	\N	\N	\N	\N
 webservices.rest.maxResultsDefault	50	The default max results limit if the user does not provide a maximum when making the web service call.	c7e95edb-e7c1-41d7-b49d-d1b99ba62a82	\N	\N	\N	\N
 webservices.rest.started	true	DO NOT MODIFY. true/false whether or not the webservices.rest module has been started.  This is used to make sure modules that were running  prior to a restart are started again	3e206156-7bf4-4efa-80db-ac248600488c	\N	\N	\N	\N
-webservices.rest.uriPrefix	http://10.0.0.50:9000/openmrs	The URI prefix through which clients consuming web services will connect to the web application, should be of the form http://{ipAddress}:{port}/{contextPath}	5c639c83-f5d0-4df3-8dc1-fc2a787b25bb	\N	\N	\N	\N
+webservices.rest.uriPrefix	http://104.155.15.141:8080/openmrs	The URI prefix through which clients consuming web services will connect to the web application, should be of the form http://{ipAddress}:{port}/{contextPath}	5c639c83-f5d0-4df3-8dc1-fc2a787b25bb	\N	\N	\N	\N
 xforms.adminEmail	\N	An e-mail address where notifications about failed data uploads will be sent.	a0542b14-4b08-47b3-9d5f-cd2c9726fe68	\N	\N	\N	\N
 xforms.afterCancelUrl	xforms/formentry/patient.page?	The url to go to after cancelling an xform.	2475eb6e-bde6-4756-9040-6cd2e7684a7f	\N	\N	\N	\N
 xforms.afterSubmitUrl	coreapps/findpatient/findPatient.page?app=xforms.formentry	The url to go to after submitting an xform.	799f9cf6-8839-4ef2-9c2b-b95b366e1267	\N	\N	\N	\N
@@ -221,6 +223,8 @@ xforms.defaultFontSize	16	The default font size used by the form designer.	e1932
 xforms.emailServerConfig	\N	A list of e-mail server properties in a form of 'mail.smtp.host=smtp.gmail.com;mail.smtp.port=587'. See JavaMailSender for more details.	5c434baa-1387-41b1-b822-9a9f63781e7e	\N	\N	\N	\N
 xforms.encounterDateIncludesTime	true	Set to true if the encounter date should include time.	326d571f-acde-4641-846c-b23de87a9a83	\N	\N	\N	\N
 xforms.error_dir	xforms/error	Directory containing the xforms error items.  This will contain xform model xml files that have not been submitted into the formentry queue because of processing errors.	5d76c954-a8c1-42e1-b087-5c5dc5b58c53	\N	\N	\N	\N
+xforms.includePatientRelationships	true	Specifies that when creating a new xform, a node for patient relationships\
+            (relatives) should be created automatically.	49592541-c2e7-4418-a2b8-390bb03e590e	\N	\N	\N	\N
 xforms.includeUsersInXformsDownload	true	Set to true if you want to include users when downloading xforms, else set to false if you want to always load the users list separately.	fc0825d7-3583-4aab-a0b4-3a2880314778	\N	\N	\N	\N
 xforms.isRemoteFormEntry	false	Set to true if this is a remote form entry server (Not the main server).	1b98566c-260b-41dc-ae49-ada051ddaa99	\N	\N	\N	\N
 xforms.localeList	en:English	The list of locales supported by the form designer. e.g:  en:English,fr:French,es:Spanish,it:Italian,pt:Portuguese	6176f254-99c0-4a0b-95e2-0ff43b17d89a	\N	\N	\N	\N
@@ -252,6 +256,7 @@ xforms.showOfflineFormDesigner	false	Set to true if you want to show the form de
 xforms.showPreviewTab	true	Set to true if you want to display the Preview tab of the form designer.	61c69a3f-7407-4eec-a41c-5da7382d7cf5	\N	\N	\N	\N
 xforms.showSubmitSuccessMsg	false	Set to true if you want to display the form submitted successfully message every time a form is submitted successfully.	0391d42f-ed46-40eb-92e3-48b89698eff4	\N	\N	\N	\N
 xforms.showXformsSourceTab	false	Set to true if you want to display the xforms source tab of the form designer.	bca43876-ade6-4a08-872e-bc3865e8c4eb	\N	\N	\N	\N
+xforms.singleEntryForms	\N	Comma separated list of form ids that do not allow more than one entry for each patient.	0d54ca08-f0ed-42df-9dc2-0c1e8a3e58fb	\N	\N	\N	\N
 xforms.singleSelectAppearance	minimal	The appearance of single select input fields. Allowed values are: {full,minimal,compact}	81ab6100-e29e-4bad-accb-6ab1f1037f07	\N	\N	\N	\N
 xforms.smsFieldSepChar	=	The separator between questions and answers in the sms text.	43eedc90-eb76-4e29-8219-2d1daf9a6e70	\N	\N	\N	\N
 xforms.smsSendFailureReports	true	Set to true if you want sms sender to get failure reports, else set to false.	a192ae36-313f-4f80-885b-e39a55a68b60	\N	\N	\N	\N

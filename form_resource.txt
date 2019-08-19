@@ -1,2 +1,0 @@
-1	6	Clinical observation.xFormXslt	c39fc8bc-f188-4479-8b1a-c1d28f1b7dcf	org.openmrs.customdatatype.datatype.LongFreeTextDatatype	\N	org.openmrs.web.attribute.handler.LongFreeTextTextareaHandler	\N	5aaf6e41-12d6-4777-ae0e-0268b5b35527
-2	9	Clinical observation.xFormXslt	c39fc8bc-f188-4479-8b1a-c1d28f1b7dcf	org.openmrs.customdatatype.datatype.LongFreeTextDatatype	\N	org.openmrs.web.attribute.handler.LongFreeTextTextareaHandler	\N	2fe89527-9756-4104-a177-d30db1305e95

@@ -1,7 +1,0 @@
-1	Nick demo	playing around with custom reports	org.openmrs.module.reporting.report.definition.ReportDefinition	org.openmrs.module.reporting.report.definition.ReportDefinition	org.openmrs.module.reporting.serializer.ReportingSerializer	<org.openmrs.module.reporting.report.definition.ReportDefinition id="1" uuid="63c91181-dd1e-4c46-9916-52315539daf7" retired="false">\
-  <name>Nick demo</name>\
-  <description>playing around with custom reports</description>\
-  <creator id="2" uuid="129a5d04-3bd7-4e9d-8b82-dac5109cd1db"/>\
-  <dateCreated id="3">2015-01-12 13:06:36 UTC</dateCreated>\
-  <parameters id="4"/>\
-</org.openmrs.module.reporting.report.definition.ReportDefinition>	2015-01-12 13:06:36	3	\N	\N	0	\N	\N	\N	63c91181-dd1e-4c46-9916-52315539daf7

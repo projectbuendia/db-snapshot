@@ -1,7 +1,0 @@
-2	Facility Kailahun	Facility Kailahun	\N	\N	\N	\N	\N	\N	\N	\N	3	2014-11-20 11:53:18	\N	\N	\N	\N	\N	0	\N	\N	\N	\N	3449f5fe-8e6b-4250-bcaa-fca5df28ddbf	\N	\N
-6	Triage	Area for triaging patients	\N	\N	\N	\N	\N	\N	\N	\N	3	2014-11-20 16:00:12	\N	\N	\N	\N	\N	0	\N	\N	\N	2	3f75ca61-ec1a-4739-af09-25a84e3dd237	3	2014-11-20 16:19:37
-7	Suspect Zone	\N	\N	\N	\N	\N	\N	\N	\N	\N	3	2014-11-20 16:00:34	\N	\N	\N	\N	\N	0	\N	\N	\N	2	2f1e2418-ede6-481a-ad80-b9939a7fde8e	3	2014-11-20 16:19:29
-8	Probable Zone	\N	\N	\N	\N	\N	\N	\N	\N	\N	3	2014-11-20 16:00:46	\N	\N	\N	\N	\N	0	\N	\N	\N	2	3b11e7c8-a68a-4a5f-afb3-a4a053592d0e	3	2014-11-20 16:19:33
-9	Confirmed Zone	\N	\N	\N	\N	\N	\N	\N	\N	\N	3	2014-11-20 16:01:21	\N	\N	\N	\N	\N	0	\N	\N	\N	2	b9038895-9c9d-4908-9e0d-51fd535ddd3c	3	2014-11-20 16:19:12
-10	Morgue	\N	\N	\N	\N	\N	\N	\N	\N	\N	3	2014-11-20 16:01:49	\N	\N	\N	\N	\N	0	\N	\N	\N	2	4ef642b9-9843-4d0d-9b2b-84fe1984801f	3	2014-11-20 16:19:18
-170	Discharged	\N	\N	\N	\N	\N	\N	\N	\N	\N	1	2014-12-01 15:34:28	\N	\N	\N	\N	\N	0	\N	\N	\N	2	d7ca63c3-6ea0-4357-82fd-0910cc17a2cb	\N	\N

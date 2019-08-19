@@ -1,71 +1,71 @@
-Anonymous	View Navigation Menu
-Authenticated	View Concept Classes
-Authenticated	View Concept Datatypes
-Authenticated	View Encounter Types
-Authenticated	View Field Types
-Authenticated	View Global Properties
-Authenticated	View Identifier Types
-Authenticated	View Locations
-Authenticated	View Order Types
-Authenticated	View Person Attribute Types
-Authenticated	View Privileges
-Authenticated	View Relationship Types
-Authenticated	View Relationships
-Authenticated	View Roles
+Data Manager	Add Observations
 Data Assistant	Add Patients
+Data Manager	Add Patients
 Data Assistant	Add People
 Data Assistant	Add Relationships
-Data Assistant	Delete Relationships
-Data Assistant	Edit Patients
-Data Assistant	Edit People
-Data Assistant	Edit Relationships
-Data Assistant	Manage Programs
-Data Assistant	Patient Dashboard - View Demographics Section
-Data Assistant	Patient Dashboard - View Encounters Section
-Data Assistant	Patient Dashboard - View Forms Section
-Data Assistant	Patient Dashboard - View Overview Section
-Data Assistant	View Concepts
-Data Assistant	View Encounters
-Data Assistant	View Forms
-Data Assistant	View Navigation Menu
-Data Assistant	View Observations
-Data Assistant	View Patient Identifiers
-Data Assistant	View Patients
-Data Assistant	View People
-Data Assistant	View Programs
-Data Assistant	View Users
-Data Manager	Add Observations
-Data Manager	Add Patients
 Data Manager	Delete Observations
+Data Assistant	Delete Relationships
 Data Manager	Delete Report Objects
 Data Manager	Edit Encounters
 Data Manager	Edit Observations
+Data Assistant	Edit Patients
 Data Manager	Edit Patients
+Data Assistant	Edit People
+Data Assistant	Edit Relationships
 Data Manager	Manage Alerts
 Data Manager	Manage Locations
+Data Assistant	Manage Programs
+Data Assistant	Patient Dashboard - View Demographics Section
 Data Manager	Patient Dashboard - View Demographics Section
+Data Assistant	Patient Dashboard - View Encounters Section
 Data Manager	Patient Dashboard - View Encounters Section
+Data Assistant	Patient Dashboard - View Forms Section
 Data Manager	Patient Dashboard - View Forms Section
 Data Manager	Patient Dashboard - View Graphs Section
+Data Assistant	Patient Dashboard - View Overview Section
 Data Manager	View Administration Functions
+Provider	View Allergies
+Authenticated	View Concept Classes
+Authenticated	View Concept Datatypes
+Data Assistant	View Concepts
 Data Manager	View Concepts
+Provider	View Concepts
 Data Manager	View Data Entry Statistics
+Authenticated	View Encounter Types
+Data Assistant	View Encounters
 Data Manager	View Encounters
+Provider	View Encounters
+Authenticated	View Field Types
+Data Assistant	View Forms
 Data Manager	View Forms
+Authenticated	View Global Properties
+Authenticated	View Identifier Types
+Authenticated	View Locations
+Anonymous	View Navigation Menu
+Data Assistant	View Navigation Menu
 Data Manager	View Navigation Menu
+Data Assistant	View Observations
 Data Manager	View Observations
+Provider	View Observations
+Authenticated	View Order Types
 Data Manager	View Orders
 Data Manager	View Patient Cohorts
+Data Assistant	View Patient Identifiers
 Data Manager	View Patient Identifiers
-Data Manager	View Patients
-Data Manager	View People
-Data Manager	View Programs
-Data Manager	View Users
-Provider	View Allergies
-Provider	View Concepts
-Provider	View Encounters
-Provider	View Observations
 Provider	View Patient Identifiers
+Data Assistant	View Patients
+Data Manager	View Patients
 Provider	View Patients
+Data Assistant	View People
+Data Manager	View People
 Provider	View People
+Authenticated	View Person Attribute Types
+Authenticated	View Privileges
 Provider	View Problems
+Data Assistant	View Programs
+Data Manager	View Programs
+Authenticated	View Relationship Types
+Authenticated	View Relationships
+Authenticated	View Roles
+Data Assistant	View Users
+Data Manager	View Users

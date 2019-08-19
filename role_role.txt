@@ -1,2 +1,2 @@
-Provider	Clinician
 Data Assistant	Data Manager
+Provider	Clinician
