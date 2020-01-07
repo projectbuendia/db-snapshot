@@ -29,7 +29,7 @@ CREATE TABLE `concept_numeric` (
   `low_critical` double DEFAULT NULL,
   `low_normal` double DEFAULT NULL,
   `units` varchar(50) DEFAULT NULL,
-  `precise` tinyint(1) NOT NULL DEFAULT '0',
+  `allow_decimal` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`concept_id`),
   CONSTRAINT `numeric_attributes` FOREIGN KEY (`concept_id`) REFERENCES `concept` (`concept_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
