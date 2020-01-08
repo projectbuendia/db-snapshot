@@ -25,7 +25,6 @@ CREATE TABLE `patient_identifier_type` (
   `name` varchar(50) NOT NULL DEFAULT '',
   `description` text NOT NULL,
   `format` varchar(255) DEFAULT NULL,
-  `check_digit` tinyint(1) NOT NULL DEFAULT '0',
   `creator` int(11) NOT NULL DEFAULT '0',
   `date_created` datetime NOT NULL,
   `required` tinyint(1) NOT NULL DEFAULT '0',
