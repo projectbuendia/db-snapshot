@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -40,7 +40,7 @@ CREATE TABLE `orders` (
   `void_reason` varchar(255) DEFAULT NULL,
   `patient_id` int(11) NOT NULL,
   `accession_number` varchar(255) DEFAULT NULL,
-  `uuid` char(38) DEFAULT NULL,
+  `uuid` char(38) NOT NULL,
   `urgency` varchar(50) NOT NULL DEFAULT 'ROUTINE',
   `order_number` varchar(50) NOT NULL,
   `previous_order_id` int(11) DEFAULT NULL,
@@ -48,23 +48,29 @@ CREATE TABLE `orders` (
   `comment_to_fulfiller` varchar(1024) DEFAULT NULL,
   `care_setting` int(11) NOT NULL,
   `scheduled_date` datetime DEFAULT NULL,
+  `order_group_id` int(11) DEFAULT NULL,
+  `sort_weight` double DEFAULT NULL,
+  `fulfiller_comment` varchar(1024) DEFAULT NULL,
+  `fulfiller_status` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`order_id`),
   UNIQUE KEY `orders_uuid_index` (`uuid`),
   KEY `order_creator` (`creator`),
+  KEY `discontinued_because` (`order_reason`),
   KEY `orders_in_encounter` (`encounter_id`),
   KEY `type_of_order` (`order_type_id`),
+  KEY `orderer_not_drug` (`orderer`),
   KEY `order_for_patient` (`patient_id`),
   KEY `user_who_voided_order` (`voided_by`),
   KEY `previous_order_id_order_id` (`previous_order_id`),
   KEY `orders_care_setting` (`care_setting`),
-  KEY `discontinued_because` (`order_reason`),
-  KEY `fk_orderer_provider` (`orderer`),
+  KEY `orders_order_group_id_fk` (`order_group_id`),
   CONSTRAINT `discontinued_because` FOREIGN KEY (`order_reason`) REFERENCES `concept` (`concept_id`),
   CONSTRAINT `fk_orderer_provider` FOREIGN KEY (`orderer`) REFERENCES `provider` (`provider_id`),
   CONSTRAINT `order_creator` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
   CONSTRAINT `order_for_patient` FOREIGN KEY (`patient_id`) REFERENCES `patient` (`patient_id`) ON UPDATE CASCADE,
   CONSTRAINT `orders_care_setting` FOREIGN KEY (`care_setting`) REFERENCES `care_setting` (`care_setting_id`),
   CONSTRAINT `orders_in_encounter` FOREIGN KEY (`encounter_id`) REFERENCES `encounter` (`encounter_id`),
+  CONSTRAINT `orders_order_group_id_fk` FOREIGN KEY (`order_group_id`) REFERENCES `order_group` (`order_group_id`),
   CONSTRAINT `previous_order_id_order_id` FOREIGN KEY (`previous_order_id`) REFERENCES `orders` (`order_id`),
   CONSTRAINT `type_of_order` FOREIGN KEY (`order_type_id`) REFERENCES `order_type` (`order_type_id`),
   CONSTRAINT `user_who_voided_order` FOREIGN KEY (`voided_by`) REFERENCES `users` (`user_id`)
@@ -80,39 +86,3 @@ CREATE TABLE `orders` (
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed
-/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
-/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
-/*!50003 SET @saved_col_connection = @@collation_connection */ ;
-/*!50003 SET character_set_client  = utf8mb4 */ ;
-/*!50003 SET character_set_results = utf8mb4 */ ;
-/*!50003 SET collation_connection  = utf8mb4_general_ci */ ;
-/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
-/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
-DELIMITER ;;
-/*!50003 CREATE*/ /*!50003 TRIGGER `buendia_order_insert_date_updated` AFTER INSERT
-            ON `orders` FOR EACH ROW
-            REPLACE INTO `buendia_order_sync_map` (order_id, date_updated, uuid)
-            VALUES (NEW.order_id, NOW(), NEW.uuid) */;;
-DELIMITER ;
-/*!50003 SET sql_mode              = @saved_sql_mode */ ;
-/*!50003 SET character_set_client  = @saved_cs_client */ ;
-/*!50003 SET character_set_results = @saved_cs_results */ ;
-/*!50003 SET collation_connection  = @saved_col_connection */ ;
-/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
-/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
-/*!50003 SET @saved_col_connection = @@collation_connection */ ;
-/*!50003 SET character_set_client  = utf8mb4 */ ;
-/*!50003 SET character_set_results = utf8mb4 */ ;
-/*!50003 SET collation_connection  = utf8mb4_general_ci */ ;
-/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
-/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
-DELIMITER ;;
-/*!50003 CREATE*/ /*!50003 TRIGGER `buendia_order_update_date_updated` AFTER UPDATE
-            ON `orders` FOR EACH ROW
-            REPLACE INTO `buendia_order_sync_map` (order_id, date_updated, uuid)
-            VALUES (NEW.order_id, NOW(), NEW.uuid) */;;
-DELIMITER ;
-/*!50003 SET sql_mode              = @saved_sql_mode */ ;
-/*!50003 SET character_set_client  = @saved_cs_client */ ;
-/*!50003 SET character_set_results = @saved_cs_results */ ;
-/*!50003 SET collation_connection  = @saved_col_connection */ ;

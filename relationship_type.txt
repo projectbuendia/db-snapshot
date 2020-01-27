@@ -1,4 +1,4 @@
-1	Doctor	Patient	0	0	Relationship from a primary care provider to the patient	1	2007-05-04 00:00:00	0	\N	\N	\N	8d919b58-c2cc-11de-8d13-0010c6dffd0f
-2	Sibling	Sibling	0	0	Relationship between brother/sister, brother/brother, and sister/sister	1	2007-05-04 00:00:00	0	\N	\N	\N	8d91a01c-c2cc-11de-8d13-0010c6dffd0f
-3	Parent	Child	0	0	Relationship from a mother/father to the child	1	2007-05-04 00:00:00	0	\N	\N	\N	8d91a210-c2cc-11de-8d13-0010c6dffd0f
-4	Aunt/Uncle	Niece/Nephew	0	0	Relationship from a parent's sibling to a child of that parent	1	2007-05-04 00:00:00	0	\N	\N	\N	8d91a3dc-c2cc-11de-8d13-0010c6dffd0f
+1	Doctor	Patient	0	0	Relationship from a primary care provider to the patient	1	2007-05-04 00:00:00	0	\N	\N	\N	8d919b58-c2cc-11de-8d13-0010c6dffd0f	\N	\N
+2	Sibling	Sibling	0	0	Relationship between brother/sister, brother/brother, and sister/sister	1	2007-05-04 00:00:00	0	\N	\N	\N	8d91a01c-c2cc-11de-8d13-0010c6dffd0f	\N	\N
+3	Parent	Child	0	0	Relationship from a mother/father to the child	1	2007-05-04 00:00:00	0	\N	\N	\N	8d91a210-c2cc-11de-8d13-0010c6dffd0f	\N	\N
+4	Aunt/Uncle	Niece/Nephew	0	0	Relationship from a parent's sibling to a child of that parent	1	2007-05-04 00:00:00	0	\N	\N	\N	8d91a3dc-c2cc-11de-8d13-0010c6dffd0f	\N	\N

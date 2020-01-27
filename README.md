@@ -1,4 +1,4 @@
-openmrs-data
-============
+db-snapshot
+===========
 
-Storage for the OpenMRS database data for a clean instance
+Initial contents of the database for a clean OpenMRS instance.

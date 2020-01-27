@@ -1,1 +1,2 @@
-1	OpenMRS Identification Number	Unique number used in OpenMRS		1	2005-09-22 00:00:00	0	\N	org.openmrs.patient.impl.LuhnIdentifierValidator	\N	0	\N	\N	\N	8d793bee-c2cc-11de-8d13-0010c6dffd0f
+1	OpenMRS Identification Number	Unique number used in OpenMRS		1	1	2005-09-22 00:00:00	0	\N	org.openmrs.patient.impl.LuhnIdentifierValidator	\N	0	\N	\N	\N	8d793bee-c2cc-11de-8d13-0010c6dffd0f	\N	\N	\N
+2	Old Identification Number	Number given out prior to the OpenMRS system (No check digit)		0	1	2005-09-22 00:00:00	0	\N	\N	\N	0	\N	\N	\N	8d79403a-c2cc-11de-8d13-0010c6dffd0f	\N	\N	\N

@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -34,8 +34,8 @@ CREATE TABLE `order_frequency` (
   `date_changed` datetime DEFAULT NULL,
   `uuid` char(38) NOT NULL,
   PRIMARY KEY (`order_frequency_id`),
-  UNIQUE KEY `uuid` (`uuid`),
   UNIQUE KEY `concept_id` (`concept_id`),
+  UNIQUE KEY `uuid` (`uuid`),
   KEY `order_frequency_creator_fk` (`creator`),
   KEY `order_frequency_retired_by_fk` (`retired_by`),
   KEY `order_frequency_changed_by_fk` (`changed_by`),
@@ -43,7 +43,7 @@ CREATE TABLE `order_frequency` (
   CONSTRAINT `order_frequency_concept_id_fk` FOREIGN KEY (`concept_id`) REFERENCES `concept` (`concept_id`),
   CONSTRAINT `order_frequency_creator_fk` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
   CONSTRAINT `order_frequency_retired_by_fk` FOREIGN KEY (`retired_by`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

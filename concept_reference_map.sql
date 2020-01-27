@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -22,18 +22,18 @@ DROP TABLE IF EXISTS `concept_reference_map`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `concept_reference_map` (
   `concept_map_id` int(11) NOT NULL AUTO_INCREMENT,
-  `creator` int(11) NOT NULL DEFAULT '0',
-  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `concept_id` int(11) NOT NULL DEFAULT '0',
-  `uuid` char(38) NOT NULL,
   `concept_reference_term_id` int(11) NOT NULL,
   `concept_map_type_id` int(11) NOT NULL DEFAULT '1',
+  `creator` int(11) NOT NULL DEFAULT '0',
+  `date_created` datetime NOT NULL,
+  `concept_id` int(11) NOT NULL DEFAULT '0',
   `changed_by` int(11) DEFAULT NULL,
   `date_changed` datetime DEFAULT NULL,
+  `uuid` char(38) NOT NULL,
   PRIMARY KEY (`concept_map_id`),
-  UNIQUE KEY `concept_map_uuid_index` (`uuid`),
-  KEY `map_creator` (`creator`),
+  UNIQUE KEY `concept_reference_map_uuid_id` (`uuid`),
   KEY `map_for_concept` (`concept_id`),
+  KEY `map_creator` (`creator`),
   KEY `mapped_concept_map_type` (`concept_map_type_id`),
   KEY `mapped_user_changed_ref_term` (`changed_by`),
   KEY `mapped_concept_reference_term` (`concept_reference_term_id`),
@@ -42,7 +42,7 @@ CREATE TABLE `concept_reference_map` (
   CONSTRAINT `mapped_concept_map_type` FOREIGN KEY (`concept_map_type_id`) REFERENCES `concept_map_type` (`concept_map_type_id`),
   CONSTRAINT `mapped_concept_reference_term` FOREIGN KEY (`concept_reference_term_id`) REFERENCES `concept_reference_term` (`concept_reference_term_id`),
   CONSTRAINT `mapped_user_changed_ref_term` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1000001 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

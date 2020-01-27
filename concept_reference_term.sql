@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -23,10 +23,10 @@ DROP TABLE IF EXISTS `concept_reference_term`;
 CREATE TABLE `concept_reference_term` (
   `concept_reference_term_id` int(11) NOT NULL AUTO_INCREMENT,
   `concept_source_id` int(11) NOT NULL,
-  `name` varchar(255) COLLATE utf8_bin DEFAULT NULL,
-  `code` varchar(255) COLLATE utf8_bin NOT NULL,
-  `version` varchar(255) COLLATE utf8_bin DEFAULT NULL,
-  `description` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `code` varchar(255) NOT NULL,
+  `version` varchar(255) DEFAULT NULL,
+  `description` varchar(255) DEFAULT NULL,
   `creator` int(11) NOT NULL,
   `date_created` datetime NOT NULL,
   `date_changed` datetime DEFAULT NULL,
@@ -34,8 +34,8 @@ CREATE TABLE `concept_reference_term` (
   `retired` tinyint(1) NOT NULL DEFAULT '0',
   `retired_by` int(11) DEFAULT NULL,
   `date_retired` datetime DEFAULT NULL,
-  `retire_reason` varchar(255) COLLATE utf8_bin DEFAULT NULL,
-  `uuid` char(38) COLLATE utf8_bin NOT NULL,
+  `retire_reason` varchar(255) DEFAULT NULL,
+  `uuid` char(38) NOT NULL,
   PRIMARY KEY (`concept_reference_term_id`),
   UNIQUE KEY `uuid` (`uuid`),
   KEY `mapped_user_creator` (`creator`),
@@ -47,7 +47,7 @@ CREATE TABLE `concept_reference_term` (
   CONSTRAINT `mapped_user_changed` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`),
   CONSTRAINT `mapped_user_creator` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
   CONSTRAINT `mapped_user_retired` FOREIGN KEY (`retired_by`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1000001 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

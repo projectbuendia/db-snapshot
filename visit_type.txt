@@ -1,2 +1,0 @@
-1	Outpatient	An Outpatient type of visit	1	2011-12-09 00:00:00	\N	\N	0	\N	\N	\N	73bbb069-9781-4afc-a9d1-54b6b2270e01
-2	Hospitalization	A Hospitalization type of visit	1	2011-12-09 00:00:00	\N	\N	0	\N	\N	\N	73bbb069-9781-4afc-a9d1-54b6b2270e02

@@ -1,4 +1,0 @@
-1	ADULTINITIAL	Outpatient Adult Initial Visit	1	2005-02-24 00:00:00	0	\N	\N	\N	8d5b27bc-c2cc-11de-8d13-0010c6dffd0f
-2	ADULTRETURN	Outpatient Adult Return Visit	1	2005-02-24 00:00:00	0	\N	\N	\N	8d5b2be0-c2cc-11de-8d13-0010c6dffd0f
-3	PEDSINITIAL	Outpatient Pediatric Initial Visit	1	2005-02-24 00:00:00	0	\N	\N	\N	8d5b2dde-c2cc-11de-8d13-0010c6dffd0f
-4	PEDSRETURN	Outpatient Pediatric Return Visit	1	2005-02-24 00:00:00	0	\N	\N	\N	8d5b3108-c2cc-11de-8d13-0010c6dffd0f

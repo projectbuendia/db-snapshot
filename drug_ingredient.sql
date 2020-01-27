@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -21,14 +21,19 @@ DROP TABLE IF EXISTS `drug_ingredient`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `drug_ingredient` (
-  `concept_id` int(11) NOT NULL DEFAULT '0',
-  `ingredient_id` int(11) NOT NULL DEFAULT '0',
-  `uuid` char(38) DEFAULT NULL,
-  PRIMARY KEY (`ingredient_id`,`concept_id`),
-  KEY `combination_drug` (`concept_id`),
-  CONSTRAINT `combination_drug` FOREIGN KEY (`concept_id`) REFERENCES `concept` (`concept_id`),
-  CONSTRAINT `ingredient` FOREIGN KEY (`ingredient_id`) REFERENCES `concept` (`concept_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `drug_id` int(11) NOT NULL,
+  `ingredient_id` int(11) NOT NULL,
+  `uuid` char(38) NOT NULL,
+  `strength` double DEFAULT NULL,
+  `units` int(11) DEFAULT NULL,
+  PRIMARY KEY (`drug_id`,`ingredient_id`),
+  UNIQUE KEY `uuid` (`uuid`),
+  KEY `drug_ingredient_units_fk` (`units`),
+  KEY `drug_ingredient_ingredient_id_fk` (`ingredient_id`),
+  CONSTRAINT `drug_ingredient_drug_id_fk` FOREIGN KEY (`drug_id`) REFERENCES `drug` (`drug_id`),
+  CONSTRAINT `drug_ingredient_ingredient_id_fk` FOREIGN KEY (`ingredient_id`) REFERENCES `concept` (`concept_id`),
+  CONSTRAINT `drug_ingredient_units_fk` FOREIGN KEY (`units`) REFERENCES `concept` (`concept_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

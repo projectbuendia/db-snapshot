@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `person_attribute_type`;
 CREATE TABLE `person_attribute_type` (
   `person_attribute_type_id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(50) NOT NULL DEFAULT '',
-  `description` text NOT NULL,
+  `description` text,
   `format` varchar(50) DEFAULT NULL,
   `foreign_key` int(11) DEFAULT NULL,
   `searchable` tinyint(1) NOT NULL DEFAULT '0',
@@ -37,7 +37,7 @@ CREATE TABLE `person_attribute_type` (
   `retire_reason` varchar(255) DEFAULT NULL,
   `edit_privilege` varchar(255) DEFAULT NULL,
   `sort_weight` double DEFAULT NULL,
-  `uuid` char(38) DEFAULT NULL,
+  `uuid` char(38) NOT NULL,
   PRIMARY KEY (`person_attribute_type_id`),
   UNIQUE KEY `person_attribute_type_uuid_index` (`uuid`),
   KEY `attribute_is_searchable` (`searchable`),
@@ -51,7 +51,7 @@ CREATE TABLE `person_attribute_type` (
   CONSTRAINT `attribute_type_creator` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
   CONSTRAINT `privilege_which_can_edit` FOREIGN KEY (`edit_privilege`) REFERENCES `privilege` (`privilege`),
   CONSTRAINT `user_who_retired_person_attribute_type` FOREIGN KEY (`retired_by`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

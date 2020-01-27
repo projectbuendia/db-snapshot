@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -24,13 +24,18 @@ CREATE TABLE `global_property` (
   `property` varchar(255) NOT NULL DEFAULT '',
   `property_value` text,
   `description` text,
-  `uuid` char(38) DEFAULT NULL,
+  `uuid` char(38) NOT NULL,
   `datatype` varchar(255) DEFAULT NULL,
   `datatype_config` text,
   `preferred_handler` varchar(255) DEFAULT NULL,
   `handler_config` text,
+  `date_changed` datetime DEFAULT NULL,
+  `changed_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`property`),
-  UNIQUE KEY `global_property_uuid_index` (`uuid`)
+  UNIQUE KEY `global_property_uuid_index` (`uuid`),
+  KEY `global_property_property_index` (`property`),
+  KEY `global_property_changed_by` (`changed_by`),
+  CONSTRAINT `global_property_changed_by` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 

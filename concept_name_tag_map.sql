@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -23,8 +23,8 @@ DROP TABLE IF EXISTS `concept_name_tag_map`;
 CREATE TABLE `concept_name_tag_map` (
   `concept_name_id` int(11) NOT NULL,
   `concept_name_tag_id` int(11) NOT NULL,
-  KEY `map_name` (`concept_name_id`),
-  KEY `map_name_tag` (`concept_name_tag_id`),
+  KEY `mapped_concept_name` (`concept_name_id`),
+  KEY `mapped_concept_name_tag` (`concept_name_tag_id`),
   CONSTRAINT `mapped_concept_name` FOREIGN KEY (`concept_name_id`) REFERENCES `concept_name` (`concept_name_id`),
   CONSTRAINT `mapped_concept_name_tag` FOREIGN KEY (`concept_name_tag_id`) REFERENCES `concept_name_tag` (`concept_name_tag_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

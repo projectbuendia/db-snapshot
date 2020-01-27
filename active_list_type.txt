@@ -1,2 +1,0 @@
-1	Allergy	An Allergy the Patient may have	1	2010-05-28 00:00:00	0	\N	\N	\N	96f4f603-6a99-11df-a648-37a07f9c90fb
-2	Problem	A Problem the Patient may have	1	2010-05-28 00:00:00	0	\N	\N	\N	a0c7422b-6a99-11df-a648-37a07f9c90fb

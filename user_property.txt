@@ -1,6 +1,2 @@
-1	defaultLocation	
-1	loginAttempts	6
-1	notification	
-1	notificationAddress	
-1	showRetired	false
-1	showVerbose	false
+1	lockoutTimestamp	
+1	loginAttempts	0

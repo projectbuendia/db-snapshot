@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -30,30 +30,30 @@ CREATE TABLE `drug` (
   `minimum_daily_dose` double DEFAULT NULL,
   `route` int(11) DEFAULT NULL,
   `creator` int(11) NOT NULL DEFAULT '0',
-  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_created` datetime NOT NULL,
   `retired` tinyint(1) NOT NULL DEFAULT '0',
+  `changed_by` int(11) DEFAULT NULL,
+  `date_changed` datetime DEFAULT NULL,
   `retired_by` int(11) DEFAULT NULL,
   `date_retired` datetime DEFAULT NULL,
   `retire_reason` varchar(255) DEFAULT NULL,
   `uuid` char(38) NOT NULL,
-  `date_changed` datetime DEFAULT NULL,
-  `changed_by` int(11) DEFAULT NULL,
   `strength` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`drug_id`),
   UNIQUE KEY `drug_uuid_index` (`uuid`),
-  KEY `drug_creator` (`creator`),
   KEY `primary_drug_concept` (`concept_id`),
-  KEY `dosage_form_concept` (`dosage_form`),
-  KEY `route_concept` (`route`),
-  KEY `user_who_voided_drug` (`retired_by`),
+  KEY `drug_creator` (`creator`),
   KEY `drug_changed_by` (`changed_by`),
+  KEY `dosage_form_concept` (`dosage_form`),
+  KEY `drug_retired_by` (`retired_by`),
+  KEY `route_concept` (`route`),
   CONSTRAINT `dosage_form_concept` FOREIGN KEY (`dosage_form`) REFERENCES `concept` (`concept_id`),
   CONSTRAINT `drug_changed_by` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`),
   CONSTRAINT `drug_creator` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
   CONSTRAINT `drug_retired_by` FOREIGN KEY (`retired_by`) REFERENCES `users` (`user_id`),
   CONSTRAINT `primary_drug_concept` FOREIGN KEY (`concept_id`) REFERENCES `concept` (`concept_id`),
   CONSTRAINT `route_concept` FOREIGN KEY (`route`) REFERENCES `concept` (`concept_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1000001 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

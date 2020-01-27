@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -25,7 +25,7 @@ CREATE TABLE `field_answer` (
   `answer_id` int(11) NOT NULL DEFAULT '0',
   `creator` int(11) NOT NULL DEFAULT '0',
   `date_created` datetime NOT NULL,
-  `uuid` char(38) DEFAULT NULL,
+  `uuid` char(38) NOT NULL,
   PRIMARY KEY (`field_id`,`answer_id`),
   UNIQUE KEY `field_answer_uuid_index` (`uuid`),
   KEY `field_answer_concept` (`answer_id`),

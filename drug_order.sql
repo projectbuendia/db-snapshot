@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `drug_order`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `drug_order` (
   `order_id` int(11) NOT NULL DEFAULT '0',
-  `drug_inventory_id` int(11) DEFAULT NULL,
+  `drug_inventory_id` int(11),
   `dose` double DEFAULT NULL,
   `as_needed` tinyint(1) DEFAULT NULL,
   `dosing_type` varchar(255) DEFAULT NULL,
@@ -38,6 +38,7 @@ CREATE TABLE `drug_order` (
   `frequency` int(11) DEFAULT NULL,
   `brand_name` varchar(255) DEFAULT NULL,
   `dispense_as_written` tinyint(1) NOT NULL DEFAULT '0',
+  `drug_non_coded` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`order_id`),
   KEY `inventory_item` (`drug_inventory_id`),
   KEY `drug_order_duration_units_fk` (`duration_units`),

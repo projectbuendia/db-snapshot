@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -44,9 +44,18 @@ CREATE TABLE `location` (
   `date_retired` datetime DEFAULT NULL,
   `retire_reason` varchar(255) DEFAULT NULL,
   `parent_location` int(11) DEFAULT NULL,
-  `uuid` char(38) DEFAULT NULL,
+  `uuid` char(38) NOT NULL,
   `changed_by` int(11) DEFAULT NULL,
   `date_changed` datetime DEFAULT NULL,
+  `address7` varchar(255) DEFAULT NULL,
+  `address8` varchar(255) DEFAULT NULL,
+  `address9` varchar(255) DEFAULT NULL,
+  `address10` varchar(255) DEFAULT NULL,
+  `address11` varchar(255) DEFAULT NULL,
+  `address12` varchar(255) DEFAULT NULL,
+  `address13` varchar(255) DEFAULT NULL,
+  `address14` varchar(255) DEFAULT NULL,
+  `address15` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`location_id`),
   UNIQUE KEY `location_uuid_index` (`uuid`),
   KEY `name_of_location` (`name`),
@@ -59,7 +68,7 @@ CREATE TABLE `location` (
   CONSTRAINT `parent_location` FOREIGN KEY (`parent_location`) REFERENCES `location` (`location_id`),
   CONSTRAINT `user_who_created_location` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
   CONSTRAINT `user_who_retired_location` FOREIGN KEY (`retired_by`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

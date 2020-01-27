@@ -1,3 +1,2 @@
 2	Drug Order	An order for a medication to be given to the patient	1	2010-05-12 00:00:00	0	\N	\N	\N	131168f4-15f5-102d-96e4-000c29c2a5d7	org.openmrs.DrugOrder	\N	\N	\N
 3	Test Order	Order type for test orders	1	2014-03-09 00:00:00	0	\N	\N	\N	52a447d3-a64a-11e3-9aeb-50e549534c5e	org.openmrs.TestOrder	\N	\N	\N
-4	Misc order	Misc order	3	2019-07-11 10:12:06	0	\N	\N	\N	2ebeb2e6-68c3-4134-9b95-5a1c32294b25	org.openmrs.Order	\N	\N	\N

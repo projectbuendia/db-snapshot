@@ -1,0 +1,17 @@
+1	2	2016-07-07 08:15:10	\N	\N	encounterLocation	org.openmrs.logic.datasource.EncounterDataSource	encounterLocation	encounterLocation	b06d3ddb-170e-4e17-a04a-d8d1cd349a4d
+2	2	2016-07-07 08:15:10	\N	\N	encounterProvider	org.openmrs.logic.datasource.EncounterDataSource	encounterProvider	encounterProvider	2fff4388-7ca7-4686-ac66-f38090048ff9
+3	2	2016-07-07 08:15:10	\N	\N	encounter	org.openmrs.logic.datasource.EncounterDataSource	encounter	encounter	efee7046-c86f-4aba-b6f6-e544f9077e02
+4	2	2016-07-07 08:15:10	\N	\N	identifier	org.openmrs.logic.datasource.PatientDataSource	identifier	identifier	815c7955-dd76-4226-ac32-b08496b373c6
+5	2	2016-07-07 08:15:10	\N	\N	family name	org.openmrs.logic.datasource.PersonDataSource	family name	family name	50606952-2e58-4b62-8650-9a58192fb0b8
+6	2	2016-07-07 08:15:10	\N	\N	middle name	org.openmrs.logic.datasource.PersonDataSource	middle name	middle name	ecfe6086-d4a3-4236-bdf9-261d4ea39dab
+7	2	2016-07-07 08:15:10	\N	\N	death date	org.openmrs.logic.datasource.PersonDataSource	death date	death date	bb3b8e24-ad31-4737-a90d-1b6e10ce0e74
+8	2	2016-07-07 08:15:10	\N	\N	birthdate	org.openmrs.logic.datasource.PersonDataSource	birthdate	birthdate	f8b85cf7-2260-4902-a8fa-6d0c77189661
+9	2	2016-07-07 08:15:10	\N	\N	cause of death	org.openmrs.logic.datasource.PersonDataSource	cause of death	cause of death	cc36441e-2b2f-4450-8fac-f0f85e73ef3f
+10	2	2016-07-07 08:15:10	\N	\N	birthdate estimated	org.openmrs.logic.datasource.PersonDataSource	birthdate estimated	birthdate estimated	d0c05d58-c54d-40f7-bd0d-d21cabb81c4f
+11	2	2016-07-07 08:15:10	\N	\N	gender	org.openmrs.logic.datasource.PersonDataSource	gender	gender	d7da980c-4f63-4ca5-b0f5-ed5e40f44ba1
+12	2	2016-07-07 08:15:10	\N	\N	family name2	org.openmrs.logic.datasource.PersonDataSource	family name2	family name2	f1889d0e-c043-40cd-b30d-45546c9d8220
+13	2	2016-07-07 08:15:10	\N	\N	dead	org.openmrs.logic.datasource.PersonDataSource	dead	dead	4c098e08-e1fd-417f-b3ea-e9b5e500cb95
+14	2	2016-07-07 08:15:10	\N	\N	given name	org.openmrs.logic.datasource.PersonDataSource	given name	given name	29555b7d-c71e-4e14-8773-75b0dbbb2da0
+15	2	2016-07-07 08:15:10	\N	\N	CURRENT STATE	org.openmrs.logic.datasource.ProgramDataSource	CURRENT STATE	CURRENT STATE	167efad0-8f0a-44f9-9f33-24663eaa22e9
+16	2	2016-07-07 08:15:10	\N	\N	PROGRAM ENROLLMENT	org.openmrs.logic.datasource.ProgramDataSource	PROGRAM ENROLLMENT	PROGRAM ENROLLMENT	8c77f6a6-d183-47af-ab5d-b97aea4d9ca7
+17	2	2016-07-07 08:15:10	\N	\N	PROGRAM COMPLETION	org.openmrs.logic.datasource.ProgramDataSource	PROGRAM COMPLETION	PROGRAM COMPLETION	fe9e859f-e86f-4bde-a2b1-66f2da8ec842

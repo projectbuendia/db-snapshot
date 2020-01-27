@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -23,22 +23,24 @@ DROP TABLE IF EXISTS `concept_name_tag`;
 CREATE TABLE `concept_name_tag` (
   `concept_name_tag_id` int(11) NOT NULL AUTO_INCREMENT,
   `tag` varchar(50) NOT NULL,
-  `description` text NOT NULL,
+  `description` text,
   `creator` int(11) NOT NULL DEFAULT '0',
-  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_created` datetime NOT NULL,
   `voided` tinyint(1) NOT NULL DEFAULT '0',
   `voided_by` int(11) DEFAULT NULL,
   `date_voided` datetime DEFAULT NULL,
   `void_reason` varchar(255) DEFAULT NULL,
   `uuid` char(38) NOT NULL,
+  `date_changed` datetime DEFAULT NULL,
+  `changed_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`concept_name_tag_id`),
-  UNIQUE KEY `concept_name_tag_id` (`concept_name_tag_id`),
-  UNIQUE KEY `concept_name_tag_id_2` (`concept_name_tag_id`),
   UNIQUE KEY `concept_name_tag_unique_tags` (`tag`),
   UNIQUE KEY `concept_name_tag_uuid_index` (`uuid`),
   KEY `user_who_created_name_tag` (`creator`),
-  KEY `user_who_voided_name_tag` (`voided_by`)
-) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
+  KEY `user_who_voided_name_tag` (`voided_by`),
+  KEY `concept_name_tag_changed_by` (`changed_by`),
+  CONSTRAINT `concept_name_tag_changed_by` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

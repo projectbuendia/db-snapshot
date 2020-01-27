@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -31,7 +31,6 @@ CREATE TABLE `obs` (
   `obs_group_id` int(11) DEFAULT NULL,
   `accession_number` varchar(255) DEFAULT NULL,
   `value_group_id` int(11) DEFAULT NULL,
-  `value_boolean` tinyint(1) DEFAULT NULL,
   `value_coded` int(11) DEFAULT NULL,
   `value_coded_name_id` int(11) DEFAULT NULL,
   `value_drug` int(11) DEFAULT NULL,
@@ -39,7 +38,7 @@ CREATE TABLE `obs` (
   `value_numeric` double DEFAULT NULL,
   `value_modifier` varchar(2) DEFAULT NULL,
   `value_text` text,
-  `value_complex` varchar(255) DEFAULT NULL,
+  `value_complex` varchar(1000) DEFAULT NULL,
   `comments` varchar(255) DEFAULT NULL,
   `creator` int(11) NOT NULL DEFAULT '0',
   `date_created` datetime NOT NULL,
@@ -47,8 +46,11 @@ CREATE TABLE `obs` (
   `voided_by` int(11) DEFAULT NULL,
   `date_voided` datetime DEFAULT NULL,
   `void_reason` varchar(255) DEFAULT NULL,
-  `uuid` char(38) DEFAULT NULL,
+  `uuid` char(38) NOT NULL,
   `previous_version` int(11) DEFAULT NULL,
+  `form_namespace_and_path` varchar(255) DEFAULT NULL,
+  `status` varchar(16) NOT NULL DEFAULT 'FINAL',
+  `interpretation` varchar(32) DEFAULT NULL,
   PRIMARY KEY (`obs_id`),
   UNIQUE KEY `obs_uuid_index` (`uuid`),
   KEY `obs_datetime_idx` (`obs_datetime`),
@@ -88,39 +90,3 @@ CREATE TABLE `obs` (
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed
-/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
-/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
-/*!50003 SET @saved_col_connection = @@collation_connection */ ;
-/*!50003 SET character_set_client  = utf8mb4 */ ;
-/*!50003 SET character_set_results = utf8mb4 */ ;
-/*!50003 SET collation_connection  = utf8mb4_general_ci */ ;
-/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
-/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
-DELIMITER ;;
-/*!50003 CREATE*/ /*!50003 TRIGGER `buendia_obs_insert_date_updated` AFTER INSERT
-            ON `obs` FOR EACH ROW
-            REPLACE INTO `buendia_obs_sync_map` (obs_id, date_updated, uuid)
-            VALUES (NEW.obs_id, NOW(), NEW.uuid) */;;
-DELIMITER ;
-/*!50003 SET sql_mode              = @saved_sql_mode */ ;
-/*!50003 SET character_set_client  = @saved_cs_client */ ;
-/*!50003 SET character_set_results = @saved_cs_results */ ;
-/*!50003 SET collation_connection  = @saved_col_connection */ ;
-/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
-/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
-/*!50003 SET @saved_col_connection = @@collation_connection */ ;
-/*!50003 SET character_set_client  = utf8mb4 */ ;
-/*!50003 SET character_set_results = utf8mb4 */ ;
-/*!50003 SET collation_connection  = utf8mb4_general_ci */ ;
-/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
-/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
-DELIMITER ;;
-/*!50003 CREATE*/ /*!50003 TRIGGER `buendia_obs_update_date_updated` AFTER UPDATE
-            ON `obs` FOR EACH ROW
-            REPLACE INTO `buendia_obs_sync_map` (obs_id, date_updated, uuid)
-            VALUES (NEW.obs_id, NOW(), NEW.uuid) */;;
-DELIMITER ;
-/*!50003 SET sql_mode              = @saved_sql_mode */ ;
-/*!50003 SET character_set_client  = @saved_cs_client */ ;
-/*!50003 SET character_set_results = @saved_cs_results */ ;
-/*!50003 SET collation_connection  = @saved_col_connection */ ;

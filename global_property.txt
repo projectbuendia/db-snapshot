@@ -1,280 +1,233 @@
-application.name	OpenMRS	The name of this application, as presented to the user, for example on the login and welcome pages.	41ae95ff-5c56-41dd-b225-a154e3656ad4	\N	\N	\N	\N
-calculation.mandatory	false	true/false whether or not the calculation module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	34e34053-ee41-4f8b-ab30-a57481fe7755	\N	\N	\N	\N
-calculation.started	false	DO NOT MODIFY. true/false whether or not the calculation module has been started.  This is used to make sure modules that were running  prior to a restart are started again	4d396901-e87f-420b-a74e-8d612fcaee5b	\N	\N	\N	\N
-ciel.conceptsVersion	20150123	Date or version of CIEL concept dictionary present in the database	f7703d13-8650-400c-811b-baf37d3bae91	\N	\N	\N	\N
-concept.caseSensitiveNamesInConceptNameTable	true	Indicates whether names in the concept_name table are case sensitive or not. Setting this to false for MySQL with a case insensitive collation improves search performance.	d416fc3a-8276-444f-828f-36618461abcc	\N	\N	\N	\N
-concept.causeOfDeath	5002	Concept id of the concept defining the CAUSE OF DEATH concept	17d03e79-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-concept.cd4_count	5497	Concept id of the concept defining the CD4 count concept	17d03fb4-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-concept.defaultConceptMapType	NARROWER-THAN	Default concept map type which is used when no other is set	06f7f580-0643-4797-893b-3d66a2fabf0f	\N	\N	\N	\N
-concept.false	1066	Concept id of the concept defining the FALSE boolean concept	8c9c3f4f-008c-460b-8d84-8798710750ee	\N	\N	\N	\N
-concept.height	5090	Concept id of the concept defining the HEIGHT concept	17d0404f-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-concept.medicalRecordObservations	1238	The concept id of the MEDICAL_RECORD_OBSERVATIONS concept.  This concept_id is presumed to be the generic grouping (obr) concept in hl7 messages.  An obs_group row is not created for this concept.	17d040e0-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-concept.none	1107	Concept id of the concept defining the NONE concept	17d0417f-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-concept.otherNonCoded	5622	Concept id of the concept defining the OTHER NON-CODED concept	17d0420c-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-concept.patientDied	1742	Concept id of the concept defining the PATIEND DIED concept	17d042a0-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-concept.problemList	1284	The concept id of the PROBLEM LIST concept.  This concept_id is presumed to be the generic grouping (obr) concept in hl7 messages.  An obs_group row is not created for this concept.	367e8782-6b9b-4b8e-b642-0b2831ea9385	\N	\N	\N	\N
-concept.reasonExitedCare	1811	Concept id of the concept defining the REASON EXITED CARE concept	17d0432f-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-concept.reasonOrderStopped	6098	Concept id of the concept defining the REASON ORDER STOPPED concept	17d043bc-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-concept.true	1065	Concept id of the concept defining the TRUE boolean concept	e7827b21-1c73-4ddc-95ef-b50d3c7de070	\N	\N	\N	\N
-concept.weight	5089	Concept id of the concept defining the WEIGHT concept	17d0444c-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-conceptDrug.dosageForm.conceptClasses	\N	A comma-separated list of the allowed concept classes for the dosage form field of the concept drug management form.	4de74d59-f0a8-44c5-b6a8-75c41f8145f4	\N	\N	\N	\N
-conceptDrug.route.conceptClasses	\N	A comma-separated list of the allowed concept classes for the route field of the concept drug management form.	a8f1c761-8be8-4a5f-ae16-62d0ec1c47da	\N	\N	\N	\N
-concepts.locked	false	true/false whether or not concepts can be edited in this database.	17d044d5-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-concept_map_type_management.enable	false	Enables or disables management of concept map types	0ede6344-594c-4ee1-b0cb-645a0759cd05	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-dashboard.encounters.maximumNumberToShow	\N	An integer which, if specified, would determine the maximum number of encounters to display on the encounter tab of the patient dashboard.	e7fa0906-ef1c-4223-809e-9f9d87b8ecb0	\N	\N	\N	\N
-dashboard.encounters.providerDisplayRoles	\N	A comma-separated list of encounter roles (by name or id). Providers with these roles in an encounter will be displayed on the encounter tab of the patient dashboard.	93707065-bb7c-4593-ab41-af9ae1c74f0d	\N	\N	\N	\N
-dashboard.encounters.showEditLink	true	true/false whether or not to show the 'Edit Encounter' link on the patient dashboard	17d04573-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-dashboard.encounters.showEmptyFields	true	true/false whether or not to show empty fields on the 'View Encounter' window	17d0460b-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-dashboard.encounters.showViewLink	true	true/false whether or not to show the 'View Encounter' link on the patient dashboard	17d0469e-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-dashboard.encounters.usePages	smart	true/false/smart on how to show the pages on the 'View Encounter' window.  'smart' means that if > 50% of the fields have page numbers defined, show data in pages	17d04738-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-dashboard.encounters.viewWhere	newWindow	Defines how the 'View Encounter' link should act. Known values: 'sameWindow', 'newWindow', 'oneNewWindow'	17d047cb-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-dashboard.header.programs_to_show	\N	List of programs to show Enrollment details of in the patient header. (Should be an ordered comma-separated list of program_ids or names.)	f3763a4a-1bef-4886-bc30-1db0b4784112	\N	\N	\N	\N
-dashboard.header.workflows_to_show	\N	List of programs to show Enrollment details of in the patient header. List of workflows to show current status of in the patient header. These will only be displayed if they belong to a program listed above. (Should be a comma-separated list of program_workflow_ids.)	209cd8de-cd14-4096-8327-876f207c289e	\N	\N	\N	\N
-dashboard.overview.showConcepts	\N	Comma delimited list of concepts ids to show on the patient dashboard overview tab	17d04858-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-dashboard.regimen.displayDrugSetIds	ANTIRETROVIRAL DRUGS,TUBERCULOSIS TREATMENT DRUGS	Drug sets that appear on the Patient Dashboard Regimen tab. Comma separated list of name of concepts that are defined as drug sets.	17d048e1-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-dashboard.regimen.displayFrequencies	7 days/week,6 days/week,5 days/week,4 days/week,3 days/week,2 days/week,1 days/week	Frequency of a drug order that appear on the Patient Dashboard. Comma separated list of name of concepts that are defined as drug frequencies.	d3a028b5-5b09-4658-95af-52ab3ebe597d	\N	\N	\N	\N
-dashboard.regimen.standardRegimens	<list>  <regimenSuggestion>    <drugComponents>      <drugSuggestion>        <drugId>2</drugId>        <dose>1</dose>        <units>tab(s)</units>        <frequency>2/day x 7 days/week</frequency>        <instructions></instructions>      </drugSuggestion>    </drugComponents>    <displayName>3TC + d4T(30) + NVP (Triomune-30)</displayName>    <codeName>standardTri30</codeName>    <canReplace>ANTIRETROVIRAL DRUGS</canReplace>  </regimenSuggestion>  <regimenSuggestion>    <drugComponents>      <drugSuggestion>        <drugId>3</drugId>        <dose>1</dose>        <units>tab(s)</units>        <frequency>2/day x 7 days/week</frequency>        <instructions></instructions>      </drugSuggestion>    </drugComponents>    <displayName>3TC + d4T(40) + NVP (Triomune-40)</displayName>    <codeName>standardTri40</codeName>    <canReplace>ANTIRETROVIRAL DRUGS</canReplace>  </regimenSuggestion>  <regimenSuggestion>    <drugComponents>      <drugSuggestion>        <drugId>39</drugId>        <dose>1</dose>        <units>tab(s)</units>        <frequency>2/day x 7 days/week</frequency>        <instructions></instructions>      </drugSuggestion>      <drugSuggestion>        <drugId>22</drugId>        <dose>200</dose>        <units>mg</units>        <frequency>2/day x 7 days/week</frequency>        <instructions></instructions>      </drugSuggestion>    </drugComponents>    <displayName>AZT + 3TC + NVP</displayName>    <codeName>standardAztNvp</codeName>    <canReplace>ANTIRETROVIRAL DRUGS</canReplace>  </regimenSuggestion>  <regimenSuggestion>    <drugComponents>      <drugSuggestion reference="../../../regimenSuggestion[3]/drugComponents/drugSuggestion"/>      <drugSuggestion>        <drugId>11</drugId>        <dose>600</dose>        <units>mg</units>        <frequency>1/day x 7 days/week</frequency>        <instructions></instructions>      </drugSuggestion>    </drugComponents>    <displayName>AZT + 3TC + EFV(600)</displayName>    <codeName>standardAztEfv</codeName>    <canReplace>ANTIRETROVIRAL DRUGS</canReplace>  </regimenSuggestion>  <regimenSuggestion>    <drugComponents>      <drugSuggestion>        <drugId>5</drugId>        <dose>30</dose>        <units>mg</units>        <frequency>2/day x 7 days/week</frequency>        <instructions></instructions>      </drugSuggestion>      <drugSuggestion>        <drugId>42</drugId>        <dose>150</dose>        \	\	<units>mg</units>        <frequency>2/day x 7 days/week</frequency>        <instructions></instructions>      </drugSuggestion>      <drugSuggestion reference="../../../regimenSuggestion[4]/drugComponents/drugSuggestion[2]"/>    </drugComponents>    <displayName>d4T(30) + 3TC + EFV(600)</displayName>    <codeName>standardD4t30Efv</codeName>    <canReplace>ANTIRETROVIRAL DRUGS</canReplace>  </regimenSuggestion>  <regimenSuggestion>    <drugComponents>      <drugSuggestion>        <drugId>6</drugId>        <dose>40</dose>        <units>mg</units>        <frequency>2/day x 7 days/week</frequency>        <instructions></instructions>      </drugSuggestion>      <drugSuggestion reference="../../../regimenSuggestion[5]/drugComponents/drugSuggestion[2]"/>      <drugSuggestion reference="../../../regimenSuggestion[4]/drugComponents/drugSuggestion[2]"/>    </drugComponents>    <displayName>d4T(40) + 3TC + EFV(600)</displayName>    <codeName>standardD4t40Efv</codeName>    <canReplace>ANTIRETROVIRAL DRUGS</canReplace>  </regimenSuggestion></list>	XML description of standard drug regimens, to be shown as shortcuts on the dashboard regimen entry tab	17d0497a-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-dashboard.relationships.show_types	\N	Types of relationships separated by commas.  Doctor/Patient,Parent/Child	17d04b9d-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-dashboard.showPatientName	false	Whether or not to display the patient name in the patient dashboard title. Note that enabling this could be security risk if multiple users operate on the same computer.	44cd6380-cd4d-4cc3-a7db-ea5fa5071db9	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-default_locale	en_GB	Specifies the default locale. You can specify both the language code(ISO-639) and the country code(ISO-3166), e.g. 'en_GB' or just country: e.g. 'en'	b3eea35d-b276-44fe-b4b9-cc534619367a	\N	\N	\N	\N
-default_location	Unknown Location	The name of the location to use as a system default	85313b9b-e733-4aff-8a07-40d1c2d026c9	\N	\N	\N	\N
-default_theme	\N	Default theme for users.  OpenMRS ships with themes of 'green', 'orange', 'purple', and 'legacy'	dae8c405-b089-4690-8f0a-0bd654a22f37	\N	\N	\N	\N
-drugOrder.requireDrug	false	Set to value true if you need to specify a formulation(Drug) when creating a drug order.	c6c1fb49-f192-4d43-912f-abe0b46bceb1	\N	\N	\N	\N
-encounterForm.obsSortOrder	number	The sort order for the obs listed on the encounter edit form.  'number' sorts on the associated numbering from the form schema.  'weight' sorts on the order displayed in the form schema.	17d04c34-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-EncounterType.encounterTypes.locked	false	saving, retiring or deleting an Encounter Type is not permitted, if true	0e9b8fb4-979a-4c14-a39d-fa03d6bed772	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-FormEntry.enableDashboardTab	true	true/false whether or not to show a Form Entry tab on the patient dashboard	714fc3fa-908a-4f2c-a660-3685b155bcab	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-FormEntry.enableOnEncounterTab	false	true/false whether or not to show a Enter Form button on the encounters tab of the patient dashboard	52e94e5f-7b52-41b4-8bf6-df9071a74437	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-formentry.infopath_server_url	http://infopath	\N	8fd56e1a-ab61-4915-abb6-c13480a3cc81	\N	\N	\N	\N
-formimportexport.mandatory	false	true/false whether or not the formimportexport module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	1e5241b8-e4e6-4926-acfc-8f03c728935c	\N	\N	\N	\N
-formimportexport.parentConceptServer.batchSize	25	Number of concepts to request from the parent server per request. Lower this if your network is very slow/unstable.	e5d5c232-d88e-48ee-865f-14f0e82880c5	\N	\N	\N	\N
-formimportexport.parentConceptServer.password	\N	Password to use when logging in to the parent concept server. Could be blank if the parent allows unauthenticated users to browse the concept dictionary.	9c757cd0-7220-4337-b9e0-4447de81f2c4	\N	\N	\N	\N
-formimportexport.parentConceptServer.url	\N	The URL of a parent server from which this server will download concept dictionary updates. E.g. https://staging.pih-emr.org/openmrs.	b9d41066-3c78-47f8-9616-84c7cb87969e	\N	\N	\N	\N
-formimportexport.parentConceptServer.username	\N	Username to use when logging in to the parent concept server. Could be blank if the parent allows unauthenticated users to browse the concept dictionary.	c3a3ef94-3e16-47ea-a86f-442597f630cd	\N	\N	\N	\N
-formimportexport.started	false	DO NOT MODIFY. true/false whether or not the formimportexport module has been started.  This is used to make sure modules that were running  prior to a restart are started again	c83e5c75-89c9-4e04-a09a-ee41ca7f44d8	\N	\N	\N	\N
-graph.color.absolute	rgb(20,20,20)	Color of the 'invalid' section of numeric graphs on the patient dashboard.	b1de1892-d479-4048-8754-ab32650f62a1	\N	\N	\N	\N
-graph.color.critical	rgb(200,0,0)	Color of the 'critical' section of numeric graphs on the patient dashboard.	ff67e400-bde3-4a60-995b-eefffa5c3527	\N	\N	\N	\N
-graph.color.normal	rgb(255,126,0)	Color of the 'normal' section of numeric graphs on the patient dashboard.	4fd88bcd-357f-44cf-93bb-607d9909c527	\N	\N	\N	\N
-gzip.enabled	false	Set to 'true' to turn on OpenMRS's gzip filter, and have the webapp compress data before sending it to any client that supports it. Generally use this if you are running Tomcat standalone. If you are running Tomcat behind Apache, then you'd want to use Apache to do gzip compression.	17d04cbe-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-hl7_archive.dir	hl7_archives	The default name or absolute path for the folder where to write the hl7_in_archives.	5dc181b6-15de-40b4-883c-adf9362cbb70	\N	\N	\N	\N
-hl7_processor.ignore_missing_patient_non_local	false	If true, hl7 messages for patients that are not found and are non-local will silently be dropped/ignored	b37605fe-4a19-428a-9522-3d9139aebbbe	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-htmlwidgets.mandatory	false	true/false whether or not the htmlwidgets module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	4071912e-87e8-41dd-aed7-18102fa46c22	\N	\N	\N	\N
-htmlwidgets.started	false	DO NOT MODIFY. true/false whether or not the htmlwidgets module has been started.  This is used to make sure modules that were running  prior to a restart are started again	61efead1-3fc9-41ed-80f0-1972f1262813	\N	\N	\N	\N
-implementation_id	<implementationId id="1" implementationId="104.155.15.141">\
-   <passphrase id="2"><![CDATA[Buendia GCE Server]]></passphrase>\
-   <description id="3"><![CDATA[Buendia GCE Server]]></description>\
-   <name id="4"><![CDATA[Buendia GCE Server]]></name>\
-</implementationId>	\N	36555860-c047-4148-b906-56a6410f07bf	\N	\N	\N	\N
-layout.address.format	<org.openmrs.layout.web.address.AddressTemplate>\
-    <nameMappings class="properties">\
-      <property name="postalCode" value="Location.postalCode"/>\
-      <property name="longitude" value="Location.longitude"/>\
-      <property name="address2" value="Location.address2"/>\
-      <property name="address1" value="Location.address1"/>\
-      <property name="startDate" value="PersonAddress.startDate"/>\
-      <property name="country" value="Location.country"/>\
-      <property name="endDate" value="personAddress.endDate"/>\
-      <property name="stateProvince" value="Location.stateProvince"/>\
-      <property name="latitude" value="Location.latitude"/>\
-      <property name="cityVillage" value="Location.cityVillage"/>\
-    </nameMappings>\
-    <sizeMappings class="properties">\
-      <property name="postalCode" value="10"/>\
-      <property name="longitude" value="10"/>\
-      <property name="address2" value="40"/>\
-      <property name="address1" value="40"/>\
-      <property name="startDate" value="10"/>\
-      <property name="country" value="10"/>\
-      <property name="endDate" value="10"/>\
-      <property name="stateProvince" value="10"/>\
-      <property name="latitude" value="10"/>\
-      <property name="cityVillage" value="10"/>\
-    </sizeMappings>\
-    <lineByLineFormat>\
-      <string>address1</string>\
-      <string>address2</string>\
-      <string>cityVillage stateProvince country postalCode</string>\
-      <string>latitude longitude</string>\
-      <string>startDate endDate</string>\
-    </lineByLineFormat>\
-     </org.openmrs.layout.web.address.AddressTemplate>	XML description of address formats	17d04d46-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-layout.name.format	short	Format in which to display the person names.  Valid values are short, long	17d04dcd-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-locale.allowed.list	en, en_GB_client	Comma delimited list of locales allowed for use on system	17d04e51-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-location.field.style	default	Type of widget to use for location fields	321a2cf1-b051-4da2-a63a-37097a9c22ee	\N	\N	\N	\N
-log.layout	%p - %C{1}.%M(%L) |%d{ISO8601}| %m%n	A log layout pattern which is used by the OpenMRS file appender.	f46d518f-ccd7-4f88-91d5-72beb94a1869	\N	\N	\N	\N
-log.level	info	log level used by the logger 'org.openmrs'. This value will override the log4j.xml value. Valid values are trace, debug, info, warn, error or fatal	17d04ed1-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-log.location	\N	A directory where the OpenMRS log file appender is stored. The log file name is 'openmrs.log'.	e84f545a-0ed8-4c67-90da-2bc1c7b38589	\N	\N	\N	\N
-mail.debug	false	true/false whether to print debugging information during mailing	17d04f58-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-mail.default_content_type	text/plain	Content type to append to the mail messages	17d04fe8-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-mail.from	info@openmrs.org	Email address to use as the default from address	17d05074-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-mail.password	test	Password for the SMTP user (if smtp_auth is enabled)	17d05100-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-mail.smtp_auth	false	true/false whether the smtp host requires authentication	17d05184-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-mail.smtp_host	localhost	SMTP host name	17d05212-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-mail.smtp_port	25	SMTP port	17d05296-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-mail.transport_protocol	smtp	Transport protocol for the messaging engine. Valid values: smtp	17d05316-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-mail.user	test	Username of the SMTP user (if smtp_auth is enabled)	17d0539d-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-metadatamapping.addLocalMappings	true	Specifies whether the concept mappings to the local dictionary should be created when exporting concepts	a5ad11bf-d0be-4320-a8db-2c2952ced531	\N	\N	\N	\N
-metadatamapping.localConceptSourceUuid	7460bf8a-af4a-4892-8f2f-fdbbf85128a8	\N	7686c8c7-976b-49df-949f-7c388408a2f8	\N	\N	\N	\N
-metadatamapping.mandatory	false	true/false whether or not the metadatamapping module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	8dfbaddb-7dc3-4bef-b457-e70960e4f0b8	\N	\N	\N	\N
-metadatamapping.started	true	DO NOT MODIFY. true/false whether or not the metadatamapping module has been started.  This is used to make sure modules that were running  prior to a restart are started again	34154c40-802c-46a1-839c-58322328a785	\N	\N	\N	\N
-metadatasharing.database_version	1.0	DO NOT MODIFY.  Current database version number for the metadatasharing module.	721cffed-c132-4a3f-ba3b-dbbafd3add4d	\N	\N	\N	\N
-metadatasharing.enableOnTheFlyPackages	false	Specifies whether metadata packages can be exported on the fly	35597870-9399-4ea9-8095-ca1d304daa25	\N	\N	\N	\N
-metadatasharing.mandatory	false	true/false whether or not the metadatasharing module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	1b933d44-9cc0-4964-bb55-425e313f9d58	\N	\N	\N	\N
-metadatasharing.persistIdsForClasses	\N	A comma separated list of class package/names that denotes classes to try and persist ids for. Common options: org.openmrs.Concept,org.openmrs.Form,org.openmrs.ConceptDatatype,org.openmrs.ConceptClass,org.openmrs.EncounterType,org.openmrs.IdentifierType,org.openmrs.RelationshipType,org.openmrs.Location	c3a234c0-d38c-4acb-9a3e-e9782ba11d84	\N	\N	\N	\N
-metadatasharing.preferredConceptSourceIds	\N	Comma-separated list of concept source Ids for preferred sources, in case an incoming concept \
-has duplicate mappings to any of these sources, no confirmation will be required unless its \
-datatype or concept class differs from that of the existing concept	a55ef36d-0d19-4b5b-b883-8ec80fbcb492	\N	\N	\N	\N
-metadatasharing.started	true	DO NOT MODIFY. true/false whether or not the metadatasharing module has been started.  This is used to make sure modules that were running  prior to a restart are started again	11a78b43-e7d0-46c0-bb86-3f5dfa285df3	\N	\N	\N	\N
-metadatasharing.webservicesKey	\N	Key to grant access to remote systems to consume module webservices RESTfully	a4e177dc-e4a9-4563-8d25-8ffaf58c8960	\N	\N	\N	\N
-minSearchCharacters	3	Number of characters user must input before searching is started.	38af82af-766b-4105-b03a-9eca33d584e7	\N	\N	\N	\N
-module_repository_folder	modules	Name of the folder in which to store the modules	17d05421-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-newPatientForm.relationships	\N	Comma separated list of the RelationshipTypes to show on the new/short patient form.  The list is defined like '3a, 4b, 7a'.  The number is the RelationshipTypeId and the 'a' vs 'b' part is which side of the relationship is filled in by the user.	17d054a8-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-new_patient_form.showRelationships	false	true/false whether or not to show the relationship editor on the addPatient.htm screen	17d05533-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-obs.complex_obs_dir	complex_obs	Default directory for storing complex obs.	31f18bed-72d6-41e4-a6fc-7c3da9b29d5b	\N	\N	\N	\N
-order.drugDispensingUnitsConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible drug dispensing units	2c1e1385-c7a1-43f2-aa78-9843ca21eeae	\N	\N	\N	\N
-order.drugDosingUnitsConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible drug dosing units	dff0174c-07a6-4988-9ea7-9b1f564d6ed4	\N	\N	\N	\N
-order.drugRoutesConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible drug routes	93a18c6f-3f99-423a-8f29-2400b9df7f9e	\N	\N	\N	\N
-order.durationUnitsConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible duration units	07eeabd4-beac-4dca-8c0f-d6a99e9d39e2	\N	\N	\N	\N
-order.nextOrderNumberSeed	1	The next order number available for assignment	6ec7790c-b9ea-4f3b-86a4-5b4e219acaab	\N	\N	\N	\N
-order.orderNumberGeneratorBeanId	\N	Specifies spring bean id of the order generator to use when assigning order numbers	6e10c5bf-5426-4d0f-b6b1-c3a37c7069da	\N	\N	\N	\N
-order.testSpecimenSourcesConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible test specimen sources	cdf244aa-3935-4c73-aec6-789cf8b618a1	\N	\N	\N	\N
-patient.defaultPatientIdentifierValidator	org.openmrs.patient.impl.LuhnIdentifierValidator	This property sets the default patient identifier validator.  The default validator is only used in a handful of (mostly legacy) instances.  For example, it's used to generate the isValidCheckDigit calculated column and to append the string "(default)" to the name of the default validator on the editPatientIdentifierType form.	17d055bc-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-patient.displayAttributeTypes	Birthplace	\N	17d0576f-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-patient.headerAttributeTypes	\N	A comma delimited list of PersonAttributeType names that will be shown on the patient dashboard	3ea4d356-cba5-429c-9567-4f084cb8e8f6	\N	\N	\N	\N
-patient.identifierPrefix	\N	This property is only used if patient.identifierRegex is empty.  The string here is prepended to the sql indentifier search string.  The sql becomes "... where identifier like '<PREFIX><QUERY STRING><SUFFIX>';".  Typically this value is either a percent sign (%) or empty.	17d057fe-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-patient.identifierRegex	\N	WARNING: Using this search property can cause a drop in mysql performance with large patient sets.  A MySQL regular expression for the patient identifier search strings.  The @SEARCH@ string is replaced at runtime with the user's search string.  An empty regex will cause a simply 'like' sql search to be used. Example: ^0*@SEARCH@([A-Z]+-[0-9])?$	17d058e7-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-patient.identifierSearchPattern	\N	If this is empty, the regex or suffix/prefix search is used.  Comma separated list of identifiers to check.  Allows for faster searching of multiple options rather than the slow regex. e.g. @SEARCH@,0@SEARCH@,@SEARCH-1@-@CHECKDIGIT@,0@SEARCH-1@-@CHECKDIGIT@ would turn a request for "4127" into a search for "in ('4127','04127','412-7','0412-7')"	28477a5d-e2e8-4f80-aafa-daf4cc4b5fbf	\N	\N	\N	\N
-patient.identifierSuffix	\N	This property is only used if patient.identifierRegex is empty.  The string here is prepended to the sql indentifier search string.  The sql becomes "... where identifier like '<PREFIX><QUERY STRING><SUFFIX>';".  Typically this value is either a percent sign (%) or empty.	17d05987-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-patient.listingAttributeTypes	\N	A comma delimited list of PersonAttributeType names that should be displayed for patients in _lists_	17d05a16-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-patient.nameValidationRegex	^[a-zA-Z \\-]+$	Names of the patients must pass this regex. Eg : ^[a-zA-Z \\-]+$ contains only english alphabet letters, spaces, and hyphens. A value of .* or the empty string means no validation is done.	2f2ad055-5511-4677-9018-1c3bfbec0e65	\N	\N	\N	\N
-patient.viewingAttributeTypes	\N	A comma delimited list of PersonAttributeType names that should be displayed for patients when _viewing individually_	17d05b23-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-patientSearch.matchMode	START	Specifies how patient names are matched while searching patient. Valid values are 'ANYWHERE' or 'START'. Defaults to start if missing or invalid value is present.	09aeec92-c514-4de7-9072-b999916915e5	\N	\N	\N	\N
-patient_identifier.importantTypes	\N	A comma delimited list of PatientIdentifier names : PatientIdentifier locations that will be displayed on the patient dashboard.  E.g.: TRACnet ID:Rwanda,ELDID:Kenya	17d05ba8-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-person.searchMaxResults	1000	The maximum number of results returned by patient searches	17d05aa2-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-projectbuendia.currentProfile	\N	Name of the currently active profile, which defines the forms and UI customizations for the Buendia app.  This should be the name of a file in /usr/share/buendia/profiles (including the .csv extension).	buendia_property_current_profile	\N	\N	\N	\N
-projectbuendia.openmrs.mandatory	false	true/false whether or not the projectbuendia.openmrs module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	b8c47333-955c-4301-a7d9-8bdb52ec4c24	\N	\N	\N	\N
-projectbuendia.openmrs.started	true	DO NOT MODIFY. true/false whether or not the projectbuendia.openmrs module has been started.  This is used to make sure modules that were running  prior to a restart are started again	6c0b2880-b71e-4c2b-9cf8-15686aa3349d	\N	\N	\N	\N
-provider.unknownProviderUuid	\N	Specifies the uuid of the Unknown Provider account	5d925273-b965-4e8f-9c3d-eb8a4936f846	\N	\N	\N	\N
-report.deleteReportsAgeInHours	72	Reports that are not explicitly saved are deleted automatically when they are this many hours old. (Values less than or equal to zero means do not delete automatically)	2013b670-a86d-4687-aca5-999cbc5d29f6	\N	\N	\N	\N
-report.xmlMacros	\N	Macros that will be applied to Report Schema XMLs when they are interpreted. This should be java.util.properties format.	17d05c33-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-reporting.dataEvaluationBatchSize	-1	This determines whether to run evaluators for Data in batches and what the size of those batches should be.\
-A value of less than or equal to 0 indicates that no batching is desired.	debf729d-00c6-4ade-b8b4-471214bd25de	\N	\N	\N	\N
-reporting.defaultDateFormat	dd/MMM/yyyy	Default date format to use when formatting report data	921710fb-14cd-436b-8345-dbad5614005e	\N	\N	\N	\N
-reporting.defaultLocale	en	Default locale to use when formatting report data	98342ff4-96a5-44dd-8e9e-8a512751b12b	\N	\N	\N	\N
-reporting.evaluationLoggerEnabled	false	If false, will disable the built in use of the evaluation logger to log evaluation information for performance diagnostics	d3d2319e-78cf-478f-a8d7-2b526abca474	\N	\N	\N	\N
-reporting.includeDataExportsAsDataSetDefinitions	false	If reportingcompatibility is installed, this indicates whether data exports should be exposed as Dataset Definitions	dbce8c75-598d-40ed-8948-f96191a657dc	\N	\N	\N	\N
-reporting.mandatory	false	true/false whether or not the reporting module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	755435f9-bded-4887-8477-6cc737d5db6f	\N	\N	\N	\N
-reporting.maxCachedReports	10	The maximum number of reports whose underlying data and output should be kept in the cache at any one time	7b7aaa41-9446-4c73-884a-c7c434120933	\N	\N	\N	\N
-reporting.maxReportsToRun	1	The maximum number of reports that should be processed at any one time	332a510c-828d-4a31-958a-78443308cc47	\N	\N	\N	\N
-reporting.preferredIdentifierTypes	\N	Pipe-separated list of patient identifier type names, which should be displayed on default patient datasets	ade99583-10e5-4e12-bb15-423688013bc4	\N	\N	\N	\N
-reporting.runReportCohortFilterMode	showIfNull	Supports the values hide,showIfNull,show which determine whether the cohort selector should be available in the run report page	5de24cf1-5564-4260-844c-5a5ce1b76712	\N	\N	\N	\N
-reporting.started	false	DO NOT MODIFY. true/false whether or not the reporting module has been started.  This is used to make sure modules that were running  prior to a restart are started again	2e48510b-8887-4514-885f-5af5c6476302	\N	\N	\N	\N
-reporting.testPatientsCohortDefinition	\N	Points to a cohort definition representing all test/fake patients that you want to exclude from all queries and reports. You may set this to the UUID of a saved cohort definition, or to "library:keyInADefinitionLibrary"	e521a7b5-c6d6-4dae-a8c0-69353a07e592	\N	\N	\N	\N
-reportProblem.url	http://errors.openmrs.org/scrap	The openmrs url where to submit bug reports	94b05aad-26dd-412a-adf0-38f47cd51e91	\N	\N	\N	\N
-scheduler.password	test	Password for the OpenMRS user that will perform the scheduler activities	6cb182aa-2188-4bba-93d0-d0df89c3f179	\N	\N	\N	\N
-scheduler.username	admin	Username for the OpenMRS user that will perform the scheduler activities	ecc9e12b-9ddf-418f-9adc-f29a5d2be9de	\N	\N	\N	\N
-search.caseSensitiveDatabaseStringComparison	true	Indicates whether database string comparison is case sensitive or not. Setting this to false for MySQL with a case insensitive collation improves search performance.	45eb7f56-e3f2-42f4-ae12-e8adb29ebc33	\N	\N	\N	\N
-searchWidget.batchSize	200	The maximum number of search results that are returned by an ajax call	908cf52d-9a22-4318-94c7-82e2ca0d9187	\N	\N	\N	\N
-searchWidget.maximumResults	2000	Specifies the maximum number of results to return from a single search in the search widgets	c3c8e15f-5c2a-4c88-9c6f-8ca9ed01902d	\N	\N	\N	\N
-searchWidget.runInSerialMode	false	Specifies whether the search widgets should make ajax requests in serial or parallel order, a value of true is appropriate for implementations running on a slow network connection and vice versa	ba044e44-d819-4a1e-80ee-bbb9686d1cbe	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-searchWidget.searchDelayInterval	400	Specifies time interval in milliseconds when searching, between keyboard keyup event and triggering the search off, should be higher if most users are slow when typing so as to minimise the load on the server	3fcb4a0f-6048-4db8-93a9-6fc325b410e8	\N	\N	\N	\N
-security.passwordCannotMatchUsername	true	Configure whether passwords must not match user's username or system id	5eda9fde-c680-4fc3-84ff-e6b7ebe64c6c	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-security.passwordCustomRegex	\N	Configure a custom regular expression that a password must match	1a62ca1b-8a30-4e86-ae48-9320cd27f4c3	\N	\N	\N	\N
-security.passwordMinimumLength	8	Configure the minimum length required of all passwords	cbf8b44e-9695-4ff3-ad52-322ca4a579f8	\N	\N	\N	\N
-security.passwordRequiresDigit	true	Configure whether passwords must contain at least one digit	726c1156-2203-4bd2-9297-2ad0fed8a255	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-security.passwordRequiresNonDigit	true	Configure whether passwords must contain at least one non-digit	d036ccf0-bb53-4990-a550-c164fb94c48b	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-security.passwordRequiresUpperAndLowerCase	true	Configure whether passwords must contain both upper and lower case characters	f1a85680-e6ae-45ad-aab4-b19a6bf0c355	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-serialization.xstream.mandatory	false	true/false whether or not the serialization.xstream module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	7195152e-caec-4e9d-8bf5-faa65cd9667a	\N	\N	\N	\N
-serialization.xstream.started	false	DO NOT MODIFY. true/false whether or not the serialization.xstream module has been started.  This is used to make sure modules that were running  prior to a restart are started again	9aec3f3c-5291-4dff-a326-6747c39c6995	\N	\N	\N	\N
-user.headerAttributeTypes	\N	A comma delimited list of PersonAttributeType names that will be shown on the user dashboard. (not used in v1.5)	cc1d158b-3c9a-48fd-8c74-d38559127da0	\N	\N	\N	\N
-user.listingAttributeTypes	\N	A comma delimited list of PersonAttributeType names that should be displayed for users in _lists_	17d05db3-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-user.requireEmailAsUsername	false	Indicates whether a username must be a valid e-mail or not.	7b5bf740-feef-4ebc-b599-eca58a7287ec	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-user.viewingAttributeTypes	\N	A comma delimited list of PersonAttributeType names that should be displayed for users when _viewing individually_	17d05f3d-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-use_patient_attribute.healthCenter	false	Indicates whether or not the 'health center' attribute is shown when viewing/searching for patients	17d05fcc-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-use_patient_attribute.mothersName	false	Indicates whether or not mother's name is able to be added/viewed for a patient	17d06059-6437-11e4-badf-42010af0dc15	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-use_patient_attribute.tribe	true	Indicates whether or not the 'tribe' attribute is shown when viewing/searching for patients	17d060f0-6437-11e4-badf-42010af0dc15	\N	\N	\N	\N
-visits.allowOverlappingVisits	true	true/false whether or not to allow visits of a given patient to overlap	ce745f44-8123-492c-ba3a-edf846f919aa	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-visits.assignmentHandler	org.openmrs.api.handler.ExistingVisitAssignmentHandler	Set to the name of the class responsible for assigning encounters to visits.	e4a2d379-5299-42e2-95be-e21c31e73f05	\N	\N	\N	\N
-visits.autoCloseVisitType	\N	comma-separated list of the visit type(s) to automatically close	73a7b79d-3cff-4d4f-afb8-92aaa28cc58a	\N	\N	\N	\N
-visits.enabled	true	Set to true to enable the Visits feature. This will replace the 'Encounters' tab with a 'Visits' tab on the dashboard.	926f0476-e4da-4879-9e46-6173190c0450	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N
-visits.encounterTypeToVisitTypeMapping	\N	Specifies how encounter types are mapped to visit types when automatically assigning encounters to visits. e.g 1:1, 2:1, 3:2 in the format encounterTypeId:visitTypeId	26c8e498-dfef-4d24-8de3-484630ac63bb	\N	\N	\N	\N
-webservices.rest.allowedips	\N	A comma-separate list of IP addresses that are allowed to access the web services. An empty string allows everyone to access all ws. \
-        IPs can be declared with bit masks e.g. 10.0.0.0/30 matches 10.0.0.0 - 10.0.0.3 and 10.0.0.0/24 matches 10.0.0.0 - 10.0.0.255.	226127df-ae5c-4a46-bb88-0cea350c91c1	\N	\N	\N	\N
-webservices.rest.mandatory	false	true/false whether or not the webservices.rest module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	f52abadd-462f-486b-929e-9fcd3ba3da06	\N	\N	\N	\N
-webservices.rest.maxResultsAbsolute	100	The absolute max results limit. If the client requests a larger number of results, then will get an error	b7157197-635e-4627-a4ce-070e280a03cb	\N	\N	\N	\N
-webservices.rest.maxResultsDefault	50	The default max results limit if the user does not provide a maximum when making the web service call.	c7e95edb-e7c1-41d7-b49d-d1b99ba62a82	\N	\N	\N	\N
-webservices.rest.started	true	DO NOT MODIFY. true/false whether or not the webservices.rest module has been started.  This is used to make sure modules that were running  prior to a restart are started again	3e206156-7bf4-4efa-80db-ac248600488c	\N	\N	\N	\N
-webservices.rest.uriPrefix	http://104.155.15.141:8080/openmrs	The URI prefix through which clients consuming web services will connect to the web application, should be of the form http://{ipAddress}:{port}/{contextPath}	5c639c83-f5d0-4df3-8dc1-fc2a787b25bb	\N	\N	\N	\N
-xforms.adminEmail	\N	An e-mail address where notifications about failed data uploads will be sent.	a0542b14-4b08-47b3-9d5f-cd2c9726fe68	\N	\N	\N	\N
-xforms.afterCancelUrl	xforms/formentry/patient.page?	The url to go to after cancelling an xform.	2475eb6e-bde6-4756-9040-6cd2e7684a7f	\N	\N	\N	\N
-xforms.afterSubmitUrl	coreapps/findpatient/findPatient.page?app=xforms.formentry	The url to go to after submitting an xform.	799f9cf6-8839-4ef2-9c2b-b95b366e1267	\N	\N	\N	\N
-xforms.allowBindEdit	false	Set to true if you want to allow editing of question bindings when designing forms.	1a796979-3394-4ee8-994e-b54801462241	\N	\N	\N	\N
-xforms.archive_dir	xforms/archive/%Y/%M	Directory containing the xforms archive items.  This will contain xform model xml files that have been processed and then submitted successfully into the formentry queue.	5b121819-ae5e-4080-a7b3-42f67e615142	\N	\N	\N	\N
-xforms.autoGeneratePatientIdentifier	false	Set to true if you want the idgen module to generate patient identifiers when creating new patients using the xforms module.	8c70eb54-a458-4047-980a-dafee8d53aeb	\N	\N	\N	\N
-xforms.cohortSerializer	org.openmrs.module.xforms.serialization.DefaultCohortSerializer	The patient cohort (cohort_id and name) serializer	230f074d-c80c-46bd-a81b-745010f53484	\N	\N	\N	\N
-xforms.complexobs_dir	xforms/complexobs	Directory for storing complex obs used by the xforms module.	767dc88e-0b1b-4999-b91c-d400ed17b070	\N	\N	\N	\N
-xforms.database_version	4.1.1.0	DO NOT MODIFY.  Current database version number for the xforms module.	aeca730d-682c-4ed1-abd8-beb0bb4427de	\N	\N	\N	\N
-xforms.dateDisplayFormat	dd/MM/yyyy	The display format of dates used by the xforms module.	3cddda4d-9f4d-4503-858a-f345dc0c42ab	\N	\N	\N	\N
-xforms.dateSubmitFormat	yyyy-MM-dd	The format of the dates passed in the xml of the xforms model. Please make sure this matches with the date format of your data entry applications, else you will get wrong dates on the server.	372f19aa-7f1d-4d7f-8379-d71c40f30ab6	\N	\N	\N	\N
-xforms.dateTimeDisplayFormat	dd/MM/yyyy hh:mm a	The display format of datetime used by the xforms module.	5ac49f6f-2974-46de-b2b3-750f94e431e8	\N	\N	\N	\N
-xforms.dateTimeSubmitFormat	yyyy-MM-dd'T'HH:mm:ss	The format of the datetime passed in the xml of the xforms model. Please make sure this matches with the date format of your data entry applications, else you will get wrong dates on the server.	e768539f-3516-42ca-ac4b-3990a7b5c9d6	\N	\N	\N	\N
-xforms.decimalSeparators	en:.;fr:.;es:,;it:.;pt:.	The decimal separators for each locale. e.g:  en:.;fr:.;es:,;it:.;pt:.	a4c25935-bc64-4ac9-8bad-e777a8a2cfca	\N	\N	\N	\N
-xforms.defaultFontFamily	Verdana, 'Lucida Grande', 'Trebuchet MS', Arial, Sans-Serif	The default font family used by the form designer.	6c953bc7-b2d8-4ad9-9489-a2a13c115b55	\N	\N	\N	\N
-xforms.defaultFontSize	16	The default font size used by the form designer.	e1932faf-118d-4128-b3fe-f64214a9f82a	\N	\N	\N	\N
-xforms.emailServerConfig	\N	A list of e-mail server properties in a form of 'mail.smtp.host=smtp.gmail.com;mail.smtp.port=587'. See JavaMailSender for more details.	5c434baa-1387-41b1-b822-9a9f63781e7e	\N	\N	\N	\N
-xforms.encounterDateIncludesTime	true	Set to true if the encounter date should include time.	326d571f-acde-4641-846c-b23de87a9a83	\N	\N	\N	\N
-xforms.error_dir	xforms/error	Directory containing the xforms error items.  This will contain xform model xml files that have not been submitted into the formentry queue because of processing errors.	5d76c954-a8c1-42e1-b087-5c5dc5b58c53	\N	\N	\N	\N
-xforms.includePatientRelationships	true	Specifies that when creating a new xform, a node for patient relationships\
-            (relatives) should be created automatically.	49592541-c2e7-4418-a2b8-390bb03e590e	\N	\N	\N	\N
-xforms.includeUsersInXformsDownload	true	Set to true if you want to include users when downloading xforms, else set to false if you want to always load the users list separately.	fc0825d7-3583-4aab-a0b4-3a2880314778	\N	\N	\N	\N
-xforms.isRemoteFormEntry	false	Set to true if this is a remote form entry server (Not the main server).	1b98566c-260b-41dc-ae49-ada051ddaa99	\N	\N	\N	\N
-xforms.localeList	en:English	The list of locales supported by the form designer. e.g:  en:English,fr:French,es:Spanish,it:Italian,pt:Portuguese	6176f254-99c0-4a0b-95e2-0ff43b17d89a	\N	\N	\N	\N
-xforms.maintainOrderingOnRefresh	true	Set to true if you want to maintain the ordering of items when you refresh a form in the form designer. Else set to false.	e7d17c01-daa5-45d9-9419-133e37738dd8	\N	\N	\N	\N
-xforms.mandatory	false	true/false whether or not the xforms module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	965721b6-7ae6-4e8d-adbf-f50c035ab1a1	\N	\N	\N	\N
-xforms.manualWidgetLayout	false	Set to true if you want to turn off automatic widget layout on loading form for the first time, else set to false	09c05128-b2b3-456b-a82d-b5cb3e827b12	\N	\N	\N	\N
-xforms.multiSelectAppearance	full	The appearance of multi select input fields. Allowed values are: {full,minimal,compact}	f9581907-bb08-4b39-bb65-19ecde0bb59e	\N	\N	\N	\N
-xforms.newPatientFormId	\N	The id of the form for creating new patients	d4eeb782-30ab-4d24-9393-b01538e4c9f1	\N	\N	\N	\N
-xforms.new_patient_identifier_type_id	3	The id of the patient identifier type which will be used when creating new patients from forms which do not have a patient_identifier.identifier_type_id field.	ee118101-d427-4a85-b22d-824220b76f07	\N	\N	\N	\N
-xforms.overwriteValidationsOnRefresh	false	Set to true if, on refresh, you want custom validations to be replaced by those from the database concepts.	8a0a85d0-04cb-456b-8bb9-8c6d1375d99c	\N	\N	\N	\N
-xforms.patientDownloadCohort	\N	The cohort for patients to download	71b65ba7-adcb-4643-9c55-6a2a0fcfc550	\N	\N	\N	\N
-xforms.patientRegEncounterFormId	0	The id of the encounter form which will be combined with the patient registration form.	ec70fa1e-be85-4a7f-8d21-8cf73b66bd39	\N	\N	\N	\N
-xforms.patientSerializer	org.openmrs.module.xforms.serialization.DefaultPatientSerializer	The patient set serializer	7ba02d19-1d68-4600-810f-f70d2c42b79c	\N	\N	\N	\N
-xforms.preferredConceptSource	\N	The name for preferred concept source to be used for forms that can be shared with other OpenMRS installations.	b11c2da0-b17d-48b5-983e-adf8483d6e04	\N	\N	\N	\N
-xforms.queue_dir	xforms/queue	Directory containing the xforms queue items. This will contain xforms xml model files submitted and awaiting processing to be submitted into the formentry queue.	e9f95b50-f042-4e3a-b679-1d9f20b5d980	\N	\N	\N	\N
-xforms.rejectExistingPatientCreation	true	Set to true to Reject forms for patients considered new when they already exist, by virture of patient identifier. Else set to false to allow them.	d11a5cf3-8efe-4926-815e-b2bebbd2fb89	\N	\N	\N	\N
-xforms.savedSearchSerializer	org.openmrs.module.xforms.serialization.DefaultSavedSearchSerializer	The patient saved search serializer	7a085398-3a59-4719-8dd9-61a2d9560b1f	\N	\N	\N	\N
-xforms.saveFormat	purcforms	The format in which the xforms will be saved. For now we support two formats: purcforms and javarosa	0bd1abcd-29f8-4aec-9a13-1539c71161f8	\N	\N	\N	\N
-xforms.searchNewPatientAfterFormSubmission	true	Set to true if you want to search for a new patient after submitting a form, else set to false if you want to go back to the same patient.	3f52511b-6052-46f6-9f61-7ad9c1d1b92d	\N	\N	\N	\N
-xforms.setDefaultLocation	false	Set to true if you want to set the default location to that of the logged on user.	1d2ebc92-7dce-4b9a-9abb-e5b755eca57a	\N	\N	\N	\N
-xforms.setDefaultProvider	false	Set to true if you want to set the default provider to the logged on user, if he or she has the provider role.	9c2183cc-eca3-48f3-aabb-37109a4ce7d5	\N	\N	\N	\N
-xforms.showCSSTab	false	Set to true if you want to display the CSS tab of the form designer.	89e5c47c-5fec-4bca-b0de-09bde0da5bc9	\N	\N	\N	\N
-xforms.showDesignSurfaceTab	true	Set to true if you want to display the Design Surface tab of the form designer.	48344b4a-4ff8-4e47-816f-b71fd79e0afb	\N	\N	\N	\N
-xforms.showJavaScriptTab	false	Set to true if you want to display the JavaScript tab of the form designer.	c5f88bf1-daa2-4189-984f-0653c7d4fa62	\N	\N	\N	\N
-xforms.showLanguageTab	false	Set to true if you want to display the language xml tab of the form designer.	64b8d0c6-8c04-40e1-ad31-e925540e81e2	\N	\N	\N	\N
-xforms.showLayoutXmlTab	false	Set to true if you want to display the layout xml tab of the form designer.	3a242a87-1015-4fef-8d42-2d8aebe8ede1	\N	\N	\N	\N
-xforms.showModelXmlTab	false	Set to true if you want to display the model xml tab of the form designer.	17fb1e82-755b-4b42-8016-3ffe702c8f5f	\N	\N	\N	\N
-xforms.showOfflineFormDesigner	false	Set to true if you want to show the form designer in off line mode.	6d4edf66-e85e-4916-b907-34e866a55d5c	\N	\N	\N	\N
-xforms.showPreviewTab	true	Set to true if you want to display the Preview tab of the form designer.	61c69a3f-7407-4eec-a41c-5da7382d7cf5	\N	\N	\N	\N
-xforms.showSubmitSuccessMsg	false	Set to true if you want to display the form submitted successfully message every time a form is submitted successfully.	0391d42f-ed46-40eb-92e3-48b89698eff4	\N	\N	\N	\N
-xforms.showXformsSourceTab	false	Set to true if you want to display the xforms source tab of the form designer.	bca43876-ade6-4a08-872e-bc3865e8c4eb	\N	\N	\N	\N
-xforms.singleEntryForms	\N	Comma separated list of form ids that do not allow more than one entry for each patient.	0d54ca08-f0ed-42df-9dc2-0c1e8a3e58fb	\N	\N	\N	\N
-xforms.singleSelectAppearance	minimal	The appearance of single select input fields. Allowed values are: {full,minimal,compact}	81ab6100-e29e-4bad-accb-6ab1f1037f07	\N	\N	\N	\N
-xforms.smsFieldSepChar	=	The separator between questions and answers in the sms text.	43eedc90-eb76-4e29-8219-2d1daf9a6e70	\N	\N	\N	\N
-xforms.smsSendFailureReports	true	Set to true if you want sms sender to get failure reports, else set to false.	a192ae36-313f-4f80-885b-e39a55a68b60	\N	\N	\N	\N
-xforms.smsSendSuccessReports	true	Set to true if you want sms sender to get success reports, else set to false.	948c6a7c-4b90-4fe9-b7ce-0f6b7d695d67	\N	\N	\N	\N
-xforms.started	true	DO NOT MODIFY. true/false whether or not the xforms module has been started.  This is used to make sure modules that were running  prior to a restart are started again	63134211-0459-43f0-a6d1-bdec1065c178	\N	\N	\N	\N
-xforms.timeDisplayFormat	hh:mm a	The display format of time used by the xforms module.	3c632fd7-b2a1-48ce-9780-0b059f10b40c	\N	\N	\N	\N
-xforms.timeSubmitFormat	HH:mm:ss	The format of the time passed in the xml of the xforms model. Please make sure this matches with the date format of your data entry applications, else you will get wrong times on the server.	e0b458ea-3533-4b70-98d0-5fe237ed2f37	\N	\N	\N	\N
-xforms.undoRedoBufferSize	-1	Set to the maximum number of actions you can undo or redo. The bigger the size, the more memory your browser needs. Default value is 100. Set to -1 if you do not want any limit.	a1f08114-d9bc-40ff-a2a3-036b74ede7a2	\N	\N	\N	\N
-xforms.useAutocompleteForLocations	false	Specifies that when creating a new xform the location selection element should use autocomplete,\
-Note that this only applies for OpenMRS Versions 1.8 and above	c89bf712-22af-4b1d-93dd-f85edfb78091	\N	\N	\N	\N
-xforms.useAutocompleteForProviders	false	Specifies that when creating a new xform the provider selection element should use autocomplete,\
-Note that this only applies for OpenMRS Versions 1.9 and above	efbfad4f-b3e7-4805-8e03-096eb30baa78	\N	\N	\N	\N
-xforms.useConceptIdAsHint	false	Set to true if you want to display the concept Id as the default field description.	c821c5a1-687b-44c0-83c6-3ad3e9a3f59f	\N	\N	\N	\N
-xforms.useEncounterXform	true	Set to true if you want to use XForms to edit encounters instead of the default openmrs edit encounter screen, else set to false.	5a39f408-6fb8-4296-b6c1-2847a4f0b47d	\N	\N	\N	\N
-xforms.usePatientXform	false	Set to true if you want to use XForms to create new patients instead of the default openmrs create patient form, else set to false.	21e4fbb0-5ecb-4d2b-9a7d-cafe195bd3b8	\N	\N	\N	\N
-xforms.userSerializer	org.openmrs.module.xforms.serialization.DefaultUserSerializer	The user set serializer	ba2f9f05-b307-4d88-8c02-181f4132f59f	\N	\N	\N	\N
-xforms.useStoredXform	true	Set to true if you want to use XForms uploaded into the database, else set to false if you want to always build an XForm on the fly from the current form definition.	4d0885d2-df5a-4d02-8a55-3f211bdbc676	\N	\N	\N	\N
-xforms.viewEncounterAsXform	false	Set to true if you want to view encounter observations in the same form which was used to submit the data. Else set to false.	dd098737-17d1-4311-becb-414b28ecb294	\N	\N	\N	\N
-xforms.xformDownloadFolder	\N	Folder to which XForms are download	0766532e-5b9e-42f7-b74a-3a4c87102319	\N	\N	\N	\N
-xforms.xformSerializer	org.fcitmuk.epihandy.EpihandyXformSerializer	The XForms serializer	b70cb1f3-428e-4f28-b2f4-01b13c459fbc	\N	\N	\N	\N
-xforms.xformUploadFolder	\N	Folder from which XForms data is uploaded	49f44e75-a188-4cd7-9d7e-9dd1c9af9d84	\N	\N	\N	\N
+allergy.allergen.ConceptClasses	Drug,MedSet	A comma-separated list of the allowed concept classes for the allergen field of the allergy dialog	afc07332-ec2b-4c47-93a8-8e846e3913f8	\N	\N	\N	\N	\N	\N
+allergy.concept.allergen.drug	162552AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	UUID for the drug allergens concept	433d8087-8e88-4abf-8f53-9eccea09fc1f	\N	\N	\N	\N	\N	\N
+allergy.concept.allergen.environment	162554AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	UUID for the environment allergens concept	3aa994a0-8630-4631-ba10-22ac2097a62b	\N	\N	\N	\N	\N	\N
+allergy.concept.allergen.food	162553AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	UUID for the food allergens concept	4f731fb9-b082-49b3-9dea-d21078b25817	\N	\N	\N	\N	\N	\N
+allergy.concept.otherNonCoded	5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	UUID for the allergy other non coded concept	605a2990-9176-45d4-9fe1-d6394285a69c	\N	\N	\N	\N	\N	\N
+allergy.concept.reactions	162555AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	UUID for the allergy reactions concept	b8e798c6-f883-45e6-8ac1-bd97b69e42a3	\N	\N	\N	\N	\N	\N
+allergy.concept.severity.mild	1498AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	UUID for the MILD severity concept	810cb5c9-45f3-4bc8-be37-b14c53b6fe83	\N	\N	\N	\N	\N	\N
+allergy.concept.severity.moderate	1499AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	UUID for the MODERATE severity concept	6aec9a27-a1a7-4001-9bd2-277aaf947463	\N	\N	\N	\N	\N	\N
+allergy.concept.severity.severe	1500AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	UUID for the SEVERE severity concept	5820efb8-604d-4d0b-90d0-f07402602b1d	\N	\N	\N	\N	\N	\N
+allergy.concept.unknown	1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	UUID for the allergy unknown concept	e3928bc2-c7c4-488e-b0b0-3d1ee8601814	\N	\N	\N	\N	\N	\N
+allergy.reaction.ConceptClasses	Symptom	A comma-separated list of the allowed concept classes for the reaction field of the allergy dialog	64e21952-a4d0-4afb-b76b-69c800f6856e	\N	\N	\N	\N	\N	\N
+application.name	OpenMRS	The name of this application, as presented to the user, for example on the login and welcome pages.	2720b841-bf4e-426f-9817-dc0118185fb5	\N	\N	\N	\N	\N	\N
+concept.causeOfDeath	5002	Concept id of the concept defining the CAUSE OF DEATH concept	35a0b3cd-a0a1-41d9-8d41-ba9d0d68a720	\N	\N	\N	\N	\N	\N
+concept.defaultConceptMapType	NARROWER-THAN	Default concept map type which is used when no other is set	cf2f8f45-9643-4ba8-9ae9-3f8a205db591	\N	\N	\N	\N	\N	\N
+concept.false	2	Concept id of the concept defining the FALSE boolean concept	de4df46b-d909-4b46-a4a7-d697583400e3	\N	\N	\N	\N	\N	\N
+concept.height	5090	Concept id of the concept defining the HEIGHT concept	436fd51c-cdec-4830-9d23-fc1b0b73b768	\N	\N	\N	\N	\N	\N
+concept.medicalRecordObservations	1238	The concept id of the MEDICAL_RECORD_OBSERVATIONS concept.  This concept_id is presumed to be the generic grouping (obr) concept in hl7 messages.  An obs_group row is not created for this concept.	2e72b3bc-d5fb-4b67-85d2-06d169de6c5d	\N	\N	\N	\N	\N	\N
+concept.none	1107	Concept id of the concept defining the NONE concept	b6e81798-dad7-4ea5-8a04-b456ad8fbe80	\N	\N	\N	\N	\N	\N
+concept.otherNonCoded	5622	Concept id of the concept defining the OTHER NON-CODED concept	cf9cb0aa-5c54-453c-9021-96257ef08a01	\N	\N	\N	\N	\N	\N
+concept.patientDied	1742	Concept id of the concept defining the PATIENT DIED concept	4328fe1f-4065-4368-ab85-606d2f73169a	\N	\N	\N	\N	\N	\N
+concept.problemList	1284	The concept id of the PROBLEM LIST concept.  This concept_id is presumed to be the generic grouping (obr) concept in hl7 messages.  An obs_group row is not created for this concept.	5821d12f-dc07-4d4a-b255-804917b15913	\N	\N	\N	\N	\N	\N
+concept.reasonExitedCare	\N	Concept id of the concept defining the REASON EXITED CARE concept	31ea6495-642c-4951-b1e4-d8b7853a894c	\N	\N	\N	\N	\N	\N
+concept.reasonOrderStopped	1812	Concept id of the concept defining the REASON ORDER STOPPED concept	fb74e000-4f43-4f84-972a-7704721b0f99	\N	\N	\N	\N	\N	\N
+concept.true	1	Concept id of the concept defining the TRUE boolean concept	b2b0b49c-7999-4f26-b8c6-fe0723b0dfee	\N	\N	\N	\N	\N	\N
+concept.weight	5089	Concept id of the concept defining the WEIGHT concept	9e8771ad-f05b-4dc0-9860-1aae4b33ffeb	\N	\N	\N	\N	\N	\N
+conceptDrug.dosageForm.conceptClasses	\N	A comma-separated list of the allowed concept classes for the dosage form field of the concept drug management form.	c80aea2f-cccc-4299-9fe5-541fcc179f8d	\N	\N	\N	\N	\N	\N
+conceptDrug.route.conceptClasses	\N	A comma-separated list of the allowed concept classes for the route field of the concept drug management form.	27f9bcc5-1042-4851-8f26-4f5239f38547	\N	\N	\N	\N	\N	\N
+concepts.locked	false	if true, do not allow editing concepts	39bbd058-6634-4bf7-97e1-17772f62636a	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+concept_map_type_management.enable	false	Enables or disables management of concept map types	6fbdee26-ba1e-4a7e-a587-0914fd2ebc1d	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+dashboard.encounters.maximumNumberToShow	\N	An integer which, if specified, would determine the maximum number of encounters to display on the encounter tab of the patient dashboard.	137d6a22-0808-4565-adf6-99ef9a90aee7	\N	\N	\N	\N	\N	\N
+dashboard.encounters.providerDisplayRoles	\N	A comma-separated list of encounter roles (by name or id). Providers with these roles in an encounter will be displayed on the encounter tab of the patient dashboard.	bae250ec-54f8-4733-a381-51d3a5428678	\N	\N	\N	\N	\N	\N
+dashboard.encounters.showEditLink	true	true/false whether or not to show the 'Edit Encounter' link on the patient dashboard	eca227fc-44c0-438a-8c34-cccac2f0e336	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+dashboard.encounters.showEmptyFields	true	true/false whether or not to show empty fields on the 'View Encounter' window	cda1b34b-dd04-4c8b-84bf-da09c9631eed	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+dashboard.encounters.showViewLink	true	true/false whether or not to show the 'View Encounter' link on the patient dashboard	018a4f20-9b14-4d90-9ecb-23a87a1b4c30	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+dashboard.encounters.usePages	smart	true/false/smart on how to show the pages on the 'View Encounter' window.  'smart' means that if > 50% of the fields have page numbers defined, show data in pages	256cf60a-3d55-4233-856d-baa6f9610269	\N	\N	\N	\N	\N	\N
+dashboard.header.programs_to_show	\N	List of programs to show Enrollment details of in the patient header. (Should be an ordered comma-separated list of program_ids or names.)	00292469-a526-45fd-9917-bc505c985cc6	\N	\N	\N	\N	\N	\N
+dashboard.header.showConcept	5497	Comma delimited list of concepts ids to show on the patient header overview	5a39a74c-fadf-4d1b-81b7-70b9ec22209b	\N	\N	\N	\N	\N	\N
+dashboard.header.workflows_to_show	\N	List of programs to show Enrollment details of in the patient header. List of workflows to show current status of in the patient header. These will only be displayed if they belong to a program listed above. (Should be a comma-separated list of program_workflow_ids.)	01ab64ea-d931-4c4d-9e1f-df37577bece7	\N	\N	\N	\N	\N	\N
+dashboard.metadata.caseConversion	\N	Indicates which type automatic case conversion is applied to program/workflow/state in the patient dashboard. Valid values: lowercase, uppercase, capitalize. If empty no conversion is applied.	856a44aa-507a-4201-8ef2-b2e7d3bb9cc0	\N	\N	\N	\N	\N	\N
+dashboard.overview.showConcepts	\N	Comma delimited list of concepts ids to show on the patient dashboard overview tab	c327013f-1fc7-422c-a9cf-15ffeb5f60ca	\N	\N	\N	\N	\N	\N
+dashboard.regimen.displayDrugSetIds	ANTIRETROVIRAL DRUGS,TUBERCULOSIS TREATMENT DRUGS	Drug sets that appear on the Patient Dashboard Regimen tab. Comma separated list of name of concepts that are defined as drug sets.	d9f957ed-fc19-497a-acb6-73f4326c141e	\N	\N	\N	\N	\N	\N
+dashboard.regimen.displayFrequencies	7 days/week,6 days/week,5 days/week,4 days/week,3 days/week,2 days/week,1 days/week	Frequency of a drug order that appear on the Patient Dashboard. Comma separated list of name of concepts that are defined as drug frequencies.	da0ee700-e81d-49e1-b4c3-677b7ad9b414	\N	\N	\N	\N	\N	\N
+dashboard.relationships.show_types	\N	Types of relationships separated by commas.  Doctor/Patient,Parent/Child	e985abd8-79b6-4f69-b96c-c9a13d3ef14a	\N	\N	\N	\N	\N	\N
+dashboard.showPatientName	false	Whether or not to display the patient name in the patient dashboard title. Note that enabling this could be security risk if multiple users operate on the same computer.	83aafe2e-526e-4447-bed8-043edb069a37	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+datePicker.weekStart	0	First day of the week in the date picker. Domingo/Dimanche/Sunday:0  Lunes/Lundi/Monday:1	732fbf73-2d10-4efa-9343-7f8357f7af87	\N	\N	\N	\N	\N	\N
+default_locale	en_GB	Specifies the default locale. You can specify both the language code(ISO-639) and the country code(ISO-3166), e.g. 'en_GB' or just country: e.g. 'en'	71870828-e88b-4d0b-9c41-47ec2586d064	\N	\N	\N	\N	\N	\N
+default_location	Unknown Location	The name of the location to use as a system default	ff16a585-5ea7-4272-838c-ef9241359592	\N	\N	\N	\N	\N	\N
+default_theme	\N	Default theme for users.  OpenMRS ships with themes of 'green', 'orange', 'purple', and 'legacy'	98a545dc-2879-445b-ac98-e7dc0b7d19a1	\N	\N	\N	\N	\N	\N
+drugOrder.drugOther	\N	Specifies the uuid of the concept which represents drug other non coded	bffd99d9-96c7-4aeb-aba0-9d39ec067663	\N	\N	\N	\N	\N	\N
+drugOrder.requireDrug	false	Set to value true if you need to specify a formulation(Drug) when creating a drug order.	b4039bd7-0852-48a4-90dd-b4b5bcd5d61d	\N	\N	\N	\N	\N	\N
+encounterForm.obsSortOrder	number	The sort order for the obs listed on the encounter edit form.  'number' sorts on the associated numbering from the form schema.  'weight' sorts on the order displayed in the form schema.	090c82b2-6226-4cde-be50-17b67e097467	\N	\N	\N	\N	\N	\N
+EncounterType.encounterTypes.locked	false	saving, retiring or deleting an Encounter Type is not permitted, if true	7435645c-694b-4620-84b6-58d9307ac2e2	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+fhir.allergy.strategy	DefaultAllergyStrategy	Set allergy strategy	f3d8ffcb-fe33-4e03-a54b-d3c5140000e4	\N	\N	\N	\N	\N	\N
+fhir.allergy.strategy.concept.uuid	1234	Concept id for allergy obs	c980791d-2de4-48e8-945a-554913b34912	\N	\N	\N	\N	\N	\N
+fhir.appointment.strategy	DefaultAppointmentStrategy	Set appointment strategy.	c56d7026-f8e5-423c-ba9d-c6a70ea21010	\N	\N	\N	\N	\N	\N
+fhir.baseUrl	http://localhost:8080/openmrs/ws/fhir	The URI prefix through which clients consuming FHIR services will connect to the web application, should\
+be of the form http://{ipAddress}:{port}/{contextPath}/ws/fhir	504cbad2-46b3-4ae1-92c3-4bb277109ae4	\N	\N	\N	\N	\N	\N
+fhir.concept.codingSystem	OPENMRS	Concept Coding System	9599821e-6268-4225-af16-f72dd2deb7c7	\N	\N	\N	\N	\N	\N
+fhir.concepts.conditions	\N	The set of IDs of the concepts that can be matched to conditions which is needed to be stored as\
+Observations	51d725ca-93e9-45ff-b4ee-f5eb652db6c3	\N	\N	\N	\N	\N	\N
+fhir.customNarrativePropertiesPath	classpath:/com/foo/customnarrative.properties	Set custom narratives property path	18269219-236d-426c-a2be-ff2e9a68cba1	\N	\N	\N	\N	\N	\N
+fhir.diagnosticreport.imagingstudy	0123456789	Concept Id for 'ImagingStudy' field in http://www.hl7.org/FHIR/2015May/diagnosticreport.html	d52485c7-eaa6-4c4b-8fe7-7a66e237d02a	\N	\N	\N	\N	\N	\N
+fhir.diagnosticreport.name	0123456789	Concept Id for 'Name' field in http://www.hl7.org/FHIR/2015May/diagnosticreport.html	2b30b37d-a0a6-49f8-9183-7cc9946d8782	\N	\N	\N	\N	\N	\N
+fhir.diagnosticreport.presentedform	0123456789	Concept Id for 'PresentedForm' field in http://www.hl7.org/FHIR/2015May/diagnosticreport.html	e974b36b-1d32-4a90-b127-89b259a22b72	\N	\N	\N	\N	\N	\N
+fhir.diagnosticreport.radiology.server	http://fhir-dev.healthintersections.com.au/open	The URL of third party FHIR base server that use to retrieve Radiology Diagnostic Reports	eed87ae3-cf97-42a5-8b59-8bc763e8ac56	\N	\N	\N	\N	\N	\N
+fhir.diagnosticreport.result	0123456789	Concept Id for 'Result' field in http://www.hl7.org/FHIR/2015May/diagnosticreport.html	5106fa76-7e93-4b74-a3b3-acd6651dc192	\N	\N	\N	\N	\N	\N
+fhir.diagnosticreport.status	0123456789	Concept Id for 'Status' field in http://www.hl7.org/FHIR/2015May/diagnosticreport.html	44f32fc3-e594-4b10-920d-d188579e6b4a	\N	\N	\N	\N	\N	\N
+fhir.encounter.encounterRoleUuid	73bbb069-9781-4afc-a9d1-54b6b2270e03	Encounter Role uuid	9495d580-c702-4414-b8ab-10409eef15d9	\N	\N	\N	\N	\N	\N
+fhir.encounter.encounterType.DEFAULT	01234-abcde-56789	EncounterType uuid for Default (not available in http://hl7.org/implement/standards/fhir/v2/0074/index\
+.html)	26502e81-9958-4860-aa3b-50292508a271	\N	\N	\N	\N	\N	\N
+fhir.encounter.encounterType.LAB	01234-abcde-56789	EncounterType uuid for Laboratory in http://hl7.org/implement/standards/fhir/v2/0074/index.html	1cb18a5f-c092-42a3-bdd0-64f149729dcb	\N	\N	\N	\N	\N	\N
+fhir.encounter.encounterType.RAD	01234-abcde-56789	EncounterType uuid for Radiology in http://hl7.org/implement/standards/fhir/v2/0074/index.html	737e5f05-c379-4c23-a757-09983a7ac96c	\N	\N	\N	\N	\N	\N
+fhir.encounter.strategy	DefaultEncounterStrategy	Set encounter strategy.	6607040b-034e-40f3-8e78-d0ebeed9493b	\N	\N	\N	\N	\N	\N
+fhir.group.strategy	DefaultGroupStrategy	Set group strategy.	3d311dba-c2c0-4559-af1b-d4f957fbbf9c	\N	\N	\N	\N	\N	\N
+fhir.imagingstudy.series	0123456789	Concept Id for 'ImagingStudy.Series' field in http://www.hl7.org/FHIR/2015May/diagnosticreport.html	4e1b350d-58b1-4518-94ec-cf86bb996c2c	\N	\N	\N	\N	\N	\N
+fhir.imagingstudy.series.instance	0123456789	Concept Id for 'ImagingStudy.Series.Instance' field in\
+http://www.hl7.org/FHIR/2015May/diagnosticreport.html	1a6f68ba-c45a-4aa9-a40f-1ad6addcf881	\N	\N	\N	\N	\N	\N
+fhir.imagingstudy.series.instance.content	0123456789	Concept Id for 'ImagingStudy.Series.Content' field in http://www.hl7.org/FHIR/2015May/imagingstudy.html	ae1cf8f7-711f-4933-a191-0490e5173df4	\N	\N	\N	\N	\N	\N
+fhir.isCustomerNarrativesEnabled	false	Set true if you need to enable custom narratives	dba5d573-7829-4f52-a79c-b3f5e4436895	\N	\N	\N	\N	\N	\N
+fhir.location.strategy	DefaultLocationStrategy	Set location strategy	1724beed-8b51-4634-9617-6ea1a1368b22	\N	\N	\N	\N	\N	\N
+fhir.mandatory	false	true/false whether or not the fhir module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	c7d588f9-dca1-42c6-b6a3-4a6182ca11ab	\N	\N	\N	\N	\N	\N
+fhir.medication.strategy	DefaultMedicationStrategy	Set medication strategy.	6815fc8a-5a17-4859-84dd-1e6a783842ab	\N	\N	\N	\N	\N	\N
+fhir.medicationRequest.strategy	DefaultMedicationRequestStrategy	Set medication request strategy.	56ed7231-98f6-494e-b99c-a540dfb846e3	\N	\N	\N	\N	\N	\N
+fhir.observation.strategy	DefaultObservationStrategy	Set observation strategy.	71ac30b5-aa96-492e-949d-a54fb0cd5e4e	\N	\N	\N	\N	\N	\N
+fhir.patient.strategy	DefaultPatientStrategy	Set patient strategy.	9159b295-3ad3-4edc-a74b-22228fd8191d	\N	\N	\N	\N	\N	\N
+fhir.person.strategy	DefaultPersonStrategy	Set person strategy.	93162bc3-453e-461b-9714-6bd6ca9a60c4	\N	\N	\N	\N	\N	\N
+fhir.practitioner.strategy	DefaultPractitionerStrategy	Set practitioner strategy.	beb228eb-e7ca-4247-80e0-f1cd84ec0afe	\N	\N	\N	\N	\N	\N
+fhir.procedureRequest.strategy	DefaultProcedureRequestStrategy	Set procedure request strategy.	13992a30-98e8-4971-8ca1-8e266a66d41d	\N	\N	\N	\N	\N	\N
+fhir.relatedPerson.strategy	DefaultRelatedPersonStrategy	Set related person strategy.	55793e13-c41f-419d-85f7-afeedfdc042d	\N	\N	\N	\N	\N	\N
+fhir.started	true	DO NOT MODIFY. true/false whether or not the fhir module has been started.  This is used to make sure modules that were running  prior to a restart are started again	c67c755d-d02a-4479-a7a4-827e1014e273	\N	\N	\N	\N	\N	\N
+fhir.uriPrefix	\N	The URI prefix through which clients consuming web services will connect to the web application, should\
+be of the form http://{ipAddress}:{port}/{contextPath}	9a5586bf-102b-4987-bdf1-6b0a2eb4079f	\N	\N	\N	\N	\N	\N
+FormEntry.enableDashboardTab	true	true/false whether or not to show a Form Entry tab on the patient dashboard	e4039d7a-87c1-4a76-9422-721c4c6de656	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+FormEntry.enableOnEncounterTab	false	true/false whether or not to show a Enter Form button on the encounters tab of the patient dashboard	6579a662-7b46-4d29-8c03-d520d03d3ef2	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+forms.locked	false	Set to a value of true if you do not want any changes to be made on forms, else set to false.	53006a8b-f96d-4b7e-9220-bfab0d1ebf14	\N	\N	\N	\N	\N	\N
+graph.color.absolute	rgb(20,20,20)	Color of the 'invalid' section of numeric graphs on the patient dashboard.	8bed2d3f-aaf4-4423-ac25-4d22277b323e	\N	\N	\N	\N	\N	\N
+graph.color.critical	rgb(200,0,0)	Color of the 'critical' section of numeric graphs on the patient dashboard.	ee9d5142-b689-47b6-85ff-2b23d1b9428c	\N	\N	\N	\N	\N	\N
+graph.color.normal	rgb(255,126,0)	Color of the 'normal' section of numeric graphs on the patient dashboard.	0ff2bc6b-8822-473c-a123-2d530df78f77	\N	\N	\N	\N	\N	\N
+gzip.enabled	false	Set to 'true' to turn on OpenMRS's gzip filter, and have the webapp compress data before sending it to any client that supports it. Generally use this if you are running Tomcat standalone. If you are running Tomcat behind Apache, then you'd want to use Apache to do gzip compression.	a7608c0b-d774-4844-aa9c-ca9fe44747dc	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+hl7_archive.dir	hl7_archives	The default name or absolute path for the folder where to write the hl7_in_archives.	8098ed61-38cd-4b6f-8509-a55af165f52d	\N	\N	\N	\N	\N	\N
+hl7_processor.ignore_missing_patient_non_local	false	If true, hl7 messages for patients that are not found and are non-local will silently be dropped/ignored	c44f6633-e89f-4593-8c50-0a0a0058087c	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+host.url	\N	The URL to redirect to after requesting for a password reset. Always provide a place holder in this url with name {activationKey}, it will get substituted by the actual activation key.	eaf67cd2-a26a-4db1-828b-9efb645b9982	\N	\N	\N	\N	\N	\N
+layout.address.format	<org.openmrs.layout.address.AddressTemplate>\
+    <nameMappings class="properties">\
+      <property name="postalCode" value="Location.postalCode"/>\
+      <property name="longitude" value="Location.longitude"/>\
+      <property name="address2" value="Location.address2"/>\
+      <property name="address1" value="Location.address1"/>\
+      <property name="startDate" value="PersonAddress.startDate"/>\
+      <property name="country" value="Location.country"/>\
+      <property name="endDate" value="personAddress.endDate"/>\
+      <property name="stateProvince" value="Location.stateProvince"/>\
+      <property name="latitude" value="Location.latitude"/>\
+      <property name="cityVillage" value="Location.cityVillage"/>\
+    </nameMappings>\
+    <sizeMappings class="properties">\
+      <property name="postalCode" value="10"/>\
+      <property name="longitude" value="10"/>\
+      <property name="address2" value="40"/>\
+      <property name="address1" value="40"/>\
+      <property name="startDate" value="10"/>\
+      <property name="country" value="10"/>\
+      <property name="endDate" value="10"/>\
+      <property name="stateProvince" value="10"/>\
+      <property name="latitude" value="10"/>\
+      <property name="cityVillage" value="10"/>\
+    </sizeMappings>\
+    <lineByLineFormat>\
+      <string>address1</string>\
+      <string>address2</string>\
+      <string>cityVillage stateProvince country postalCode</string>\
+      <string>latitude longitude</string>\
+      <string>startDate endDate</string>\
+    </lineByLineFormat>\
+  </org.openmrs.layout.address.AddressTemplate>	XML description of address formats	98fa7af1-d183-4f70-93fb-2f488000ce4c	\N	\N	\N	\N	\N	\N
+layout.name.format	short	Format in which to display the person names.  Valid values are short, long	8ece8adf-4d79-4b52-a233-66187cb72f3a	\N	\N	\N	\N	\N	\N
+legacyui.mandatory	false	true/false whether or not the legacyui module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	bb1fae61-1301-454f-a891-27f2c8b002eb	\N	\N	\N	\N	\N	\N
+legacyui.started	true	DO NOT MODIFY. true/false whether or not the legacyui module has been started.  This is used to make sure modules that were running  prior to a restart are started again	216b94d2-429a-4b9c-ac58-7129a8ea548e	\N	\N	\N	\N	\N	\N
+locale.allowed.list	en, es, fr, it, pt	Comma delimited list of locales allowed for use on system	2b4d2797-e8d1-4483-a863-02cfb4299212	\N	\N	\N	\N	\N	\N
+location.field.style	default	Type of widget to use for location fields	e77923c2-d262-4f8c-b8fe-40773827ea4d	\N	\N	\N	\N	\N	\N
+log.layout	%p - %C{1}.%M(%L) |%d{ISO8601}| %m%n	A log layout pattern which is used by the OpenMRS file appender.	44dd2b3e-af42-4abf-ad6e-eadb48a89d41	\N	\N	\N	\N	\N	\N
+log.level	org.openmrs.api:info	Logging levels for log4j.xml. Valid format is class:level,class:level. If class not specified, 'org.openmrs.api' presumed. Valid levels are trace, debug, info, warn, error or fatal	cf66565e-d00b-4127-a774-07bad9e486fc	\N	\N	\N	\N	\N	\N
+log.location	\N	A directory where the OpenMRS log file appender is stored. The log file name is 'openmrs.log'.	4683b0d6-45aa-4fab-a257-ae754ef1e855	\N	\N	\N	\N	\N	\N
+logic.default.ruleClassDirectory	logic/class	Default folder where compiled rule will be stored	e3231a20-9b7c-4101-8bbb-bfad2faa6fb5	\N	\N	\N	\N	\N	\N
+logic.default.ruleJavaDirectory	logic/sources	Default folder where rule's java file will be stored	6cca96f1-7139-44dc-a7d5-891530a26987	\N	\N	\N	\N	\N	\N
+logic.defaultTokens.conceptClasses	\N	When registering default tokens for logic, if you specify a comma-separated list of concept class names here, only concepts of those classes will have tokens registered. If you leave this blank, all classes will have tokens registered for their concepts.	13ac9af0-1f9b-405a-9f0f-5e3f00a37ce5	\N	\N	\N	\N	\N	\N
+logic.mandatory	false	true/false whether or not the logic module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	b3d2befc-61c7-4d39-b8ee-436ccb05fc16	\N	\N	\N	\N	\N	\N
+logic.started	true	DO NOT MODIFY. true/false whether or not the logic module has been started.  This is used to make sure modules that were running  prior to a restart are started again	21a52a97-c08d-4ea0-9404-efec9b204bbc	\N	\N	\N	\N	\N	\N
+login.url	login.htm	Responsible for defining the Authentication URL	4e461d2d-bf08-4602-aa4c-9dcc306ee7a1	\N	\N	\N	\N	\N	\N
+mail.debug	false	true/false whether to print debugging information during mailing	76c4f916-9fe1-45b5-9773-224e4f4ee484	\N	\N	\N	\N	\N	\N
+mail.default_content_type	text/plain	Content type to append to the mail messages	f5830019-a60a-47fe-865f-78fb98b3f5f1	\N	\N	\N	\N	\N	\N
+mail.from	info@openmrs.org	Email address to use as the default from address	a8303d1e-de7b-45b8-bc04-2874ae7da635	\N	\N	\N	\N	\N	\N
+mail.password	test	Password for the SMTP user (if smtp_auth is enabled)	858118bf-794b-42c4-8266-dcf850963b34	\N	\N	\N	\N	\N	\N
+mail.smtp.starttls.enable	false	Set to true to enable TLS encryption, else set to false	4ea1c313-69a9-4e2d-a23c-c2720fabb5dd	\N	\N	\N	\N	\N	\N
+mail.smtp_auth	false	true/false whether the smtp host requires authentication	ebe1af62-5e72-4c44-a044-955a9a8b29b4	\N	\N	\N	\N	\N	\N
+mail.smtp_host	localhost	SMTP host name	ea0625e2-9f64-40a6-9c32-6720772fd3d4	\N	\N	\N	\N	\N	\N
+mail.smtp_port	25	SMTP port	e77ee4de-13f1-4a7f-b41e-eb2f720cd49d	\N	\N	\N	\N	\N	\N
+mail.transport_protocol	smtp	Transport protocol for the messaging engine. Valid values: smtp	9fa39a09-2b7a-415c-877c-2308cb3caa12	\N	\N	\N	\N	\N	\N
+mail.user	test	Username of the SMTP user (if smtp_auth is enabled)	e0f2afbe-eff3-4787-960c-e61b56c0b00d	\N	\N	\N	\N	\N	\N
+minSearchCharacters	3	Number of characters user must input before searching is started.	3cf7f948-6543-446f-bf62-ed72789bef00	\N	\N	\N	\N	\N	\N
+module_repository_folder	modules	Name of the folder in which to store the modules	b2d12eb8-a129-43b3-9dd9-dc5460fee0bf	\N	\N	\N	\N	\N	\N
+newPatientForm.relationships	\N	Comma separated list of the RelationshipTypes to show on the new/short patient form.  The list is defined like '3a, 4b, 7a'.  The number is the RelationshipTypeId and the 'a' vs 'b' part is which side of the relationship is filled in by the user.	08136389-c093-49da-8e9a-c08121e07696	\N	\N	\N	\N	\N	\N
+new_patient_form.showRelationships	false	true/false whether or not to show the relationship editor on the addPatient.htm screen	63af8912-caaa-4500-b212-8c7c0cb70e6a	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+obs.complex_obs_dir	complex_obs	Default directory for storing complex obs.	4928b05f-2b64-4ea1-9947-245ff4825ca2	\N	\N	\N	\N	\N	\N
+order.drugDispensingUnitsConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible drug dispensing units	313ee089-3c8f-45c2-898e-65019e19784a	\N	\N	\N	\N	\N	\N
+order.drugDosingUnitsConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible drug dosing units	12902b33-80b0-43e6-aa89-33767dac1b46	\N	\N	\N	\N	\N	\N
+order.drugRoutesConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible drug routes	6b33da16-7a86-472d-9754-ade995af2599	\N	\N	\N	\N	\N	\N
+order.durationUnitsConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible duration units	74b63167-c154-4055-87d8-260210460788	\N	\N	\N	\N	\N	\N
+order.nextOrderNumberSeed	1	The next order number available for assignment	f852b1d9-df06-48f9-8f27-a8f4be85cfde	\N	\N	\N	\N	\N	\N
+order.orderNumberGeneratorBeanId	\N	Specifies spring bean id of the order generator to use when assigning order numbers	ca3e2eab-8694-4f9b-a8bb-2e04787a3735	\N	\N	\N	\N	\N	\N
+order.testSpecimenSourcesConceptUuid	\N	Specifies the uuid of the concept set where its members represent the possible test specimen sources	ca1151e3-2365-449c-b017-b585d5a28e72	\N	\N	\N	\N	\N	\N
+owa.appBaseUrl	\N	The base URL from where the Open Web Apps are hosted	90465ca9-9a31-4742-8b13-71ebe775c1b7	\N	\N	\N	\N	\N	\N
+owa.appFolderPath	/Users/ping/openmrs/buendia/owa	The default location where the apps are stored on disk	a67cb21e-b77c-4add-a2ab-13773dbd7adf	\N	\N	\N	\N	\N	\N
+owa.appStoreUrl	http://modules.openmrs.org	The default URL for the OpenMRS appstore	280d09b8-70ca-4945-838d-4732d824bc65	\N	\N	\N	\N	\N	\N
+owa.mandatory	false	true/false whether or not the owa module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	4c4d9c83-275c-45ed-aade-d3ea4ce952df	\N	\N	\N	\N	\N	\N
+owa.started	true	DO NOT MODIFY. true/false whether or not the owa module has been started.  This is used to make sure modules that were running  prior to a restart are started again	b41f65ad-0346-4778-81f9-299b66870c94	\N	\N	\N	\N	\N	\N
+patient.defaultPatientIdentifierValidator	org.openmrs.patient.impl.LuhnIdentifierValidator	This property sets the default patient identifier validator.  The default validator is only used in a handful of (mostly legacy) instances.  For example, it's used to generate the isValidCheckDigit calculated column and to append the string "(default)" to the name of the default validator on the editPatientIdentifierType form.	2fd23ac4-60f6-4ae3-9508-9c3f15d77e09	\N	\N	\N	\N	\N	\N
+patient.headerAttributeTypes	\N	A comma delimited list of PersonAttributeType names that will be shown on the patient dashboard	6c1c3e59-8576-43f2-9799-ed92752d8555	\N	\N	\N	\N	\N	\N
+patient.identifierPrefix	\N	This property is only used if patient.identifierRegex is empty.  The string here is prepended to the sql indentifier search string.  The sql becomes "... where identifier like '<PREFIX><QUERY STRING><SUFFIX>';".  Typically this value is either a percent sign (%) or empty.	6b578bf3-507c-43ed-b0aa-9ccd47a261b4	\N	\N	\N	\N	\N	\N
+patient.identifierRegex	\N	WARNING: Using this search property can cause a drop in mysql performance with large patient sets.  A MySQL regular expression for the patient identifier search strings.  The @SEARCH@ string is replaced at runtime with the user's search string.  An empty regex will cause a simply 'like' sql search to be used. Example: ^0*@SEARCH@([A-Z]+-[0-9])?$	3b223d05-8864-4ef6-9ca9-212483a9645d	\N	\N	\N	\N	\N	\N
+patient.identifierSearchPattern	\N	If this is empty, the regex or suffix/prefix search is used.  Comma separated list of identifiers to check.  Allows for faster searching of multiple options rather than the slow regex. e.g. @SEARCH@,0@SEARCH@,@SEARCH-1@-@CHECKDIGIT@,0@SEARCH-1@-@CHECKDIGIT@ would turn a request for "4127" into a search for "in ('4127','04127','412-7','0412-7')"	98307f49-4ff2-4380-8e5e-d92794bdf4cd	\N	\N	\N	\N	\N	\N
+patient.identifierSuffix	\N	This property is only used if patient.identifierRegex is empty.  The string here is prepended to the sql indentifier search string.  The sql becomes "... where identifier like '<PREFIX><QUERY STRING><SUFFIX>';".  Typically this value is either a percent sign (%) or empty.	1ff0ff33-44c3-41b2-9111-6b7d336b1581	\N	\N	\N	\N	\N	\N
+patient.listingAttributeTypes	\N	A comma delimited list of PersonAttributeType names that should be displayed for patients in _lists_	b6603753-e0cd-45c8-9d78-e61b49a7efdd	\N	\N	\N	\N	\N	\N
+patient.nameValidationRegex	^[a-zA-Z \\-]+$	Names of the patients must pass this regex. Eg : ^[a-zA-Z \\-]+$ contains only english alphabet letters, spaces, and hyphens. A value of .* or the empty string means no validation is done.	17584323-1830-4059-a6ae-7aa8a34d9e50	\N	\N	\N	\N	\N	\N
+patient.viewingAttributeTypes	\N	A comma delimited list of PersonAttributeType names that should be displayed for patients when _viewing individually_	1fad0bd5-8990-45a0-b1ea-b473672c4142	\N	\N	\N	\N	\N	\N
+patientIdentifierSearch.matchMode	EXACT	Specifies how patient identifiers are matched while searching for a patient. Valid values are 'EXACT, 'ANYWHERE' or 'START'. Defaults to 'EXACT' if missing or invalid value is present.	6c524704-cfd3-4a0d-98b4-bb216f99f2ec	\N	\N	\N	\N	\N	\N
+patientIdentifierTypes.locked	false	Set to a value of true if you do not want allow editing patient identifier types, else set to false.	b3ddd6fb-8e57-4200-9a03-1765283d4c1e	\N	\N	\N	\N	\N	\N
+patientSearch.matchMode	START	Specifies how patient names are matched while searching patient. Valid values are 'ANYWHERE' or 'START'. Defaults to start if missing or invalid value is present.	1d59658c-6421-4e40-aba8-246e843a78fd	\N	\N	\N	\N	\N	\N
+patient_identifier.importantTypes	\N	A comma delimited list of PatientIdentifier names : PatientIdentifier locations that will be displayed on the patient dashboard.  E.g.: TRACnet ID:Rwanda,ELDID:Kenya	f7169262-2dee-4e33-b344-8ce24e9e57c9	\N	\N	\N	\N	\N	\N
+person.attributeSearchMatchMode	EXACT	Specifies how person attributes are matched while searching person. Valid values are 'ANYWHERE' or 'EXACT'. Defaults to exact if missing or invalid value is present.	a79f2fae-e4c4-4eb7-8d7b-33d34a8d4c43	\N	\N	\N	\N	\N	\N
+person.searchMaxResults	1000	The maximum number of results returned by patient searches	be882758-29f6-40ae-8755-45312ec9a976	\N	\N	\N	\N	\N	\N
+personAttributeTypes.locked	false	Set to a value of true if you do not want allow editing person attribute types, else set to false.	79491964-4016-48d7-b1ca-6f0b82e99e6e	\N	\N	\N	\N	\N	\N
+provider.unknownProviderUuid	\N	Specifies the uuid of the Unknown Provider account	2c90ae05-baa8-4f54-99b7-bcccdc54db77	\N	\N	\N	\N	\N	\N
+providerSearch.matchMode	EXACT	Specifies how provider identifiers are matched while searching for providers. Valid values are START,EXACT, END or ANYWHERE	7de1eb63-d7c0-4944-a0dd-cdbfeb5606e3	\N	\N	\N	\N	\N	\N
+report.xmlMacros	\N	Macros that will be applied to Report Schema XMLs when they are interpreted. This should be java.util.properties format.	dc59defa-9dd1-4232-90ae-0e577f1fd61f	\N	\N	\N	\N	\N	\N
+reportProblem.url	http://errors.openmrs.org/scrap	The openmrs url where to submit bug reports	9d004ee7-31dc-4a39-a32e-9ce497f53f01	\N	\N	\N	\N	\N	\N
+scheduler.password	test	Password for the OpenMRS user that will perform the scheduler activities	05c6367e-64cb-47e9-82d3-f9209bb18ede	\N	\N	\N	\N	\N	\N
+scheduler.username	admin	Username for the OpenMRS user that will perform the scheduler activities	3cd95dc8-7d76-4267-a8be-6e14387461d3	\N	\N	\N	\N	\N	\N
+search.caseSensitiveDatabaseStringComparison	true	Indicates whether database string comparison is case sensitive or not. Setting this to false for MySQL with a case insensitive collation improves search performance.	63d90362-4500-4380-9507-fbb878014656	\N	\N	\N	\N	\N	\N
+search.indexVersion	7	Indicates the index version. If it is blank, the index needs to be rebuilt.	88c70425-e3be-4bf9-9f31-2bb24ecfc094	\N	\N	\N	\N	\N	\N
+searchWidget.batchSize	200	The maximum number of search results that are returned by an ajax call	d5ae5616-4e21-4bc9-8722-d531da74a1b4	\N	\N	\N	\N	\N	\N
+searchWidget.dateDisplayFormat	\N	Date display format to be used to display the date somewhere in the UI i.e the search widgets and autocompletes	43b3c9b8-4cf3-426d-a069-1c1efba923de	\N	\N	\N	\N	\N	\N
+searchWidget.maximumResults	2000	Specifies the maximum number of results to return from a single search in the search widgets	26c56604-cf39-42b2-8be3-269ced77b8a8	\N	\N	\N	\N	\N	\N
+searchWidget.runInSerialMode	false	Specifies whether the search widgets should make ajax requests in serial or parallel order, a value of true is appropriate for implementations running on a slow network connection and vice versa	1938204f-b352-4b63-b398-b0d3afb69035	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+searchWidget.searchDelayInterval	400	Specifies time interval in milliseconds when searching, between keyboard keyup event and triggering the search off, should be higher if most users are slow when typing so as to minimise the load on the server	91ac48d0-37e4-4749-bcfc-e824e56a623c	\N	\N	\N	\N	\N	\N
+security.allowedFailedLoginsBeforeLockout	7	Maximum number of failed logins allowed after which username is locked out	a3f7c981-5f2e-494d-bd4a-d3568ef03920	\N	\N	\N	\N	\N	\N
+security.passwordCannotMatchUsername	true	Configure whether passwords must not match user's username or system id	76cfa33c-7dc7-47b3-a94a-81fc48f4e381	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+security.passwordCustomRegex	\N	Configure a custom regular expression that a password must match	82813b08-93f5-47fd-b692-ed13bd14649a	\N	\N	\N	\N	\N	\N
+security.passwordMinimumLength	8	Configure the minimum length required of all passwords	881dabb8-7771-42d9-811e-8522bace053c	\N	\N	\N	\N	\N	\N
+security.passwordRequiresDigit	true	Configure whether passwords must contain at least one digit	7c8d4bed-ce26-4d94-9a92-057421faa075	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+security.passwordRequiresNonDigit	true	Configure whether passwords must contain at least one non-digit	3159818d-bbaa-44d7-8d0d-2ab0dc4d096c	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+security.passwordRequiresUpperAndLowerCase	true	Configure whether passwords must contain both upper and lower case characters	21b14091-c640-41d4-8a6f-a8517884c0cc	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+security.validTime	600000	Specifies the duration of time in seconds for which a password reset token is valid, the default value is 10 minutes and the allowed values range from 1 minute to 12hrs	36e95664-ab8a-459d-a4e0-9a88ba5e9701	\N	\N	\N	\N	\N	\N
+user.headerAttributeTypes	\N	A comma delimited list of PersonAttributeType names that will be shown on the user dashboard. (not used in v1.5)	d0fecc90-8778-49db-9b4e-91904de31d23	\N	\N	\N	\N	\N	\N
+user.listingAttributeTypes	\N	A comma delimited list of PersonAttributeType names that should be displayed for users in _lists_	63245d29-3cef-479d-9d73-f05b3da47a2f	\N	\N	\N	\N	\N	\N
+user.requireEmailAsUsername	false	Indicates whether a username must be a valid e-mail or not.	540381e5-3afa-45ad-8c2a-0ff633144bcb	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+user.viewingAttributeTypes	\N	A comma delimited list of PersonAttributeType names that should be displayed for users when _viewing individually_	227c8088-9abb-4733-b7ad-3c22aead471c	\N	\N	\N	\N	\N	\N
+use_patient_attribute.healthCenter	false	Indicates whether or not the 'health center' attribute is shown when viewing/searching for patients	9927c961-e6b9-40d9-9336-6fcfa0c6c86a	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+use_patient_attribute.mothersName	false	Indicates whether or not mother's name is able to be added/viewed for a patient	c45dcb53-fc73-4cbf-9ec7-08d74f86d539	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+validation.disable	false	Disables validation of OpenMRS Objects. Only takes affect on next restart. Warning: only do this is you know what you are doing!	d91eb296-5dfc-420c-baf3-3a990e35cf7a	\N	\N	\N	\N	\N	\N
+visits.allowOverlappingVisits	true	true/false whether or not to allow visits of a given patient to overlap	36e81cc3-fa37-4d77-a428-8d5835ae9a72	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+visits.assignmentHandler	org.openmrs.api.handler.ExistingVisitAssignmentHandler	Set to the name of the class responsible for assigning encounters to visits.	2c62d60f-81cf-4f60-85b4-0b424c241b31	\N	\N	\N	\N	\N	\N
+visits.autoCloseVisitType	\N	comma-separated list of the visit type(s) to automatically close	58736730-6f18-4c6f-8d0e-9baf5a102f39	\N	\N	\N	\N	\N	\N
+visits.enabled	true	Set to true to enable the Visits feature. This will replace the 'Encounters' tab with a 'Visits' tab on the dashboard.	e7259c7d-94a1-4b38-a6a4-4f59e1f7e9e1	org.openmrs.customdatatype.datatype.BooleanDatatype	\N	\N	\N	\N	\N
+visits.encounterTypeToVisitTypeMapping	\N	Specifies how encounter types are mapped to visit types when automatically assigning encounters to visits. e.g 1:1, 2:1, 3:2 in the format encounterTypeId:visitTypeId or encounterTypeUuid:visitTypeUuid or a combination of encounter/visit type uuids and ids e.g 1:759799ab-c9a5-435e-b671-77773ada74e4	76333113-1e10-410e-9537-595110c6ce2f	\N	\N	\N	\N	\N	\N
+webservices.rest.allowedips	\N	A comma-separate list of IP addresses that are allowed to access the web services. An empty string allows everyone to access all ws. \
+        IPs can be declared with bit masks e.g. 10.0.0.0/30 matches 10.0.0.0 - 10.0.0.3 and 10.0.0.0/24 matches 10.0.0.0 - 10.0.0.255.	69c1be1e-8b5c-43f4-a53a-c6702d37e418	\N	\N	\N	\N	\N	\N
+webservices.rest.mandatory	false	true/false whether or not the webservices.rest module MUST start when openmrs starts.  This is used to make sure that mission critical modules are always running if openmrs is running.	c56a3af9-55b6-4047-9209-bae8d55e4139	\N	\N	\N	\N	\N	\N
+webservices.rest.maxResultsAbsolute	100	The absolute max results limit. If the client requests a larger number of results, then will get an error	a66031bb-67f0-4128-af8a-86ee436fed30	\N	\N	\N	\N	\N	\N
+webservices.rest.maxResultsDefault	50	The default max results limit if the user does not provide a maximum when making the web service call.	281abdfe-219a-4c7e-b04c-16caff2da4c2	\N	\N	\N	\N	\N	\N
+webservices.rest.quietDocs	true	If the value of this setting is "true", then nothing is logged while the Swagger specification is being generated.	16e2ba44-8fa0-4719-a14a-83f09df07135	\N	\N	\N	\N	\N	\N
+webservices.rest.started	true	DO NOT MODIFY. true/false whether or not the webservices.rest module has been started.  This is used to make sure modules that were running  prior to a restart are started again	8d67167f-e2a8-47ea-8224-2f661fee0cdc	\N	\N	\N	\N	\N	\N
+webservices.rest.uriPrefix	\N	The URI prefix through which clients consuming web services will connect to the web application, should be of the form http://{ipAddress}:{port}/{contextPath}	757708e7-163c-40dc-9792-a1f2d49c96cf	\N	\N	\N	\N	\N	\N

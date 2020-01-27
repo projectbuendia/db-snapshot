@@ -1,7 +1,4 @@
 Anonymous	Privileges for non-authenticated users.	774b2af3-6437-4e5a-a310-547554c7c65c
 Authenticated	Privileges gained once authentication has been established.	f7fd42ef-880e-40c5-972d-e4ae7c990de2
-Clinician	Privileges for doctors	183dd102-6437-11e4-badf-42010af0dc15
-Data Assistant	Privileges for data-entry operators.	183dd1db-6437-11e4-badf-42010af0dc15
-Data Manager	Privileges for user who manage data entered by data-entry operators	183dd285-6437-11e4-badf-42010af0dc15
-Provider	All users with the 'Provider' role will appear as options in the default Infopath	8d94f280-c2cc-11de-8d13-0010c6dffd0f
+Provider	All users with the 'Provider' role will appear as options in the default Infopath 	8d94f280-c2cc-11de-8d13-0010c6dffd0f
 System Developer	Developers of the OpenMRS .. have additional access to change fundamental structure of the database model.	8d94f852-c2cc-11de-8d13-0010c6dffd0f

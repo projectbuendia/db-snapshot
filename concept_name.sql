@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.38-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.25, for osx10.8 (x86_64)
 --
 -- Host: localhost    Database: openmrs
 -- ------------------------------------------------------
--- Server version	10.1.38-MariaDB-0+deb9u1
+-- Server version	5.6.25
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -21,31 +21,33 @@ DROP TABLE IF EXISTS `concept_name`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `concept_name` (
+  `concept_name_id` int(11) NOT NULL AUTO_INCREMENT,
   `concept_id` int(11) DEFAULT NULL,
   `name` varchar(255) NOT NULL DEFAULT '',
   `locale` varchar(50) NOT NULL DEFAULT '',
+  `locale_preferred` tinyint(1) DEFAULT '0',
   `creator` int(11) NOT NULL DEFAULT '0',
-  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `concept_name_id` int(11) NOT NULL AUTO_INCREMENT,
+  `date_created` datetime NOT NULL,
+  `concept_name_type` varchar(50) DEFAULT NULL,
   `voided` tinyint(1) NOT NULL DEFAULT '0',
   `voided_by` int(11) DEFAULT NULL,
   `date_voided` datetime DEFAULT NULL,
   `void_reason` varchar(255) DEFAULT NULL,
   `uuid` char(38) NOT NULL,
-  `concept_name_type` varchar(50) DEFAULT NULL,
-  `locale_preferred` tinyint(1) DEFAULT '0',
+  `date_changed` datetime DEFAULT NULL,
+  `changed_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`concept_name_id`),
-  UNIQUE KEY `concept_name_id` (`concept_name_id`),
   UNIQUE KEY `concept_name_uuid_index` (`uuid`),
-  KEY `user_who_created_name` (`creator`),
   KEY `name_of_concept` (`name`),
-  KEY `concept_id` (`concept_id`),
-  KEY `unique_concept_name_id` (`concept_id`),
-  KEY `user_who_voided_name` (`voided_by`),
+  KEY `name_for_concept` (`concept_id`),
+  KEY `user_who_created_name` (`creator`),
+  KEY `user_who_voided_this_name` (`voided_by`),
+  KEY `concept_name_changed_by` (`changed_by`),
+  CONSTRAINT `concept_name_changed_by` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`),
   CONSTRAINT `name_for_concept` FOREIGN KEY (`concept_id`) REFERENCES `concept` (`concept_id`),
   CONSTRAINT `user_who_created_name` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`),
   CONSTRAINT `user_who_voided_this_name` FOREIGN KEY (`voided_by`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1000001 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
