@@ -60,7 +60,7 @@ CREATE TABLE `patient` (
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`openmrs_user`@`localhost`*/ /*!50003 TRIGGER `buendia_patient_insert_date_updated` AFTER INSERT
+/*!50003 CREATE*/ /*!50003 TRIGGER `buendia_patient_insert_date_updated` AFTER INSERT
             ON `patient` FOR EACH ROW
             REPLACE INTO `buendia_patient_sync_map` (patient_id, date_updated, uuid)
             VALUES (

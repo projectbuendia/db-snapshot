@@ -70,7 +70,7 @@ CREATE TABLE `person` (
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`openmrs_user`@`localhost`*/ /*!50003 TRIGGER `buendia_patient_update_date_updated` AFTER UPDATE
+/*!50003 CREATE*/ /*!50003 TRIGGER `buendia_patient_update_date_updated` AFTER UPDATE
             ON `person` FOR EACH ROW
             IF EXISTS (SELECT 1 FROM `patient` WHERE `patient_id` = NEW.`person_id`) THEN
                 REPLACE INTO `buendia_patient_sync_map` (patient_id, date_updated, uuid)
