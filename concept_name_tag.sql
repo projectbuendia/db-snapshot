@@ -40,7 +40,7 @@ CREATE TABLE `concept_name_tag` (
   KEY `user_who_voided_name_tag` (`voided_by`),
   KEY `concept_name_tag_changed_by` (`changed_by`),
   CONSTRAINT `concept_name_tag_changed_by` FOREIGN KEY (`changed_by`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

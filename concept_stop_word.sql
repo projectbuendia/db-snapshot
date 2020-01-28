@@ -27,7 +27,7 @@ CREATE TABLE `concept_stop_word` (
   `uuid` char(38) NOT NULL,
   PRIMARY KEY (`concept_stop_word_id`),
   UNIQUE KEY `Unique_StopWord_Key` (`word`,`locale`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

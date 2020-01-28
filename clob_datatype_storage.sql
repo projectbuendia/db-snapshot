@@ -27,7 +27,7 @@ CREATE TABLE `clob_datatype_storage` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `uuid` (`uuid`),
   UNIQUE KEY `clob_datatype_storage_uuid_index` (`uuid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

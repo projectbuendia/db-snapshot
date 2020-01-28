@@ -31,7 +31,7 @@ CREATE TABLE `hl7_source` (
   UNIQUE KEY `hl7_source_uuid_index` (`uuid`),
   KEY `user_who_created_hl7_source` (`creator`),
   CONSTRAINT `user_who_created_hl7_source` FOREIGN KEY (`creator`) REFERENCES `users` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
