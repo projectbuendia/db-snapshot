@@ -1,4 +1,4 @@
-Anonymous	Privileges for non-authenticated users.	774b2af3-6437-4e5a-a310-547554c7c65c
-Authenticated	Privileges gained once authentication has been established.	f7fd42ef-880e-40c5-972d-e4ae7c990de2
-Provider	All users with the 'Provider' role will appear as options in the default Infopath 	8d94f280-c2cc-11de-8d13-0010c6dffd0f
-System Developer	Developers of the OpenMRS .. have additional access to change fundamental structure of the database model.	8d94f852-c2cc-11de-8d13-0010c6dffd0f
+Anonymous	Privileges for non-authenticated users	774b2af3-6437-4e5a-a310-547554c7c65c
+Authenticated	Privileges for all authenticated users	f7fd42ef-880e-40c5-972d-e4ae7c990de2
+Provider	Users with this role will appear as options in the default Infopath	8d94f280-c2cc-11de-8d13-0010c6dffd0f
+System Developer	Superuser privileges	8d94f852-c2cc-11de-8d13-0010c6dffd0f

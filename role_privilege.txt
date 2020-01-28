@@ -1,3 +1,4 @@
+Anonymous	View Navigation Menu
 Authenticated	Get Concept Classes
 Authenticated	Get Concept Datatypes
 Authenticated	Get Encounter Types
@@ -25,3 +26,11 @@ Authenticated	View Privileges
 Authenticated	View Relationship Types
 Authenticated	View Relationships
 Authenticated	View Roles
+Provider	View Allergies
+Provider	View Concepts
+Provider	View Encounters
+Provider	View Observations
+Provider	View Patient Identifiers
+Provider	View Patients
+Provider	View People
+Provider	View Problems

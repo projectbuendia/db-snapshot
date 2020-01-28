@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `drug_order`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `drug_order` (
   `order_id` int(11) NOT NULL DEFAULT '0',
-  `drug_inventory_id` int(11),
+  `drug_inventory_id` int(11) DEFAULT NULL,
   `dose` double DEFAULT NULL,
   `as_needed` tinyint(1) DEFAULT NULL,
   `dosing_type` varchar(255) DEFAULT NULL,

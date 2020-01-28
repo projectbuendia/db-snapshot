@@ -1095,6 +1095,10 @@
 20180808-passwordreset	harisu+fanyui	liquibase-update-to-latest.xml	2020-01-26 19:40:23	10735	EXECUTED	3:09238c97eb7c8ada34b9fba73ab1e474	Add Column	Adding column users.email	\N	2.0.5
 20181402-TRUNK-5339	esirkings	liquibase-update-to-latest.xml	2020-01-26 19:40:20	10727	EXECUTED	3:50d82c8de54efd1ef21fdf4e08f39985	Create Table, Add Foreign Key Constraint (x9)	Creating encounter_diagnosis table	\N	2.0.5
 3-increase-privilege-col-size-person_attribute_type	dkayiwa	liquibase-update-to-latest.xml	2016-07-07 08:14:56	10471	EXECUTED	3:c2465b2417463d93f1101c6683f41250	Drop Foreign Key Constraint, Modify Column, Add Foreign Key Constraint	Increasing the size of the edit_privilege column in the person_attribute_type table	\N	2.0.5
+buendia-add-obs-date-updated-index	@capnfabs	liquibase.xml	2020-01-26 19:51:48	10737	EXECUTED	3:777662b618d3a359b04d89ff53277292	Create Table, Add Foreign Key Constraint, Create Index, Custom SQL (x5)		\N	2.0.5
+buendia-add-order-date-updated-index	@capnfabs	liquibase.xml	2020-01-26 19:51:48	10738	EXECUTED	3:e821142e927a7fc0f7b5c1241bf7432c	Create Table, Add Foreign Key Constraint, Create Index, Custom SQL (x5)		\N	2.0.5
+buendia-add-person-date-updated-index	@capnfabs	liquibase.xml	2020-01-26 19:51:48	10736	EXECUTED	3:375f347c57f068ebd6ab896cd9f8d0df	Create Table, Add Foreign Key Constraint, Create Index, Custom SQL (x5)		\N	2.0.5
+buendia-modify-person-insert-triggers	@capnfabs	liquibase.xml	2020-01-26 19:51:48	10739	EXECUTED	3:9e500994f7c95b7ca76e5de4c0075cae	Custom SQL		\N	2.0.5
 create-logic-rule-definition	mseaton	liquibase.xml	2016-07-07 08:15:05	10490	EXECUTED	3:5327271907425ea8182024723912460c	Create Table, Create Index (x3), Add Foreign Key Constraint (x3)		\N	2.0.5
 create-logic-rule-token-tag	nribeka	liquibase.xml	2016-07-07 08:15:05	10489	EXECUTED	3:0d0c10ea14371337b4b2a8da0972d768	Create Table, Add Foreign Key Constraint		\N	2.0.5
 create-logic_token_registration	djazayeri	liquibase.xml	2016-07-07 08:15:05	10491	EXECUTED	3:fba04de00a55b2d5478aed1653df7007	Create Table, Add Foreign Key Constraint (x2)		\N	2.0.5
